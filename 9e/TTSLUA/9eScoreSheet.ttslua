@@ -493,8 +493,12 @@ function updateAll(reset)
 				l = m + 3
 			end
 
-			button[5][l][4].label = selectedPack.data.objectives[tostring(v)].name
-			button[5][l][4].tooltip = selectedPack.data.objectives[tostring(v)].description
+            -- These two calls should not be called in an updateAll() as the button data should already contain valid data to display
+            --    and if updating the button data then displaying, you have lost the previously set data (in this case, secondary obj data selections
+            --    made from addSecondaryForPlayer())
+            -- Zyllos, 04/02/2021
+			--button[5][l][4].label = selectedPack.data.objectives[tostring(v)].name
+			--button[5][l][4].tooltip = selectedPack.data.objectives[tostring(v)].description
 			self.editButton( button[5][l][4] )
 		end
 	end
