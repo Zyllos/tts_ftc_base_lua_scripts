@@ -5,3 +5,5 @@ The following files contain all the LUA scripts contained in the FTC Base Map fo
 object does not contain any scripts.
 
 All credit goes to GenWilhelm, Phubar, and Mothman_Zack for all the hard work!
+
+Thanks to BaconCatBug for the BCB Customised Dice Roller v3 that this mod uses!
