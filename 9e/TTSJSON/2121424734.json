@@ -1,8 +1,8 @@
 {
-  "SaveName": "FTC - 40k 9th Edition Map Base v2.32 (2020-12-29)",
-  "GameMode": "FTC 40k Map Base 9th - v2.32\n",
-  "Date": "12/29/2020 5:18:39 PM",
-  "VersionNumber": "v12.4.3",
+  "SaveName": "FTC 40k Map Base 9th - v2.33\n",
+  "GameMode": "FTC 40k Map Base 9th - v2.33\n",
+  "Date": "2/7/2021 4:12:14 PM",
+  "VersionNumber": "v13.0.4",
   "GameType": "",
   "GameComplexity": "",
   "PlayingTime": [
@@ -84,93 +84,10 @@
   "Hands": {
     "Enable": true,
     "DisableUnused": true,
-    "Hiding": 0,
-    "HandTransforms": [
-      {
-        "Color": "Red",
-        "Transform": {
-          "posX": 0.0,
-          "posY": 1.00000048,
-          "posZ": 46.0,
-          "rotX": 0.0,
-          "rotY": 180.0,
-          "rotZ": 0.0,
-          "scaleX": 38.135006,
-          "scaleY": 9.077269,
-          "scaleZ": 7.8216
-        }
-      },
-      {
-        "Color": "Blue",
-        "Transform": {
-          "posX": -1.07731394E-05,
-          "posY": 1.00000048,
-          "posZ": -46.0,
-          "rotX": 0.0,
-          "rotY": -4.00605277E-05,
-          "rotZ": 0.0,
-          "scaleX": 38.135006,
-          "scaleY": 9.077269,
-          "scaleZ": 7.8216
-        }
-      },
-      {
-        "Color": "Teal",
-        "Transform": {
-          "posX": -40.0,
-          "posY": 1.49999976,
-          "posZ": -88.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
-          "scaleX": 1.315,
-          "scaleY": 1.29675269,
-          "scaleZ": 1.3036015
-        }
-      },
-      {
-        "Color": "Purple",
-        "Transform": {
-          "posX": -30.0000038,
-          "posY": 1.49999976,
-          "posZ": -88.0,
-          "rotX": 0.0,
-          "rotY": 0.0,
-          "rotZ": 0.0,
-          "scaleX": 1.31500161,
-          "scaleY": 1.29675269,
-          "scaleZ": 1.303601
-        }
-      },
-      {
-        "Color": "Orange",
-        "Transform": {
-          "posX": -30.0000038,
-          "posY": 1.55,
-          "posZ": 88.0,
-          "rotX": 0.0,
-          "rotY": 180.0,
-          "rotZ": 0.0,
-          "scaleX": 1.315005,
-          "scaleY": 1.29675269,
-          "scaleZ": 1.30359983
-        }
-      },
-      {
-        "Color": "Yellow",
-        "Transform": {
-          "posX": -40.0,
-          "posY": 1.49999976,
-          "posZ": 88.0,
-          "rotX": 0.0,
-          "rotY": 180.0,
-          "rotZ": 0.0,
-          "scaleX": 1.315,
-          "scaleY": 1.29675269,
-          "scaleZ": 1.30359983
-        }
-      }
-    ]
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
   },
   "Turns": {
     "Enable": false,
@@ -245,6 +162,252 @@
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->\r\n<Defaults>\r\n  <Button width=\"550\" height=\"300\" fontSize=\"40\" onClick=\"\" fontStyle=\"Bold\"/>\r\n  <Text fontSize=\"100\" color=\"#000000\" fontStyle=\"Bold\"/>\r\n</Defaults>\r\n\r\n<Panel id=\"redirect\" active=\"false\" position=\"0 0 0\" scale=\"0.6 0.6 0.6\" offsetXY=\"0 0\" color=\"White\" >\r\n  <Text offsetXY=\"0 350\" fontSize=\"80\" color=\"Red\">WARNING</Text>\r\n\r\n<Text id=\"coreRedirect\" offsetXY=\"0 0\" fontSize=\"36\">\r\n    WAIT FOR LOADING\r\n</Text>\r\n\r\n  <Button id=\"closeRedirectBtn\" active=\"true\" offsetXY=\"0 -475\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"500\" height=\"80\"  fontSize=\"30\" onClick=\"closeRedir\">CLOSE</Button>\r\n  <Text id=\"closeRedirectLbl\" active=\"true\" offsetXY=\"0 -475\" textColor=\"White\" fontSize=\"30\">\r\n  </Text>\r\n</Panel>\r\n\r\n<Panel id=\"main\" active=\"false\" position=\"0 0 0\" scale=\"0.5 0.5 0.5\" offsetXY=\"0 0\" color=\"#999999\" visibility=\"Diamonds\">\r\n  <Text offsetXY=\"0 400\">CHOOSE YOUR SEAT</Text>\r\n  <Button id=\"redBtn\" offsetXY=\"-300 100\" color=\"#bb0000\"  onClick=\"placeToRed\">Red Player</Button>\r\n  <Button id=\"blueBtn\" offsetXY=\"300 100\" color=\"#0033bb\" textColor=\"#aaaaaa\" onClick=\"placeToBlue\">Blue Player</Button>\r\n  <Text fontSize=\"45\" color=\"#bb0000\" offsetXY=\"0 -100\" >USE OTHER PLAYER COLORS AT YOUR OWN RISK !</Text>\r\n  <Button id=\"greyBtn\" offsetXY=\"0 -250\"  color=\"#666666\" width=\"1150\" height=\"200\"  onClick=\"placeToGray\">Spectator</Button>\r\n  <Button id=\"closeBtn\" offsetXY=\"0 -475\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"500\" height=\"80\"  fontSize=\"30\" onClick=\"closeMenu\">CLOSE MENU</Button>\r\n</Panel>\r\n\r\n\r\n\r\n<Panel id=\"rollDice\" active=\"true\" position=\"-635 515 0\" scale=\"0.5 0.5 0.5\" offsetXY=\"0 0\" color=\"#99999900\" visibility=\"None|Hearts|Spades\">\r\n<Text fontSize=\"25\" color=\"Grey\" offsetXY=\"0 -65\" >( SELECT A MODEL FIRST )</Text>\r\n  <Button id=\"toDiceRoller\" offsetXY=\"150 0\" color=\"Black\" textColor=\"Green\" onClick=\"goToDiceRoller\" width=\"270\" height=\"90\" fontSize=\"30\"  fontStyle=\"Bold\">TO DICE ROLLER</Button>\r\n  <Button id=\"toSquad\" offsetXY=\"-150 0\" color=\"Black\" textColor=\"Red\"  onClick=\"goToSquad\"             width=\"270\" height=\"90\" fontSize=\"30\"  fontStyle=\"Bold\">BACK TO SQUAD</Button>\r\n</Panel>\r\n\r\n<Panel id=\"passTurn\" active=\"true\" position=\"525 495 0\" scale=\"0.5 0.5 0.5\" offsetXY=\"0 0\" color=\"#99999900\" visibility=\"Black\">\r\n  <Button id=\"passTurnBtn\" offsetXY=\"0 0\" color=\"Red\" textColor=\"White\" onClick=\"nextPhase\" width=\"200\" height=\"180\" fontSize=\"35\"  fontStyle=\"Bold\"></Button>\r\n  <Text id=\"passTurnTxt\" offsetXY=\"0 0\" color=\"White\" textColor=\"White\" onClick=\"nextPhase\" width=\"180\" height=\"180\" fontSize=\"35\"  fontStyle=\"Bold\">NEXT PHASE</Text>\r\n</Panel>\r\n\r\n<Panel id=\"terrainInfo1\" active=\"false\" position=\"0 0 0\" scale=\"1 1 1\" offsetXY=\"0 0\" color=\"#999999\">\r\n <Text fontSize=\"50\" offsetXY=\"0 500\">TERRAIN BUILDER INSTRUCTIONS</Text>\r\n   <Text fontSize=\"16\" fontStyle=\"Bold\">This tool is made to prepare terrain for the Forty Thousand Collection Template v2.0 or later versions but works with other templates too if the gaming mat position is 0,0,0 .\r\n\r\n\r\nPREPARING THE TERRAIN:\r\n\r\nPrepare your terrain as you like, be sure that all elements are tolally inside the gaming mat, no parts have to be outside.\r\n\r\nThe battlemat is a modified \"Flex Table\" (by MrStump) with fixed dimensions. You can change the mat background by clicking on the white button on one of the legs and paste the URL of the image.\r\nYou can store some URL in memory by adding them individually so you can recall them easily.\r\nYou dont need anymore to edit the mat image to fit the bigger dimension of the table, only the gaming area will change, not the entire table.\r\nThere are some preset mats, so you already have something to work with, but feel free to use any URL that you like.\r\n\r\nWhen the terrain and the mat are ready, press the \"EXTRACT TERRAIN\" button present in the table control menu and confirm.\r\nYou will then have a map only with the terrain features and a blue brick that is a service token used to store the URL of the mat image. This brick is invisible and not interactable but it has its own menu that will display when loading the terrain.\r\n\r\nAll outside the gaming mat will be deleted.\r\n\r\nSave then the map in another local savefile or upload it to the workshop.\r\n\r\nThe \"DELETE TERRAIN\" button deletes all but the table inside the gaming area, useful for starting from scratch.\r\n\r\nLOADING THE TERRAIN:\r\n\r\nOpen the gaming template then make an ADDITIVE LOAD of the terrain map saved or present in the workshop.\r\n\r\nThe terrain will be put on the gaming mat and the mat image will change automatically.\r\nIn case it doesnt works you can copy the URL and apply it manually using the \"Flex Table\" menu.\r\n\r\nWhen done you can erease the menu showing the saved URL by clicking the proper button. It's NOT reversible.\r\n\r\nHave fun!</Text>\r\n  <Button id=\"closeBtnT\" offsetXY=\"0 -500\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"180\" height=\"60\"  fontSize=\"30\" onClick=\"closeTerrain\">CLOSE</Button>\r\n\r\n</Panel>\r\n\r\n\r\n<Panel id=\"gameInfo1\" active=\"false\" position=\"0 0 0\" scale=\"1 1 1\" offsetXY=\"0 0\" color=\"#999999\">\r\n\r\n <Text fontSize=\"50\" offsetXY=\"0 500\">GAMING INSTRUCTIONS AND IMPROVEMENTS</Text>\r\n   <Text fontSize=\"16\" fontStyle=\"Bold\">The battle mat is a modified \"Flex Table\" (by MrStump) with fixed dimensions. You can change the background of the mat by clicking on the white button on one of the legs and paste the URL of the image.\r\n\r\n   You can store URLs in memory by adding them individually so you can recall them easily if you want to make a local version with stored images.\r\n   An improvement in version 2 is that you now only need to provide the image of the battle mat itself, you don’t need to edit a massive image containing the felt part. For best results, use an image with the correct ratio!\r\n\r\n   Objective markers have a 3\" sphere state so you can easily check range. The number of the objective is shown even in that state, by clicking on the button it will go back to state one. The tokens also have a generic back for hidden objectives, you can switch to the sphere mode too but in that case no number will be displayed.\r\n\r\n   To roll dice simply drop them into the small cardboard box, it will roll them and place them in order on the rolling mat. It supports both d6 and d12.\r\n   The rolling mat will display the results along with the total dice rolled.\r\n   Also present buttons to spawn dice of 4 colors, to grab them to roll them, to clear the mat. Near each row of dice are present buttons to delete or select dice rows, left click affects only that row, right click affects that row plus all the lower (-) . To change to upper (+) selection click on the \" - / + \" button, the change is for the next click only.\r\n   Use the description of the small box to change your preferences and the behavior of the tool.\r\n\r\n   You can find a set of useful generic tokens at the head of the table, copy them and use them as you see fit.\r\n\r\n   Activation tokens: an interactive token can be placed near each squad to keep trak of which one has acted in each phase. \"Green\" means that the squad has to act, \"Red\" that it has already acted.\r\n   To change the state just click on the coloured button. All the tokens are reset automatically at each phase/turn change. You can manually reset them by clicking on any \"Reset Activation tokens\" button.\r\n   With the token selected you can use the Numpad1 and Numpad2 to lower/rise the position of the button.\r\n\r\n   Wound trackers: an interactive token can be placed near each model to keep track of its remaining wounds. To reduce the number left click on the button, to increase it right click.\r\n   With the token selected you can use the Numpad1 and Numpad2 to lower/rise the position of the button.\r\n\r\n   The counters are self explanatory, the players turn and the game turn ones are automatic, you don't need to update the manually. The victory ones will reflect the value of the ITC Score sheet if you use it.\r\n\r\n   Added infinite bags of d3, d6 and d12.\r\n\r\n   When loading a save file of a started game, the players will be automatically placed in the seats they had when started to play.\r\n\r\n   The action cameras are for fun only, you can see what a mini see!\r\n\r\n\r\n   SETTING UP THE GAME\r\n\r\n   When loading or connecting choose your seat in the shown menu.\r\n\r\n   Additive load a terrain save file for FTC Gaming Template v2.0 or above, the map and the mat background will be placed. Confirm it or remove if you want to change with another map.\r\n   In the table control menu there is a button tho erease all but the table in the gaming area, in case you wrongly confirmed. This button erease already placed armies nad other things too.\r\n   You can make those save files with the Terrain Generator feature in this map. Check the relative instructions.\r\n\r\n   Each player can spawn his or her own Objective Deck, Psychic Power Deck and Special Token Bag by clicking the button on the relative area and choosing from the menu. You can change them multiple times and when you are done confirm each item.\r\n   The Tactical Objective cards should snap in position and rotation onto the \"Discard\" slot. The hands are in the middle so you can draw cards from deck easily.\r\n\r\n   You can then import your army. If you import one made with the FTC Army Builder v2.0 or above (you can find it in the workshop) just additive load the save file and use the buttons to place the army on your side or remove it if you want to change it. Make sure that nobody loads a new army until the previous one is placed or deleted to prevent physics spaz.\r\n\r\n   Use the menu on the top of the gaming mat to place the chosen deployment areas and if needed the ITC Objectives for the chosen Scenario.\r\n\r\n\r\n    STARTING THE GAME instruction on next page!\r\n\r\n</Text>\r\n  <Button id=\"closeBtnT\" offsetXY=\"0 -500\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"180\" height=\"60\"  fontSize=\"30\" onClick=\"closeGame\">CLOSE</Button>\r\n  <Button id=\"page1BtnT\" offsetXY=\"200 -500\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"180\" height=\"60\"  fontSize=\"30\" onClick=\"page2Game\">PAGE 2</Button>\r\n</Panel>\r\n<Panel id=\"gameInfo2\" active=\"false\" position=\"0 0 0\" scale=\"1 1 1\" offsetXY=\"0 0\" color=\"#999999\">\r\n <Text fontSize=\"50\" offsetXY=\"0 500\">GAMING INSTRUCTIONS AND IMPROVEMENTS</Text>\r\n   <Text fontSize=\"16\" fontStyle=\"Bold\">\r\n      STARTING THE GAME\r\n\r\n      Deploy the armies as per the rules for the mission you are playing..\r\n\r\n      Select the starting player with the toggle button and when you are ready start the game with the relative button. Turns will be automatically enabled in the chosen order.\r\n\r\n      During game you can recall the selected deployment zones and the range checkers by clicking on the relative buttons placed near the top of battle mat.\r\n      You also can use buttons on upper left to go easily to dice roller and back (select a model first to go back to it)\r\n\r\n      At the start of the 6th and 7th turn you will receive a warning for checking if the game ends or not. Make your choice with the buttons that will spawn around the turn counter.  At the start of 8th turn you will be notified that the game is over.\r\n\r\n      You can save and load your game at any point of the game or setup. In case of bugs simply let Gen Wilhelm, Mothman Zack or [BCS]Phubar know and it will be dealt with as soon as possible\r\n  </Text>\r\n  <Button id=\"closeBtnT\" offsetXY=\"0 -500\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"180\" height=\"60\"  fontSize=\"30\" onClick=\"closeGame\">CLOSE</Button>\r\n   <Button id=\"page1BtnT\" offsetXY=\"-200 -500\"  color=\"#000000\" textColor=\"#aaaaaa\" width=\"180\" height=\"60\"  fontSize=\"30\" onClick=\"openGame\">PAGE 1</Button>\r\n</Panel>",
   "ObjectStates": [
     {
+      "GUID": "f7d85a",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.00000048,
+        "posZ": 46.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 38.135006,
+        "scaleY": 9.077269,
+        "scaleZ": 7.8216
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "731345",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -1.07731394E-05,
+        "posY": 1.00000048,
+        "posZ": -46.0,
+        "rotX": 0.0,
+        "rotY": -4.00605277E-05,
+        "rotZ": 0.0,
+        "scaleX": 38.135006,
+        "scaleY": 9.077269,
+        "scaleZ": 7.8216
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "309cea",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -40.0,
+        "posY": 1.49999976,
+        "posZ": -88.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.315,
+        "scaleY": 1.29675269,
+        "scaleZ": 1.3036015
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.128999949,
+        "g": 0.694,
+        "b": 0.606999934,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Teal",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f9d618",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.0000038,
+        "posY": 1.49999976,
+        "posZ": -88.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.31500161,
+        "scaleY": 1.29675269,
+        "scaleZ": 1.303601
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a47132",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.0000038,
+        "posY": 1.55,
+        "posZ": 88.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 1.315005,
+        "scaleY": 1.29675269,
+        "scaleZ": 1.30359983
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f7cd38",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -40.0,
+        "posY": 1.49999976,
+        "posZ": 88.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 1.315,
+        "scaleY": 1.29675269,
+        "scaleZ": 1.30359983
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
       "GUID": "a84ed2",
       "Name": "Custom_Tile",
       "Transform": {
@@ -300,7 +463,8 @@
             "x": 5.714623,
             "y": 0.1,
             "z": -0.8406986
-          }
+          },
+          "Tags": []
         }
       ]
     },
@@ -322,9 +486,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980867,
-        "g": 0.249980867,
-        "b": 0.249980867
+        "r": 0.249980837,
+        "g": 0.249980837,
+        "b": 0.249980837
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -575,7 +739,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -31.0,
-        "posY": 0.9130011,
+        "posY": 0.9130012,
         "posZ": -29.0,
         "rotX": -1.57000659E-06,
         "rotY": 179.980057,
@@ -588,7 +752,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.05488787,
+        "r": 0.0548878536,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -712,7 +876,7 @@
         "posZ": -29.0,
         "rotX": -2.446599E-06,
         "rotY": 180.273682,
-        "rotZ": 3.14932254E-06,
+        "rotZ": 3.149323E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -978,7 +1142,7 @@
         "posZ": -29.0,
         "rotX": 8.39406141E-07,
         "rotY": 179.980057,
-        "rotZ": -1.498328E-06,
+        "rotZ": -1.49832817E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1121,7 +1285,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124980934,
+        "g": 0.124980904,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -1254,8 +1418,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998169,
-        "b": 0.093981646
+        "g": 0.09998166,
+        "b": 0.0939816162
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1388,7 +1552,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786756
+        "b": 0.109786727
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1561,9 +1725,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982776,
+        "r": 0.191982746,
         "g": 0.701,
-        "b": 0.167982757
+        "b": 0.167982727
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1603,9 +1767,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982776,
+        "r": 0.191982746,
         "g": 0.701,
-        "b": 0.167982757
+        "b": 0.167982727
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1718,7 +1882,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": 16.5,
-        "rotX": 8.338682E-10,
+        "rotX": 8.338684E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1730,8 +1894,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998416,
-        "b": 0.0939841047
+        "g": 0.09998413,
+        "b": 0.0939840749
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1760,7 +1924,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": -16.495657,
-        "rotX": 8.338682E-10,
+        "rotX": 8.338684E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1771,7 +1935,7 @@
       "Description": "ee92cf",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117983483,
+        "r": 0.117983453,
         "g": 0.53,
         "b": 1.0
       },
@@ -2217,7 +2381,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999178,
-        "posZ": 16.5022678,
+        "posZ": 16.5022755,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2265,7 +2429,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999572,
-        "posZ": 27.0027313,
+        "posZ": 27.0027428,
         "rotX": 90.0,
         "rotY": 89.96369,
         "rotZ": 0.0,
@@ -2313,7 +2477,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23999178,
-        "posZ": 37.5051079,
+        "posZ": 37.5051231,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2361,7 +2525,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -26.9973049,
+        "posZ": -26.9973068,
         "rotX": 90.0,
         "rotY": 90.4634552,
         "rotZ": 0.0,
@@ -2409,7 +2573,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -37.49877,
+        "posZ": -37.49878,
         "rotX": 90.0,
         "rotY": 89.9636841,
         "rotZ": 0.0,
@@ -2507,7 +2671,8 @@
             "x": 5.714623,
             "y": 0.1,
             "z": -0.8406986
-          }
+          },
+          "Tags": []
         }
       ]
     },
@@ -2556,7 +2721,7 @@
       "Transform": {
         "posX": 73.5002747,
         "posY": 0.961133659,
-        "posZ": 27.00239,
+        "posZ": 27.0024,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2616,9 +2781,9 @@
       "Description": "- Use Token Bags Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.24997437,
-        "g": 0.24997437,
-        "b": 0.24997437
+        "r": 0.24997431,
+        "g": 0.24997431,
+        "b": 0.24997431
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -2644,6 +2809,9 @@
         "MaterialIndex": 3,
         "TypeIndex": 6,
         "CastShadows": true
+      },
+      "Bag": {
+        "Order": 0
       },
       "LuaScript": "title={\r\n    index =0, label=\"Army\\nToken\\nBags\", click_function=\"none\", function_owner=self,\r\n    position={0,0.5,0}, rotation={0,270,0}, height=0, width=7,\r\n    font_size=400, color={0,0,0}, font_color={1,1,1}\r\n}\r\n\r\nlockBtn={\r\n    index =0, label=\"Unlock\", click_function=\"toggleLock\", function_owner=self,\r\n    position={2,0.25,0}, rotation={0,270,0}, height=300, width=700,\r\n    font_size=150, color={0,0,0}, font_color={1,1,1}\r\n}\r\n\r\nfunction onLoad()\r\n    self.createButton(title)\r\n    self.createButton(lockBtn)\r\n    self.interactable=false\r\nend\r\n\r\nfunction toggleLock()\r\n    self.clearButtons()\r\n    self.createButton(title)\r\n    if self.interactable == false then\r\n        self.interactable=true\r\n        lockBtn.label=\"Lock\"\r\n    else\r\n        self.interactable=false\r\n        lockBtn.label=\"Unlock\"\r\n    end\r\n    self.createButton(lockBtn)\r\nend\r\nfunction none()\r\nend",
       "LuaScriptState": "",
@@ -13931,8 +14099,8 @@
       "Description": "- Use Psykic Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.247802556,
-        "g": 0.0676244646,
+        "r": 0.2478025,
+        "g": 0.06762442,
         "b": 0.6811846
       },
       "LayoutGroupSortIndex": 0,
@@ -13959,6 +14127,9 @@
         "MaterialIndex": 3,
         "TypeIndex": 6,
         "CastShadows": true
+      },
+      "Bag": {
+        "Order": 0
       },
       "LuaScript": "title={\r\n    index =0, label=\"Psychic\\nPower\\nDecks\", click_function=\"none\", function_owner=self,\r\n    position={0,0.5,0}, rotation={0,270,0}, height=0, width=7,\r\n    font_size=400, color={0,0,0}, font_color={1,1,1}\r\n}\r\n\r\nlockBtn={\r\n    index =0, label=\"Unlock\", click_function=\"toggleLock\", function_owner=self,\r\n    position={2,0.25,0}, rotation={0,270,0}, height=300, width=700,\r\n    font_size=150, color={0.5,0.5,0.5}, font_color={1,1,1}\r\n}\r\n\r\nfunction onLoad()\r\n    self.createButton(title)\r\n    self.createButton(lockBtn)\r\n    self.interactable=false\r\nend\r\n\r\nfunction toggleLock()\r\n    self.clearButtons()\r\n    self.createButton(title)\r\n    if self.interactable == false then\r\n        self.interactable=true\r\n        lockBtn.label=\"Lock\"\r\n    else\r\n        self.interactable=false\r\n        lockBtn.label=\"Unlock\"\r\n    end\r\n    self.createButton(lockBtn)\r\nend\r\n\r\nfunction none()\r\nend",
       "LuaScriptState": "",
@@ -18349,7 +18520,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "Clock": {
-        "Mode": 0,
+        "Mode": 3,
         "SecondsPassed": 0,
         "Paused": true
       },
@@ -18401,7 +18572,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -27.0,
-        "posY": 0.91,
+        "posY": 0.909999967,
         "posZ": -27.0,
         "rotX": -1.2927336E-07,
         "rotY": 179.980057,
@@ -18558,7 +18729,7 @@
         "posY": 0.9037044,
         "posZ": 30.9944077,
         "rotX": 359.9671,
-        "rotY": 0.365953743,
+        "rotY": 0.365953863,
         "rotZ": 359.8398,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -18569,7 +18740,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124980904,
+        "g": 0.124980859,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -18702,8 +18873,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998166,
-        "b": 0.0939816162
+        "g": 0.09998163,
+        "b": 0.09398157
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -18836,7 +19007,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786727
+        "b": 0.1097867
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19387,7 +19558,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0548878536,
+        "r": 0.05488783,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -19653,9 +19824,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980837,
-        "g": 0.249980837,
-        "b": 0.249980837
+        "r": 0.2499808,
+        "g": 0.2499808,
+        "b": 0.2499808
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19907,7 +20078,7 @@
       "Transform": {
         "posX": 62.5000458,
         "posY": 1.23999381,
-        "posZ": 0.0007781983,
+        "posZ": 0.000782013,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -19967,9 +20138,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.2499902,
-        "g": 0.2499902,
-        "b": 0.2499902
+        "r": 0.249990165,
+        "g": 0.249990165,
+        "b": 0.249990165
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20038,7 +20209,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.0000062,
-        "posZ": -83.8720245,
+        "posZ": -83.8720551,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20084,9 +20255,9 @@
       "GUID": "dbfb5c",
       "Name": "3DText",
       "Transform": {
-        "posX": 90.00418,
+        "posX": 90.0041962,
         "posY": -0.999999464,
-        "posZ": 63.6640472,
+        "posZ": 63.6640549,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20134,7 +20305,7 @@
       "Transform": {
         "posX": 90.00319,
         "posY": -1.00000322,
-        "posZ": 12.6597013,
+        "posZ": 12.659709,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20180,9 +20351,9 @@
       "GUID": "3e4433",
       "Name": "3DText",
       "Transform": {
-        "posX": 90.0048447,
+        "posX": 90.00485,
         "posY": -1.0000062,
-        "posZ": 37.66282,
+        "posZ": 37.66284,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20278,7 +20449,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.00000846,
-        "posZ": -68.34451,
+        "posZ": -68.3445358,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20339,8 +20510,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.9559999,
-        "g": 0.391991317,
-        "b": 0.112991311
+        "g": 0.3919913,
+        "b": 0.112991281
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20357,6 +20528,9 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Bag": {
+        "Order": 0
+      },
       "LuaScript": "function updateSave()\r\n    local data_to_save = {[\"ml\"]=memoryList}\r\n    saved_data = JSON.encode(data_to_save)\r\n    self.script_state = saved_data\r\nend\r\n\r\nfunction onload(saved_data)\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        --Set up information off of loaded_data\r\n        memoryList = loaded_data.ml\r\n    else\r\n        --Set up information for if there is no saved saved data\r\n        memoryList = {}\r\n    end\r\n\r\n    if next(memoryList) == nil then\r\n        createSetupButton()\r\n    else\r\n        createMemoryActionButtons()\r\n    end\r\nend\r\n\r\n\r\n--Beginning Setup\r\n\r\n\r\n--Make setup button\r\nfunction createSetupButton()\r\n    self.createButton({\r\n        label=\"Setup\", click_function=\"buttonClick_setup\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n--Triggered by setup button,\r\nfunction buttonClick_setup()\r\n    memoryListBackup = duplicateTable(memoryList)\r\n    memoryList = {}\r\n    self.clearButtons()\r\n    createButtonsOnAllObjects()\r\n    createSetupActionButtons()\r\nend\r\n\r\n--Creates selection buttons on objects\r\nfunction createButtonsOnAllObjects()\r\n    local howManyButtons = 0\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        if obj ~= self then\r\n            local dummyIndex = howManyButtons\r\n            --On a normal bag, the button positions aren't the same size as the bag.\r\n            globalScaleFactor = 1.25 * 1/self.getScale().x\r\n            --Super sweet math to set button positions\r\n            local selfPos = self.getPosition()\r\n            local objPos = obj.getPosition()\r\n            local deltaPos = findOffsetDistance(selfPos, objPos, obj)\r\n            local objPos = rotateLocalCoordinates(deltaPos, self)\r\n            objPos.x = -objPos.x * globalScaleFactor\r\n            objPos.y = objPos.y * globalScaleFactor\r\n            objPos.z = objPos.z * globalScaleFactor\r\n            --Offset rotation of bag\r\n            local rot = self.getRotation()\r\n            rot.y = -rot.y + 180\r\n            --Create function\r\n            local funcName = \"selectButton_\" .. howManyButtons\r\n            local func = function() buttonClick_selection(dummyIndex, obj) end\r\n            self.setVar(funcName, func)\r\n            self.createButton({\r\n                click_function=funcName, function_owner=self,\r\n                position=objPos, rotation=rot, height=1000, width=1000,\r\n                color={0.75,0.25,0.25,0.6},\r\n            })\r\n            howManyButtons = howManyButtons + 1\r\n        end\r\n    end\r\nend\r\n\r\n--Creates submit and cancel buttons\r\nfunction createSetupActionButtons()\r\n    self.createButton({\r\n        label=\"Cancel\", click_function=\"buttonClick_cancel\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=1100,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Submit\", click_function=\"buttonClick_submit\", function_owner=self,\r\n        position={0,0.3,-2.8}, rotation={0,180,0}, height=350, width=1100,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Reset\", click_function=\"buttonClick_reset\", function_owner=self,\r\n        position={-2,0.3,0}, rotation={0,270,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n\r\n--During Setup\r\n\r\n\r\n--Checks or unchecks buttons\r\nfunction buttonClick_selection(index, obj)\r\n    local color = {0,1,0,0.6}\r\n    if memoryList[obj.getGUID()] == nil then\r\n        self.editButton({index=index, color=color})\r\n        --Adding pos/rot to memory table\r\n        local pos, rot = obj.getPosition(), obj.getRotation()\r\n        --I need to add it like this or it won't save due to indexing issue\r\n        memoryList[obj.getGUID()] = {\r\n            pos={x=round(pos.x,4), y=round(pos.y,4), z=round(pos.z,4)},\r\n            rot={x=round(rot.x,4), y=round(rot.y,4), z=round(rot.z,4)},\r\n            lock=obj.getLock()\r\n        }\r\n        obj.highlightOn({0,1,0})\r\n    else\r\n        color = {0.75,0.25,0.25,0.6}\r\n        self.editButton({index=index, color=color})\r\n        memoryList[obj.getGUID()] = nil\r\n        obj.highlightOff()\r\n    end\r\nend\r\n\r\n--Cancels selection process\r\nfunction buttonClick_cancel()\r\n    memoryList = memoryListBackup\r\n    self.clearButtons()\r\n    if next(memoryList) == nil then\r\n        createSetupButton()\r\n    else\r\n        createMemoryActionButtons()\r\n    end\r\n    removeAllHighlights()\r\n    broadcastToAll(\"Selection Canceled\", {1,1,1})\r\nend\r\n\r\n--Saves selections\r\nfunction buttonClick_submit()\r\n    if next(memoryList) == nil then\r\n        broadcastToAll(\"You cannot submit without any selections.\", {0.75, 0.25, 0.25})\r\n    else\r\n        self.clearButtons()\r\n        createMemoryActionButtons()\r\n        local count = 0\r\n        for guid in pairs(memoryList) do\r\n            count = count + 1\r\n            local obj = getObjectFromGUID(guid)\r\n            if obj ~= nil then obj.highlightOff() end\r\n        end\r\n        broadcastToAll(count..\" Objects Saved\", {1,1,1})\r\n        updateSave()\r\n    end\r\nend\r\n\r\n--Resets bag to starting status\r\nfunction buttonClick_reset()\r\n    memoryList = {}\r\n    self.clearButtons()\r\n    createSetupButton()\r\n    removeAllHighlights()\r\n    broadcastToAll(\"Tool Reset\", {1,1,1})\r\n    updateSave()\r\nend\r\n\r\n\r\n--After Setup\r\n\r\n\r\n--Creates recall and place buttons\r\nfunction createMemoryActionButtons()\r\n    self.createButton({\r\n        label=\"Place\", click_function=\"buttonClick_place\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Recall\", click_function=\"buttonClick_recall\", function_owner=self,\r\n        position={0,0.3,-2.8}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Setup\", click_function=\"buttonClick_setup\", function_owner=self,\r\n        position={-2,0.3,0}, rotation={0,270,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n--Sends objects from bag/table to their saved position/rotation\r\nfunction buttonClick_place()\r\n    local bagObjList = self.getObjects()\r\n    for guid, entry in pairs(memoryList) do\r\n        local obj = getObjectFromGUID(guid)\r\n        --If obj is out on the table, move it to the saved pos/rot\r\n        if obj ~= nil then\r\n            obj.setPositionSmooth(entry.pos)\r\n            obj.setRotationSmooth(entry.rot)\r\n            obj.setLock(entry.lock)\r\n        else\r\n            --If obj is inside of the bag\r\n            for _, bagObj in ipairs(bagObjList) do\r\n                if bagObj.guid == guid then\r\n                    local item = self.takeObject({\r\n                        guid=guid, position=entry.pos, rotation=entry.rot,smooth=false\r\n                    })\r\n                    item.setLock(entry.lock)\r\n                    break\r\n                end\r\n            end\r\n        end\r\n    end\r\n    --broadcastToAll(\"Objects Placed\", {1,1,1})\r\nend\r\n\r\n--Recalls objects to bag from table\r\nfunction buttonClick_recall()\r\n    for guid, entry in pairs(memoryList) do\r\n        local obj = getObjectFromGUID(guid)\r\n        if obj ~= nil then self.putObject(obj) end\r\n    end\r\n    --broadcastToAll(\"Objects Recalled\", {1,1,1})\r\nend\r\n\r\n\r\n--Utility functions\r\n\r\n\r\n--Find delta (difference) between 2 x/y/z coordinates\r\nfunction findOffsetDistance(p1, p2, obj)\r\n    local deltaPos = {}\r\n    local bounds = obj.getBounds()\r\n    deltaPos.x = (p2.x-p1.x)\r\n    deltaPos.y = (p2.y-p1.y) + (bounds.size.y - bounds.offset.y)\r\n    deltaPos.z = (p2.z-p1.z)\r\n    return deltaPos\r\nend\r\n\r\n--Used to rotate a set of coordinates by an angle\r\nfunction rotateLocalCoordinates(desiredPos, obj)\r\n\tlocal objPos, objRot = obj.getPosition(), obj.getRotation()\r\n    local angle = math.rad(objRot.y)\r\n\tlocal x = desiredPos.x * math.cos(angle) - desiredPos.z * math.sin(angle)\r\n\tlocal z = desiredPos.x * math.sin(angle) + desiredPos.z * math.cos(angle)\r\n\t--return {x=objPos.x+x, y=objPos.y+desiredPos.y, z=objPos.z+z}\r\n    return {x=x, y=desiredPos.y, z=z}\r\nend\r\n\r\n--Coroutine delay, in seconds\r\nfunction wait(time)\r\n    local start = os.time()\r\n    repeat coroutine.yield(0) until os.time() > start + time\r\nend\r\n\r\n--Duplicates a table (needed to prevent it making reference to the same objects)\r\nfunction duplicateTable(oldTable)\r\n    local newTable = {}\r\n    for k, v in pairs(oldTable) do\r\n        newTable[k] = v\r\n    end\r\n    return newTable\r\nend\r\n\r\n--Moves scripted highlight from all objects\r\nfunction removeAllHighlights()\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        obj.highlightOff()\r\n    end\r\nend\r\n\r\n--Round number (num) to the Nth decimal (dec)\r\nfunction round(num, dec)\r\n  local mult = 10^(dec or 0)\r\n  return math.floor(num * mult + 0.5) / mult\r\nend",
       "LuaScriptState": "{\"ml\":{\"00ccb7\":{\"lock\":true,\"pos\":{\"x\":-30,\"y\":2.35,\"z\":-21.5},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"05bc55\":{\"lock\":true,\"pos\":{\"x\":27,\"y\":2.3513,\"z\":21.5},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0168}},\"0bb28b\":{\"lock\":true,\"pos\":{\"x\":30,\"y\":2.3513,\"z\":24},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"13b175\":{\"lock\":true,\"pos\":{\"x\":-30,\"y\":2.35,\"z\":-16.5},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"1424db\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":-7.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"182831\":{\"lock\":false,\"pos\":{\"x\":28,\"y\":0.883,\"z\":-10.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"1cf1e5\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":-4.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"2a0a17\":{\"lock\":true,\"pos\":{\"x\":33,\"y\":2.3513,\"z\":21.5},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"49cf3f\":{\"lock\":true,\"pos\":{\"x\":33,\"y\":2.3513,\"z\":24},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"528157\":{\"lock\":true,\"pos\":{\"x\":-27,\"y\":2.35,\"z\":-24},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"5b6320\":{\"lock\":true,\"pos\":{\"x\":33,\"y\":2.3513,\"z\":19},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"600ebc\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":4.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"649052\":{\"lock\":true,\"pos\":{\"x\":30,\"y\":2.3513,\"z\":19},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"77aa53\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":10.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"82bec0\":{\"lock\":true,\"pos\":{\"x\":-33,\"y\":2.35,\"z\":-19},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"8e28d0\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":1.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"944dee\":{\"lock\":true,\"pos\":{\"x\":27,\"y\":2.3513,\"z\":19},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"9b20f4\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":7.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"a2c6ef\":{\"lock\":true,\"pos\":{\"x\":-36,\"y\":2.3607,\"z\":-24},\"rot\":{\"x\":359.9822,\"y\":270,\"z\":359.9201}},\"a674be\":{\"lock\":true,\"pos\":{\"x\":-30,\"y\":2.35,\"z\":-19},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"a87b4e\":{\"lock\":true,\"pos\":{\"x\":-27,\"y\":2.35,\"z\":-19},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"a9b723\":{\"lock\":true,\"pos\":{\"x\":36,\"y\":2.3092,\"z\":24},\"rot\":{\"x\":0.0169,\"y\":270,\"z\":0.08}},\"c37ac3\":{\"lock\":true,\"pos\":{\"x\":27,\"y\":2.3513,\"z\":24},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"c47027\":{\"lock\":true,\"pos\":{\"x\":30,\"y\":2.3513,\"z\":21.5},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}},\"d5f1ec\":{\"lock\":true,\"pos\":{\"x\":28,\"y\":0.883,\"z\":-1.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"dae8ed\":{\"lock\":true,\"pos\":{\"x\":-27,\"y\":2.35,\"z\":-21.5},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"db91e3\":{\"lock\":true,\"pos\":{\"x\":-33,\"y\":2.35,\"z\":-24},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"e33031\":{\"lock\":true,\"pos\":{\"x\":-30,\"y\":2.35,\"z\":-24},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"e3ff83\":{\"lock\":true,\"pos\":{\"x\":-33,\"y\":2.35,\"z\":-21.5},\"rot\":{\"x\":0,\"y\":270,\"z\":0}},\"f3941a\":{\"lock\":true,\"pos\":{\"x\":30,\"y\":2.2634,\"z\":16.5},\"rot\":{\"x\":359.9199,\"y\":270,\"z\":0.0167}}}}",
       "XmlUI": "",
@@ -26153,7 +26327,7 @@
         "posX": 88.50019,
         "posY": -3.0,
         "posZ": -66.00324,
-        "rotX": 0.07997011,
+        "rotX": 0.07997007,
         "rotY": 89.9984741,
         "rotZ": 359.983124,
         "scaleX": 1.0,
@@ -26164,9 +26338,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249991328,
-        "g": 0.249991328,
-        "b": 0.249991328
+        "r": 0.2499913,
+        "g": 0.2499913,
+        "b": 0.2499913
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26183,6 +26357,9 @@
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
+      "Bag": {
+        "Order": 0
+      },
       "LuaScript": "function updateSave()\r\n    local data_to_save = {[\"ml\"]=memoryList}\r\n    saved_data = JSON.encode(data_to_save)\r\n    self.script_state = saved_data\r\nend\r\n\r\nfunction onload(saved_data)\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        --Set up information off of loaded_data\r\n        memoryList = loaded_data.ml\r\n    else\r\n        --Set up information for if there is no saved saved data\r\n        memoryList = {}\r\n    end\r\n\r\n    if next(memoryList) == nil then\r\n        createSetupButton()\r\n    else\r\n        createMemoryActionButtons()\r\n    end\r\nend\r\n\r\n\r\n--Beginning Setup\r\n\r\n\r\n--Make setup button\r\nfunction createSetupButton()\r\n    self.createButton({\r\n        label=\"Setup\", click_function=\"buttonClick_setup\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n--Triggered by setup button,\r\nfunction buttonClick_setup()\r\n    memoryListBackup = duplicateTable(memoryList)\r\n    memoryList = {}\r\n    self.clearButtons()\r\n    createButtonsOnAllObjects()\r\n    createSetupActionButtons()\r\nend\r\n\r\n--Creates selection buttons on objects\r\nfunction createButtonsOnAllObjects()\r\n    local howManyButtons = 0\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        if obj ~= self then\r\n            local dummyIndex = howManyButtons\r\n            --On a normal bag, the button positions aren't the same size as the bag.\r\n            globalScaleFactor = 1.25 * 1/self.getScale().x\r\n            --Super sweet math to set button positions\r\n            local selfPos = self.getPosition()\r\n            local objPos = obj.getPosition()\r\n            local deltaPos = findOffsetDistance(selfPos, objPos, obj)\r\n            local objPos = rotateLocalCoordinates(deltaPos, self)\r\n            objPos.x = -objPos.x * globalScaleFactor\r\n            objPos.y = objPos.y * globalScaleFactor\r\n            objPos.z = objPos.z * globalScaleFactor\r\n            --Offset rotation of bag\r\n            local rot = self.getRotation()\r\n            rot.y = -rot.y + 180\r\n            --Create function\r\n            local funcName = \"selectButton_\" .. howManyButtons\r\n            local func = function() buttonClick_selection(dummyIndex, obj) end\r\n            self.setVar(funcName, func)\r\n            self.createButton({\r\n                click_function=funcName, function_owner=self,\r\n                position=objPos, rotation=rot, height=1000, width=1000,\r\n                color={0.75,0.25,0.25,0.6},\r\n            })\r\n            howManyButtons = howManyButtons + 1\r\n        end\r\n    end\r\nend\r\n\r\n--Creates submit and cancel buttons\r\nfunction createSetupActionButtons()\r\n    self.createButton({\r\n        label=\"Cancel\", click_function=\"buttonClick_cancel\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=1100,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Submit\", click_function=\"buttonClick_submit\", function_owner=self,\r\n        position={0,0.3,-2.8}, rotation={0,180,0}, height=350, width=1100,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Reset\", click_function=\"buttonClick_reset\", function_owner=self,\r\n        position={-2,0.3,0}, rotation={0,270,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n\r\n--During Setup\r\n\r\n\r\n--Checks or unchecks buttons\r\nfunction buttonClick_selection(index, obj)\r\n    local color = {0,1,0,0.6}\r\n    if memoryList[obj.getGUID()] == nil then\r\n        self.editButton({index=index, color=color})\r\n        --Adding pos/rot to memory table\r\n        local pos, rot = obj.getPosition(), obj.getRotation()\r\n        --I need to add it like this or it won't save due to indexing issue\r\n        memoryList[obj.getGUID()] = {\r\n            pos={x=round(pos.x,4), y=round(pos.y,4), z=round(pos.z,4)},\r\n            rot={x=round(rot.x,4), y=round(rot.y,4), z=round(rot.z,4)},\r\n            lock=obj.getLock()\r\n        }\r\n        obj.highlightOn({0,1,0})\r\n    else\r\n        color = {0.75,0.25,0.25,0.6}\r\n        self.editButton({index=index, color=color})\r\n        memoryList[obj.getGUID()] = nil\r\n        obj.highlightOff()\r\n    end\r\nend\r\n\r\n--Cancels selection process\r\nfunction buttonClick_cancel()\r\n    memoryList = memoryListBackup\r\n    self.clearButtons()\r\n    if next(memoryList) == nil then\r\n        createSetupButton()\r\n    else\r\n        createMemoryActionButtons()\r\n    end\r\n    removeAllHighlights()\r\n    broadcastToAll(\"Selection Canceled\", {1,1,1})\r\nend\r\n\r\n--Saves selections\r\nfunction buttonClick_submit()\r\n    if next(memoryList) == nil then\r\n        broadcastToAll(\"You cannot submit without any selections.\", {0.75, 0.25, 0.25})\r\n    else\r\n        self.clearButtons()\r\n        createMemoryActionButtons()\r\n        local count = 0\r\n        for guid in pairs(memoryList) do\r\n            count = count + 1\r\n            local obj = getObjectFromGUID(guid)\r\n            if obj ~= nil then obj.highlightOff() end\r\n        end\r\n        broadcastToAll(count..\" Objects Saved\", {1,1,1})\r\n        updateSave()\r\n    end\r\nend\r\n\r\n--Resets bag to starting status\r\nfunction buttonClick_reset()\r\n    memoryList = {}\r\n    self.clearButtons()\r\n    createSetupButton()\r\n    removeAllHighlights()\r\n    broadcastToAll(\"Tool Reset\", {1,1,1})\r\n    updateSave()\r\nend\r\n\r\n\r\n--After Setup\r\n\r\n\r\n--Creates recall and place buttons\r\nfunction createMemoryActionButtons()\r\n    self.createButton({\r\n        label=\"Place\", click_function=\"buttonClick_place\", function_owner=self,\r\n        position={0,0.3,-2}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Recall\", click_function=\"buttonClick_recall\", function_owner=self,\r\n        position={0,0.3,-2.8}, rotation={0,180,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\n    self.createButton({\r\n        label=\"Setup\", click_function=\"buttonClick_setup\", function_owner=self,\r\n        position={-2,0.3,0}, rotation={0,270,0}, height=350, width=800,\r\n        font_size=250, color={0,0,0}, font_color={1,1,1}\r\n    })\r\nend\r\n\r\n--Sends objects from bag/table to their saved position/rotation\r\nfunction buttonClick_place()\r\n    local bagObjList = self.getObjects()\r\n    for guid, entry in pairs(memoryList) do\r\n        local obj = getObjectFromGUID(guid)\r\n        --If obj is out on the table, move it to the saved pos/rot\r\n        if obj ~= nil then\r\n            obj.setPositionSmooth(entry.pos)\r\n            obj.setRotationSmooth(entry.rot)\r\n            obj.setLock(entry.lock)\r\n        else\r\n            --If obj is inside of the bag\r\n            for _, bagObj in ipairs(bagObjList) do\r\n                if bagObj.guid == guid then\r\n                    local item = self.takeObject({\r\n                        guid=guid, position=entry.pos, rotation=entry.rot,smooth=false\r\n                    })\r\n                    item.setLock(entry.lock)\r\n                    break\r\n                end\r\n            end\r\n        end\r\n    end\r\n--    broadcastToAll(\"Objects Placed\", {1,1,1})\r\nend\r\n\r\n--Recalls objects to bag from table\r\nfunction buttonClick_recall()\r\n    for guid, entry in pairs(memoryList) do\r\n        local obj = getObjectFromGUID(guid)\r\n        if obj ~= nil then self.putObject(obj) end\r\n    end\r\n    --broadcastToAll(\"Objects Recalled\", {1,1,1})\r\nend\r\n\r\n\r\n--Utility functions\r\n\r\n\r\n--Find delta (difference) between 2 x/y/z coordinates\r\nfunction findOffsetDistance(p1, p2, obj)\r\n    local deltaPos = {}\r\n    local bounds = obj.getBounds()\r\n    deltaPos.x = (p2.x-p1.x)\r\n    deltaPos.y = (p2.y-p1.y) + (bounds.size.y - bounds.offset.y)\r\n    deltaPos.z = (p2.z-p1.z)\r\n    return deltaPos\r\nend\r\n\r\n--Used to rotate a set of coordinates by an angle\r\nfunction rotateLocalCoordinates(desiredPos, obj)\r\n\tlocal objPos, objRot = obj.getPosition(), obj.getRotation()\r\n    local angle = math.rad(objRot.y)\r\n\tlocal x = desiredPos.x * math.cos(angle) - desiredPos.z * math.sin(angle)\r\n\tlocal z = desiredPos.x * math.sin(angle) + desiredPos.z * math.cos(angle)\r\n\t--return {x=objPos.x+x, y=objPos.y+desiredPos.y, z=objPos.z+z}\r\n    return {x=x, y=desiredPos.y, z=z}\r\nend\r\n\r\n--Coroutine delay, in seconds\r\nfunction wait(time)\r\n    local start = os.time()\r\n    repeat coroutine.yield(0) until os.time() > start + time\r\nend\r\n\r\n--Duplicates a table (needed to prevent it making reference to the same objects)\r\nfunction duplicateTable(oldTable)\r\n    local newTable = {}\r\n    for k, v in pairs(oldTable) do\r\n        newTable[k] = v\r\n    end\r\n    return newTable\r\nend\r\n\r\n--Moves scripted highlight from all objects\r\nfunction removeAllHighlights()\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        obj.highlightOff()\r\n    end\r\nend\r\n\r\n--Round number (num) to the Nth decimal (dec)\r\nfunction round(num, dec)\r\n  local mult = 10^(dec or 0)\r\n  return math.floor(num * mult + 0.5) / mult\r\nend",
       "LuaScriptState": "{\"ml\":{\"097ea5\":{\"lock\":true,\"pos\":{\"x\":7.75,\"y\":0.77,\"z\":-48.5},\"rot\":{\"x\":0,\"y\":180,\"z\":0}},\"18f7eb\":{\"lock\":true,\"pos\":{\"x\":-3.25,\"y\":0.77,\"z\":48.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"22433f\":{\"lock\":true,\"pos\":{\"x\":0,\"y\":0.77,\"z\":37.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}},\"71cdfc\":{\"lock\":true,\"pos\":{\"x\":0,\"y\":0.77,\"z\":-37.5},\"rot\":{\"x\":0,\"y\":180,\"z\":0}},\"c79ba8\":{\"lock\":true,\"pos\":{\"x\":1.5,\"y\":0.77,\"z\":-48.5},\"rot\":{\"x\":0,\"y\":180,\"z\":0}},\"f1d9a1\":{\"lock\":true,\"pos\":{\"x\":-9.75,\"y\":0.77,\"z\":48.5},\"rot\":{\"x\":0,\"y\":0,\"z\":0}}}}",
       "XmlUI": "",
@@ -26787,7 +26964,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124991961,
+        "g": 0.124991931,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -27014,9 +27191,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.2499808,
-        "g": 0.2499808,
-        "b": 0.2499808
+        "r": 0.249980778,
+        "g": 0.249980778,
+        "b": 0.249980778
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -27379,7 +27556,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -35.0,
-        "posY": 0.99999994,
+        "posY": 1.0,
         "posZ": -31.0,
         "rotX": 359.983124,
         "rotY": -3.06866641E-05,
@@ -27392,7 +27569,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117992409,
+        "r": 0.117992379,
         "g": 0.53,
         "b": 1.0
       },
@@ -28098,8 +28275,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999182,
-        "b": 0.09399179
+        "g": 0.09999176,
+        "b": 0.0939917341
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -28189,7 +28366,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.1179915,
+        "r": 0.117991425,
         "g": 0.53,
         "b": 1.0
       },
@@ -28265,6 +28442,9 @@
         "TypeIndex": 6,
         "CastShadows": true
       },
+      "Bag": {
+        "Order": 0
+      },
       "LuaScript": "keepForTerrainEditor = true\r\n\r\nplayZone=nil\r\nplayZoneData={\r\n    type = \"ScriptingTrigger\",\r\n    position          = {x=0, y=10, z=0},\r\n    rotation          = {x=0, y=0, z=0},\r\n    scale             = {x=72.2, y=100, z=48.2},\r\n    sound             = false,\r\n    snap_to_grid      = false,\r\n}\r\nplayZoneScale= {{x=48.2, y=100, z=48.2} ,\r\n{x=72.2, y=100, z=48.2},\r\n{x=96.2, y=100, z=48.2},\r\n{x=30.2, y=100, z=22.2},\r\n{x=72.2, y=100, z=72.2},\r\n{x=96.2, y=100, z=72.2}\r\n}\r\nselectedMat=2\r\n\r\n\r\n\r\nfunction onLoad()\r\n\r\n    assignVariables()\r\n    --createExtractButton()\r\n    self.setPosition({40,-2,-90})\r\n    self.setRotation({0,180,0})\r\n    self.interactable = false\r\n    self.setScale({1,0.5,1})\r\nend\r\nextractLbl=\"EXTRACT\\nTERRAIN\"\r\nsubtitleLbl=\"Confirm size first\"\r\nsubtitleLbl=\"\"\r\nscaleBtn={6,6,6}\r\noffsetX=-5\r\nextractBtn={\r\n    label=extractLbl, click_function=\"showYNButtonsExtract\", function_owner=self,\r\n    position={0+offsetX,0,17}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\nsubtitleBtn={\r\n    label=subtitleLbl, click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,0,20.8}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=100, color={0.8,0.8,0.8}, font_color=\"Red\", scale=scaleBtn\r\n}\r\nbackgroundBtn={\r\n    label=\"\", click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,-1,18}, rotation={0,0,0}, height=2000, width=2500,\r\n    font_size=300, color={0.4,0.4,0.4,0.7}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmYesBtnExtract={\r\n    label=\"Yes\", click_function=\"extract\", function_owner=self,\r\n    position={-7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnExtract={\r\n    label=\"No\", click_function=\"hideYNButtonsExtract\", function_owner=self,\r\n    position={7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\ninfoBtn={\r\n    label=\"TERRAIN\\nEXPORTING\\nINSTRUCTIONS\", click_function=\"showInstructions\", function_owner=self,\r\n    position={0+offsetX,0,36}, rotation={0,0,0}, height=1000, width=2000,\r\n    font_size=200, color={0,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\ndeleteLbl=\"DELETE\\nTERRAIN\"\r\ndeleteBtn={\r\n    label=deleteLbl, click_function=\"showYNButtonsDelete\", function_owner=self,\r\n    position={0+offsetX,0,46}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\n\r\nconfirmYesBtnDelete={\r\n    label=\"Yes\", click_function=\"deleteTerrain\", function_owner=self,\r\n    position={-7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnDelete={\r\n    label=\"No\", click_function=\"hideYNButtonsDelete\", function_owner=self,\r\n    position={7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\n\r\nfunction assignVariables()\r\n    --[[\r\n    playZone=getObjectFromGUID('5d3218')\r\n    junkyard1=getObjectFromGUID('894611')\r\n    junkyard2=getObjectFromGUID('2ae8cf')\r\n    junkyard3=getObjectFromGUID('d32b38')\r\n    junkyard4=getObjectFromGUID('0b6f7d')\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    matUrlDisplay.setPosition({0,-5.53,0})\r\n    --matUrlDisplay.setPosition({42,5,0})\r\n    ]]--\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    mat.setPosition({0,mat.getPosition().y,mat.getPosition().z})\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    Wait.frames(hideOther, 5)\r\n    matUrlDisplay.setPosition({185,-6,0})\r\n    flexControl=getObjectFromGUID('bd69bd')\r\n    YNButtonsExtract=false\r\n    YNButtonsDelete=false\r\n    label0=\"E X P O R T\\nT E R R A I N\"\r\n    adjust=3.5\r\n    scaleBtn=6\r\n    offsetBtn=-8.2*adjust\r\n    offsetYBtn=2.8*adjust\r\n    txtSize=120\r\nend\r\n\r\nfunction hideOther()\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\nend\r\n\r\nfunction showInstructions()\r\n    Global.call(\"openTerrain\")\r\nend\r\n\r\nfunction writeMenu()\r\n    self.clearButtons()\r\n    if YNButtonsExtract==false then\r\n        extractBtn.label=extractLbl\r\n    else\r\n        extractBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnExtract)\r\n        self.createButton(confirmNoBtnExtract)\r\n    end\r\n    if YNButtonsDelete == false then\r\n        deleteBtn.label=deleteLbl\r\n    else\r\n        deleteBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnDelete)\r\n        self.createButton(confirmNoBtnDelete)\r\n    end\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createMenu()\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createExtractButton()\r\n    --self.createButton(backgroundBtn)\r\n    if extractBtn.label == extractLbl then\r\n        self.createButton(subtitleBtn)\r\n    end\r\n    self.createButton(extractBtn)\r\n    --self.createButton(infoBtn)\r\nend\r\n\r\nfunction createNoButtonExtract()\r\n    self.createButton(confirmNoBtnExtract)\r\nend\r\n\r\nfunction createYesButtonExtract()\r\n    self.createButton(confirmYesBtnExtract)\r\nend\r\n\r\nfunction showYNButtonsExtract()\r\n    YNButtonsExtract = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsExtract()\r\n    YNButtonsExtract = false\r\n    writeMenu()\r\nend\r\n\r\nfunction createDeleteButton()\r\n    self.createButton(deleteBtn)\r\nend\r\n\r\nfunction showYNButtonsDelete()\r\n    YNButtonsDelete = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsDelete()\r\n    YNButtonsDelete = false\r\n    writeMenu()\r\nend\r\n\r\nfunction extract()\r\n    broadcastToAll(\"EXTRATCING TERRAIN\\nwait some seconds ...\", \"Yellow\")\r\n    mat=getObjectFromGUID(\"4ee1f2\")\r\n    createDebugMat()\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(extract2, 2)\r\nend\r\n\r\nfunction extract2()\r\n\r\n    matUrlDisplay.call('retriveUrl')\r\n\r\n    matUrlDisplay.clearInputs()\r\n    matUrlDisplay.clearButtons()\r\n    matUrlDisplay.setPosition({-38,-0.53,0})\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\n    matUrlDisplay.interactable=false\r\n    spawnPlayZone()\r\n    Wait.frames(extract3, 3)\r\nend\r\n\r\nfunction extract3()\r\n    local allObj=getAllObjects()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, objA in ipairs(allObj) do\r\n        local delete=true\r\n        for j, objZ in ipairs (zoneObj) do\r\n            if objA == objZ or objA == self or objA == matUrlDisplay then\r\n                delete=false\r\n                objZ.setLock(true)\r\n                --objZ.setDescription(\"\")\r\n            end\r\n        end\r\n        if delete then\r\n            objA.destroy()\r\n        end\r\n    end\r\n    local allObj2 = getAllObjects()\r\n\r\n    deleteTable()\r\n\r\n    Wait.frames(injectLua, 2)\r\n    --self.setPosition({37,2,0})\r\n    --self.destroy()\r\nend\r\n\r\nfunction createDebugMat()\r\n    local customInfo = mat.getCustomObject()\r\n    --print(\"MAT :\"..customInfo.diffuse..\":\")\r\n    local clone=spawnObject({\r\n        type              = \"Custom_Model\",\r\n        position          = mat.getPosition(),\r\n\r\n        params            = {mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\",diffuse=\"http://cloud-3.steamusercontent.com/ugc/786374678935692054/F32489A74087FB9D9E26AC5F9461841B8C40B37A/\"},\r\n\r\n    })\r\n    clone.setLuaScript(\"\")\r\n    --clone.setCustomObject(mat.getCustomObject())\r\n    clone.setCustomObject({mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\", diffuse=mat.getCustomObject().diffuse, material = 3})\r\n    clone.setScale(mat.getScale())\r\n    clone.setLock(true)\r\n    --clone.interactable=false\r\n    clone.setName(\"Mat url debug\")\r\nend\r\n\r\nfunction deleteTable()\r\n\r\n    --flexTable=getObjectFromGUID(flexTableGuid)\r\n    local guidList = {\r\n        \"afc863\",\"c8edca\",\"393bf7\",\"12c65e\",\"f938a2\",\"9f95fd\",\"35b95f\",\r\n        \"5af8f2\",\"4ee1f2\",\"bd69bd\", \"28865a\", \"9f95fd\"\r\n    }\r\n    for i, tbl in ipairs(guidList) do\r\n        getObjectFromGUID(tbl).destroy()\r\n    end\r\n\r\n    --mat.destroy()\r\n    --flexControl.destroy()\r\n\r\nend\r\n\r\nfunction deleteSelf()\r\n    broadcastToAll(\"DONE\", \"Yellow\")\r\n    WebRequest.get(\"http://campaign40k.altervista.org/campaign/statistics.php?name=40KMap\", none)\r\n    self.destroy()\r\nend\r\n\r\nfunction deleteTerrain()\r\n    broadcastToAll(\"DELETING TERRAIN\\nwait some seconds ...\", \"Red\")\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(deleteTerrain2, 2)\r\nend\r\n\r\nfunction deleteTerrain2()\r\n    spawnPlayZone()\r\n    Wait.frames(deleteTerrain3, 3)\r\nend\r\n\r\nfunction deleteTerrain3()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, obj in ipairs(zoneObj) do\r\n        if obj.getGUID() ~= \"4ee1f2\" and obj.getGUID() ~= \"28865a\" and obj.getGUID() ~= \"f938a2\" then\r\n            obj.destroy()\r\n        end\r\n    end\r\n    broadcastToAll(\"DONE\", \"Red\")\r\nend\r\n\r\n\r\nfunction spawnPlayZone()\r\n    --local startMenu=getObjectFromGUID(\"738804\")\r\n    --selectedMat= startMenu.getVar(\"matSize\")\r\n    --playZoneData.scale=playZoneScale[selectedMat]\r\n    playZoneData.scale=mat.getScale()\r\n\r\n    playZoneData.scale.x=playZoneData.scale.x*36.02+0.2\r\n    playZoneData.scale.y=100\r\n    playZoneData.scale.z=playZoneData.scale.z*35.83+0.2\r\n    --print(\"Scale: \"..playZoneData.scale.x..\" * \"..playZoneData.scale.y..\" * \"..playZoneData.scale.z)\r\n    playZone=spawnObject(playZoneData)\r\nend\r\nfunction injectLua()\r\n    local objList = getAllObjects()\r\n    local oldLua = \"\"\r\n    local addLua = '\\nBCBtype = \"terrain\"\\n'\r\n    local newLua = \"\"\r\n    for i, obj in ipairs(objList) do\r\n        if obj.getVar(\"BCBtype\") == \"terrain\" or obj == matUrlDisplay then\r\n\r\n        else\r\n            oldLua = obj.getLuaScript()\r\n            newLua = addLua .. oldLua\r\n            obj.setLuaScript(newLua)\r\n        end\r\n    end\r\n    Wait.frames(deleteSelf, 1)\r\nend\r\n\r\nfunction none()\r\nend",
       "LuaScriptState": "",
       "XmlUI": ""
@@ -28273,12 +28453,12 @@
       "GUID": "0ee13f",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 85.0,
+        "posX": 85.00001,
         "posY": 0.9306005,
-        "posZ": -88.0,
-        "rotX": 7.521195E-07,
+        "posZ": -88.00001,
+        "rotX": 3.64783631E-07,
         "rotY": 90.008606,
-        "rotZ": 1.22928225E-06,
+        "rotZ": 1.89114257E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29222,9 +29402,9 @@
         "posX": 73.0,
         "posY": 0.9305996,
         "posZ": -50.0,
-        "rotX": 6.92300262E-07,
+        "rotX": 4.55721732E-07,
         "rotY": 90.00196,
-        "rotZ": 1.725288E-06,
+        "rotZ": 1.47944979E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -30286,9 +30466,9 @@
         "posX": 85.0,
         "posY": 0.9305956,
         "posZ": 88.0,
-        "rotX": 9.962015E-07,
+        "rotX": 8.470625E-07,
         "rotY": 90.008606,
-        "rotZ": 1.6411052E-06,
+        "rotZ": 1.50936978E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -31349,9 +31529,9 @@
         "posX": 67.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": -1.51407312E-06,
+        "rotX": -6.12220163E-07,
         "rotY": 270.01886,
-        "rotZ": -6.826259E-07,
+        "rotZ": -2.622736E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31398,11 +31578,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499993,
+        "posY": 0.9499992,
         "posZ": -14.000001,
-        "rotX": 6.826003E-07,
+        "rotX": 2.00422733E-06,
         "rotY": 270.1181,
-        "rotZ": -1.74021079E-06,
+        "rotZ": -1.29002865E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31449,11 +31629,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999332,
+        "posY": 0.9499994,
         "posZ": -16.0000019,
-        "rotX": 1.81473922E-06,
+        "rotX": -1.1114385E-08,
         "rotY": 269.91687,
-        "rotZ": -1.22663732E-06,
+        "rotZ": 1.30739511E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31500,11 +31680,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": -1.95933E-06,
+        "rotX": -2.056021E-06,
         "rotY": 270.0437,
-        "rotZ": -1.05171227E-06,
+        "rotZ": 8.22655352E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31553,9 +31733,9 @@
         "posX": 67.0,
         "posY": 0.9499992,
         "posZ": -12.0,
-        "rotX": 1.315693E-06,
+        "rotX": -2.08126971E-06,
         "rotY": 269.875183,
-        "rotZ": -9.835677E-07,
+        "rotZ": -1.71513261E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31602,11 +31782,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999034,
+        "posY": 0.949999154,
         "posZ": -8.000001,
-        "rotX": -2.28346516E-06,
-        "rotY": 270.0313,
-        "rotZ": -4.08064125E-06,
+        "rotX": -9.61331E-07,
+        "rotY": 270.031342,
+        "rotZ": -1.064954E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31655,7 +31835,7 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 14.0,
-        "rotX": -1.85161275E-06,
+        "rotX": 8.069869E-07,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31706,9 +31886,9 @@
         "posX": 67.0,
         "posY": 0.9499984,
         "posZ": 15.9999552,
-        "rotX": -5.93180459E-07,
+        "rotX": -6.21039248E-07,
         "rotY": 269.9995,
-        "rotZ": -2.35723542E-06,
+        "rotZ": -3.95699573E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31757,7 +31937,7 @@
         "posX": 67.0,
         "posY": 0.949998558,
         "posZ": 10.0,
-        "rotX": -3.449327E-07,
+        "rotX": -1.20102516E-06,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31807,7 +31987,7 @@
       "Transform": {
         "posX": 66.00005,
         "posY": 0.9611341,
-        "posZ": 12.0007315,
+        "posZ": 12.0007381,
         "rotX": 90.0,
         "rotY": 89.96401,
         "rotZ": 0.0,
@@ -33139,11 +33319,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499987,
+        "posY": 0.9499986,
         "posZ": 11.9999962,
-        "rotX": -3.30386342E-07,
-        "rotY": 269.999268,
-        "rotZ": -2.151993E-06,
+        "rotX": 3.62540277E-07,
+        "rotY": 269.999329,
+        "rotZ": -2.15653176E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -33449,6 +33629,9 @@
         },
         "CastShadows": true
       },
+      "Bag": {
+        "Order": 0
+      },
       "LuaScript": "--Based off: https://steamcommunity.com/sharedfiles/filedetails/?id=726800282\r\n--Link for this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=959360907\r\nlastRolls={}\r\nscaleBtn=3\r\nprintLastBtn={\r\n    label=\"Last roll\", click_function=\"printLast\", function_owner=self,\r\n    position={-2.5,0.1,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}, scale={scaleBtn,scaleBtn,scaleBtn}\r\n}\r\nprintLast5Btn={\r\n    label=\"Last 5 rolls\", click_function=\"printLast5\", function_owner=self,\r\n    position={2.5,0.1,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}, scale={scaleBtn,scaleBtn,scaleBtn}\r\n}\r\n\r\nfunction printLast()\r\n\tprintResults(1)\r\nend\r\n\r\nfunction printLast5()\r\n\tprintResults(5)\r\nend\r\n\r\nfunction printResults(n)\r\n\tif #lastRolls==0 then\r\n\t\tprintToAll(\"NO LAST ROLLS !!!\\n\", \"Yellow\")\r\n\telse\r\n\t\tprintToAll(\"LAST ROLLS\\n\")\r\n\tend\r\n\tfor i, result in ipairs(lastRolls) do\r\n\t\tif i<= n then\r\n\t\t\tprintToAll(i..\"  \"..string.sub(result.msg,3), result.color)\r\n\t\tend\r\n\tend\r\nend\r\n\r\n--Initialize Global Variables and pRNG Seed\r\nglobalXoffset=-1.05\r\nif self.getPosition().x < 0 then globalXoffset=-globalXoffset end\r\nseedcounter = 0\r\nver = 'BCB-2020-04-20'\r\nlastHolder = {}\r\ncustomFace = {4, 6, 8, 10, 12, 20}\r\ndiceGuidFaces = {}\r\nsortedKeys = {}\r\nresultsTable = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}\r\nseedCounter = 0\r\nlocal function seedpRNG() -- constructor\r\n    local function private()\r\n      math.randomseed(tonumber(tostring(os.time()):gsub(\"%.\", \"\"):reverse():sub(1, 7)) + tonumber(tostring(os.clock()):reverse():sub(1, 7)))\r\n      math.random()\r\n      math.random()\r\n      math.random()\r\n      math.random()\r\n    end\r\n    return {\r\n        func = function()\r\n            private()\r\n        end\r\n    }\r\nend\r\nlocal m = seedpRNG()\r\nm.func()\r\n\r\n--Determine the person who put the dice in the box.\r\nfunction onObjectPickedUp(playerColor, obj)\r\n\tlastHolder[obj] = playerColor\r\nend\r\n\r\n--Reset the person holding the dice when no dice are held.\r\nfunction onObjectDestroyed(obj)\r\n\tlastHolder[obj] = nil\r\nend\r\n\r\n--Reset description on load if empty.\r\nfunction onLoad(save_state)\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\tself.createButton(printLastBtn)\r\n\tself.createButton(printLast5Btn)\r\nend\r\n\r\n--Returns description on game save.\r\nfunction onSave()\r\n\treturn self.getDescription()\r\nend\r\n\r\n--Reset description on drop if empty.\r\nfunction onDropped(player_color)\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\nend\r\n\r\n--Sets default description.\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({Results = 'no', SmoothDice = 'no', Rows = 'yes', SortNoRows = 'asc', Step = 1.05, Version = ver}))\r\nend\r\n\r\n--Creates a table and sorts the dice guids by value.\r\nfunction sortByVal(t, type)\r\n\tlocal keys = {}\r\n\tfor key in pairs(t) do\r\n\t\ttable.insert(keys, key)\r\n\tend\r\n\tif type == 'asc' then\r\n\t\ttable.sort(keys, function(a, b) return t[a] < t[b] end)\r\n\telseif type == 'desc' then\r\n\t\ttable.sort(keys, function(a, b) return t[a] > t[b] end)\r\n\tend\r\n\treturn keys\r\nend\r\n\r\n--Checks the item dropped in the bag has a guid.\r\nfunction hasGuid(t, g)\r\n\tfor k, v in ipairs(t) do\r\n\t\tif v.guid == g then return true end\r\n\tend\r\n\r\n\treturn false\r\nend\r\n--Runs when non-dice is put into bag\r\nfunction onObjectEnterContainer(container, obj)\r\n    if container == self and obj.tag ~= \"Dice\" then\r\n        local pos = self.getPosition()\r\n        local f = self.getTransformRight()\r\n        self.takeObject({\r\n            position          = {pos.x+20,pos.y+50,pos.z+20},\r\n            smooth            = false,\r\n        })\r\n        return\r\n    end\r\nend\r\n--Runs when an object is dropped in bag.\r\nfunction onCollisionEnter(collision_info)\r\n\tplayerColor = lastHolder[collision_info.collision_object]\r\n\tif collision_info.collision_object.getGUID() == nil then return end\r\n\tdiceGuidFaces = {}\r\n\tsortedKeys = {}\r\n\r\n--Save number of faces on dice\r\n\tfor k, v in ipairs(getAllObjects()) do\r\n\t\tif v.tag == 'Dice' then\r\n\t\t\tobjType = tostring(v)\r\n\t\t\tfaces = tonumber(string.match(objType, 'Die_(%d+).*'))\r\n\t\t\tif faces == nil then\r\n\t\t\t\tfaces = tonumber(customFace[v.getCustomObject().type + 1])\r\n\t\t\tend\r\n\t\tdiceGuidFaces[v.getGUID()] = faces\r\n\t\ttable.insert(sortedKeys, v.getGUID())\r\n\t\tend\r\n\tend\r\n\r\n--[[Benchmarking code\r\nif resetclock ~= 1 then\r\nclockstart = os.clock()\r\nresetclock = 1\r\nend--]]\r\n\r\n--Creates a timer to take the dice out and position them.\r\n\tWait.time(|| takeDiceOut(), 0.3)\r\nend\r\n\r\n--Function to take the dice out of the bag and position them.\r\nfunction takeDiceOut(tab)\r\n\tlocal data = JSON.decode(self.getDescription())\r\n\tif data == nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored default configuration.', {0.8, 0.5, 0})\r\n\tend\r\n\r\n\tif data.Step < 1 then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - \"step\" can\\'t be lower than 1. Restored default configuration.', {0.8, 0.5, 0})\r\n\tend\r\n\r\n\tdiceGuids = {}\r\n\tfor k, v in pairs(self.getObjects()) do\r\n\t\tfaces = diceGuidFaces[v.guid]\r\n\t\tif v.name ==\"BCB-D3\" then\r\n\t\t\tfaces=3\r\n\t\tend\r\n\t\tr = math.random(faces)\r\n    seedCounter = seedCounter+math.random(1,10)\r\n    if seedCounter > 1000 then\r\n      m.func()\r\n      seedCounter = 0\r\n    end\r\n\t\tdiceGuids[v.guid] = r\r\n\tend\r\n\r\n\tlocal objs = self.getObjects()\r\n\tlocal position = self.getPosition()\r\n\trotation = self.getRotation()\r\n\tsortedKeys = sortByVal(diceGuids, data.SortNoRows)\r\n\tRows = {}\r\n\tn = 1\r\n\tfor _, key in pairs(sortedKeys) do\r\n\t\tif diceGuids[key] == math.floor(diceGuids[key]) then\r\n\t\t\tresultsTable[diceGuids[key]] = resultsTable[diceGuids[key]] + 1\r\n\t\tend\r\n\r\n\tif hasGuid(objs, key) then\r\n\t\tif Rows[diceGuids[key]] == nil then\r\n\t\t\tRows[diceGuids[key]] = 0\r\n\t\tend\r\n\t\tRows[diceGuids[key]] = Rows[diceGuids[key]] + 1\r\n\t\tparams = {}\r\n\t\tparams.guid = key\r\n\t\tlocal d12Xoffset=globalXoffset\r\n\t\tlocal d12Zoffset=0\r\n\t\tif diceGuids[key]>6 then\r\n\t\t\t d12Xoffset=globalXoffset-24\r\n\t\t\t d12Zoffset=6\r\n\t\tend\r\n\t\tif data.Rows == 'no' then\r\n\t\t\tparams.position = { position.x + (-1) * math.sin((90 + rotation.y) * 0.0174532) * (n + 0.5) * data.Step,\r\n\t\t\tposition.y + 1,\r\n\t\t\tposition.z + (-1) * math.cos((90 + rotation.y) * 0.0174532) * (n + 0.5) * data.Step}\r\n\t\telse\r\n\t\t\tparams.position = {\r\n\t\t\tposition.x + d12Xoffset + (Rows[diceGuids[key]] * math.cos((180 + self.getRotation().y) * 0.0174532)) * data.Step - (diceGuids[key] * math.sin((180 + self.getRotation().y) * 0.0174532)) * data.Step,\r\n\t\t\tposition.y + 2,\r\n\t\t\tposition.z  + (Rows[diceGuids[key]] * math.sin((self.getRotation().y) * 0.0174532)) * data.Step + ((diceGuids[key]-d12Zoffset)* math.cos((0 + self.getRotation().y) * 0.0174532)) * data.Step}\r\n\t\tend\r\n\r\n--params.rotation = {rotation.x, rotation.y, rotation.z}\r\n\t\tparams.callback = 'setValueCallback'\r\n\t\tparams.params = {diceGuids[key]}\r\n\t\tparams.smooth = false\r\n\t\tif data.SmoothDice == 'yes' then params.smooth = true end\r\n\t\t\tself.takeObject(params)\r\n\t\t\tn = n + 1\r\n\t\tend\r\n\tend\r\n\r\n\tprintresultsTable()\r\n--[[Benchmarking code\r\n\tclockend = os.clock()\r\n\tresetclock=0\r\n\tprint('Runtime: ' .. clockend-clockstart .. ' seconds.')--]]\r\nend\r\n\r\n--Function to count resultsTable for printing.\r\nfunction sum(t)\r\n\tlocal sum = 0\r\n\tfor k, v in pairs(t) do\r\n\t\tsum = sum + v\r\n\tend\r\n\r\n\treturn sum\r\nend\r\n\r\n--Prints resultsTable.\r\nfunction printresultsTable()\r\n\tlocal data = JSON.decode(self.getDescription())\r\n\tlocal description = {'Ones.', 'Twos.', 'Threes.', 'Fours.', 'Fives.', 'Sixes.', 'Sevens.', 'Eights.', 'Nines.', 'Tens.', 'Elevens.', 'Twelves.', 'Thirteens.', 'Fourteens.', 'Fifteens.', 'Sixteens.', 'Seventeens', 'Eighteens.', 'Nineteens.', 'Twenties.'}\r\n\tlocal msg = ''\r\n\tlocal color={1,1,1}\r\n\tfor dieFace, numRolled in ipairs(resultsTable) do\r\n\t\tif numRolled > 0 then\r\n\t\t\tmsg = msg .. numRolled .. ' ' .. description[dieFace] .. ' '\r\n\t\tend\r\n\tend\r\n\r\n\tlocal time = '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n\tif playerColor == nil then\r\n\t\tmsg='*******************************************************\\n' .. time .. '~UNKNOWN PLAYER~ rolls:\\n' .. msg .. '*******************************************************'\r\n\telse\r\n\t\tmsg='*******************************************************\\n' .. time .. Player[playerColor].steam_name .. ' rolls:\\n' .. msg .. '*******************************************************'\r\n\t\tcolor=stringColorToRGB(playerColor)\r\n\tend\r\n\tlocal rolltorecord={msg=msg, color=color}\r\n\tif sum(resultsTable) > 0 then\r\n\t\tif #lastRolls >= 5 then\r\n\t\t\ttable.remove(lastRolls, 1)\r\n\t\tend\r\n\t\ttable.insert(lastRolls, #lastRolls+1, rolltorecord)\r\n\tend\r\n\r\n\tif sum(resultsTable) > 0 and data.Results == 'yes' then\r\n\t\tprintToAll(msg, color)\r\n\tend\r\n\r\n\tfor k,v in ipairs(resultsTable) do\r\n\t\tresultsTable[k] = 0\r\n\tend\r\nend\r\n\r\n--Sets the value of the physical dice object and reorients them if needed.\r\nfunction setValueCallback(obj, tab)\r\n    function insidef()\r\n        obj.setValue(tab[1])\r\n        if obj.tag == 'Dice' then\r\n            objType = tostring(obj)\r\n            callFaces = tonumber(string.match(objType, 'Die_(%d+).*'))\r\n            if callFaces == nil then callFaces = tonumber(customFace[obj.getCustomObject().type + 1]) end\r\n            diceGuidFaces[obj.getGUID()] = callFaces\r\n        end\r\n\r\n        local waitFramesDelay = 35\r\n\r\n        RotValues_4 = {180,0,180,180}\r\n        RotValues_6 = {180,180,180,180,180,180}\r\n        RotValues_8 = {180,180,0,0,0,0,180,180}\r\n        RotValues_10 = {180,0,180,0,180,0,180,0,180,0}\r\n        RotValues_12 = {180,180,180,0,0,180,0,0,180,0,287.93,216}\r\n        RotValues_20 = {239.65,120,0,0,120,0,120,120,120,0,180,301.86,300,300,300,180,60,180,300,180}\r\n        waitFrames(waitFramesDelay)\r\n        local rot = self.getRotation()\r\n        local r = obj.getRotation()\r\n        local v = obj.getValue()\r\n\r\n        if callFaces == 4 then\r\n            obj.setRotation({r.x, rot.y + RotValues_4[v], r.z})\r\n        end\r\n\r\n        if callFaces == 6 then\r\n            obj.setRotation({r.x, rot.y + RotValues_6[v], r.z})\r\n        end\r\n\r\n        if callFaces == 8 then\r\n            obj.setRotation({r.x, rot.y + RotValues_8[v], r.z})\r\n        end\r\n\r\n        if callFaces == 10 then\r\n            obj.setRotation({r.x, rot.y + RotValues_10[v], r.z})\r\n        end\r\n\r\n        if callFaces == 12 then\r\n            obj.setRotation({r.x, rot.y + RotValues_12[v], r.z})\r\n        end\r\n\r\n        if callFaces == 20 then\r\n            obj.setRotation({r.x, rot.y + RotValues_20[v], r.z})\r\n        end\r\n\r\n        return 1\r\n    end\r\n\r\n    startLuaCoroutine(self, 'insidef')\r\nend\r\n\r\n--Coroutine to wait to allow for custom dice positional data to be altered.\r\nfunction waitFrames(frames)\r\n\twhile frames > 0 do\r\n\t\tcoroutine.yield(0)\r\n\t\tframes = frames - 1\r\n\tend\r\nend\r\n\r\n\r\n--Function to print table contents.\r\n--[[\r\nfunction printTable(tempTable)\r\n\tfor k, v in pairs(tempTable) do\r\n\t\tprint('key = ' .. k)\r\n\t\tprint('value =' .. v)\r\n\tend\r\nend\r\n--]]",
       "LuaScriptState": "{\n  \"Results\": \"no\",\n  \"Rows\": \"yes\",\n  \"SmoothDice\": \"no\",\n  \"SortNoRows\": \"asc\",\n  \"Split_on_D12\": \"yes\",\n  \"Step\": 1,\n  \"Version\": \"BCB-2018-12-16\"\n}",
       "XmlUI": ""
@@ -33511,6 +33694,9 @@
         },
         "CastShadows": true
       },
+      "Bag": {
+        "Order": 0
+      },
       "LuaScript": "--Based off: https://steamcommunity.com/sharedfiles/filedetails/?id=726800282\r\n--Link for this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=959360907\r\nlastRolls={}\r\nscaleBtn=3\r\nprintLastBtn={\r\n    label=\"Last roll\", click_function=\"printLast\", function_owner=self,\r\n    position={-2.5,0.1,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}, scale={scaleBtn,scaleBtn,scaleBtn}\r\n}\r\nprintLast5Btn={\r\n    label=\"Last 5 rolls\", click_function=\"printLast5\", function_owner=self,\r\n    position={2.5,0.1,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}, scale={scaleBtn,scaleBtn,scaleBtn}\r\n}\r\n\r\nfunction printLast()\r\n\tprintResults(1)\r\nend\r\n\r\nfunction printLast5()\r\n\tprintResults(5)\r\nend\r\n\r\nfunction printResults(n)\r\n\tif #lastRolls==0 then\r\n\t\tprintToAll(\"NO LAST ROLLS !!!\\n\", \"Yellow\")\r\n\telse\r\n\t\tprintToAll(\"LAST ROLLS\\n\")\r\n\tend\r\n\tfor i, result in ipairs(lastRolls) do\r\n\t\tif i<= n then\r\n\t\t\tprintToAll(i..\"  \"..string.sub(result.msg,3), result.color)\r\n\t\tend\r\n\tend\r\nend\r\n\r\n--Initialize Global Variables and pRNG Seed\r\nglobalXoffset=-1.05\r\nif self.getPosition().x < 0 then globalXoffset=-globalXoffset end\r\nseedcounter = 0\r\nver = 'BCB-2020-04-20'\r\nlastHolder = {}\r\ncustomFace = {4, 6, 8, 10, 12, 20}\r\ndiceGuidFaces = {}\r\nsortedKeys = {}\r\nresultsTable = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}\r\nseedCounter = 0\r\nlocal function seedpRNG() -- constructor\r\n    local function private()\r\n      math.randomseed(tonumber(tostring(os.time()):gsub(\"%.\", \"\"):reverse():sub(1, 7)) + tonumber(tostring(os.clock()):reverse():sub(1, 7)))\r\n      math.random()\r\n      math.random()\r\n      math.random()\r\n      math.random()\r\n    end\r\n    return {\r\n        func = function()\r\n            private()\r\n        end\r\n    }\r\nend\r\nlocal m = seedpRNG()\r\nm.func()\r\n\r\n--Determine the person who put the dice in the box.\r\nfunction onObjectPickedUp(playerColor, obj)\r\n\tlastHolder[obj] = playerColor\r\nend\r\n\r\n--Reset the person holding the dice when no dice are held.\r\nfunction onObjectDestroyed(obj)\r\n\tlastHolder[obj] = nil\r\nend\r\n\r\n--Reset description on load if empty.\r\nfunction onLoad(save_state)\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\tself.createButton(printLastBtn)\r\n\tself.createButton(printLast5Btn)\r\nend\r\n\r\n--Returns description on game save.\r\nfunction onSave()\r\n\treturn self.getDescription()\r\nend\r\n\r\n--Reset description on drop if empty.\r\nfunction onDropped(player_color)\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\nend\r\n\r\n--Sets default description.\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({Results = 'no', SmoothDice = 'no', Rows = 'yes', SortNoRows = 'asc', Step = 1.05, Version = ver}))\r\nend\r\n\r\n--Creates a table and sorts the dice guids by value.\r\nfunction sortByVal(t, type)\r\n\tlocal keys = {}\r\n\tfor key in pairs(t) do\r\n\t\ttable.insert(keys, key)\r\n\tend\r\n\tif type == 'asc' then\r\n\t\ttable.sort(keys, function(a, b) return t[a] < t[b] end)\r\n\telseif type == 'desc' then\r\n\t\ttable.sort(keys, function(a, b) return t[a] > t[b] end)\r\n\tend\r\n\treturn keys\r\nend\r\n\r\n--Checks the item dropped in the bag has a guid.\r\nfunction hasGuid(t, g)\r\n\tfor k, v in ipairs(t) do\r\n\t\tif v.guid == g then return true end\r\n\tend\r\n\r\n\treturn false\r\nend\r\n--Runs when non-dice is put into bag\r\nfunction onObjectEnterContainer(container, obj)\r\n    if container == self and obj.tag ~= \"Dice\" then\r\n        local pos = self.getPosition()\r\n        local f = self.getTransformRight()\r\n        self.takeObject({\r\n            position          = {pos.x+20,pos.y+50,pos.z+20},\r\n            smooth            = false,\r\n        })\r\n        return\r\n    end\r\nend\r\n--Runs when an object is dropped in bag.\r\nfunction onCollisionEnter(collision_info)\r\n\tplayerColor = lastHolder[collision_info.collision_object]\r\n\tif collision_info.collision_object.getGUID() == nil then return end\r\n\tdiceGuidFaces = {}\r\n\tsortedKeys = {}\r\n\r\n--Save number of faces on dice\r\n\tfor k, v in ipairs(getAllObjects()) do\r\n\t\tif v.tag == 'Dice' then\r\n\t\t\tobjType = tostring(v)\r\n\t\t\tfaces = tonumber(string.match(objType, 'Die_(%d+).*'))\r\n\t\t\tif faces == nil then\r\n\t\t\t\tfaces = tonumber(customFace[v.getCustomObject().type + 1])\r\n\t\t\tend\r\n\t\tdiceGuidFaces[v.getGUID()] = faces\r\n\t\ttable.insert(sortedKeys, v.getGUID())\r\n\t\tend\r\n\tend\r\n\r\n--[[Benchmarking code\r\nif resetclock ~= 1 then\r\nclockstart = os.clock()\r\nresetclock = 1\r\nend--]]\r\n\r\n--Creates a timer to take the dice out and position them.\r\n\tWait.time(|| takeDiceOut(), 0.3)\r\nend\r\n\r\n--Function to take the dice out of the bag and position them.\r\nfunction takeDiceOut(tab)\r\n\tlocal data = JSON.decode(self.getDescription())\r\n\tif data == nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored default configuration.', {0.8, 0.5, 0})\r\n\tend\r\n\r\n\tif data.Step < 1 then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - \"step\" can\\'t be lower than 1. Restored default configuration.', {0.8, 0.5, 0})\r\n\tend\r\n\r\n\tdiceGuids = {}\r\n\tfor k, v in pairs(self.getObjects()) do\r\n\t\tfaces = diceGuidFaces[v.guid]\r\n\t\tif v.name ==\"BCB-D3\" then\r\n\t\t\tfaces=3\r\n\t\tend\r\n\t\tr = math.random(faces)\r\n    seedCounter = seedCounter+math.random(1,10)\r\n    if seedCounter > 1000 then\r\n      m.func()\r\n      seedCounter = 0\r\n    end\r\n\t\tdiceGuids[v.guid] = r\r\n\tend\r\n\r\n\tlocal objs = self.getObjects()\r\n\tlocal position = self.getPosition()\r\n\trotation = self.getRotation()\r\n\tsortedKeys = sortByVal(diceGuids, data.SortNoRows)\r\n\tRows = {}\r\n\tn = 1\r\n\tfor _, key in pairs(sortedKeys) do\r\n\t\tif diceGuids[key] == math.floor(diceGuids[key]) then\r\n\t\t\tresultsTable[diceGuids[key]] = resultsTable[diceGuids[key]] + 1\r\n\t\tend\r\n\r\n\tif hasGuid(objs, key) then\r\n\t\tif Rows[diceGuids[key]] == nil then\r\n\t\t\tRows[diceGuids[key]] = 0\r\n\t\tend\r\n\t\tRows[diceGuids[key]] = Rows[diceGuids[key]] + 1\r\n\t\tparams = {}\r\n\t\tparams.guid = key\r\n\t\tlocal d12Xoffset=globalXoffset\r\n\t\tlocal d12Zoffset=0\r\n\t\tif diceGuids[key]>6 then\r\n\t\t\t d12Xoffset=globalXoffset-24\r\n\t\t\t d12Zoffset=6\r\n\t\tend\r\n\t\tif data.Rows == 'no' then\r\n\t\t\tparams.position = { position.x + (-1) * math.sin((90 + rotation.y) * 0.0174532) * (n + 0.5) * data.Step,\r\n\t\t\tposition.y + 1,\r\n\t\t\tposition.z + (-1) * math.cos((90 + rotation.y) * 0.0174532) * (n + 0.5) * data.Step}\r\n\t\telse\r\n\t\t\tparams.position = {\r\n\t\t\tposition.x + d12Xoffset + (Rows[diceGuids[key]] * math.cos((180 + self.getRotation().y) * 0.0174532)) * data.Step - (diceGuids[key] * math.sin((180 + self.getRotation().y) * 0.0174532)) * data.Step,\r\n\t\t\tposition.y + 2,\r\n\t\t\tposition.z  + (Rows[diceGuids[key]] * math.sin((self.getRotation().y) * 0.0174532)) * data.Step + ((diceGuids[key]-d12Zoffset)* math.cos((0 + self.getRotation().y) * 0.0174532)) * data.Step}\r\n\t\tend\r\n\r\n--params.rotation = {rotation.x, rotation.y, rotation.z}\r\n\t\tparams.callback = 'setValueCallback'\r\n\t\tparams.params = {diceGuids[key]}\r\n\t\tparams.smooth = false\r\n\t\tif data.SmoothDice == 'yes' then params.smooth = true end\r\n\t\t\tself.takeObject(params)\r\n\t\t\tn = n + 1\r\n\t\tend\r\n\tend\r\n\r\n\tprintresultsTable()\r\n--[[Benchmarking code\r\n\tclockend = os.clock()\r\n\tresetclock=0\r\n\tprint('Runtime: ' .. clockend-clockstart .. ' seconds.')--]]\r\nend\r\n\r\n--Function to count resultsTable for printing.\r\nfunction sum(t)\r\n\tlocal sum = 0\r\n\tfor k, v in pairs(t) do\r\n\t\tsum = sum + v\r\n\tend\r\n\r\n\treturn sum\r\nend\r\n\r\n--Prints resultsTable.\r\nfunction printresultsTable()\r\n\tlocal data = JSON.decode(self.getDescription())\r\n\tlocal description = {'Ones.', 'Twos.', 'Threes.', 'Fours.', 'Fives.', 'Sixes.', 'Sevens.', 'Eights.', 'Nines.', 'Tens.', 'Elevens.', 'Twelves.', 'Thirteens.', 'Fourteens.', 'Fifteens.', 'Sixteens.', 'Seventeens', 'Eighteens.', 'Nineteens.', 'Twenties.'}\r\n\tlocal msg = ''\r\n\tlocal color={1,1,1}\r\n\tfor dieFace, numRolled in ipairs(resultsTable) do\r\n\t\tif numRolled > 0 then\r\n\t\t\tmsg = msg .. numRolled .. ' ' .. description[dieFace] .. ' '\r\n\t\tend\r\n\tend\r\n\r\n\tlocal time = '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n\tif playerColor == nil then\r\n\t\tmsg='*******************************************************\\n' .. time .. '~UNKNOWN PLAYER~ rolls:\\n' .. msg .. '*******************************************************'\r\n\telse\r\n\t\tmsg='*******************************************************\\n' .. time .. Player[playerColor].steam_name .. ' rolls:\\n' .. msg .. '*******************************************************'\r\n\t\tcolor=stringColorToRGB(playerColor)\r\n\tend\r\n\tlocal rolltorecord={msg=msg, color=color}\r\n\tif sum(resultsTable) > 0 then\r\n\t\tif #lastRolls >= 5 then\r\n\t\t\ttable.remove(lastRolls, 1)\r\n\t\tend\r\n\t\ttable.insert(lastRolls, #lastRolls+1, rolltorecord)\r\n\tend\r\n\r\n\tif sum(resultsTable) > 0 and data.Results == 'yes' then\r\n\t\tprintToAll(msg, color)\r\n\tend\r\n\r\n\tfor k,v in ipairs(resultsTable) do\r\n\t\tresultsTable[k] = 0\r\n\tend\r\nend\r\n\r\n--Sets the value of the physical dice object and reorients them if needed.\r\nfunction setValueCallback(obj, tab)\r\n    function insidef()\r\n        obj.setValue(tab[1])\r\n        if obj.tag == 'Dice' then\r\n            objType = tostring(obj)\r\n            callFaces = tonumber(string.match(objType, 'Die_(%d+).*'))\r\n            if callFaces == nil then callFaces = tonumber(customFace[obj.getCustomObject().type + 1]) end\r\n            diceGuidFaces[obj.getGUID()] = callFaces\r\n        end\r\n\r\n        local waitFramesDelay = 35\r\n\r\n        RotValues_4 = {180,0,180,180}\r\n        RotValues_6 = {180,180,180,180,180,180}\r\n        RotValues_8 = {180,180,0,0,0,0,180,180}\r\n        RotValues_10 = {180,0,180,0,180,0,180,0,180,0}\r\n        RotValues_12 = {180,180,180,0,0,180,0,0,180,0,287.93,216}\r\n        RotValues_20 = {239.65,120,0,0,120,0,120,120,120,0,180,301.86,300,300,300,180,60,180,300,180}\r\n        waitFrames(waitFramesDelay)\r\n        local rot = self.getRotation()\r\n        local r = obj.getRotation()\r\n        local v = obj.getValue()\r\n\r\n        if callFaces == 4 then\r\n            obj.setRotation({r.x, rot.y + RotValues_4[v], r.z})\r\n        end\r\n\r\n        if callFaces == 6 then\r\n            obj.setRotation({r.x, rot.y + RotValues_6[v], r.z})\r\n        end\r\n\r\n        if callFaces == 8 then\r\n            obj.setRotation({r.x, rot.y + RotValues_8[v], r.z})\r\n        end\r\n\r\n        if callFaces == 10 then\r\n            obj.setRotation({r.x, rot.y + RotValues_10[v], r.z})\r\n        end\r\n\r\n        if callFaces == 12 then\r\n            obj.setRotation({r.x, rot.y + RotValues_12[v], r.z})\r\n        end\r\n\r\n        if callFaces == 20 then\r\n            obj.setRotation({r.x, rot.y + RotValues_20[v], r.z})\r\n        end\r\n\r\n        return 1\r\n    end\r\n\r\n    startLuaCoroutine(self, 'insidef')\r\nend\r\n\r\n--Coroutine to wait to allow for custom dice positional data to be altered.\r\nfunction waitFrames(frames)\r\n\twhile frames > 0 do\r\n\t\tcoroutine.yield(0)\r\n\t\tframes = frames - 1\r\n\tend\r\nend\r\n\r\n\r\n--Function to print table contents.\r\n--[[\r\nfunction printTable(tempTable)\r\n\tfor k, v in pairs(tempTable) do\r\n\t\tprint('key = ' .. k)\r\n\t\tprint('value =' .. v)\r\n\tend\r\nend\r\n--]]",
       "LuaScriptState": "{\n  \"Results\": \"no\",\n  \"Rows\": \"yes\",\n  \"SmoothDice\": \"no\",\n  \"SortNoRows\": \"asc\",\n  \"Split_on_D12\": \"yes\",\n  \"Step\": 1,\n  \"Version\": \"BCB-2018-12-16\"\n}",
       "XmlUI": ""
@@ -33522,9 +33708,9 @@
         "posX": 73.0,
         "posY": 0.930596769,
         "posZ": 50.0,
-        "rotX": 6.45131365E-07,
+        "rotX": 6.214596E-07,
         "rotY": 90.00196,
-        "rotZ": 1.53311044E-06,
+        "rotZ": 1.64559231E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34586,9 +34772,9 @@
         "posX": -19.3798523,
         "posY": 1.32000017,
         "posZ": -26.84741,
-        "rotX": 1.38165985E-08,
-        "rotY": 0.002797609,
-        "rotZ": -1.49012962E-07,
+        "rotX": -3.79753153E-08,
+        "rotY": 0.002797611,
+        "rotZ": -3.75029252E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34597,7 +34783,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997758,
+        "r": 0.117997713,
         "g": 0.53,
         "b": 1.0
       },
@@ -34677,7 +34863,7 @@
         "posY": 1.32000041,
         "posZ": -27.84741,
         "rotX": 90.0,
-        "rotY": 0.00279326923,
+        "rotY": 0.00279388577,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34687,7 +34873,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997758,
+        "r": 0.117997713,
         "g": 0.53,
         "b": 1.0
       },
@@ -34766,8 +34952,8 @@
         "posX": -19.3798847,
         "posY": 1.32,
         "posZ": -28.84741,
-        "rotX": -4.26469938E-07,
-        "rotY": 0.00277909148,
+        "rotX": 2.002491E-06,
+        "rotY": 0.00277871056,
         "rotZ": 89.99999,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34777,7 +34963,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997758,
+        "r": 0.117997713,
         "g": 0.53,
         "b": 1.0
       },
@@ -34856,8 +35042,8 @@
         "posX": -19.3799,
         "posY": 1.32000041,
         "posZ": -29.84741,
-        "rotX": -1.15267781E-07,
-        "rotY": 0.002802698,
+        "rotX": -2.47731919E-07,
+        "rotY": 0.00280269166,
         "rotZ": 270.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34867,7 +35053,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997758,
+        "r": 0.117997713,
         "g": 0.53,
         "b": 1.0
       },
@@ -34947,7 +35133,7 @@
         "posY": 1.32000041,
         "posZ": -30.84741,
         "rotX": 270.0,
-        "rotY": 0.0028098186,
+        "rotY": 0.002808734,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34957,7 +35143,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996745,
+        "r": 0.117996715,
         "g": 0.53,
         "b": 1.0
       },
@@ -35036,8 +35222,8 @@
         "posX": -19.3799324,
         "posY": 1.32000017,
         "posZ": -31.84741,
-        "rotX": 1.3756059E-07,
-        "rotY": 0.00279714842,
+        "rotX": 7.416709E-08,
+        "rotY": 0.002797159,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35047,7 +35233,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996745,
+        "r": 0.117996715,
         "g": 0.53,
         "b": 1.0
       },
@@ -35126,9 +35312,9 @@
         "posX": 19.3792629,
         "posY": 1.32000029,
         "posZ": 26.8468227,
-        "rotX": 7.067632E-08,
+        "rotX": 2.25255889E-07,
         "rotY": 179.969955,
-        "rotZ": -3.362991E-07,
+        "rotZ": 6.041331E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -35138,8 +35324,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35228,8 +35414,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35306,7 +35492,7 @@
         "posX": 19.3781147,
         "posY": 1.32000017,
         "posZ": 28.8468227,
-        "rotX": -5.90304467E-07,
+        "rotX": -6.436653E-07,
         "rotY": 179.969955,
         "rotZ": 90.0,
         "scaleX": 1.0,
@@ -35318,8 +35504,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35396,7 +35582,7 @@
         "posX": 19.37754,
         "posY": 1.32000017,
         "posZ": 29.84682,
-        "rotX": -5.386111E-07,
+        "rotX": -3.55183175E-07,
         "rotY": 179.969955,
         "rotZ": 270.0,
         "scaleX": 1.0,
@@ -35408,8 +35594,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35498,8 +35684,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35574,9 +35760,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3763924,
-        "posY": 1.32000029,
+        "posY": 1.32000041,
         "posZ": 31.84682,
-        "rotX": -1.49418656E-06,
+        "rotX": -5.15708052E-07,
         "rotY": 179.969955,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -35588,8 +35774,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999978259,
-        "b": 0.0939978
+        "g": 0.0999977961,
+        "b": 0.09399777
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35774,9 +35960,9 @@
         "posX": 70.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -3.01158167E-07,
+        "rotX": -4.5701492E-07,
         "rotY": 270.0,
-        "rotZ": -1.41766714E-06,
+        "rotZ": -1.63258494E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -35876,9 +36062,9 @@
         "posX": 70.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -4.92591141E-07,
+        "rotX": -5.19873538E-07,
         "rotY": 270.0,
-        "rotZ": -1.642332E-06,
+        "rotZ": -1.63870789E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -35978,9 +36164,9 @@
         "posX": 70.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -6.237568E-07,
+        "rotX": -6.411006E-07,
         "rotY": 270.0,
-        "rotZ": -1.513885E-06,
+        "rotZ": -1.51391987E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36080,9 +36266,9 @@
         "posX": 66.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -3.59861076E-07,
+        "rotX": -5.38820643E-07,
         "rotY": 270.0,
-        "rotZ": -1.58329885E-06,
+        "rotZ": -1.65614426E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36182,9 +36368,9 @@
         "posX": 66.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -6.40304961E-07,
+        "rotX": -6.47558E-07,
         "rotY": 270.0,
-        "rotZ": -1.59266858E-06,
+        "rotZ": -1.59900742E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36284,9 +36470,9 @@
         "posX": 66.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -5.163468E-07,
+        "rotX": -6.53057441E-07,
         "rotY": 270.0,
-        "rotZ": -1.52998678E-06,
+        "rotZ": -1.57902809E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36471,12 +36657,12 @@
       "GUID": "06d627",
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 78.0,
-        "posY": 1.00000072,
-        "posZ": -1.000001,
-        "rotX": -1.60420916E-06,
-        "rotY": 180.0118,
-        "rotZ": 180.0,
+        "posX": 78.00018,
+        "posY": 1.00014651,
+        "posZ": -1.00002873,
+        "rotX": 2.4198067E-05,
+        "rotY": 180.012192,
+        "rotZ": 179.999222,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -36522,7 +36708,7 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "-- Made by GenWilhelm\r\n-- https://steamcommunity.com/id/GenWilhelm/\r\n-- Discord: GenWilhelm#6485\r\nversion_card = \"2020-08-01\"\r\nversion_data = \"error\"\r\n\r\nrepo =     \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\nmainRepo = \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\naltRepo = \"https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/\"\r\nusePhubarVersion = true\r\n-- Phubar edit\r\nvictoryCounterGuid={}\r\nvictoryCounterGuid[1]=\"8b0541\"\r\nvictoryCounterGuid[2]=\"a77a54\"\r\n\r\nenableBtn = { label=\"ENABLE\\nETERNAL WAR\\nSCORESHEET\\n\\n(click here)\\n\\nDon't enable if you\\nwant to keep track\\nof VPs manually\\non counters \", width = 6500,\theight = 9500, click_function = 'enableSheet', font_size = 1600,\r\n\t\tfunction_owner = self,\tposition = {1, -0.05, -1}, rotation = {0, 90, 180},\ttooltip = \"\", color=\"Black\", font_color=\"White\"\r\n}\r\n\r\nscoresheetActive=false\r\nspawner_GUID = {\"cff35b\",\"471de1\"}\r\nchangeSpawnerPack = true\r\n\r\nfunction initPackPhb(index_web)\r\n\tpacksIDs = JSON.decode(index_web.text)\r\n\tversion_data = packsIDs.ver -- not used\r\nend\r\n\r\nfunction enableSheet()\r\n\tscoresheetActive=true\r\n\t--writeMenu()\r\n\tself.script_state = onSave()\r\n\tonload(self.script_state)\r\n\tstartGameObj= getObjectFromGUID(Global.getVar(\"startMenu_GUID\"))\r\n\tredObjSpawner= getObjectFromGUID(\"cff35b\")\r\n\tWait.time(function() if not startGameObj.getVar(\"inGame\") then packFromExt({index= redObjSpawner.GetTable(\"selected\")[1]} ) end end, 1.5)\r\nend\r\n\r\n\r\nfunction addSecondaryForPlayer(params)\r\n\tlocal sheetParams= getParams()\r\n\tif Player[params.clicker].steam_name == sheetParams.P1 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i][4].label == \"\" then\r\n\t\t\t\tsec_xyFromExternal(1, i, false, params.secID)\r\n\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tif Player[params.clicker].steam_name == sheetParams.P2 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i+3][4].label == \"\" then\r\n\t\t\t\t\tsec_xyFromExternal(2, i, false, params.secID )\r\n\t\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tprintToColor(\"Resister yourself to scoresheet first!\", params.clicker, \"Red\")\r\nend\r\n\r\nfunction sec_xyFromExternal(x, y, alt, id)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tif id then\r\n--\t\t\tprint(\"Argument id \"..id)\r\n\t\t\tfor i, obj in pairs(selectedPack.data.objectives) do\r\n--\t\t\t\tprint(\"fido\")\r\n\t\t\t\tfor j, val in pairs(obj) do\r\n\t\t\t\t--\tprint(j)\r\n\t\t\t\t--\tprint(val)\r\n\t\t\t\tend\r\n\t\t\t\tif obj.id == id then\r\n--\t\t\t\t\tprint(\"FOUND \"..obj.name..\"  ID \"..obj.id)\r\n\t\t\t\t\tvalue = i\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n--\t\tprint(\"VALUE IS \"..value)\r\n--\t\tprint(\"# \"..#selectedPack.data.objectives[ tostring(value) ])\r\n\t\tbutton[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\tbutton[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\tself.editButton( button[5][w][4] )\r\n\tend\r\nend\r\n\r\n-- END Phubar edit\r\n\r\n-- round, player, scored\r\nprimary = {\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}}\r\n}\r\n\r\n-- player, secondary, (id, score, category)\r\nsecondary = {\r\n\t{{0,0,0},{0,0,0},{0,0,0}},\r\n\t{{0,0,0},{0,0,0},{0,0,0}}\r\n}\r\n\r\npacksIDs = {}\r\npacksData = {}\r\nselectedPack = {index = 0, data = {}}\r\n\r\nbutton = {}\r\n\r\nplayerOneTitle = {\r\n\tindex = 0,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 1\",\r\n\tclick_function = 'p1',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, -4.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\nplayerTwoTitle = {\r\n\tindex = 1,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 2\",\r\n\tclick_function = 'p2',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, 2.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\n\r\nplayerTotal = {\r\n\t{\r\n\t\tindex = 2,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, -4},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 1\"\r\n\t},\r\n\t{\r\n\t\tindex = 3,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, 2},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 2\"\r\n\t}\r\n}\r\n\r\npackButton = {\r\n\tindex = 4,\r\n\twidth = 4500,\r\n\theight = 500,\r\n\tlabel = \"\",\r\n\tclick_function = 'pack',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-6.25, -0.05, -1},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to cycle mission packs,\\nright-click to cycle backwards.\"\r\n}\r\n\r\np = 1\r\n\r\nfunction onload(save_data) -- PHUBAR version\r\n\tif save_data ~= \"\" then\r\n\t\tlocal data = JSON.decode(save_data)\r\n\t\tif data then\r\n\t\t\tscoresheetActive = data.scoresheetActive\r\n\t\t\tprimary = data.primary\r\n\t\t\tsecondary = data.secondary\r\n\t\t\tpacksData = data.packsData\r\n\t\t\tselectedPack = data.selectedPack\r\n\t\tend\r\n\tend\r\n----------\r\n\tif usePhubarVersion then\r\n\t\tself.clearButtons()\r\n\t\tif not scoresheetActive then\r\n\t\t\tself.createButton(enableBtn)\r\n\t\t\treturn\r\n\t\tend\r\n\t\tWait.time(function() self.setPosition({78,1,-1}) end, 1)\r\n\t\tlocal spawnerR= getObjectFromGUID(spawner_GUID[1])\r\n\t\tlocal spawnerB= getObjectFromGUID(spawner_GUID[2])\r\n\t\trepo = mainRepo -- altRepo or mainRepo\r\n\r\n\t\tif spawnerR then\r\n\t\t\tspawnerR.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\t\tif spawnerB then\r\n\t\t\tspawnerB.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\tend\r\n-----------\r\n\t WebRequest.get( repo .. \"index.json\", function(index_web)\r\n\t\tself.createButton( playerOneTitle )\r\n\t\tself.createButton( playerTwoTitle )\r\n\t\tself.createButton( playerTotal[1] )\r\n\t\tself.createButton( playerTotal[2] )\r\n\t\tif #packsData ~= 0 then\r\n\t\t\tif selectedPack then\r\n\t\t\t\tif selectedPack.index then\r\n\t\t\t\t\tif packsData[selectedPack.index].name then\r\n\t\t\t\t\t\tpackButton.label = packsData[selectedPack.index].name\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\tself.createButton( packButton )\r\n\r\n\t\tpacksIDs = JSON.decode(index_web.text)\r\n\t\tversion_data = packsIDs.ver\r\n\r\n\t\tif data and false then\r\n\r\n\t\t\tif #data.packsData == 0 then\r\n\t\t\t\tgetPacks()\r\n\t\t\tend\r\n\t\t\t\tprint(\"loaded data2\")\r\n\t\t\t\tprimary = data.primary\r\n\t\t\t\tsecondary = data.secondary\r\n\t\t\t\tpacksData = data.packsData\r\n\t\t\t\tselectedPack = data.selectedPack\r\n\t\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tif #packsData == 0 then\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tlocal b_xpos = 0\r\n\t\tlocal b_ypos = -3.75\r\n\t\tlocal b_index = 5\r\n\r\n\t\tfor i=1,4 do\r\n\t\t\tbutton[i] = {}\r\n\t\t\tb_xpos = -6.15\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tbutton[i][j] = {}\r\n\r\n\t\t\t\tfor k=1,4 do\r\n\t\t\t\t\tlocal newButton = {\r\n\t\t\t\t\t\tindex = 0,\r\n\t\t\t\t\t\twidth = 600,\r\n\t\t\t\t\t\theight = 600,\r\n\t\t\t\t\t\tlabel = \"0\",\r\n\t\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\t\tfont_size = 500,\r\n\t\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\t\ttooltip = \"Total 0-15\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t\tnewButton.index = b_index\r\n\t\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\t\t\t\t\tb_xpos = b_xpos + 1.25\r\n\r\n\t\t\t\t\tif k ~= 4 then\r\n\t\t\t\t\t\tnewButton.click_function = 'toggle_' .. i .. j .. k\r\n\t\t\t\t\t\tnewButton.label = \"\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tif k == 1 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 1+\"\r\n\t\t\t\t\telseif k == 2 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 2+\"\r\n\t\t\t\t\telseif k == 3 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold More\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tbutton[i][j][k] = newButton\r\n\t\t\t\t\tself.createButton( button[i][j][k] )\r\n\t\t\t\tend\r\n\r\n\t\t\t\tb_xpos = 0.4\r\n\t\t\tend\r\n\r\n\t\t\tb_ypos = b_ypos + 2.5\r\n\t\tend\r\n\r\n\r\n\t\tbutton[5] = {}\r\n\t\tb_xpos = -1.9\r\n\t\tb_ypos = b_ypos - 0.1\r\n\r\n\t\tfor i=1,6 do\r\n\t\t\tbutton[5][i] = {}\r\n\r\n\t\t\tlocal newButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 500,\r\n\t\t\t\theight = 500,\r\n\t\t\t\tlabel = \"0\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 400,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Secondary\"\r\n\t\t\t}\r\n\r\n\t\t\tnewButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\r\n\t\t\tbutton[5][i][1] = newButton\r\n\t\t\tself.createButton( button[5][i][1] )\r\n\r\n\t\t\tlocal ind = secIndex(i)\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tlocal smallButton = {\r\n\t\t\t\t\tindex = 0,\r\n\t\t\t\t\twidth = 250,\r\n\t\t\t\t\theight = 250,\r\n\t\t\t\t\tlabel = \"\",\r\n\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\tfont_size = 200,\r\n\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\ttooltip = \"\"\r\n\t\t\t\t}\r\n\r\n\t\t\t\tsmallButton.index = b_index\r\n\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\tif j == 1 then\r\n\t\t\t\t\tsmallButton.position = {b_ypos - 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"+\"\r\n\t\t\t\t\tsmallButton.click_function = 'plus_' .. ind[1] .. ind[2]\r\n\t\t\t\telse\r\n\t\t\t\t\tsmallButton.position = {b_ypos + 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"-\"\r\n\t\t\t\t\tsmallButton.click_function = 'sub_' .. ind[1] .. ind[2]\r\n\t\t\t\tend\r\n\r\n\t\t\t\tbutton[5][i][j+1] = smallButton\r\n\t\t\t\tself.createButton( button[5][i][j+1] )\r\n\t\t\tend\r\n\r\n\t\t\tlocal nameButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 2000,\r\n\t\t\t\theight = 350,\r\n\t\t\t\tlabel = \"\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 200,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t\t}\r\n\r\n\t\t\tnameButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnameButton.position = {b_ypos, -0.05, b_xpos - 3.1}\r\n\t\t\tnameButton.click_function = 'sec_' .. ind[1] .. ind[2]\r\n\r\n\t\t\tbutton[5][i][4] = nameButton\r\n\t\t\tself.createButton( button[5][i][4] )\r\n\r\n\t\t\tb_ypos = b_ypos + 1\r\n\r\n\t\t\tif i == 3 then\r\n\t\t\t\tb_ypos = b_ypos - 3\r\n\t\t\t\tb_xpos = 4.5\r\n\t\t\tend\r\n\t\tend\r\n\r\n\r\n\t\tWait.time(slowUpdate, 2)\r\n\t--[[\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_timer_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"slowUpdate\",\r\n\t\t\tdelay          = 2,\r\n\t\t\trepetitions    = 0\r\n\t\t})]]\r\n\tend)\r\n\tif selectedPack.index == 0  then\r\n\t\tWait.time(function() pack(self, \"Red\", false) end, 1)\r\n\tend\r\nend\r\n\r\n\r\nfunction onSave()\r\n\tlocal save_data = {\r\n\t\tscoresheetActive = scoresheetActive,\r\n\t\tprimary = primary,\r\n\t\tsecondary = secondary,\r\n\t\tpacksData = packsData,\r\n\t\tselectedPack = selectedPack\r\n\t}\r\n\treturn JSON.encode(save_data)\r\nend\r\n\r\nfunction onScriptingButtonDown(index, color)\r\n\tif index == 9 and color == \"White\" then\r\n\t\tupdateAll(true)\r\n\t\tpacksData = {}\r\n\t\tselectedPack = {}\r\n\t\tpackButton.label = \"\"\r\n\t\tself.editButton( packButton )\r\n\t\tprint(\"Cleared sheet.\")\r\n\tend\r\nend\r\n\r\nfunction updateAll(reset)\r\n\tlocal reset = false -- fix for letting FACTION SPECIFIC to be a separate pack\r\n\tfor i=1,4 do\r\n\t\tfor j=1,2 do\r\n\t\t\tfor k=1,3 do\r\n\t\t\t\tif reset then primary[i][j][k] = 0 end\r\n\t\t\t\tupdatePrimary(i, j ,k)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfor n=1,2 do\r\n\t\tfor m=1,3 do\r\n\t\t\tif reset then secondary[n][m] = {0,0,0} end\r\n\t\t\tupdateSecondary(n, m)\r\n\r\n\t\t\tlocal v = secondary[n][m][1]\r\n\t\t\tlocal l = 0\r\n\r\n\t\t\tif n == 1 then\r\n\t\t\t\tl = m\r\n\t\t\telse\r\n\t\t\t\tl = m + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][l][4].label = selectedPack.data.objectives[tostring(v)].name\r\n\t\t\tbutton[5][l][4].tooltip = selectedPack.data.objectives[tostring(v)].description\r\n\t\t\tself.editButton( button[5][l][4] )\r\n\t\tend\r\n\tend\r\n\r\n\tif not reset then\r\n\t\tpackButton.label = selectedPack.data.name\r\n\t\tself.editButton( packButton )\r\n\tend\r\nend\r\n\r\nfunction slowUpdate()\r\n\tlocal params = getParams()\r\n\r\n\tif playerOneTitle.label ~= params.P1 then\r\n\t\tplayerOneTitle.label = params.P1\r\n\t\tself.editButton(playerOneTitle)\r\n\t\tplayerTotal[1].tooltip = params.P1\r\n\tend\r\n\r\n\tif playerTwoTitle.label ~= params.P2 then\r\n\t\tplayerTwoTitle.label = params.P2\r\n\t\tself.editButton(playerTwoTitle)\r\n\t\tplayerTotal[2].tooltip = params.P2\r\n\tend\r\n\r\n\tif params.ver_card ~= version_card then\r\n\t\tparams.ver_card = version_card\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\tif params.ver_data ~= version_data then\r\n\t\tparams.ver_data = version_data\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\nend\r\n\r\n\r\nfunction nothing()\r\nend\r\n\r\nfunction getPacks()\r\n\tlocal id = packsIDs.packs[p]\r\n\r\n\tWebRequest.get( repo .. id .. \".json\", function(pack_web)\r\n\t\tlocal pack_data = JSON.decode(pack_web.text)\r\n\t\tlocal obj = {}\r\n\r\n\t\tobj[\"0\"] = {\r\n\t\t\tfaction = \"\",\r\n\t\t\tcategory = \"\",\r\n\t\t\tname = \"\",\r\n\t\t\tdescription = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t}\r\n\r\n\t\tlocal i = 1\r\n\r\n\t\tfor _, faction in ipairs(pack_data.factions) do\r\n\t\t\tfor _, category in ipairs(faction.categories) do\r\n\t\t\t\tfor _, objective in ipairs(category.objectives) do\r\n\t\t\t\t\tobjective.faction = faction.name\r\n\t\t\t\t\tobjective.category = category.name\r\n\r\n\t\t\t\t\tif objective.name == \"While We Stand, We Fight\" then objective.name = \"We Stand, We Fight\" end\r\n\t\t\t\t\t--yes this is stupid and hacky, don't @ me.\r\n\r\n\t\t\t\t\tobj[tostring(i)] = objective\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\t\t--table.insert(obj, objective)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\ttable.insert(packsData, {\r\n\t\t\tver = pack_data.ver,\r\n\t\t\tname = pack_data.name,\r\n\t\t\tobjectives = obj\r\n\t\t})\r\n\r\n\t\tif p < #packsIDs.packs then\r\n\t\t\tp = p + 1\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tpack()\r\n\t\tend\r\n\tend)\r\nend\r\n\r\nwarned = false\r\n\r\nfunction packFromExt(params)\r\n\tif not scoresheetActive then return end\r\n\tlocal i = params.index\r\n\tselectedPack.index = i\r\n\tselectedPack.data = packsData[i]\r\n\tpackButton.label = packsData[i].name\r\n\tself.editButton( packButton )\r\n\tupdateAll(true)\r\nend\r\n\r\nfunction pack(_, _, alt)\r\n\tif true or (warned or -- adde true for letting FACTIONS to be a separate pack\r\n\t\t(\r\n\t\t\tplayerSum(1) == 10 and\r\n\t\t\tplayerSum(2) == 10 and\r\n\t\t\tsecondary[1][1][1] == 0 and\r\n\t\t\tsecondary[1][2][1] == 0 and\r\n\t\t\tsecondary[1][3][1] == 0 and\r\n\t\t\tsecondary[2][1][1] == 0 and\r\n\t\t\tsecondary[2][2][1] == 0 and\r\n\t\t\tsecondary[2][3][1] == 0\r\n\t\t)\r\n\t)\r\n\tthen\r\n\t\tlocal i = selectedPack.index\r\n\r\n\t\tif alt then\r\n\t\t\ti = i - 1\r\n\t\t\tif i < 1 then i = #packsData end\r\n\t\telse\r\n\t\t\ti = i + 1\r\n\t\t\tif i > #packsData then i = 1 end\r\n\t\tend\r\n\r\n\t\tselectedPack.index = i\r\n\t\tselectedPack.data = packsData[i]\r\n\r\n\t\tpackButton.label = packsData[i].name\r\n\t\tself.editButton( packButton )\r\n\r\n\t\tupdateAll(true)\r\n\telse\r\n\t\tprintToAll(\"WARNING: Changing mission pack will reset objectives. Click again to confirm.\", {r=1,g=0,b=0})\r\n\t\twarned = true\r\n\t\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_warning_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"unwarn\",\r\n\t\t\tdelay          = 10\r\n\t\t})\r\n\tend\r\nend\r\n\r\nfunction unwarn()\r\n\twarned = false\r\nend\r\n\r\nfunction plusOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] + diff\r\n\tif sec > 15 then sec = 15 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction subOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] - diff\r\n\tif sec < 0 then sec = 0 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction updateSecondary(x, y)\r\n\tlocal w = 0\r\n\tif x == 1 then\r\n\t\tw = y\r\n\telse\r\n\t\tw = y + 3\r\n\tend\r\n\r\n\tbutton[5][w][1].label = tostring( secondary[x][y][2] )\r\n\tself.editButton(button[5][w][1])\r\n\r\n\tplayerTotal[x].label = tostring( playerSum(x) )\r\n\tself.editButton(playerTotal[x])\r\nend\r\n\r\nfunction toggle(value)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn 1\r\nend\r\n\r\nfunction toggle_other(value, other)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn other\r\nend\r\n\r\nfunction toggle_xyz(x, y, z)\r\n\tprimary[x][y][z] = toggle( primary[x][y][z] )\r\n\tupdatePrimary(x, y, z)\r\n\r\n\tif z == 1 and primary[x][y][z] == 0 then\r\n\t\tprimary[x][y][2] = 0\r\n\t\tprimary[x][y][3] = 0\r\n\t\tupdatePrimary(x, y, 2)\r\n\t\tupdatePrimary(x, y, 3)\r\n\tend\r\n\tif (z == 2 or z == 3) and primary[x][y][z] == 1 then\r\n\t\tprimary[x][y][1] = 1\r\n\t\tupdatePrimary(x, y, 1)\r\n\tend\r\nend\r\n\r\nfunction toggle_other_xyz(x, y, z)\r\n\tw = 3 - y\r\n\tprimary[x][w][z] = toggle_other( primary[x][y][z], primary[x][w][z] )\r\n\tupdatePrimary(x, w ,z)\r\nend\r\n\r\nfunction toggleToStr(value)\r\n\tif value == 1 then\r\n\t\treturn \"X\"\r\n\tend\r\n\treturn \"\"\r\nend\r\n\r\nfunction updatePrimary(x, y ,z)\r\n\tbutton[x][y][z].label = toggleToStr( primary[x][y][z] )\r\n\tself.editButton(button[x][y][z])\r\n\r\n\tbutton[x][y][4].label = tostring( battleRoundSum( primary[x][y] ) )\r\n\tself.editButton(button[x][y][4])\r\n\r\n\tplayerTotal[y].label = tostring( playerSum(y) )\r\n\tself.editButton(playerTotal[y])\r\nend\r\n\r\nfunction battleRoundSum(values)\r\n\tlocal sum = 0\r\n\r\n\tfor i = 1,3 do\r\n\t\tsum = sum + values[i]\r\n\tend\r\n\r\n\treturn sum * 5\r\nend\r\n\r\nfunction playerSum(pId)\r\n\tlocal pri_sum = 0\r\n\tfor j = 1,4 do\r\n\t\tpri_sum = pri_sum + battleRoundSum( primary[j][pId] )\r\n\tend\r\n\tif pri_sum > 45 then pri_sum = 45 end\r\n\r\n\tlocal sec_sum = 0\r\n\tfor k = 1,3 do\r\n\t\tsec_sum = sec_sum + secondary[pId][k][2]\r\n\tend\r\n\tif sec_sum > 45 then sec_sum = 45 end\r\n\tif usePhubarVersion then\r\n\t\tlocal playerCounter = getObjectFromGUID(victoryCounterGuid[pId]) -- Phubar add\r\n\t\tif playerCounter then\r\n\t\t\tplayerCounter.Counter.setValue( pri_sum + sec_sum + 10)\r\n\t\tend\r\n\tend\r\n\treturn pri_sum + sec_sum + 10\r\n\t-- painted army gives +10\r\nend\r\n\r\nfunction getParams()\r\n\tlocal params = JSON.decode( self.getDescription() )\r\n\r\n\tif params == nil then\r\n\t\tparams = {\r\n\t\t\tP1 = \"Player 1\",\r\n\t\t\tP2 = \"Player 2\",\r\n\t\t\tver_card = \"\",\r\n\t\t\tver_data = \"\"\r\n\t\t}\r\n\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\treturn params\r\nend\r\n\r\nfunction secIndex(x)\r\n\treturn {math.ceil(x/3), math.fmod(x-2,3)+2}\r\nend\r\n\r\nfunction p1(obj, clicker, alt)\r\n\tpName(1, obj, clicker, alt)\r\nend\r\nfunction p2(obj, clicker, alt)\r\n\tpName(2, obj, clicker, alt)\r\nend\r\n\r\nfunction pName(p, obj, clicker, alt)\r\n\tlocal params = getParams()\r\n\r\n\tif alt then\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = \"Player 1\"\r\n\t\t\tparams.P1 = \"Player 1\"\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = \"Player 2\"\r\n\t\t\tparams.P2 = \"Player 2\"\r\n\t\tend\r\n\telse\r\n\t\tlocal playerName = Player[clicker].steam_name\r\n\r\n\t\tif string.len( playerName ) > 15 then\r\n\t\t\tplayerName = string.sub( playerName, 1, 14 )\r\n\t\tend\r\n\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = playerName\r\n\t\t\tparams.P1 = playerName\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = playerName\r\n\t\t\tparams.P2 = playerName\r\n\t\tend\r\n\tend\r\n\r\n\tself.editButton(playerOneTitle)\r\n\tself.editButton(playerTwoTitle)\r\n\tself.setDescription(JSON.encode_pretty(params))\r\nend\r\n\r\nfunction sec_xy(x, y, alt)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tbutton[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\tbutton[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\tself.editButton( button[5][w][4] )\r\n\tend\r\nend\r\n\r\nfunction addSecondaryForPlayer2(player, secID)\r\n\tlocal objs = selectedPack.data.objectives\r\n\tlocal secData = {}\r\n\r\n\tfor _, obj in ipairs(objs) do\r\n\t\tif obj.id == secID then\r\n\t\t\tsecData = obj\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\tfor i, sec in ipairs(seconadry[player]) do\r\n\t\tif sec[1] == 0 then\r\n\t\t\tsec[1] = obj.value\r\n\t\t\tsec[3] = obj.category\r\n\r\n\t\t\tlocal j = 0\r\n\t\t\tif player == 1 then\r\n\t\t\t\tj = i\r\n\t\t\telse\r\n\t\t\t\tj = i + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][j][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\t\tbutton[5][j][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\t\tself.editButton( button[5][j][4] )\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\nend\r\n\r\n-- Abandon hope all ye who enter here\r\n\r\nfunction toggle_111()\r\n\ttoggle_xyz(1, 1, 1)\r\nend\r\nfunction toggle_112()\r\n\ttoggle_xyz(1, 1, 2)\r\nend\r\nfunction toggle_113()\r\n\ttoggle_xyz(1, 1, 3)\r\nend\r\n\r\nfunction toggle_121()\r\n\ttoggle_xyz(1, 2, 1)\r\nend\r\nfunction toggle_122()\r\n\ttoggle_xyz(1, 2, 2)\r\nend\r\nfunction toggle_123()\r\n\ttoggle_xyz(1, 2, 3)\r\nend\r\n\r\nfunction toggle_211()\r\n\ttoggle_xyz(2, 1, 1)\r\nend\r\nfunction toggle_212()\r\n\ttoggle_xyz(2, 1, 2)\r\nend\r\nfunction toggle_213()\r\n\ttoggle_xyz(2, 1, 3)\r\nend\r\n\r\nfunction toggle_221()\r\n\ttoggle_xyz(2, 2, 1)\r\nend\r\nfunction toggle_222()\r\n\ttoggle_xyz(2, 2, 2)\r\nend\r\nfunction toggle_223()\r\n\ttoggle_xyz(2, 2, 3)\r\nend\r\n\r\nfunction toggle_311()\r\n\ttoggle_xyz(3, 1, 1)\r\nend\r\nfunction toggle_312()\r\n\ttoggle_xyz(3, 1, 2)\r\nend\r\nfunction toggle_313()\r\n\ttoggle_xyz(3, 1, 3)\r\nend\r\n\r\nfunction toggle_321()\r\n\ttoggle_xyz(3, 2, 1)\r\nend\r\nfunction toggle_322()\r\n\ttoggle_xyz(3, 2, 2)\r\nend\r\nfunction toggle_323()\r\n\ttoggle_xyz(3, 2, 3)\r\nend\r\n\r\nfunction toggle_411()\r\n\ttoggle_xyz(4, 1, 1)\r\nend\r\nfunction toggle_412()\r\n\ttoggle_xyz(4, 1, 2)\r\nend\r\nfunction toggle_413()\r\n\ttoggle_xyz(4, 1, 3)\r\nend\r\n\r\nfunction toggle_421()\r\n\ttoggle_xyz(4, 2, 1)\r\nend\r\nfunction toggle_422()\r\n\ttoggle_xyz(4, 2, 2)\r\nend\r\nfunction toggle_423()\r\n\ttoggle_xyz(4, 2, 3)\r\nend\r\n\r\n\r\nfunction plus_11(_, _, alt)\r\n\tplusOne(1, 1, alt)\r\nend\r\nfunction plus_12(_, _, alt)\r\n\tplusOne(1, 2, alt)\r\nend\r\nfunction plus_13(_, _, alt)\r\n\tplusOne(1, 3, alt)\r\nend\r\nfunction plus_21(_, _, alt)\r\n\tplusOne(2, 1, alt)\r\nend\r\nfunction plus_22(_, _, alt)\r\n\tplusOne(2, 2, alt)\r\nend\r\nfunction plus_23(_, _, alt)\r\n\tplusOne(2, 3, alt)\r\nend\r\n\r\nfunction sub_11(_, _, alt)\r\n\tsubOne(1, 1, alt)\r\nend\r\nfunction sub_12(_, _, alt)\r\n\tsubOne(1, 2, alt)\r\nend\r\nfunction sub_13(_, _, alt)\r\n\tsubOne(1, 3, alt)\r\nend\r\nfunction sub_21(_, _, alt)\r\n\tsubOne(2, 1, alt)\r\nend\r\nfunction sub_22(_, _, alt)\r\n\tsubOne(2, 2, alt)\r\nend\r\nfunction sub_23(_, _, alt)\r\n\tsubOne(2, 3, alt)\r\nend\r\n\r\nfunction sec_11(_, _, alt)\r\n\tsec_xy(1, 1, alt)\r\nend\r\nfunction sec_12(_, _, alt)\r\n\tsec_xy(1, 2, alt)\r\nend\r\nfunction sec_13(_, _, alt)\r\n\tsec_xy(1, 3, alt)\r\nend\r\nfunction sec_21(_, _, alt)\r\n\tsec_xy(2, 1, alt)\r\nend\r\nfunction sec_22(_, _, alt)\r\n\tsec_xy(2, 2, alt)\r\nend\r\nfunction sec_23(_, _, alt)\r\n\tsec_xy(2, 3, alt)\r\nend\r\n",
+      "LuaScript": "-- Made by GenWilhelm\r\n-- https://steamcommunity.com/id/GenWilhelm/\r\n-- Discord: GenWilhelm#6485\r\nversion_card = \"2020-08-01\"\r\nversion_data = \"error\"\r\n\r\nrepo =     \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\nmainRepo = \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\naltRepo = \"https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/\"\r\nusePhubarVersion = true\r\n-- Phubar edit\r\nvictoryCounterGuid={}\r\nvictoryCounterGuid[1]=\"8b0541\"\r\nvictoryCounterGuid[2]=\"a77a54\"\r\n\r\nenableBtn = { label=\"ENABLE\\nETERNAL WAR\\nSCORESHEET\\n\\n(click here)\\n\\nDon't enable if you\\nwant to keep track\\nof VPs manually\\non counters \", width = 6500,\theight = 9500, click_function = 'enableSheet', font_size = 1600,\r\n\t\tfunction_owner = self,\tposition = {1, -0.05, -1}, rotation = {0, 90, 180},\ttooltip = \"\", color=\"Black\", font_color=\"White\"\r\n}\r\n\r\nscoresheetActive=false\r\nspawner_GUID = {\"cff35b\",\"471de1\"}\r\nchangeSpawnerPack = true\r\n\r\nfunction initPackPhb(index_web)\r\n\tpacksIDs = JSON.decode(index_web.text)\r\n\tversion_data = packsIDs.ver -- not used\r\nend\r\n\r\nfunction enableSheet()\r\n\tscoresheetActive=true\r\n\t--writeMenu()\r\n\tself.script_state = onSave()\r\n\tonload(self.script_state)\r\n\tstartGameObj= getObjectFromGUID(Global.getVar(\"startMenu_GUID\"))\r\n\tredObjSpawner= getObjectFromGUID(\"cff35b\")\r\n\tWait.time(function() if not startGameObj.getVar(\"inGame\") then packFromExt({index= redObjSpawner.GetTable(\"selected\")[1]} ) end end, 1.5)\r\nend\r\n\r\n\r\nfunction addSecondaryForPlayer(params)\r\n\tlocal sheetParams= getParams()\r\n\tif Player[params.clicker].steam_name == sheetParams.P1 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i][4].label == \"\" then\r\n\t\t\t\tsec_xyFromExternal(1, i, false, params.secID)\r\n\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tif Player[params.clicker].steam_name == sheetParams.P2 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i+3][4].label == \"\" then\r\n\t\t\t\t\tsec_xyFromExternal(2, i, false, params.secID )\r\n\t\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tprintToColor(\"Resister yourself to scoresheet first!\", params.clicker, \"Red\")\r\nend\r\n\r\nfunction sec_xyFromExternal(x, y, alt, id)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tif id then\r\n--\t\t\tprint(\"Argument id \"..id)\r\n\t\t\tfor i, obj in pairs(selectedPack.data.objectives) do\r\n--\t\t\t\tprint(\"fido\")\r\n\t\t\t\tfor j, val in pairs(obj) do\r\n\t\t\t\t--\tprint(j)\r\n\t\t\t\t--\tprint(val)\r\n\t\t\t\tend\r\n\t\t\t\tif obj.id == id then\r\n--\t\t\t\t\tprint(\"FOUND \"..obj.name..\"  ID \"..obj.id)\r\n\t\t\t\t\tvalue = i\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n--\t\tprint(\"VALUE IS \"..value)\r\n--\t\tprint(\"# \"..#selectedPack.data.objectives[ tostring(value) ])\r\n\t\tbutton[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\tbutton[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\tself.editButton( button[5][w][4] )\r\n\tend\r\nend\r\n\r\n-- END Phubar edit\r\n\r\n-- round, player, scored\r\nprimary = {\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}}\r\n}\r\n\r\n-- player, secondary, (id, score, category)\r\nsecondary = {\r\n\t{{0,0,0},{0,0,0},{0,0,0}},\r\n\t{{0,0,0},{0,0,0},{0,0,0}}\r\n}\r\n\r\npacksIDs = {}\r\npacksData = {}\r\nselectedPack = {index = 0, data = {}}\r\n\r\nbutton = {}\r\n\r\nplayerOneTitle = {\r\n\tindex = 0,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 1\",\r\n\tclick_function = 'p1',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, -4.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\nplayerTwoTitle = {\r\n\tindex = 1,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 2\",\r\n\tclick_function = 'p2',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, 2.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\n\r\nplayerTotal = {\r\n\t{\r\n\t\tindex = 2,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, -4},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 1\"\r\n\t},\r\n\t{\r\n\t\tindex = 3,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, 2},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 2\"\r\n\t}\r\n}\r\n\r\npackButton = {\r\n\tindex = 4,\r\n\twidth = 4500,\r\n\theight = 500,\r\n\tlabel = \"\",\r\n\tclick_function = 'pack',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-6.25, -0.05, -1},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to cycle mission packs,\\nright-click to cycle backwards.\"\r\n}\r\n\r\np = 1\r\n\r\nfunction onload(save_data) -- PHUBAR version\r\n\tif save_data ~= \"\" then\r\n\t\tlocal data = JSON.decode(save_data)\r\n\t\tif data then\r\n\t\t\tscoresheetActive = data.scoresheetActive\r\n\t\t\tprimary = data.primary\r\n\t\t\tsecondary = data.secondary\r\n\t\t\tpacksData = data.packsData\r\n\t\t\tselectedPack = data.selectedPack\r\n\t\tend\r\n\tend\r\n----------\r\n\tif usePhubarVersion then\r\n\t\tself.clearButtons()\r\n\t\tif not scoresheetActive then\r\n\t\t\tself.createButton(enableBtn)\r\n\t\t\treturn\r\n\t\tend\r\n\t\tWait.time(function() self.setPosition({78,1,-1}) end, 1)\r\n\t\tself.setLock(true)\r\n\t\tlocal spawnerR= getObjectFromGUID(spawner_GUID[1])\r\n\t\tlocal spawnerB= getObjectFromGUID(spawner_GUID[2])\r\n\t\trepo = mainRepo -- altRepo or mainRepo\r\n\r\n\t\tif spawnerR then\r\n\t\t\tspawnerR.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\t\tif spawnerB then\r\n\t\t\tspawnerB.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\tend\r\n-----------\r\n\t WebRequest.get( repo .. \"index.json\", function(index_web)\r\n\t\tself.createButton( playerOneTitle )\r\n\t\tself.createButton( playerTwoTitle )\r\n\t\tself.createButton( playerTotal[1] )\r\n\t\tself.createButton( playerTotal[2] )\r\n\t\tif #packsData ~= 0 then\r\n\t\t\tif selectedPack then\r\n\t\t\t\tif selectedPack.index then\r\n\t\t\t\t\tif packsData[selectedPack.index].name then\r\n\t\t\t\t\t\tpackButton.label = packsData[selectedPack.index].name\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\tself.createButton( packButton )\r\n\r\n\t\tpacksIDs = JSON.decode(index_web.text)\r\n\t\tversion_data = packsIDs.ver\r\n\r\n\t\tif data and false then\r\n\r\n\t\t\tif #data.packsData == 0 then\r\n\t\t\t\tgetPacks()\r\n\t\t\tend\r\n\t\t\t\tprint(\"loaded data2\")\r\n\t\t\t\tprimary = data.primary\r\n\t\t\t\tsecondary = data.secondary\r\n\t\t\t\tpacksData = data.packsData\r\n\t\t\t\tselectedPack = data.selectedPack\r\n\t\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tif #packsData == 0 then\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tlocal b_xpos = 0\r\n\t\tlocal b_ypos = -3.75\r\n\t\tlocal b_index = 5\r\n\r\n\t\tfor i=1,4 do\r\n\t\t\tbutton[i] = {}\r\n\t\t\tb_xpos = -6.15\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tbutton[i][j] = {}\r\n\r\n\t\t\t\tfor k=1,4 do\r\n\t\t\t\t\tlocal newButton = {\r\n\t\t\t\t\t\tindex = 0,\r\n\t\t\t\t\t\twidth = 600,\r\n\t\t\t\t\t\theight = 600,\r\n\t\t\t\t\t\tlabel = \"0\",\r\n\t\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\t\tfont_size = 500,\r\n\t\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\t\ttooltip = \"Total 0-15\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t\tnewButton.index = b_index\r\n\t\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\t\t\t\t\tb_xpos = b_xpos + 1.25\r\n\r\n\t\t\t\t\tif k ~= 4 then\r\n\t\t\t\t\t\tnewButton.click_function = 'toggle_' .. i .. j .. k\r\n\t\t\t\t\t\tnewButton.label = \"\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tif k == 1 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 1+\"\r\n\t\t\t\t\telseif k == 2 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 2+\"\r\n\t\t\t\t\telseif k == 3 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold More\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tbutton[i][j][k] = newButton\r\n\t\t\t\t\tself.createButton( button[i][j][k] )\r\n\t\t\t\tend\r\n\r\n\t\t\t\tb_xpos = 0.4\r\n\t\t\tend\r\n\r\n\t\t\tb_ypos = b_ypos + 2.5\r\n\t\tend\r\n\r\n\r\n\t\tbutton[5] = {}\r\n\t\tb_xpos = -1.9\r\n\t\tb_ypos = b_ypos - 0.1\r\n\r\n\t\tfor i=1,6 do\r\n\t\t\tbutton[5][i] = {}\r\n\r\n\t\t\tlocal newButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 500,\r\n\t\t\t\theight = 500,\r\n\t\t\t\tlabel = \"0\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 400,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Secondary\"\r\n\t\t\t}\r\n\r\n\t\t\tnewButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\r\n\t\t\tbutton[5][i][1] = newButton\r\n\t\t\tself.createButton( button[5][i][1] )\r\n\r\n\t\t\tlocal ind = secIndex(i)\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tlocal smallButton = {\r\n\t\t\t\t\tindex = 0,\r\n\t\t\t\t\twidth = 250,\r\n\t\t\t\t\theight = 250,\r\n\t\t\t\t\tlabel = \"\",\r\n\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\tfont_size = 200,\r\n\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\ttooltip = \"\"\r\n\t\t\t\t}\r\n\r\n\t\t\t\tsmallButton.index = b_index\r\n\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\tif j == 1 then\r\n\t\t\t\t\tsmallButton.position = {b_ypos - 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"+\"\r\n\t\t\t\t\tsmallButton.click_function = 'plus_' .. ind[1] .. ind[2]\r\n\t\t\t\telse\r\n\t\t\t\t\tsmallButton.position = {b_ypos + 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"-\"\r\n\t\t\t\t\tsmallButton.click_function = 'sub_' .. ind[1] .. ind[2]\r\n\t\t\t\tend\r\n\r\n\t\t\t\tbutton[5][i][j+1] = smallButton\r\n\t\t\t\tself.createButton( button[5][i][j+1] )\r\n\t\t\tend\r\n\r\n\t\t\tlocal nameButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 2000,\r\n\t\t\t\theight = 350,\r\n\t\t\t\tlabel = \"\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 200,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t\t}\r\n\r\n\t\t\tnameButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnameButton.position = {b_ypos, -0.05, b_xpos - 3.1}\r\n\t\t\tnameButton.click_function = 'sec_' .. ind[1] .. ind[2]\r\n\r\n\t\t\tbutton[5][i][4] = nameButton\r\n\t\t\tself.createButton( button[5][i][4] )\r\n\r\n\t\t\tb_ypos = b_ypos + 1\r\n\r\n\t\t\tif i == 3 then\r\n\t\t\t\tb_ypos = b_ypos - 3\r\n\t\t\t\tb_xpos = 4.5\r\n\t\t\tend\r\n\t\tend\r\n\r\n\r\n\t\tWait.time(slowUpdate, 2)\r\n\t--[[\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_timer_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"slowUpdate\",\r\n\t\t\tdelay          = 2,\r\n\t\t\trepetitions    = 0\r\n\t\t})]]\r\n\tend)\r\n\tif selectedPack.index == 0  then\r\n\t\tWait.time(function() pack(self, \"Red\", false) end, 1)\r\n\tend\r\nend\r\n\r\n\r\nfunction onSave()\r\n\tlocal save_data = {\r\n\t\tscoresheetActive = scoresheetActive,\r\n\t\tprimary = primary,\r\n\t\tsecondary = secondary,\r\n\t\tpacksData = packsData,\r\n\t\tselectedPack = selectedPack\r\n\t}\r\n\treturn JSON.encode(save_data)\r\nend\r\n\r\nfunction onScriptingButtonDown(index, color)\r\n\tif index == 9 and color == \"White\" then\r\n\t\tupdateAll(true)\r\n\t\tpacksData = {}\r\n\t\tselectedPack = {}\r\n\t\tpackButton.label = \"\"\r\n\t\tself.editButton( packButton )\r\n\t\tprint(\"Cleared sheet.\")\r\n\tend\r\nend\r\n\r\nfunction updateAll(reset)\r\n\tlocal reset = false -- fix for letting FACTION SPECIFIC to be a separate pack\r\n\tfor i=1,4 do\r\n\t\tfor j=1,2 do\r\n\t\t\tfor k=1,3 do\r\n\t\t\t\tif reset then primary[i][j][k] = 0 end\r\n\t\t\t\tupdatePrimary(i, j ,k)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfor n=1,2 do\r\n\t\tfor m=1,3 do\r\n\t\t\tif reset then secondary[n][m] = {0,0,0} end\r\n\t\t\tupdateSecondary(n, m)\r\n\r\n\t\t\tlocal v = secondary[n][m][1]\r\n\t\t\tlocal l = 0\r\n\r\n\t\t\tif n == 1 then\r\n\t\t\t\tl = m\r\n\t\t\telse\r\n\t\t\t\tl = m + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][l][4].label = selectedPack.data.objectives[tostring(v)].name\r\n\t\t\tbutton[5][l][4].tooltip = selectedPack.data.objectives[tostring(v)].description\r\n\t\t\tself.editButton( button[5][l][4] )\r\n\t\tend\r\n\tend\r\n\r\n\tif not reset then\r\n\t\tpackButton.label = selectedPack.data.name\r\n\t\tself.editButton( packButton )\r\n\tend\r\nend\r\n\r\nfunction slowUpdate()\r\n\tlocal params = getParams()\r\n\r\n\tif playerOneTitle.label ~= params.P1 then\r\n\t\tplayerOneTitle.label = params.P1\r\n\t\tself.editButton(playerOneTitle)\r\n\t\tplayerTotal[1].tooltip = params.P1\r\n\tend\r\n\r\n\tif playerTwoTitle.label ~= params.P2 then\r\n\t\tplayerTwoTitle.label = params.P2\r\n\t\tself.editButton(playerTwoTitle)\r\n\t\tplayerTotal[2].tooltip = params.P2\r\n\tend\r\n\r\n\tif params.ver_card ~= version_card then\r\n\t\tparams.ver_card = version_card\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\tif params.ver_data ~= version_data then\r\n\t\tparams.ver_data = version_data\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\nend\r\n\r\n\r\nfunction nothing()\r\nend\r\n\r\nfunction getPacks()\r\n\tlocal id = packsIDs.packs[p]\r\n\r\n\tWebRequest.get( repo .. id .. \".json\", function(pack_web)\r\n\t\tlocal pack_data = JSON.decode(pack_web.text)\r\n\t\tlocal obj = {}\r\n\r\n\t\tobj[\"0\"] = {\r\n\t\t\tfaction = \"\",\r\n\t\t\tcategory = \"\",\r\n\t\t\tname = \"\",\r\n\t\t\tdescription = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t}\r\n\r\n\t\tlocal i = 1\r\n\r\n\t\tfor _, faction in ipairs(pack_data.factions) do\r\n\t\t\tfor _, category in ipairs(faction.categories) do\r\n\t\t\t\tfor _, objective in ipairs(category.objectives) do\r\n\t\t\t\t\tobjective.faction = faction.name\r\n\t\t\t\t\tobjective.category = category.name\r\n\r\n\t\t\t\t\tif objective.name == \"While We Stand, We Fight\" then objective.name = \"We Stand, We Fight\" end\r\n\t\t\t\t\t--yes this is stupid and hacky, don't @ me.\r\n\r\n\t\t\t\t\tobj[tostring(i)] = objective\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\t\t--table.insert(obj, objective)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\ttable.insert(packsData, {\r\n\t\t\tver = pack_data.ver,\r\n\t\t\tname = pack_data.name,\r\n\t\t\tobjectives = obj\r\n\t\t})\r\n\r\n\t\tif p < #packsIDs.packs then\r\n\t\t\tp = p + 1\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tpack()\r\n\t\tend\r\n\tend)\r\nend\r\n\r\nwarned = false\r\n\r\nfunction packFromExt(params)\r\n\tif not scoresheetActive then return end\r\n\tlocal i = params.index\r\n\tselectedPack.index = i\r\n\tselectedPack.data = packsData[i]\r\n\tpackButton.label = packsData[i].name\r\n\tself.editButton( packButton )\r\n\tupdateAll(true)\r\nend\r\n\r\nfunction pack(_, _, alt)\r\n\tif true or (warned or -- adde true for letting FACTIONS to be a separate pack\r\n\t\t(\r\n\t\t\tplayerSum(1) == 10 and\r\n\t\t\tplayerSum(2) == 10 and\r\n\t\t\tsecondary[1][1][1] == 0 and\r\n\t\t\tsecondary[1][2][1] == 0 and\r\n\t\t\tsecondary[1][3][1] == 0 and\r\n\t\t\tsecondary[2][1][1] == 0 and\r\n\t\t\tsecondary[2][2][1] == 0 and\r\n\t\t\tsecondary[2][3][1] == 0\r\n\t\t)\r\n\t)\r\n\tthen\r\n\t\tlocal i = selectedPack.index\r\n\r\n\t\tif alt then\r\n\t\t\ti = i - 1\r\n\t\t\tif i < 1 then i = #packsData end\r\n\t\telse\r\n\t\t\ti = i + 1\r\n\t\t\tif i > #packsData then i = 1 end\r\n\t\tend\r\n\r\n\t\tselectedPack.index = i\r\n\t\tselectedPack.data = packsData[i]\r\n\r\n\t\tpackButton.label = packsData[i].name\r\n\t\tself.editButton( packButton )\r\n\r\n\t\tupdateAll(true)\r\n\telse\r\n\t\tprintToAll(\"WARNING: Changing mission pack will reset objectives. Click again to confirm.\", {r=1,g=0,b=0})\r\n\t\twarned = true\r\n\t\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_warning_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"unwarn\",\r\n\t\t\tdelay          = 10\r\n\t\t})\r\n\tend\r\nend\r\n\r\nfunction unwarn()\r\n\twarned = false\r\nend\r\n\r\nfunction plusOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] + diff\r\n\tif sec > 15 then sec = 15 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction subOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] - diff\r\n\tif sec < 0 then sec = 0 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction updateSecondary(x, y)\r\n\tlocal w = 0\r\n\tif x == 1 then\r\n\t\tw = y\r\n\telse\r\n\t\tw = y + 3\r\n\tend\r\n\r\n\tbutton[5][w][1].label = tostring( secondary[x][y][2] )\r\n\tself.editButton(button[5][w][1])\r\n\r\n\tplayerTotal[x].label = tostring( playerSum(x) )\r\n\tself.editButton(playerTotal[x])\r\nend\r\n\r\nfunction toggle(value)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn 1\r\nend\r\n\r\nfunction toggle_other(value, other)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn other\r\nend\r\n\r\nfunction toggle_xyz(x, y, z)\r\n\tprimary[x][y][z] = toggle( primary[x][y][z] )\r\n\tupdatePrimary(x, y, z)\r\n\r\n\tif z == 1 and primary[x][y][z] == 0 then\r\n\t\tprimary[x][y][2] = 0\r\n\t\tprimary[x][y][3] = 0\r\n\t\tupdatePrimary(x, y, 2)\r\n\t\tupdatePrimary(x, y, 3)\r\n\tend\r\n\tif (z == 2 or z == 3) and primary[x][y][z] == 1 then\r\n\t\tprimary[x][y][1] = 1\r\n\t\tupdatePrimary(x, y, 1)\r\n\tend\r\nend\r\n\r\nfunction toggle_other_xyz(x, y, z)\r\n\tw = 3 - y\r\n\tprimary[x][w][z] = toggle_other( primary[x][y][z], primary[x][w][z] )\r\n\tupdatePrimary(x, w ,z)\r\nend\r\n\r\nfunction toggleToStr(value)\r\n\tif value == 1 then\r\n\t\treturn \"X\"\r\n\tend\r\n\treturn \"\"\r\nend\r\n\r\nfunction updatePrimary(x, y ,z)\r\n\tbutton[x][y][z].label = toggleToStr( primary[x][y][z] )\r\n\tself.editButton(button[x][y][z])\r\n\r\n\tbutton[x][y][4].label = tostring( battleRoundSum( primary[x][y] ) )\r\n\tself.editButton(button[x][y][4])\r\n\r\n\tplayerTotal[y].label = tostring( playerSum(y) )\r\n\tself.editButton(playerTotal[y])\r\nend\r\n\r\nfunction battleRoundSum(values)\r\n\tlocal sum = 0\r\n\r\n\tfor i = 1,3 do\r\n\t\tsum = sum + values[i]\r\n\tend\r\n\r\n\treturn sum * 5\r\nend\r\n\r\nfunction playerSum(pId)\r\n\tlocal pri_sum = 0\r\n\tfor j = 1,4 do\r\n\t\tpri_sum = pri_sum + battleRoundSum( primary[j][pId] )\r\n\tend\r\n\tif pri_sum > 45 then pri_sum = 45 end\r\n\r\n\tlocal sec_sum = 0\r\n\tfor k = 1,3 do\r\n\t\tsec_sum = sec_sum + secondary[pId][k][2]\r\n\tend\r\n\tif sec_sum > 45 then sec_sum = 45 end\r\n\tif usePhubarVersion then\r\n\t\tlocal playerCounter = getObjectFromGUID(victoryCounterGuid[pId]) -- Phubar add\r\n\t\tif playerCounter then\r\n\t\t\tplayerCounter.Counter.setValue( pri_sum + sec_sum + 10)\r\n\t\tend\r\n\tend\r\n\treturn pri_sum + sec_sum + 10\r\n\t-- painted army gives +10\r\nend\r\n\r\nfunction getParams()\r\n\tlocal params = JSON.decode( self.getDescription() )\r\n\r\n\tif params == nil then\r\n\t\tparams = {\r\n\t\t\tP1 = \"Player 1\",\r\n\t\t\tP2 = \"Player 2\",\r\n\t\t\tver_card = \"\",\r\n\t\t\tver_data = \"\"\r\n\t\t}\r\n\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\treturn params\r\nend\r\n\r\nfunction secIndex(x)\r\n\treturn {math.ceil(x/3), math.fmod(x-2,3)+2}\r\nend\r\n\r\nfunction p1(obj, clicker, alt)\r\n\tpName(1, obj, clicker, alt)\r\nend\r\nfunction p2(obj, clicker, alt)\r\n\tpName(2, obj, clicker, alt)\r\nend\r\n\r\nfunction pName(p, obj, clicker, alt)\r\n\tlocal params = getParams()\r\n\r\n\tif alt then\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = \"Player 1\"\r\n\t\t\tparams.P1 = \"Player 1\"\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = \"Player 2\"\r\n\t\t\tparams.P2 = \"Player 2\"\r\n\t\tend\r\n\telse\r\n\t\tlocal playerName = Player[clicker].steam_name\r\n\r\n\t\tif string.len( playerName ) > 15 then\r\n\t\t\tplayerName = string.sub( playerName, 1, 14 )\r\n\t\tend\r\n\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = playerName\r\n\t\t\tparams.P1 = playerName\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = playerName\r\n\t\t\tparams.P2 = playerName\r\n\t\tend\r\n\tend\r\n\r\n\tself.editButton(playerOneTitle)\r\n\tself.editButton(playerTwoTitle)\r\n\tself.setDescription(JSON.encode_pretty(params))\r\nend\r\n\r\nfunction sec_xy(x, y, alt)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tbutton[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\tbutton[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\tself.editButton( button[5][w][4] )\r\n\tend\r\nend\r\n\r\nfunction addSecondaryForPlayer2(player, secID)\r\n\tlocal objs = selectedPack.data.objectives\r\n\tlocal secData = {}\r\n\r\n\tfor _, obj in ipairs(objs) do\r\n\t\tif obj.id == secID then\r\n\t\t\tsecData = obj\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\tfor i, sec in ipairs(seconadry[player]) do\r\n\t\tif sec[1] == 0 then\r\n\t\t\tsec[1] = obj.value\r\n\t\t\tsec[3] = obj.category\r\n\r\n\t\t\tlocal j = 0\r\n\t\t\tif player == 1 then\r\n\t\t\t\tj = i\r\n\t\t\telse\r\n\t\t\t\tj = i + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][j][4].label = selectedPack.data.objectives[ tostring(value) ].name\r\n\t\t\tbutton[5][j][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description\r\n\t\t\tself.editButton( button[5][j][4] )\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\nend\r\n\r\n-- Abandon hope all ye who enter here\r\n\r\nfunction toggle_111()\r\n\ttoggle_xyz(1, 1, 1)\r\nend\r\nfunction toggle_112()\r\n\ttoggle_xyz(1, 1, 2)\r\nend\r\nfunction toggle_113()\r\n\ttoggle_xyz(1, 1, 3)\r\nend\r\n\r\nfunction toggle_121()\r\n\ttoggle_xyz(1, 2, 1)\r\nend\r\nfunction toggle_122()\r\n\ttoggle_xyz(1, 2, 2)\r\nend\r\nfunction toggle_123()\r\n\ttoggle_xyz(1, 2, 3)\r\nend\r\n\r\nfunction toggle_211()\r\n\ttoggle_xyz(2, 1, 1)\r\nend\r\nfunction toggle_212()\r\n\ttoggle_xyz(2, 1, 2)\r\nend\r\nfunction toggle_213()\r\n\ttoggle_xyz(2, 1, 3)\r\nend\r\n\r\nfunction toggle_221()\r\n\ttoggle_xyz(2, 2, 1)\r\nend\r\nfunction toggle_222()\r\n\ttoggle_xyz(2, 2, 2)\r\nend\r\nfunction toggle_223()\r\n\ttoggle_xyz(2, 2, 3)\r\nend\r\n\r\nfunction toggle_311()\r\n\ttoggle_xyz(3, 1, 1)\r\nend\r\nfunction toggle_312()\r\n\ttoggle_xyz(3, 1, 2)\r\nend\r\nfunction toggle_313()\r\n\ttoggle_xyz(3, 1, 3)\r\nend\r\n\r\nfunction toggle_321()\r\n\ttoggle_xyz(3, 2, 1)\r\nend\r\nfunction toggle_322()\r\n\ttoggle_xyz(3, 2, 2)\r\nend\r\nfunction toggle_323()\r\n\ttoggle_xyz(3, 2, 3)\r\nend\r\n\r\nfunction toggle_411()\r\n\ttoggle_xyz(4, 1, 1)\r\nend\r\nfunction toggle_412()\r\n\ttoggle_xyz(4, 1, 2)\r\nend\r\nfunction toggle_413()\r\n\ttoggle_xyz(4, 1, 3)\r\nend\r\n\r\nfunction toggle_421()\r\n\ttoggle_xyz(4, 2, 1)\r\nend\r\nfunction toggle_422()\r\n\ttoggle_xyz(4, 2, 2)\r\nend\r\nfunction toggle_423()\r\n\ttoggle_xyz(4, 2, 3)\r\nend\r\n\r\n\r\nfunction plus_11(_, _, alt)\r\n\tplusOne(1, 1, alt)\r\nend\r\nfunction plus_12(_, _, alt)\r\n\tplusOne(1, 2, alt)\r\nend\r\nfunction plus_13(_, _, alt)\r\n\tplusOne(1, 3, alt)\r\nend\r\nfunction plus_21(_, _, alt)\r\n\tplusOne(2, 1, alt)\r\nend\r\nfunction plus_22(_, _, alt)\r\n\tplusOne(2, 2, alt)\r\nend\r\nfunction plus_23(_, _, alt)\r\n\tplusOne(2, 3, alt)\r\nend\r\n\r\nfunction sub_11(_, _, alt)\r\n\tsubOne(1, 1, alt)\r\nend\r\nfunction sub_12(_, _, alt)\r\n\tsubOne(1, 2, alt)\r\nend\r\nfunction sub_13(_, _, alt)\r\n\tsubOne(1, 3, alt)\r\nend\r\nfunction sub_21(_, _, alt)\r\n\tsubOne(2, 1, alt)\r\nend\r\nfunction sub_22(_, _, alt)\r\n\tsubOne(2, 2, alt)\r\nend\r\nfunction sub_23(_, _, alt)\r\n\tsubOne(2, 3, alt)\r\nend\r\n\r\nfunction sec_11(_, _, alt)\r\n\tsec_xy(1, 1, alt)\r\nend\r\nfunction sec_12(_, _, alt)\r\n\tsec_xy(1, 2, alt)\r\nend\r\nfunction sec_13(_, _, alt)\r\n\tsec_xy(1, 3, alt)\r\nend\r\nfunction sec_21(_, _, alt)\r\n\tsec_xy(2, 1, alt)\r\nend\r\nfunction sec_22(_, _, alt)\r\n\tsec_xy(2, 2, alt)\r\nend\r\nfunction sec_23(_, _, alt)\r\n\tsec_xy(2, 3, alt)\r\nend\r\n",
       "LuaScriptState": "{\"packsData\":[],\"primary\":[[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]]],\"scoresheetActive\":false,\"secondary\":[[[0,0,0],[0,0,0],[0,0,0]],[[0,0,0],[0,0,0],[0,0,0]]],\"selectedPack\":{\"data\":[],\"index\":0}}",
       "XmlUI": ""
     },
@@ -36608,12 +36794,12 @@
       "GUID": "37e995",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -30.1999969,
+        "posX": -30.19999,
         "posY": 0.949998856,
         "posZ": 29.925,
-        "rotX": -1.74754939E-06,
+        "rotX": -1.38886571E-06,
         "rotY": 180.0,
-        "rotZ": 9.784087E-07,
+        "rotZ": 9.21803348E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36647,12 +36833,12 @@
       "GUID": "5fd19f",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -40.19999,
+        "posX": -40.19998,
         "posY": 0.949999,
-        "posZ": 29.925005,
-        "rotX": -2.04372486E-06,
+        "posZ": 29.9250069,
+        "rotX": -2.03781656E-06,
         "rotY": 180.0,
-        "rotZ": 7.80550238E-07,
+        "rotZ": 8.161483E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36686,12 +36872,12 @@
       "GUID": "2e4f26",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 29.80009,
+        "posX": 29.8001022,
         "posY": 0.95,
-        "posZ": -29.92501,
-        "rotX": 1.82050553E-06,
-        "rotY": 3.740525E-06,
-        "rotZ": -2.87675E-07,
+        "posZ": -29.9250126,
+        "rotX": 1.10613007E-06,
+        "rotY": 4.13298449E-06,
+        "rotZ": -2.867021E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36725,12 +36911,12 @@
       "GUID": "bcf2a4",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 39.80003,
+        "posX": 39.8000336,
         "posY": 0.9499999,
         "posZ": -29.9250031,
-        "rotX": 1.83266127E-06,
-        "rotY": 1.39838858E-06,
-        "rotZ": -1.054894E-06,
+        "rotX": 1.735992E-06,
+        "rotY": 1.47213984E-06,
+        "rotZ": -1.00020429E-06,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36767,9 +36953,9 @@
         "posX": 73.0,
         "posY": 0.9499983,
         "posZ": 18.0,
-        "rotX": -2.18147079E-07,
+        "rotX": -8.45427E-07,
         "rotY": 269.999939,
-        "rotZ": -1.893757E-06,
+        "rotZ": -1.81071471E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -36869,11 +37055,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 15.9999876,
-        "rotX": -2.28777026E-06,
+        "rotX": -7.727419E-07,
         "rotY": 269.9995,
-        "rotZ": -3.44786349E-06,
+        "rotZ": -6.237805E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -36975,9 +37161,9 @@
         "posX": 73.0,
         "posY": 0.949998438,
         "posZ": 13.999999,
-        "rotX": -2.930158E-07,
+        "rotX": -4.250567E-07,
         "rotY": 270.000275,
-        "rotZ": -2.45444426E-06,
+        "rotZ": -1.18950845E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37079,9 +37265,9 @@
         "posX": 73.0,
         "posY": 0.949998438,
         "posZ": 11.999999,
-        "rotX": -5.75431E-07,
+        "rotX": -6.11067435E-07,
         "rotY": 269.99942,
-        "rotZ": -1.47845378E-06,
+        "rotZ": -1.04402386E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37183,9 +37369,9 @@
         "posX": 73.0,
         "posY": 0.9499985,
         "posZ": 9.999999,
-        "rotX": -7.54017E-07,
+        "rotX": -5.13270265E-07,
         "rotY": 269.999939,
-        "rotZ": -2.44578973E-06,
+        "rotZ": -1.37387462E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37284,12 +37470,12 @@
       "GUID": "9f3fd3",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 73.0,
-        "posY": 0.949998558,
-        "posZ": 7.999999,
-        "rotX": 2.296461E-06,
-        "rotY": 269.999939,
-        "rotZ": -4.3379012E-07,
+        "posX": 73.0263,
+        "posY": 1.05008328,
+        "posZ": 8.043624,
+        "rotX": 0.0007705087,
+        "rotY": 270.165527,
+        "rotZ": 3.03117522E-05,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37388,12 +37574,12 @@
       "GUID": "e94248",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 71.0,
-        "posY": 0.9499985,
-        "posZ": 8.0,
-        "rotX": -2.24518067E-06,
-        "rotY": 269.999939,
-        "rotZ": -2.08163078E-06,
+        "posX": 70.99869,
+        "posY": 1.050056,
+        "posZ": 8.041918,
+        "rotX": 0.000776946137,
+        "rotY": 270.090851,
+        "rotZ": 2.426668E-05,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37495,9 +37681,9 @@
         "posX": 71.0,
         "posY": 0.949998558,
         "posZ": 9.999999,
-        "rotX": 1.48567016E-08,
+        "rotX": -3.40721584E-07,
         "rotY": 269.999634,
-        "rotZ": -2.881914E-06,
+        "rotZ": 1.45517231E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37599,9 +37785,9 @@
         "posX": 71.0,
         "posY": 0.9499985,
         "posZ": 11.999999,
-        "rotX": -2.94782723E-07,
-        "rotY": 269.9995,
-        "rotZ": -4.80287E-07,
+        "rotX": -2.63282033E-07,
+        "rotY": 269.999542,
+        "rotZ": -2.1000476E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37701,11 +37887,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949998438,
+        "posY": 0.9499985,
         "posZ": 13.999999,
-        "rotX": -2.04611683E-06,
+        "rotX": 2.03243872E-06,
         "rotY": 269.999634,
-        "rotZ": -9.625521E-07,
+        "rotZ": -5.65760774E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37807,9 +37993,9 @@
         "posX": 71.0,
         "posY": 0.9499984,
         "posZ": 15.9999838,
-        "rotX": 3.24970237E-08,
-        "rotY": 269.999573,
-        "rotZ": 2.06204822E-06,
+        "rotX": 2.14588817E-06,
+        "rotY": 269.9996,
+        "rotZ": -5.492053E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37909,11 +38095,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499983,
+        "posY": 0.9499984,
         "posZ": 18.0,
-        "rotX": 8.541536E-07,
-        "rotY": 270.000061,
-        "rotZ": -3.20199E-07,
+        "rotX": -2.92205E-07,
+        "rotY": 270.0001,
+        "rotZ": -1.88157344E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38013,11 +38199,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.9499983,
+        "posY": 0.9499984,
         "posZ": 18.0002022,
-        "rotX": 2.69130555E-06,
-        "rotY": 270.000061,
-        "rotZ": -1.59789181E-06,
+        "rotX": -3.020417E-06,
+        "rotY": 270.0001,
+        "rotZ": -1.46326181E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38117,11 +38303,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 16.0001717,
-        "rotX": -9.829339E-08,
-        "rotY": 269.999573,
-        "rotZ": -6.592727E-07,
+        "rotX": 2.5808701E-08,
+        "rotY": 269.9996,
+        "rotZ": -2.21146388E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38223,9 +38409,9 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 14.0002031,
-        "rotX": -3.624576E-07,
+        "rotX": -2.64275013E-06,
         "rotY": 269.999939,
-        "rotZ": -1.77512527E-06,
+        "rotZ": -1.62022286E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38325,11 +38511,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.949998558,
+        "posY": 0.9499985,
         "posZ": 12.0002394,
-        "rotX": -7.423511E-07,
+        "rotX": -1.27614408E-06,
         "rotY": 270.002319,
-        "rotZ": -1.26731732E-06,
+        "rotZ": -2.31615354E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38431,9 +38617,9 @@
         "posX": 69.0,
         "posY": 0.949998558,
         "posZ": 10.0002041,
-        "rotX": -1.30062722E-06,
+        "rotX": -1.10617952E-06,
         "rotY": 269.9997,
-        "rotZ": -2.74968215E-06,
+        "rotZ": -5.23367135E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38532,12 +38718,12 @@
       "GUID": "a968aa",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 69.0,
-        "posY": 0.949998558,
-        "posZ": 8.000203,
-        "rotX": 1.62969889E-06,
-        "rotY": 269.999939,
-        "rotZ": -2.123245E-06,
+        "posX": 69.00276,
+        "posY": 1.05002892,
+        "posZ": 8.01523,
+        "rotX": 0.000775627734,
+        "rotY": 269.9724,
+        "rotZ": 2.361559E-05,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38638,7 +38824,7 @@
       "Transform": {
         "posX": 75.50011,
         "posY": 0.9611398,
-        "posZ": 13.0002241,
+        "posZ": 13.0002317,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38686,7 +38872,7 @@
       "Transform": {
         "posX": 75.4897461,
         "posY": 0.9611398,
-        "posZ": 10.7345781,
+        "posZ": 10.7345867,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38734,7 +38920,7 @@
       "Transform": {
         "posX": 75.490036,
         "posY": 0.9611398,
-        "posZ": 13.2809782,
+        "posZ": 13.2809887,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38781,11 +38967,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999034,
+        "posY": 0.9499991,
         "posZ": -8.0,
-        "rotX": -2.40115185E-07,
+        "rotX": 1.91139122E-07,
         "rotY": 270.0,
-        "rotZ": -2.8731522E-06,
+        "rotZ": -3.50636719E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -38832,11 +39018,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": -5.45262264E-06,
+        "rotX": -3.0093247E-06,
         "rotY": 270.0,
-        "rotZ": -8.72310238E-07,
+        "rotZ": -2.062514E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -38883,11 +39069,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499992,
+        "posY": 0.949999154,
         "posZ": -14.0,
-        "rotX": -2.53588132E-06,
-        "rotY": 270.000031,
-        "rotZ": 3.396181E-08,
+        "rotX": 2.90393382E-06,
+        "rotY": 270.000061,
+        "rotZ": -2.241905E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -38936,9 +39122,9 @@
         "posX": 73.0,
         "posY": 0.949999332,
         "posZ": -16.0,
-        "rotX": -4.776035E-07,
+        "rotX": -1.3047744E-06,
         "rotY": 269.999939,
-        "rotZ": -1.66199936E-06,
+        "rotZ": -1.446782E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -38985,11 +39171,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499993,
+        "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": -3.858383E-07,
+        "rotX": -1.32822E-08,
         "rotY": 269.999939,
-        "rotZ": -6.12813153E-07,
+        "rotZ": -1.7769371E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39036,11 +39222,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -12.0,
-        "rotX": -4.08692415E-07,
+        "rotX": 2.18677633E-06,
         "rotY": 269.999939,
-        "rotZ": -1.63330083E-06,
+        "rotZ": -3.85299563E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39087,11 +39273,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949999034,
+        "posY": 0.9499991,
         "posZ": -8.0,
-        "rotX": -6.020116E-07,
+        "rotX": -2.02611886E-06,
         "rotY": 270.0,
-        "rotZ": -1.61166224E-06,
+        "rotZ": -3.703153E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39140,9 +39326,9 @@
         "posX": 71.0,
         "posY": 0.949999154,
         "posZ": -10.0,
-        "rotX": -5.541167E-07,
+        "rotX": -3.58339184E-06,
         "rotY": 270.0,
-        "rotZ": -1.83783914E-06,
+        "rotZ": -2.75418347E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39189,11 +39375,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499992,
+        "posY": 0.9499993,
         "posZ": -12.0,
-        "rotX": -4.84055363E-07,
+        "rotX": -4.78128641E-07,
         "rotY": 270.000031,
-        "rotZ": -1.56181261E-06,
+        "rotZ": -3.53662222E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39242,9 +39428,9 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -14.0,
-        "rotX": -1.93490678E-06,
+        "rotX": -1.726933E-06,
         "rotY": 270.0,
-        "rotZ": -1.58206228E-06,
+        "rotZ": -3.318204E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39291,11 +39477,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499993,
+        "posY": 0.9499992,
         "posZ": -16.0,
-        "rotX": -1.26732152E-06,
+        "rotX": -3.01209366E-06,
         "rotY": 269.999817,
-        "rotZ": -2.4393313E-07,
+        "rotZ": 1.16254591E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39342,11 +39528,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949999332,
+        "posY": 0.9499994,
         "posZ": -18.0,
-        "rotX": 3.170722E-07,
+        "rotX": -4.636111E-07,
         "rotY": 269.999939,
-        "rotZ": -1.39960514E-06,
+        "rotZ": -4.198253E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39454,9 +39640,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.119631536,
-        "g": 0.409391016,
-        "b": 0.1062581
+        "r": 0.119631507,
+        "g": 0.409391,
+        "b": 0.106258072
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
