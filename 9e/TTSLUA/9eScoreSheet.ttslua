@@ -236,6 +236,7 @@ function onload(save_data) -- PHUBAR version
 			return
 		end
 		Wait.time(function() self.setPosition({78,1,-1}) end, 1)
+		self.setLock(true)
 		local spawnerR= getObjectFromGUID(spawner_GUID[1])
 		local spawnerB= getObjectFromGUID(spawner_GUID[2])
 		repo = mainRepo -- altRepo or mainRepo
