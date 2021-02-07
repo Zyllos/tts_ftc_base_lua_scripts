@@ -36490,7 +36490,7 @@
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
-      "Locked": true,
+      "Locked": false,
       "Grid": true,
       "Snap": true,
       "IgnoreFoW": false,
