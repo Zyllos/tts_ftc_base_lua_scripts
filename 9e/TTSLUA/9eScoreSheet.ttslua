@@ -220,12 +220,13 @@ p = 1
 prntCnt = 0
 
 function debugPrintSec(secData)
-	local msg = ""
+	prntCnt = prntCnt + 1
+	local msg = "----- #"..prntCnt.." -----\n"
 	for p = 1, 2 do
 		if p == 1 then
-			msg = "P1 (Red) Secondary={"
+			msg = msg.."P1 (Red) Secondary={"
 		else
-			msg = "P2 (Blue) Secondary={"
+			msg = msg.."P2 (Blue) Secondary={"
 	  end
 		for s = 1, 3 do
 			if secData[p][s][1] == nil then

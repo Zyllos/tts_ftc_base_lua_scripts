@@ -1,7 +1,11 @@
 {
   "SaveName": "FTC 40k Map Base 9th - v2.33\n",
   "GameMode": "FTC 40k Map Base 9th - v2.33\n",
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
   "Date": "2/10/2021 11:47:25 AM",
+=======
+  "Date": "2/8/2021 9:31:44 AM",
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
   "VersionNumber": "v13.0.4",
   "GameType": "",
   "GameComplexity": "",
@@ -486,9 +490,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249980688,
         "g": 0.249980688,
         "b": 0.249980688
+=======
+        "r": 0.249980778,
+        "g": 0.249980778,
+        "b": 0.249980778
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -752,7 +762,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.0548877344,
+=======
+        "r": 0.05488781,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.7764706,
         "b": 0.0
       },
@@ -876,7 +890,11 @@
         "posZ": -29.0,
         "rotX": -2.446599E-06,
         "rotY": 180.273682,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotZ": 3.14932549E-06,
+=======
+        "rotZ": 3.149324E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1142,7 +1160,11 @@
         "posZ": -29.0,
         "rotX": 8.39406141E-07,
         "rotY": 179.980057,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotZ": -1.49832931E-06,
+=======
+        "rotZ": -1.49832863E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1285,7 +1307,11 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.12498074,
+=======
+        "g": 0.12498083,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -1418,8 +1444,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09998151,
         "b": 0.09398147
+=======
+        "g": 0.0999816,
+        "b": 0.09398154
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1552,7 +1583,11 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "b": 0.109786563
+=======
+        "b": 0.109786667
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1725,9 +1760,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.1919826,
         "g": 0.701,
         "b": 0.167982578
+=======
+        "r": 0.191982687,
+        "g": 0.701,
+        "b": 0.167982668
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1767,9 +1808,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.1919826,
         "g": 0.701,
         "b": 0.167982578
+=======
+        "r": 0.191982687,
+        "g": 0.701,
+        "b": 0.167982668
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1882,7 +1929,11 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": 16.5,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 8.33869362E-10,
+=======
+        "rotX": 8.338688E-10,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1894,8 +1945,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09998397,
         "b": 0.09398394
+=======
+        "g": 0.09998407,
+        "b": 0.0939840153
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1924,7 +1980,11 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": -16.495657,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 8.33869362E-10,
+=======
+        "rotX": 8.338688E-10,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1935,7 +1995,11 @@
       "Description": "ee92cf",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117983289,
+=======
+        "r": 0.117983378,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -2381,7 +2445,11 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999178,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 16.5023174,
+=======
+        "posZ": 16.5022926,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2429,7 +2497,11 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999572,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 27.0027771,
+=======
+        "posZ": 27.0027561,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 89.96369,
         "rotZ": 0.0,
@@ -2477,7 +2549,11 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23999178,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 37.5052071,
+=======
+        "posZ": 37.5051537,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2525,7 +2601,11 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": -26.9973164,
+=======
+        "posZ": -26.99731,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.4634552,
         "rotZ": 0.0,
@@ -2573,7 +2653,11 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": -37.49882,
+=======
+        "posZ": -37.4988,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 89.9636841,
         "rotZ": 0.0,
@@ -2721,7 +2805,11 @@
       "Transform": {
         "posX": 73.5002747,
         "posY": 0.961133659,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 27.0024357,
+=======
+        "posZ": 27.0024147,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2781,9 +2869,15 @@
       "Description": "- Use Token Bags Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249973983,
         "g": 0.249973983,
         "b": 0.249973983
+=======
+        "r": 0.249974191,
+        "g": 0.249974191,
+        "b": 0.249974191
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -14099,8 +14193,13 @@
       "Description": "- Use Psykic Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.247802168,
         "g": 0.06762418,
+=======
+        "r": 0.247802377,
+        "g": 0.06762432,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "b": 0.6811846
       },
       "LayoutGroupSortIndex": 0,
@@ -18729,7 +18828,11 @@
         "posY": 0.9037044,
         "posZ": 30.9944077,
         "rotX": 359.9671,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotY": 0.365954429,
+=======
+        "rotY": 0.3659541,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 359.8398,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -18740,7 +18843,11 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.12498071,
+=======
+        "g": 0.1249808,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -18873,8 +18980,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.0999814644,
         "b": 0.09398144
+=======
+        "g": 0.09998157,
+        "b": 0.09398151
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19007,7 +19119,11 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "b": 0.109786533
+=======
+        "b": 0.109786622
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19558,7 +19674,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.054887712,
+=======
+        "r": 0.0548877865,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.7764706,
         "b": 0.0
       },
@@ -19824,9 +19944,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249980658,
         "g": 0.249980658,
         "b": 0.249980658
+=======
+        "r": 0.249980748,
+        "g": 0.249980748,
+        "b": 0.249980748
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20078,7 +20204,11 @@
       "Transform": {
         "posX": 62.5000458,
         "posY": 1.23999381,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 0.0008029938,
+=======
+        "posZ": 0.0007896424,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -20138,9 +20268,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249989986,
         "g": 0.249989986,
         "b": 0.249989986
+=======
+        "r": 0.2499901,
+        "g": 0.2499901,
+        "b": 0.2499901
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20209,7 +20345,11 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.0000062,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": -83.87215,
+=======
+        "posZ": -83.87209,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20255,9 +20395,15 @@
       "GUID": "dbfb5c",
       "Name": "3DText",
       "Transform": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posX": 90.00426,
         "posY": -0.999999464,
         "posZ": 63.664135,
+=======
+        "posX": 90.00421,
+        "posY": -0.999999464,
+        "posZ": 63.664093,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20305,7 +20451,11 @@
       "Transform": {
         "posX": 90.00319,
         "posY": -1.00000322,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 12.6597471,
+=======
+        "posZ": 12.6597242,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20351,9 +20501,15 @@
       "GUID": "3e4433",
       "Name": "3DText",
       "Transform": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posX": 90.00494,
         "posY": -1.0000062,
         "posZ": 37.6629448,
+=======
+        "posX": 90.00489,
+        "posY": -1.0000062,
+        "posZ": 37.66289,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20449,7 +20605,11 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.00000846,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": -68.3446045,
+=======
+        "posZ": -68.34457,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20510,8 +20670,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.9559999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.3919911,
         "b": 0.112991132
+=======
+        "g": 0.391991228,
+        "b": 0.112991221
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26327,8 +26492,13 @@
         "posX": 88.50019,
         "posY": -3.0,
         "posZ": -66.00324,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 0.07997596,
         "rotY": 89.9983749,
+=======
+        "rotX": 0.07997055,
+        "rotY": 89.99846,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 359.983124,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -26338,9 +26508,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249991119,
         "g": 0.249991119,
         "b": 0.249991119
+=======
+        "r": 0.249991238,
+        "g": 0.249991238,
+        "b": 0.249991238
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26964,7 +27140,11 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.124991782,
+=======
+        "g": 0.124991871,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -27191,9 +27371,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.249980628,
         "g": 0.249980628,
         "b": 0.249980628
+=======
+        "r": 0.249980718,
+        "g": 0.249980718,
+        "b": 0.249980718
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -27569,7 +27755,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117992215,
+=======
+        "r": 0.117992319,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -28275,8 +28465,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999146,
         "b": 0.0939914361
+=======
+        "g": 0.09999164,
+        "b": 0.09399163
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -28366,7 +28561,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117991112,
+=======
+        "r": 0.117991306,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -28456,9 +28655,15 @@
         "posX": 85.00001,
         "posY": 0.9306005,
         "posZ": -88.00001,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 6.72058832E-07,
         "rotY": 90.008606,
         "rotZ": 1.30696685E-06,
+=======
+        "rotX": 5.50496736E-07,
+        "rotY": 90.008606,
+        "rotZ": 1.661962E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29402,9 +29607,15 @@
         "posX": 73.0,
         "posY": 0.9305996,
         "posZ": -50.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 6.099473E-07,
         "rotY": 90.00196,
         "rotZ": 1.80146867E-06,
+=======
+        "rotX": 6.94903861E-07,
+        "rotY": 90.00196,
+        "rotZ": 1.51154245E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -30466,9 +30677,15 @@
         "posX": 85.0,
         "posY": 0.9305956,
         "posZ": 88.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 8.049017E-07,
         "rotY": 90.008606,
         "rotZ": 1.85273609E-06,
+=======
+        "rotX": 4.9194E-07,
+        "rotY": 90.008606,
+        "rotZ": 1.69382417E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -31529,9 +31746,15 @@
         "posX": 67.0,
         "posY": 0.9499993,
         "posZ": -18.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -6.48002E-06,
         "rotY": 270.01886,
         "rotZ": -7.455324E-07,
+=======
+        "rotX": -2.07743415E-06,
+        "rotY": 270.01886,
+        "rotZ": 1.67334747E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31578,11 +31801,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499992,
+        "posY": 0.9499993,
         "posZ": -14.000001,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.521457E-06,
         "rotY": 270.118134,
         "rotZ": -1.00096891E-07,
+=======
+        "rotX": -3.05547928E-06,
+        "rotY": 270.1181,
+        "rotZ": -3.01826776E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31631,9 +31860,15 @@
         "posX": 67.0,
         "posY": 0.949999452,
         "posZ": -16.0000019,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.39435821E-07,
         "rotY": 269.9167,
         "rotZ": -5.21185257E-06,
+=======
+        "rotX": -8.8738534E-07,
+        "rotY": 269.916779,
+        "rotZ": 8.13243958E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31682,9 +31917,15 @@
         "posX": 67.0,
         "posY": 0.949999154,
         "posZ": -10.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.87028115E-06,
         "rotY": 270.0437,
         "rotZ": 9.661559E-08,
+=======
+        "rotX": -2.00115977E-07,
+        "rotY": 270.0437,
+        "rotZ": -1.680615E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31731,11 +31972,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499992,
+        "posY": 0.9499993,
         "posZ": -12.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 9.37553253E-08,
         "rotY": 269.875183,
         "rotZ": -5.63865171E-07,
+=======
+        "rotX": -1.64318169E-06,
+        "rotY": 269.875183,
+        "rotZ": -1.37266534E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31782,11 +32029,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.9499991,
         "posZ": -8.000001,
         "rotX": 6.838098E-07,
         "rotY": 270.031342,
         "rotZ": -2.49939148E-06,
+=======
+        "posY": 0.949999034,
+        "posZ": -8.000001,
+        "rotX": -1.35894481E-06,
+        "rotY": 270.0313,
+        "rotZ": -3.88991975E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31835,7 +32090,11 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 14.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -4.969585E-07,
+=======
+        "rotX": -1.58619912E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31886,9 +32145,15 @@
         "posX": 67.0,
         "posY": 0.9499984,
         "posZ": 15.9999552,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 4.964399E-07,
         "rotY": 269.9995,
         "rotZ": -1.66365089E-06,
+=======
+        "rotX": 2.33434449E-07,
+        "rotY": 269.9995,
+        "rotZ": -7.73055035E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31937,7 +32202,11 @@
         "posX": 67.0,
         "posY": 0.949998558,
         "posZ": 10.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.38520318E-06,
+=======
+        "rotX": -3.845219E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31987,7 +32256,11 @@
       "Transform": {
         "posX": 66.00005,
         "posY": 0.9611341,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 12.0007772,
+=======
+        "posZ": 12.0007544,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 89.96401,
         "rotZ": 0.0,
@@ -33319,11 +33592,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499986,
+        "posY": 0.9499985,
         "posZ": 11.9999962,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.24163284E-06,
         "rotY": 269.999268,
         "rotZ": -3.05993171E-06,
+=======
+        "rotX": 2.147766E-06,
+        "rotY": 269.9992,
+        "rotZ": -1.51475456E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -33708,9 +33987,15 @@
         "posX": 73.0,
         "posY": 0.930596769,
         "posZ": 50.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.25710841E-07,
         "rotY": 90.00196,
         "rotZ": 1.607066E-06,
+=======
+        "rotX": 2.33757788E-07,
+        "rotY": 90.00196,
+        "rotZ": 1.576727E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34772,9 +35057,15 @@
         "posX": -19.3798523,
         "posY": 1.32000017,
         "posZ": -26.84741,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.72593147E-07,
         "rotY": 0.00279763527,
         "rotZ": 4.25477324E-08,
+=======
+        "rotX": -1.73075819E-07,
+        "rotY": 0.00279761036,
+        "rotZ": -1.40067357E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34783,7 +35074,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117997564,
+=======
+        "r": 0.117997654,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -34863,7 +35158,11 @@
         "posY": 1.32000041,
         "posZ": -27.84741,
         "rotX": 90.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotY": 0.00279445364,
+=======
+        "rotY": 0.002794019,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34873,7 +35172,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117997564,
+=======
+        "r": 0.117997654,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -34952,8 +35255,13 @@
         "posX": -19.3798847,
         "posY": 1.32,
         "posZ": -28.84741,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.43928389E-07,
         "rotY": 0.002777165,
+=======
+        "rotX": 2.502228E-06,
+        "rotY": 0.00277807959,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 89.99999,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34963,7 +35271,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117997564,
+=======
+        "r": 0.117997654,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -35042,8 +35354,13 @@
         "posX": -19.3799,
         "posY": 1.32000041,
         "posZ": -29.84741,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -7.6185124E-08,
         "rotY": 0.00280282251,
+=======
+        "rotX": 5.40903962E-08,
+        "rotY": 0.00280275755,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 270.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35053,7 +35370,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117997564,
+=======
+        "r": 0.117997654,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -35133,7 +35454,11 @@
         "posY": 1.32000041,
         "posZ": -30.84741,
         "rotX": 270.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotY": 0.00280740461,
+=======
+        "rotY": 0.00280797947,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35143,7 +35468,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117996551,
+=======
+        "r": 0.117996655,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -35222,8 +35551,13 @@
         "posX": -19.3799324,
         "posY": 1.32000017,
         "posZ": -31.84741,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -7.55725E-08,
         "rotY": 0.00279714912,
+=======
+        "rotX": -4.69516266E-08,
+        "rotY": 0.00279718474,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35233,7 +35567,11 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.117996551,
+=======
+        "r": 0.117996655,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "g": 0.53,
         "b": 1.0
       },
@@ -35312,9 +35650,15 @@
         "posX": 19.3792629,
         "posY": 1.32000029,
         "posZ": 26.8468227,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 5.02947444E-07,
         "rotY": 179.969955,
         "rotZ": -2.44775549E-07,
+=======
+        "rotX": 2.26044492E-07,
+        "rotY": 179.969955,
+        "rotZ": -6.885626E-08,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -35324,8 +35668,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35414,8 +35763,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35492,7 +35846,11 @@
         "posX": 19.3781147,
         "posY": 1.32000017,
         "posZ": 28.8468227,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -7.420494E-07,
+=======
+        "rotX": -1.2072893E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 179.969955,
         "rotZ": 90.0,
         "scaleX": 1.0,
@@ -35504,8 +35862,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35582,7 +35945,11 @@
         "posX": 19.37754,
         "posY": 1.32000017,
         "posZ": 29.84682,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -5.869694E-07,
+=======
+        "rotX": -3.2683522E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 179.969955,
         "rotZ": 270.0,
         "scaleX": 1.0,
@@ -35594,8 +35961,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35684,8 +36056,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35762,7 +36139,11 @@
         "posX": 19.3763924,
         "posY": 1.32000041,
         "posZ": 31.84682,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 3.40296737E-07,
+=======
+        "rotX": 2.87254778E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotY": 179.969955,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -35774,8 +36155,13 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "g": 0.09999763,
         "b": 0.09399762
+=======
+        "g": 0.09999772,
+        "b": 0.09399771
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -36797,9 +37183,15 @@
         "posX": -30.1999912,
         "posY": 0.949998856,
         "posZ": 29.925,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.58003581E-06,
         "rotY": 180.0,
         "rotZ": 5.308494E-07,
+=======
+        "rotX": -1.6641709E-06,
+        "rotY": 180.0,
+        "rotZ": 7.985122E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36835,10 +37227,17 @@
       "Transform": {
         "posX": -40.1999741,
         "posY": 0.949999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 29.9250088,
         "rotX": -2.14382317E-06,
         "rotY": 180.0,
         "rotZ": 3.84864734E-07,
+=======
+        "posZ": 29.9250069,
+        "rotX": -1.96886867E-06,
+        "rotY": 180.0,
+        "rotZ": 6.40094E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36875,9 +37274,15 @@
         "posX": 29.8001137,
         "posY": 0.95,
         "posZ": -29.9250126,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.51530116E-06,
         "rotY": 4.69507359E-06,
         "rotZ": -4.28066016E-07,
+=======
+        "rotX": 1.468459E-06,
+        "rotY": 4.198359E-06,
+        "rotZ": -1.81544465E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36914,9 +37319,15 @@
         "posX": 39.80004,
         "posY": 0.9499999,
         "posZ": -29.9250031,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.25222221E-06,
         "rotY": 1.4563351E-06,
         "rotZ": 1.3014764E-07,
+=======
+        "rotX": 1.78975915E-06,
+        "rotY": 1.41568262E-06,
+        "rotZ": -3.56322232E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36953,9 +37364,15 @@
         "posX": 73.0,
         "posY": 0.9499983,
         "posZ": 18.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -3.506298E-06,
         "rotY": 269.999939,
         "rotZ": -3.35373625E-06,
+=======
+        "rotX": 2.06557953E-08,
+        "rotY": 269.999939,
+        "rotZ": -3.80652E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37055,11 +37472,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.9499983,
         "posZ": 15.9999876,
         "rotX": -1.22171173E-06,
         "rotY": 269.9995,
         "rotZ": 9.153485E-07,
+=======
+        "posY": 0.9499984,
+        "posZ": 15.9999876,
+        "rotX": -6.497797E-09,
+        "rotY": 269.9995,
+        "rotZ": 8.97851237E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37159,11 +37584,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949998438,
+        "posY": 0.9499985,
         "posZ": 13.999999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 8.731154E-07,
         "rotY": 270.000244,
         "rotZ": -1.5538E-06,
+=======
+        "rotX": -4.26697483E-07,
+        "rotY": 270.000275,
+        "rotZ": -1.71838155E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37263,11 +37694,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.9499985,
         "posZ": 11.999999,
         "rotX": 1.25309623E-06,
         "rotY": 269.999359,
         "rotZ": -3.40403744E-06,
+=======
+        "posY": 0.9499984,
+        "posZ": 11.999999,
+        "rotX": -2.54182987E-06,
+        "rotY": 269.99942,
+        "rotZ": -2.6475102E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37369,9 +37808,15 @@
         "posX": 73.0,
         "posY": 0.949998558,
         "posZ": 9.999999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.30854E-06,
         "rotY": 269.999939,
         "rotZ": -3.28322358E-06,
+=======
+        "rotX": 2.12944133E-06,
+        "rotY": 269.999939,
+        "rotZ": -1.21889991E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37471,11 +37916,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0263,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.949998736,
         "posZ": 8.043624,
         "rotX": -3.12942643E-06,
         "rotY": 270.1656,
         "rotZ": -1.94097E-06,
+=======
+        "posY": 0.9499986,
+        "posZ": 8.043624,
+        "rotX": -1.51118888E-06,
+        "rotY": 270.165649,
+        "rotZ": -2.02591741E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37575,11 +38028,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 70.99869,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.9499987,
         "posZ": 8.041918,
         "rotX": -1.72691932E-06,
         "rotY": 270.0908,
         "rotZ": -3.72910677E-07,
+=======
+        "posY": 0.9499986,
+        "posZ": 8.041918,
+        "rotX": -1.92602215E-06,
+        "rotY": 270.0908,
+        "rotZ": -1.07033145E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37681,9 +38142,15 @@
         "posX": 71.0,
         "posY": 0.9499986,
         "posZ": 9.999999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.14157922E-06,
         "rotY": 269.9995,
         "rotZ": 2.35356288E-06,
+=======
+        "rotX": -3.21981844E-07,
+        "rotY": 269.999634,
+        "rotZ": -2.23514621E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37785,9 +38252,15 @@
         "posX": 71.0,
         "posY": 0.9499985,
         "posZ": 11.999999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.24107044E-06,
         "rotY": 269.999542,
         "rotZ": -2.75310731E-06,
+=======
+        "rotX": -5.09066467E-07,
+        "rotY": 269.999542,
+        "rotZ": -4.90309276E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37889,9 +38362,15 @@
         "posX": 71.0,
         "posY": 0.949998558,
         "posZ": 13.999999,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 3.73384387E-06,
         "rotY": 269.9997,
         "rotZ": 1.69533712E-06,
+=======
+        "rotX": -1.04766877E-06,
+        "rotY": 269.999634,
+        "rotZ": -3.13857618E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37991,11 +38470,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 15.9999838,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -9.62229E-07,
         "rotY": 269.9996,
         "rotZ": -4.15891554E-06,
+=======
+        "rotX": -8.39036659E-07,
+        "rotY": 269.9996,
+        "rotZ": -1.82109807E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38095,11 +38580,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499984,
+        "posY": 0.9499983,
         "posZ": 18.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -5.63538435E-07,
         "rotY": 270.0001,
         "rotZ": -8.88129762E-07,
+=======
+        "rotX": 1.71892691E-06,
+        "rotY": 270.0001,
+        "rotZ": -1.4386012E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38199,11 +38690,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.9499984,
+        "posY": 0.9499983,
         "posZ": 18.0002022,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -7.90230956E-07,
         "rotY": 270.0001,
         "rotZ": 7.825143E-07,
+=======
+        "rotX": -1.33277842E-06,
+        "rotY": 270.0001,
+        "rotZ": 3.337507E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38305,9 +38802,15 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 16.0001717,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.00880868E-06,
         "rotY": 269.9996,
         "rotZ": 1.48788217E-06,
+=======
+        "rotX": -2.1514777E-06,
+        "rotY": 269.9996,
+        "rotZ": -2.70034138E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38409,9 +38912,15 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 14.0002031,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -8.182889E-07,
         "rotY": 269.999939,
         "rotZ": -6.800394E-07,
+=======
+        "rotX": -1.50303811E-06,
+        "rotY": 269.999939,
+        "rotZ": -1.19571291E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38513,9 +39022,15 @@
         "posX": 69.0,
         "posY": 0.9499985,
         "posZ": 12.0002394,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.206891E-06,
         "rotY": 270.002319,
         "rotZ": -2.52779728E-06,
+=======
+        "rotX": 1.87236208E-06,
+        "rotY": 270.002319,
+        "rotZ": 2.829316E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38617,9 +39132,15 @@
         "posX": 69.0,
         "posY": 0.949998558,
         "posZ": 10.0002041,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.45861748E-06,
         "rotY": 269.9997,
         "rotZ": -4.828533E-07,
+=======
+        "rotX": -3.51293033E-06,
+        "rotY": 269.9997,
+        "rotZ": -3.128228E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38721,9 +39242,15 @@
         "posX": 69.00276,
         "posY": 0.9499986,
         "posZ": 8.01523,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.316006E-06,
         "rotY": 269.972351,
         "rotZ": -2.36941878E-06,
+=======
+        "rotX": -1.74975457E-06,
+        "rotY": 269.9724,
+        "rotZ": -1.40962E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38824,7 +39351,11 @@
       "Transform": {
         "posX": 75.5001144,
         "posY": 0.9611398,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 13.0002813,
+=======
+        "posZ": 13.000247,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38872,7 +39403,11 @@
       "Transform": {
         "posX": 75.4897461,
         "posY": 0.9611398,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 10.7346239,
+=======
+        "posZ": 10.7345991,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38920,7 +39455,11 @@
       "Transform": {
         "posX": 75.490036,
         "posY": 0.9611398,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posZ": 13.2810316,
+=======
+        "posZ": 13.2810087,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38969,9 +39508,15 @@
         "posX": 73.0,
         "posY": 0.949999034,
         "posZ": -8.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.23254756E-06,
         "rotY": 270.0,
         "rotZ": -1.50648384E-06,
+=======
+        "rotX": 4.938127E-07,
+        "rotY": 270.0,
+        "rotZ": -3.250339E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39018,11 +39563,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499991,
+        "posY": 0.949999154,
         "posZ": -10.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -2.375601E-06,
         "rotY": 270.0,
         "rotZ": -6.05226433E-06,
+=======
+        "rotX": -4.25468755E-07,
+        "rotY": 270.0,
+        "rotZ": -2.70326581E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39069,11 +39620,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499992,
         "posZ": -14.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.50998324E-06,
         "rotY": 270.0,
         "rotZ": 5.34364631E-07,
+=======
+        "rotX": -2.79665869E-06,
+        "rotY": 270.0,
+        "rotZ": 6.848665E-08,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39120,11 +39677,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999332,
+        "posY": 0.9499993,
         "posZ": -16.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -3.6197136E-07,
         "rotY": 269.999939,
         "rotZ": -3.25561632E-06,
+=======
+        "rotX": 3.402835E-07,
+        "rotY": 269.999939,
+        "rotZ": -1.67891778E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39171,11 +39734,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999332,
+        "posY": 0.9499993,
         "posZ": -18.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.0792437E-06,
         "rotY": 269.999939,
         "rotZ": -1.69053328E-06,
+=======
+        "rotX": -2.13887483E-06,
+        "rotY": 269.999939,
+        "rotZ": 3.07263775E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39224,9 +39793,15 @@
         "posX": 73.0,
         "posY": 0.949999154,
         "posZ": -12.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.09978021E-06,
         "rotY": 269.999969,
         "rotZ": -1.95210123E-06,
+=======
+        "rotX": 4.06274374E-08,
+        "rotY": 269.999939,
+        "rotZ": -2.46702984E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39275,9 +39850,15 @@
         "posX": 71.0,
         "posY": 0.9499991,
         "posZ": -8.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 1.41304469E-07,
         "rotY": 270.0,
         "rotZ": 2.9351238E-06,
+=======
+        "rotX": 6.48239563E-07,
+        "rotY": 270.0,
+        "rotZ": -2.12624536E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39326,9 +39907,15 @@
         "posX": 71.0,
         "posY": 0.9499991,
         "posZ": -10.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.80427287E-06,
         "rotY": 270.0,
         "rotZ": -8.44666431E-07,
+=======
+        "rotX": 3.6508473E-07,
+        "rotY": 270.0,
+        "rotZ": -3.56802639E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39375,11 +39962,19 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "posY": 0.9499992,
         "posZ": -12.0,
         "rotX": 2.191088E-06,
         "rotY": 269.999969,
         "rotZ": -1.875718E-06,
+=======
+        "posY": 0.949999154,
+        "posZ": -12.0,
+        "rotX": -1.10792689E-06,
+        "rotY": 270.000122,
+        "rotZ": -3.16658588E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39426,11 +40021,17 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499993,
+        "posY": 0.9499992,
         "posZ": -14.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -5.226595E-07,
         "rotY": 270.0,
         "rotZ": -9.522673E-07,
+=======
+        "rotX": -1.52348E-06,
+        "rotY": 270.0,
+        "rotZ": -1.64989649E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39479,9 +40080,15 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -16.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": -1.70164731E-06,
         "rotY": 269.999817,
         "rotZ": -3.93904565E-06,
+=======
+        "rotX": -1.03696232E-06,
+        "rotY": 269.999817,
+        "rotZ": -3.18099933E-06,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39530,9 +40137,15 @@
         "posX": 71.0,
         "posY": 0.949999332,
         "posZ": -18.0,
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "rotX": 2.54441966E-06,
         "rotY": 269.999939,
         "rotZ": -2.86525915E-06,
+=======
+        "rotX": -1.89315165E-06,
+        "rotY": 269.999939,
+        "rotZ": -9.643971E-07,
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39640,9 +40253,15 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
+<<<<<<< HEAD:9e/TTSJSON/ftc_base_v2.33.json
         "r": 0.119631357,
         "g": 0.4093908,
         "b": 0.106257908
+=======
+        "r": 0.119631447,
+        "g": 0.4093909,
+        "b": 0.106258
+>>>>>>> ec1c72a (Resolved Repo Inconsistencies):9e/TTSJSON/2121424734.json
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
