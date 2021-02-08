@@ -221,14 +221,16 @@ packButton = {
 }
 
 p = 1
+prntCnt = 0
 
 function debugPrintSec(secData)
-	local msg = ""
+	prntCnt = prntCnt + 1
+	local msg = "----- #"..prntCnt.." -----\n"
 	for p = 1, 2 do
 		if p == 1 then
-			msg = "P1 (Red) Secondary={"
+			msg = msg.."P1 (Red) Secondary={"
 		else
-			msg = "P2 (Blue) Secondary={"
+			msg = msg.."P2 (Blue) Secondary={"
 	  end
 		for s = 1, 3 do
 			if secData[p][s][1] == nil then
@@ -529,7 +531,7 @@ function updateAll(reset)
 
 	for n=1,2 do
 		for m=1,3 do
-			if reset then secondary[n][m] = {0,0,0} end
+			if reset then secondary[n][m] = defaultSec end
 			updateSecondary(n, m)
 
 			local v = secondary[n][m][1]
@@ -916,9 +918,12 @@ function sec_xy(x, y, alt)
 			w = y + 3
 		end
 
-		button[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name
-		button[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
-		self.editButton( button[5][w][4] )
+		-- button[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name
+		-- button[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
+		-- self.editButton( button[5][w][4] )
+		secondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name
+		secondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description
+		updateAll(true)
 	end
 end
 
@@ -945,9 +950,12 @@ function addSecondaryForPlayer2(player, secID)
 				j = i + 3
 			end
 
-			button[5][j][4].label = selectedPack.data.objectives[ tostring(value) ].name
-			button[5][j][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
-			self.editButton( button[5][j][4] )
+			-- button[5][j][4].label = selectedPack.data.objectives[ tostring(value) ].name
+			-- button[5][j][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
+			-- self.editButton( button[5][j][4] )
+			secondary[player][i][4] = selectedPack.data.objectives[tostring(value)].name
+			secondary[player][i][5] = selectedPack.data.objectives[tostring(value)].description
+			updateAll(true)
 			break
 		end
 	end
