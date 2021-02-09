@@ -8,4 +8,4 @@ This repo now contains the actual TTS JSON file.
 
 All credit goes to GenWilhelm, Phubar, and Mothman_Zack for all the hard work!
 
-Thanks to BaconCatBug for the BCB Customised Dice Roller v3 that this mod uses!
+Thanks to BaconCatBug for the BCB Customized Dice Roller v3 that this mod uses!
