@@ -38,7 +38,7 @@ end
 globalXoffset=-1.05
 if self.getPosition().x < 0 then globalXoffset=-globalXoffset end
 seedcounter = 0
-ver = 'BCB-2020-04-20'
+ver = 'BCB-2020-04-20 Hotfix Z'
 lastHolder = {}
 customFace = {4, 6, 8, 10, 12, 20}
 diceGuidFaces = {}
@@ -61,6 +61,20 @@ local function seedpRNG() -- constructor
 end
 local m = seedpRNG()
 m.func()
+
+-- used to nil out a passed parameter
+--   remember, this will leave the parameter itself nil
+-- LUA will not clear out globally scoped variables automatically
+-- setting each element to nil will allow the gc to clear it out
+function clearDataForGC(data)
+  if data == nil then
+    -- nothing needs to be done, return
+    return
+  end
+  for n, element in ipairs(data) do
+    element = nil
+  end
+end
 
 --Determine the person who put the dice in the box.
 function onObjectPickedUp(playerColor, obj)
@@ -136,6 +150,8 @@ end
 function onCollisionEnter(collision_info)
 	playerColor = lastHolder[collision_info.collision_object]
 	if collision_info.collision_object.getGUID() == nil then return end
+  clearDataForGC(diceGuidFaces)
+  clearDataForGC(sortedKeys)
 	diceGuidFaces = {}
 	sortedKeys = {}
 
@@ -177,6 +193,7 @@ function takeDiceOut(tab)
 		printToAll('Warning - "step" can\'t be lower than 1. Restored default configuration.', {0.8, 0.5, 0})
 	end
 
+  clearDataForGC(diceGuids)
 	diceGuids = {}
 	for k, v in pairs(self.getObjects()) do
 		faces = diceGuidFaces[v.guid]
@@ -196,6 +213,7 @@ function takeDiceOut(tab)
 	local position = self.getPosition()
 	rotation = self.getRotation()
 	sortedKeys = sortByVal(diceGuids, data.SortNoRows)
+  clearDataForGC(Rows)
 	Rows = {}
 	n = 1
 	for _, key in pairs(sortedKeys) do
