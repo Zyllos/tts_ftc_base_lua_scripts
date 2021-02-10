@@ -1,7 +1,7 @@
 -- Made by GenWilhelm
 -- https://steamcommunity.com/id/GenWilhelm/
 -- Discord: GenWilhelm#6485
-version_card = "2020-08-01"
+version_card = "2021-02-10"
 version_data = "error"
 
 repo =     "https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/"
@@ -120,11 +120,7 @@ function sec_xyFromExternal(x, y, alt, id)
 				end
 			end
 		end
---		print("VALUE IS "..value)
---		print("# "..#selectedPack.data.objectives[ tostring(value) ])
-		-- button[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name
-		-- button[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
-		-- self.editButton( button[5][w][4] )
+
 		secondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name
 		secondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description
 		updateAll(true)
@@ -499,8 +495,6 @@ function updateAll(reset)
 				l = m + 3
 			end
 
-			-- button[5][l][4].label = selectedPack.data.objectives[tostring(v)].name
-			-- button[5][l][4].tooltip = selectedPack.data.objectives[tostring(v)].description
 			button[5][l][4].label = secondary[n][m][4]
 			button[5][l][4].tooltip = secondary[n][m][5]
 			self.editButton( button[5][l][4] )
@@ -874,9 +868,6 @@ function sec_xy(x, y, alt)
 			w = y + 3
 		end
 
-		-- button[5][w][4].label = selectedPack.data.objectives[ tostring(value) ].name
-		-- button[5][w][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
-		-- self.editButton( button[5][w][4] )
 		secondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name
 		secondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description
 		updateAll(true)
@@ -906,9 +897,6 @@ function addSecondaryForPlayer2(player, secID)
 				j = i + 3
 			end
 
-			-- button[5][j][4].label = selectedPack.data.objectives[ tostring(value) ].name
-			-- button[5][j][4].tooltip = selectedPack.data.objectives[ tostring(value) ].description
-			-- self.editButton( button[5][j][4] )
 			secondary[player][i][4] = selectedPack.data.objectives[tostring(value)].name
 			secondary[player][i][5] = selectedPack.data.objectives[tostring(value)].description
 			updateAll(true)
