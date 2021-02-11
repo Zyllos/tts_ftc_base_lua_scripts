@@ -255,17 +255,18 @@ function createDebugMat()
 end
 
 function deleteTable()
-
     --flexTable=getObjectFromGUID(flexTableGuid)
     local guidList = {
         "afc863","c8edca","393bf7","12c65e","f938a2","9f95fd","35b95f",
         "5af8f2","4ee1f2","bd69bd", "28865a", "9f95fd"
     }
+    local obj = {}
     for i, tbl in ipairs(guidList) do
-      local obj = getObjectFromGUID(tbl)
+      obj = getObjectFromGUID(tbl)
       if obj ~= nil then
         obj.destroy()
       end
+    end
     --mat.destroy()
     --flexControl.destroy()
 end
@@ -298,7 +299,6 @@ function deleteTerrain3()
     broadcastToAll("DONE", "Red")
 end
 
-
 function spawnPlayZone()
     --local startMenu=getObjectFromGUID("738804")
     --selectedMat= startMenu.getVar("matSize")
@@ -311,6 +311,7 @@ function spawnPlayZone()
     --print("Scale: "..playZoneData.scale.x.." * "..playZoneData.scale.y.." * "..playZoneData.scale.z)
     playZone=spawnObject(playZoneData)
 end
+
 function injectLua()
     local objList = getAllObjects()
     local oldLua = ""

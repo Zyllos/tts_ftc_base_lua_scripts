@@ -1,7 +1,7 @@
 {
   "SaveName": "FTC 40k Map Base 9th - v2.33\n",
   "GameMode": "FTC 40k Map Base 9th - v2.33\n",
-  "Date": "2/11/2021 12:22:24 PM",
+  "Date": "2/11/2021 1:04:19 PM",
   "VersionNumber": "v13.0.5",
   "GameType": "",
   "GameComplexity": "",
@@ -486,9 +486,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980628,
-        "g": 0.249980628,
-        "b": 0.249980628
+        "r": 0.2499806,
+        "g": 0.2499806,
+        "b": 0.2499806
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -739,7 +739,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -31.0,
-        "posY": 0.9130011,
+        "posY": 0.9130012,
         "posZ": -29.0,
         "rotX": -1.57000659E-06,
         "rotY": 179.980057,
@@ -752,7 +752,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.05488769,
+        "r": 0.0548876673,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -876,7 +876,7 @@
         "posZ": -29.0,
         "rotX": -2.446599E-06,
         "rotY": 180.273682,
-        "rotZ": 3.14932663E-06,
+        "rotZ": 3.149327E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1142,7 +1142,7 @@
         "posZ": -29.0,
         "rotX": 8.39406141E-07,
         "rotY": 179.980057,
-        "rotZ": -1.49832977E-06,
+        "rotZ": -1.49833E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1285,7 +1285,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124980681,
+        "g": 0.124980651,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -1418,8 +1418,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999814346,
-        "b": 0.09398141
+        "g": 0.0999814048,
+        "b": 0.09398138
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1552,7 +1552,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.1097865
+        "b": 0.109786473
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1725,9 +1725,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982538,
+        "r": 0.191982508,
         "g": 0.701,
-        "b": 0.167982519
+        "b": 0.167982489
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1767,9 +1767,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982538,
+        "r": 0.191982508,
         "g": 0.701,
-        "b": 0.167982519
+        "b": 0.167982489
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1882,7 +1882,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": 16.5,
-        "rotX": 8.338698E-10,
+        "rotX": 8.3387E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1894,8 +1894,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998391,
-        "b": 0.0939838663
+        "g": 0.09998388,
+        "b": 0.09398384
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1924,7 +1924,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": -16.495657,
-        "rotX": 8.338698E-10,
+        "rotX": 8.3387E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1935,7 +1935,7 @@
       "Description": "ee92cf",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117983229,
+        "r": 0.1179832,
         "g": 0.53,
         "b": 1.0
       },
@@ -2381,7 +2381,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999178,
-        "posZ": 16.5023346,
+        "posZ": 16.5023479,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2429,7 +2429,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999572,
-        "posZ": 27.0028114,
+        "posZ": 27.0028267,
         "rotX": 90.0,
         "rotY": 89.96369,
         "rotZ": 0.0,
@@ -2477,7 +2477,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23999178,
-        "posZ": 37.5052452,
+        "posZ": 37.5052643,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2525,7 +2525,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -26.997324,
+        "posZ": -26.9973278,
         "rotX": 90.0,
         "rotY": 90.4634552,
         "rotZ": 0.0,
@@ -2573,7 +2573,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -37.4988365,
+        "posZ": -37.49884,
         "rotX": 90.0,
         "rotY": 89.9636841,
         "rotZ": 0.0,
@@ -2721,7 +2721,7 @@
       "Transform": {
         "posX": 73.5002747,
         "posY": 0.961133659,
-        "posZ": 27.0024529,
+        "posZ": 27.0024681,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2781,9 +2781,9 @@
       "Description": "- Use Token Bags Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249973863,
-        "g": 0.249973863,
-        "b": 0.249973863
+        "r": 0.2499738,
+        "g": 0.2499738,
+        "b": 0.2499738
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -14099,8 +14099,8 @@
       "Description": "- Use Psykic Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.247802049,
-        "g": 0.0676240847,
+        "r": 0.247801989,
+        "g": 0.06762404,
         "b": 0.6811846
       },
       "LayoutGroupSortIndex": 0,
@@ -18572,7 +18572,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -27.0,
-        "posY": 0.91,
+        "posY": 0.909999967,
         "posZ": -27.0,
         "rotX": -1.2927336E-07,
         "rotY": 179.980057,
@@ -18729,7 +18729,7 @@
         "posY": 0.9037044,
         "posZ": 30.9944077,
         "rotX": 359.9671,
-        "rotY": 0.365954667,
+        "rotY": 0.365954757,
         "rotZ": 359.8398,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -18740,7 +18740,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124980651,
+        "g": 0.124980621,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -18873,8 +18873,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999814048,
-        "b": 0.09398138
+        "g": 0.09998139,
+        "b": 0.09398135
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19007,7 +19007,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786473
+        "b": 0.109786443
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19558,7 +19558,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0548876673,
+        "r": 0.0548876449,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -19824,9 +19824,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.2499806,
-        "g": 0.2499806,
-        "b": 0.2499806
+        "r": 0.249980569,
+        "g": 0.249980569,
+        "b": 0.249980569
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20078,7 +20078,7 @@
       "Transform": {
         "posX": 62.5000458,
         "posY": 1.23999381,
-        "posZ": 0.0008106232,
+        "posZ": 0.000814437866,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -20138,9 +20138,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249989927,
-        "g": 0.249989927,
-        "b": 0.249989927
+        "r": 0.2499899,
+        "g": 0.2499899,
+        "b": 0.2499899
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20209,7 +20209,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.0000062,
-        "posZ": -83.87221,
+        "posZ": -83.87224,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20257,7 +20257,7 @@
       "Transform": {
         "posX": 90.00426,
         "posY": -0.999999464,
-        "posZ": 63.6641655,
+        "posZ": 63.66418,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20305,7 +20305,7 @@
       "Transform": {
         "posX": 90.00319,
         "posY": -1.00000322,
-        "posZ": 12.6597614,
+        "posZ": 12.65977,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20351,9 +20351,9 @@
       "GUID": "3e4433",
       "Name": "3DText",
       "Transform": {
-        "posX": 90.00496,
+        "posX": 90.0049744,
         "posY": -1.0000062,
-        "posZ": 37.6629829,
+        "posZ": 37.6629944,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20449,7 +20449,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.00000846,
-        "posZ": -68.34464,
+        "posZ": -68.3446655,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20510,8 +20510,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.9559999,
-        "g": 0.391991049,
-        "b": 0.112991057
+        "g": 0.391991019,
+        "b": 0.112991028
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26327,7 +26327,7 @@
         "posX": 88.50019,
         "posY": -3.0,
         "posZ": -66.00324,
-        "rotX": 0.0799786747,
+        "rotX": 0.07997996,
         "rotY": 89.99834,
         "rotZ": 359.983124,
         "scaleX": 1.0,
@@ -26338,9 +26338,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249991059,
-        "g": 0.249991059,
-        "b": 0.249991059
+        "r": 0.24999103,
+        "g": 0.24999103,
+        "b": 0.24999103
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26964,7 +26964,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124991708,
+        "g": 0.124991678,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -27191,9 +27191,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980569,
-        "g": 0.249980569,
-        "b": 0.249980569
+        "r": 0.249980539,
+        "g": 0.249980539,
+        "b": 0.249980539
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -27556,7 +27556,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -35.0,
-        "posY": 0.99999994,
+        "posY": 1.0,
         "posZ": -31.0,
         "rotX": 359.983124,
         "rotY": -3.06866641E-05,
@@ -27569,7 +27569,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117992155,
+        "r": 0.117992125,
         "g": 0.53,
         "b": 1.0
       },
@@ -28275,8 +28275,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999913439,
-        "b": 0.09399133
+        "g": 0.0999912843,
+        "b": 0.09399126
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -28366,7 +28366,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117990993,
+        "r": 0.117990933,
         "g": 0.53,
         "b": 1.0
       },
@@ -28445,7 +28445,7 @@
       "Bag": {
         "Order": 0
       },
-      "LuaScript": "keepForTerrainEditor = true\r\n\r\nplayZone=nil\r\nplayZoneData={\r\n    type = \"ScriptingTrigger\",\r\n    position          = {x=0, y=10, z=0},\r\n    rotation          = {x=0, y=0, z=0},\r\n    scale             = {x=72.2, y=100, z=48.2},\r\n    sound             = false,\r\n    snap_to_grid      = false,\r\n}\r\nplayZoneScale= {{x=48.2, y=100, z=48.2} ,\r\n{x=72.2, y=100, z=48.2},\r\n{x=96.2, y=100, z=48.2},\r\n{x=30.2, y=100, z=22.2},\r\n{x=72.2, y=100, z=72.2},\r\n{x=96.2, y=100, z=72.2}\r\n}\r\nselectedMat=2\r\n\r\n\r\n\r\nfunction onLoad()\r\n\r\n    assignVariables()\r\n    --createExtractButton()\r\n    self.setPosition({40,-2,-90})\r\n    self.setRotation({0,180,0})\r\n    self.interactable = false\r\n    self.setScale({1,0.5,1})\r\nend\r\nextractLbl=\"EXTRACT\\nTERRAIN\"\r\nsubtitleLbl=\"Confirm size first\"\r\nsubtitleLbl=\"\"\r\nscaleBtn={6,6,6}\r\noffsetX=-5\r\nextractBtn={\r\n    label=extractLbl, click_function=\"showYNButtonsExtract\", function_owner=self,\r\n    position={0+offsetX,0,17}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\nsubtitleBtn={\r\n    label=subtitleLbl, click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,0,20.8}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=100, color={0.8,0.8,0.8}, font_color=\"Red\", scale=scaleBtn\r\n}\r\nbackgroundBtn={\r\n    label=\"\", click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,-1,18}, rotation={0,0,0}, height=2000, width=2500,\r\n    font_size=300, color={0.4,0.4,0.4,0.7}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmYesBtnExtract={\r\n    label=\"Yes\", click_function=\"extract\", function_owner=self,\r\n    position={-7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnExtract={\r\n    label=\"No\", click_function=\"hideYNButtonsExtract\", function_owner=self,\r\n    position={7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\ninfoBtn={\r\n    label=\"TERRAIN\\nEXPORTING\\nINSTRUCTIONS\", click_function=\"showInstructions\", function_owner=self,\r\n    position={0+offsetX,0,36}, rotation={0,0,0}, height=1000, width=2000,\r\n    font_size=200, color={0,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\ndeleteLbl=\"DELETE\\nTERRAIN\"\r\ndeleteBtn={\r\n    label=deleteLbl, click_function=\"showYNButtonsDelete\", function_owner=self,\r\n    position={0+offsetX,0,46}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\n\r\nconfirmYesBtnDelete={\r\n    label=\"Yes\", click_function=\"deleteTerrain\", function_owner=self,\r\n    position={-7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnDelete={\r\n    label=\"No\", click_function=\"hideYNButtonsDelete\", function_owner=self,\r\n    position={7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\n\r\nfunction assignVariables()\r\n    --[[\r\n    playZone=getObjectFromGUID('5d3218')\r\n    junkyard1=getObjectFromGUID('894611')\r\n    junkyard2=getObjectFromGUID('2ae8cf')\r\n    junkyard3=getObjectFromGUID('d32b38')\r\n    junkyard4=getObjectFromGUID('0b6f7d')\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    matUrlDisplay.setPosition({0,-5.53,0})\r\n    --matUrlDisplay.setPosition({42,5,0})\r\n    ]]--\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    mat.setPosition({0,mat.getPosition().y,mat.getPosition().z})\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    Wait.frames(hideOther, 5)\r\n    matUrlDisplay.setPosition({185,-6,0})\r\n    flexControl=getObjectFromGUID('bd69bd')\r\n    YNButtonsExtract=false\r\n    YNButtonsDelete=false\r\n    label0=\"E X P O R T\\nT E R R A I N\"\r\n    adjust=3.5\r\n    scaleBtn=6\r\n    offsetBtn=-8.2*adjust\r\n    offsetYBtn=2.8*adjust\r\n    txtSize=120\r\nend\r\n\r\nfunction hideOther()\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\nend\r\n\r\nfunction showInstructions()\r\n    Global.call(\"openTerrain\")\r\nend\r\n\r\nfunction writeMenu()\r\n    self.clearButtons()\r\n    if YNButtonsExtract==false then\r\n        extractBtn.label=extractLbl\r\n    else\r\n        extractBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnExtract)\r\n        self.createButton(confirmNoBtnExtract)\r\n    end\r\n    if YNButtonsDelete == false then\r\n        deleteBtn.label=deleteLbl\r\n    else\r\n        deleteBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnDelete)\r\n        self.createButton(confirmNoBtnDelete)\r\n    end\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createMenu()\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createExtractButton()\r\n    --self.createButton(backgroundBtn)\r\n    if extractBtn.label == extractLbl then\r\n        self.createButton(subtitleBtn)\r\n    end\r\n    self.createButton(extractBtn)\r\n    --self.createButton(infoBtn)\r\nend\r\n\r\nfunction createNoButtonExtract()\r\n    self.createButton(confirmNoBtnExtract)\r\nend\r\n\r\nfunction createYesButtonExtract()\r\n    self.createButton(confirmYesBtnExtract)\r\nend\r\n\r\nfunction showYNButtonsExtract()\r\n    YNButtonsExtract = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsExtract()\r\n    YNButtonsExtract = false\r\n    writeMenu()\r\nend\r\n\r\nfunction createDeleteButton()\r\n    self.createButton(deleteBtn)\r\nend\r\n\r\nfunction showYNButtonsDelete()\r\n    YNButtonsDelete = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsDelete()\r\n    YNButtonsDelete = false\r\n    writeMenu()\r\nend\r\n\r\nfunction extract()\r\n    broadcastToAll(\"EXTRATCING TERRAIN\\nwait some seconds ...\", \"Yellow\")\r\n    mat=getObjectFromGUID(\"4ee1f2\")\r\n    createDebugMat()\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(extract2, 2)\r\nend\r\n\r\nfunction extract2()\r\n\r\n    matUrlDisplay.call('retriveUrl')\r\n\r\n    matUrlDisplay.clearInputs()\r\n    matUrlDisplay.clearButtons()\r\n    matUrlDisplay.setPosition({-38,-0.53,0})\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\n    matUrlDisplay.interactable=false\r\n    spawnPlayZone()\r\n    Wait.frames(extract3, 3)\r\nend\r\n\r\nfunction extract3()\r\n    local allObj=getAllObjects()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, objA in ipairs(allObj) do\r\n        local delete=true\r\n        for j, objZ in ipairs (zoneObj) do\r\n            if objA == objZ or objA == self or objA == matUrlDisplay then\r\n                delete=false\r\n                objZ.setLock(true)\r\n                --objZ.setDescription(\"\")\r\n            end\r\n        end\r\n        if delete then\r\n            objA.destroy()\r\n        end\r\n    end\r\n    local allObj2 = getAllObjects()\r\n\r\n    deleteTable()\r\n\r\n    Wait.frames(injectLua, 2)\r\n    --self.setPosition({37,2,0})\r\n    --self.destroy()\r\nend\r\n\r\nfunction createDebugMat()\r\n    local customInfo = mat.getCustomObject()\r\n    --print(\"MAT :\"..customInfo.diffuse..\":\")\r\n    local clone=spawnObject({\r\n        type              = \"Custom_Model\",\r\n        position          = mat.getPosition(),\r\n\r\n        params            = {mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\",diffuse=\"http://cloud-3.steamusercontent.com/ugc/786374678935692054/F32489A74087FB9D9E26AC5F9461841B8C40B37A/\"},\r\n\r\n    })\r\n    clone.setLuaScript(\"\")\r\n    --clone.setCustomObject(mat.getCustomObject())\r\n    clone.setCustomObject({mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\", diffuse=mat.getCustomObject().diffuse, material = 3})\r\n    clone.setScale(mat.getScale())\r\n    clone.setLock(true)\r\n    --clone.interactable=false\r\n    clone.setName(\"Mat url debug\")\r\nend\r\n\r\nfunction deleteTable()\r\n\r\n    --flexTable=getObjectFromGUID(flexTableGuid)\r\n    local guidList = {\r\n        \"afc863\",\"c8edca\",\"393bf7\",\"12c65e\",\"f938a2\",\"9f95fd\",\"35b95f\",\r\n        \"5af8f2\",\"4ee1f2\",\"bd69bd\", \"28865a\", \"9f95fd\"\r\n    }\r\n    for i, tbl in ipairs(guidList) do\r\n      print(\"Index=\"..i)\r\n      print(\"Guid=\"..guidList[i])\r\n      print(\"tbl[\"..i..\"]=\"..tbl)\r\n      local obj = getObjectFromGUID(tbl)\r\n      if obj ~= nil then\r\n        obj.destroy()\r\n      else\r\n        print(\"nil obj\")\r\n      end\r\n    end\r\n\r\n    --mat.destroy()\r\n    --flexControl.destroy()\r\n\r\nend\r\n\r\nfunction deleteSelf()\r\n    broadcastToAll(\"DONE\", \"Yellow\")\r\n    WebRequest.get(\"http://campaign40k.altervista.org/campaign/statistics.php?name=40KMap\", none)\r\n    self.destroy()\r\nend\r\n\r\nfunction deleteTerrain()\r\n    broadcastToAll(\"DELETING TERRAIN\\nwait some seconds ...\", \"Red\")\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(deleteTerrain2, 2)\r\nend\r\n\r\nfunction deleteTerrain2()\r\n    spawnPlayZone()\r\n    Wait.frames(deleteTerrain3, 3)\r\nend\r\n\r\nfunction deleteTerrain3()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, obj in ipairs(zoneObj) do\r\n        if obj.getGUID() ~= \"4ee1f2\" and obj.getGUID() ~= \"28865a\" and obj.getGUID() ~= \"f938a2\" then\r\n            obj.destroy()\r\n        end\r\n    end\r\n    broadcastToAll(\"DONE\", \"Red\")\r\nend\r\n\r\n\r\nfunction spawnPlayZone()\r\n    --local startMenu=getObjectFromGUID(\"738804\")\r\n    --selectedMat= startMenu.getVar(\"matSize\")\r\n    --playZoneData.scale=playZoneScale[selectedMat]\r\n    playZoneData.scale=mat.getScale()\r\n\r\n    playZoneData.scale.x=playZoneData.scale.x*36.02+0.2\r\n    playZoneData.scale.y=100\r\n    playZoneData.scale.z=playZoneData.scale.z*35.83+0.2\r\n    --print(\"Scale: \"..playZoneData.scale.x..\" * \"..playZoneData.scale.y..\" * \"..playZoneData.scale.z)\r\n    playZone=spawnObject(playZoneData)\r\nend\r\nfunction injectLua()\r\n    local objList = getAllObjects()\r\n    local oldLua = \"\"\r\n    local addLua = '\\nBCBtype = \"terrain\"\\n'\r\n    local newLua = \"\"\r\n    for i, obj in ipairs(objList) do\r\n        if obj.getVar(\"BCBtype\") == \"terrain\" or obj == matUrlDisplay then\r\n\r\n        else\r\n            oldLua = obj.getLuaScript()\r\n            newLua = addLua .. oldLua\r\n            obj.setLuaScript(newLua)\r\n        end\r\n    end\r\n    Wait.frames(deleteSelf, 1)\r\nend\r\n\r\nfunction none()\r\nend\r\n",
+      "LuaScript": "keepForTerrainEditor = true\r\n\r\nplayZone=nil\r\nplayZoneData={\r\n    type = \"ScriptingTrigger\",\r\n    position          = {x=0, y=10, z=0},\r\n    rotation          = {x=0, y=0, z=0},\r\n    scale             = {x=72.2, y=100, z=48.2},\r\n    sound             = false,\r\n    snap_to_grid      = false,\r\n}\r\nplayZoneScale= {{x=48.2, y=100, z=48.2} ,\r\n{x=72.2, y=100, z=48.2},\r\n{x=96.2, y=100, z=48.2},\r\n{x=30.2, y=100, z=22.2},\r\n{x=72.2, y=100, z=72.2},\r\n{x=96.2, y=100, z=72.2}\r\n}\r\nselectedMat=2\r\n\r\n\r\n\r\nfunction onLoad()\r\n\r\n    assignVariables()\r\n    --createExtractButton()\r\n    self.setPosition({40,-2,-90})\r\n    self.setRotation({0,180,0})\r\n    self.interactable = false\r\n    self.setScale({1,0.5,1})\r\nend\r\nextractLbl=\"EXTRACT\\nTERRAIN\"\r\nsubtitleLbl=\"Confirm size first\"\r\nsubtitleLbl=\"\"\r\nscaleBtn={6,6,6}\r\noffsetX=-5\r\nextractBtn={\r\n    label=extractLbl, click_function=\"showYNButtonsExtract\", function_owner=self,\r\n    position={0+offsetX,0,17}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\nsubtitleBtn={\r\n    label=subtitleLbl, click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,0,20.8}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=100, color={0.8,0.8,0.8}, font_color=\"Red\", scale=scaleBtn\r\n}\r\nbackgroundBtn={\r\n    label=\"\", click_function=\"none\", function_owner=self,\r\n    position={0+offsetX,-1,18}, rotation={0,0,0}, height=2000, width=2500,\r\n    font_size=300, color={0.4,0.4,0.4,0.7}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmYesBtnExtract={\r\n    label=\"Yes\", click_function=\"extract\", function_owner=self,\r\n    position={-7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnExtract={\r\n    label=\"No\", click_function=\"hideYNButtonsExtract\", function_owner=self,\r\n    position={7+offsetX,0,29}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\ninfoBtn={\r\n    label=\"TERRAIN\\nEXPORTING\\nINSTRUCTIONS\", click_function=\"showInstructions\", function_owner=self,\r\n    position={0+offsetX,0,36}, rotation={0,0,0}, height=1000, width=2000,\r\n    font_size=200, color={0,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\ndeleteLbl=\"DELETE\\nTERRAIN\"\r\ndeleteBtn={\r\n    label=deleteLbl, click_function=\"showYNButtonsDelete\", function_owner=self,\r\n    position={0+offsetX,0,46}, rotation={0,0,0}, height=750, width=2000,\r\n    font_size=300, color={0.8,0.8,0.8}, font_color={0,0,0}, scale=scaleBtn\r\n}\r\n\r\nconfirmYesBtnDelete={\r\n    label=\"Yes\", click_function=\"deleteTerrain\", function_owner=self,\r\n    position={-7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0,0.6,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\nconfirmNoBtnDelete={\r\n    label=\"No\", click_function=\"hideYNButtonsDelete\", function_owner=self,\r\n    position={7+offsetX,0,57}, rotation={0,0,0}, height=750, width=820,\r\n    font_size=300, color={0.6,0,0}, font_color={1,1,1}, scale=scaleBtn\r\n}\r\n\r\n\r\nfunction assignVariables()\r\n    --[[\r\n    playZone=getObjectFromGUID('5d3218')\r\n    junkyard1=getObjectFromGUID('894611')\r\n    junkyard2=getObjectFromGUID('2ae8cf')\r\n    junkyard3=getObjectFromGUID('d32b38')\r\n    junkyard4=getObjectFromGUID('0b6f7d')\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    matUrlDisplay.setPosition({0,-5.53,0})\r\n    --matUrlDisplay.setPosition({42,5,0})\r\n    ]]--\r\n    table=getObjectFromGUID('948ce5')\r\n    mat=getObjectFromGUID('4ee1f2')\r\n    mat.setPosition({0,mat.getPosition().y,mat.getPosition().z})\r\n    matUrlDisplay=getObjectFromGUID('c5e288')\r\n    Wait.frames(hideOther, 5)\r\n    matUrlDisplay.setPosition({185,-6,0})\r\n    flexControl=getObjectFromGUID('bd69bd')\r\n    YNButtonsExtract=false\r\n    YNButtonsDelete=false\r\n    label0=\"E X P O R T\\nT E R R A I N\"\r\n    adjust=3.5\r\n    scaleBtn=6\r\n    offsetBtn=-8.2*adjust\r\n    offsetYBtn=2.8*adjust\r\n    txtSize=120\r\nend\r\n\r\nfunction hideOther()\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\nend\r\n\r\nfunction showInstructions()\r\n    Global.call(\"openTerrain\")\r\nend\r\n\r\nfunction writeMenu()\r\n    self.clearButtons()\r\n    if YNButtonsExtract==false then\r\n        extractBtn.label=extractLbl\r\n    else\r\n        extractBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnExtract)\r\n        self.createButton(confirmNoBtnExtract)\r\n    end\r\n    if YNButtonsDelete == false then\r\n        deleteBtn.label=deleteLbl\r\n    else\r\n        deleteBtn.label=\"Are you sure?\"\r\n        self.createButton(confirmYesBtnDelete)\r\n        self.createButton(confirmNoBtnDelete)\r\n    end\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createMenu()\r\n    createExtractButton()\r\n    createDeleteButton()\r\nend\r\n\r\nfunction createExtractButton()\r\n    --self.createButton(backgroundBtn)\r\n    if extractBtn.label == extractLbl then\r\n        self.createButton(subtitleBtn)\r\n    end\r\n    self.createButton(extractBtn)\r\n    --self.createButton(infoBtn)\r\nend\r\n\r\nfunction createNoButtonExtract()\r\n    self.createButton(confirmNoBtnExtract)\r\nend\r\n\r\nfunction createYesButtonExtract()\r\n    self.createButton(confirmYesBtnExtract)\r\nend\r\n\r\nfunction showYNButtonsExtract()\r\n    YNButtonsExtract = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsExtract()\r\n    YNButtonsExtract = false\r\n    writeMenu()\r\nend\r\n\r\nfunction createDeleteButton()\r\n    self.createButton(deleteBtn)\r\nend\r\n\r\nfunction showYNButtonsDelete()\r\n    YNButtonsDelete = true\r\n    writeMenu()\r\nend\r\n\r\nfunction hideYNButtonsDelete()\r\n    YNButtonsDelete = false\r\n    writeMenu()\r\nend\r\n\r\nfunction extract()\r\n    broadcastToAll(\"EXTRATCING TERRAIN\\nwait some seconds ...\", \"Yellow\")\r\n    mat=getObjectFromGUID(\"4ee1f2\")\r\n    createDebugMat()\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(extract2, 2)\r\nend\r\n\r\nfunction extract2()\r\n\r\n    matUrlDisplay.call('retriveUrl')\r\n\r\n    matUrlDisplay.clearInputs()\r\n    matUrlDisplay.clearButtons()\r\n    matUrlDisplay.setPosition({-38,-0.53,0})\r\n    matUrlDisplay.setInvisibleTo({\"Red\", \"Blue\", \"Black\", \"Grey\", \"White\"})\r\n    matUrlDisplay.interactable=false\r\n    spawnPlayZone()\r\n    Wait.frames(extract3, 3)\r\nend\r\n\r\nfunction extract3()\r\n    local allObj=getAllObjects()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, objA in ipairs(allObj) do\r\n        local delete=true\r\n        for j, objZ in ipairs (zoneObj) do\r\n            if objA == objZ or objA == self or objA == matUrlDisplay then\r\n                delete=false\r\n                objZ.setLock(true)\r\n                --objZ.setDescription(\"\")\r\n            end\r\n        end\r\n        if delete then\r\n            objA.destroy()\r\n        end\r\n    end\r\n    local allObj2 = getAllObjects()\r\n\r\n    deleteTable()\r\n\r\n    Wait.frames(injectLua, 2)\r\n    --self.setPosition({37,2,0})\r\n    --self.destroy()\r\nend\r\n\r\nfunction createDebugMat()\r\n    local customInfo = mat.getCustomObject()\r\n    --print(\"MAT :\"..customInfo.diffuse..\":\")\r\n    local clone=spawnObject({\r\n        type              = \"Custom_Model\",\r\n        position          = mat.getPosition(),\r\n\r\n        params            = {mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\",diffuse=\"http://cloud-3.steamusercontent.com/ugc/786374678935692054/F32489A74087FB9D9E26AC5F9461841B8C40B37A/\"},\r\n\r\n    })\r\n    clone.setLuaScript(\"\")\r\n    --clone.setCustomObject(mat.getCustomObject())\r\n    clone.setCustomObject({mesh=\"http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/\", diffuse=mat.getCustomObject().diffuse, material = 3})\r\n    clone.setScale(mat.getScale())\r\n    clone.setLock(true)\r\n    --clone.interactable=false\r\n    clone.setName(\"Mat url debug\")\r\nend\r\n\r\nfunction deleteTable()\r\n    --flexTable=getObjectFromGUID(flexTableGuid)\r\n    local guidList = {\r\n        \"afc863\",\"c8edca\",\"393bf7\",\"12c65e\",\"f938a2\",\"9f95fd\",\"35b95f\",\r\n        \"5af8f2\",\"4ee1f2\",\"bd69bd\", \"28865a\", \"9f95fd\"\r\n    }\r\n    local obj = {}\r\n    for i, tbl in ipairs(guidList) do\r\n      obj = getObjectFromGUID(tbl)\r\n      if obj ~= nil then\r\n        obj.destroy()\r\n      end\r\n    end\r\n    --mat.destroy()\r\n    --flexControl.destroy()\r\nend\r\n\r\nfunction deleteSelf()\r\n    broadcastToAll(\"DONE\", \"Yellow\")\r\n    WebRequest.get(\"http://campaign40k.altervista.org/campaign/statistics.php?name=40KMap\", none)\r\n    self.destroy()\r\nend\r\n\r\nfunction deleteTerrain()\r\n    broadcastToAll(\"DELETING TERRAIN\\nwait some seconds ...\", \"Red\")\r\n    local startMenu=getObjectFromGUID(\"738804\")\r\n    startMenu.call(\"recallAll\")\r\n    Wait.time(deleteTerrain2, 2)\r\nend\r\n\r\nfunction deleteTerrain2()\r\n    spawnPlayZone()\r\n    Wait.frames(deleteTerrain3, 3)\r\nend\r\n\r\nfunction deleteTerrain3()\r\n    local zoneObj=playZone.getObjects()\r\n    for i, obj in ipairs(zoneObj) do\r\n        if obj.getGUID() ~= \"4ee1f2\" and obj.getGUID() ~= \"28865a\" and obj.getGUID() ~= \"f938a2\" then\r\n            obj.destroy()\r\n        end\r\n    end\r\n    broadcastToAll(\"DONE\", \"Red\")\r\nend\r\n\r\nfunction spawnPlayZone()\r\n    --local startMenu=getObjectFromGUID(\"738804\")\r\n    --selectedMat= startMenu.getVar(\"matSize\")\r\n    --playZoneData.scale=playZoneScale[selectedMat]\r\n    playZoneData.scale=mat.getScale()\r\n\r\n    playZoneData.scale.x=playZoneData.scale.x*36.02+0.2\r\n    playZoneData.scale.y=100\r\n    playZoneData.scale.z=playZoneData.scale.z*35.83+0.2\r\n    --print(\"Scale: \"..playZoneData.scale.x..\" * \"..playZoneData.scale.y..\" * \"..playZoneData.scale.z)\r\n    playZone=spawnObject(playZoneData)\r\nend\r\n\r\nfunction injectLua()\r\n    local objList = getAllObjects()\r\n    local oldLua = \"\"\r\n    local addLua = '\\nBCBtype = \"terrain\"\\n'\r\n    local newLua = \"\"\r\n    for i, obj in ipairs(objList) do\r\n        if obj.getVar(\"BCBtype\") == \"terrain\" or obj == matUrlDisplay then\r\n\r\n        else\r\n            oldLua = obj.getLuaScript()\r\n            newLua = addLua .. oldLua\r\n            obj.setLuaScript(newLua)\r\n        end\r\n    end\r\n    Wait.frames(deleteSelf, 1)\r\nend\r\n\r\nfunction none()\r\nend\r\n",
       "LuaScriptState": "",
       "XmlUI": ""
     },
@@ -28456,9 +28456,9 @@
         "posX": 85.0000153,
         "posY": 0.9306005,
         "posZ": -88.0000153,
-        "rotX": 2.24683134E-07,
+        "rotX": 7.333716E-07,
         "rotY": 90.008606,
-        "rotZ": 1.43864543E-06,
+        "rotZ": 1.75904324E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29402,9 +29402,9 @@
         "posX": 73.0,
         "posY": 0.9305996,
         "posZ": -50.0,
-        "rotX": 2.22999986E-07,
+        "rotX": 4.25545664E-07,
         "rotY": 90.00196,
-        "rotZ": 1.58917646E-06,
+        "rotZ": 1.87742921E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -30466,9 +30466,9 @@
         "posX": 85.0,
         "posY": 0.9305956,
         "posZ": 88.0,
-        "rotX": 5.55301256E-07,
+        "rotX": 7.192068E-07,
         "rotY": 90.008606,
-        "rotZ": 1.83130544E-06,
+        "rotZ": 1.48339109E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -31529,9 +31529,9 @@
         "posX": 67.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": 1.88170532E-06,
+        "rotX": -2.41701264E-06,
         "rotY": 270.01886,
-        "rotZ": -2.32641059E-06,
+        "rotZ": -2.146732E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31578,11 +31578,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999154,
+        "posY": 0.9499993,
         "posZ": -14.000001,
-        "rotX": 3.93151538E-07,
+        "rotX": -5.73091938E-07,
         "rotY": 270.118134,
-        "rotZ": -2.07507173E-06,
+        "rotZ": -1.70772762E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31631,9 +31631,9 @@
         "posX": 67.0,
         "posY": 0.949999332,
         "posZ": -16.0000019,
-        "rotX": 1.05135643E-06,
+        "rotX": 2.934675E-07,
         "rotY": 269.916626,
-        "rotZ": -4.5285E-06,
+        "rotZ": -7.176988E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31680,11 +31680,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499991,
+        "posY": 0.949999154,
         "posZ": -10.0,
-        "rotX": -2.74099125E-06,
+        "rotX": -1.45561069E-06,
         "rotY": 270.0437,
-        "rotZ": -4.67948E-06,
+        "rotZ": 3.612481E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31733,9 +31733,9 @@
         "posX": 67.0,
         "posY": 0.9499992,
         "posZ": -12.0,
-        "rotX": -2.37326822E-06,
+        "rotX": -9.664284E-07,
         "rotY": 269.875183,
-        "rotZ": -2.37504332E-06,
+        "rotZ": 2.3747175E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31782,11 +31782,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999034,
+        "posY": 0.949999154,
         "posZ": -8.000001,
-        "rotX": -1.76992E-06,
-        "rotY": 270.031372,
-        "rotZ": -2.209256E-06,
+        "rotX": -2.95244547E-07,
+        "rotY": 270.0313,
+        "rotZ": -2.46334071E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31835,7 +31835,7 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 14.0,
-        "rotX": 1.25918234E-06,
+        "rotX": 9.253714E-08,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31886,9 +31886,9 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 15.9999552,
-        "rotX": -1.31076365E-06,
+        "rotX": -3.64110178E-06,
         "rotY": 269.9995,
-        "rotZ": -8.51952E-07,
+        "rotZ": -1.39443421E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31937,7 +31937,7 @@
         "posX": 67.0,
         "posY": 0.949998558,
         "posZ": 10.0,
-        "rotX": -2.25154417E-06,
+        "rotX": -3.82461849E-07,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31987,7 +31987,7 @@
       "Transform": {
         "posX": 66.00005,
         "posY": 0.9611341,
-        "posZ": 12.0007925,
+        "posZ": 12.0008,
         "rotX": 90.0,
         "rotY": 89.96401,
         "rotZ": 0.0,
@@ -33319,11 +33319,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949998558,
+        "posY": 0.9499986,
         "posZ": 11.9999962,
-        "rotX": -1.31913794E-06,
-        "rotY": 269.999268,
-        "rotZ": 4.61079935E-07,
+        "rotX": -1.95423945E-06,
+        "rotY": 269.9993,
+        "rotZ": -2.15748332E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -33708,9 +33708,9 @@
         "posX": 73.0,
         "posY": 0.930596769,
         "posZ": 50.0,
-        "rotX": 2.92458822E-07,
+        "rotX": 7.17901E-07,
         "rotY": 90.00196,
-        "rotZ": 1.84117494E-06,
+        "rotZ": 1.77654158E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34772,9 +34772,9 @@
         "posX": -19.3798523,
         "posY": 1.32000017,
         "posZ": -26.84741,
-        "rotX": 9.917222E-08,
-        "rotY": 0.00279762619,
-        "rotZ": -3.32403232E-07,
+        "rotX": -2.52171244E-08,
+        "rotY": 0.00279763178,
+        "rotZ": -2.729884E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34783,7 +34783,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997505,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -34860,10 +34860,10 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": -19.3798676,
-        "posY": 1.32000041,
+        "posY": 1.32000065,
         "posZ": -27.84741,
         "rotX": 90.0,
-        "rotY": 0.002794503,
+        "rotY": 0.002795447,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34873,7 +34873,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997505,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -34950,10 +34950,10 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": -19.3798847,
-        "posY": 1.32000017,
+        "posY": 1.32000041,
         "posZ": -28.84741,
-        "rotX": 3.76235718E-08,
-        "rotY": 0.00277679577,
+        "rotX": 3.82905824E-07,
+        "rotY": 0.00277674734,
         "rotZ": 90.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34963,7 +34963,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997505,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -35042,8 +35042,8 @@
         "posX": -19.3799,
         "posY": 1.32000041,
         "posZ": -29.84741,
-        "rotX": 1.58102367E-07,
-        "rotY": 0.00280290213,
+        "rotX": 3.12661257E-08,
+        "rotY": 0.00280293776,
         "rotZ": 270.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35053,7 +35053,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997505,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -35133,7 +35133,7 @@
         "posY": 1.32000041,
         "posZ": -30.84741,
         "rotX": 270.0,
-        "rotY": 0.00280922931,
+        "rotY": 0.00280914526,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35143,7 +35143,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996491,
+        "r": 0.117996462,
         "g": 0.53,
         "b": 1.0
       },
@@ -35222,8 +35222,8 @@
         "posX": -19.3799324,
         "posY": 1.32000017,
         "posZ": -31.84741,
-        "rotX": 1.5088693E-08,
-        "rotY": 0.00279717334,
+        "rotX": 2.3717698E-08,
+        "rotY": 0.00279718521,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35233,7 +35233,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996491,
+        "r": 0.117996462,
         "g": 0.53,
         "b": 1.0
       },
@@ -35310,11 +35310,11 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3792629,
-        "posY": 1.32000029,
+        "posY": 1.32000017,
         "posZ": 26.8468227,
-        "rotX": 7.660172E-08,
+        "rotX": 2.22868373E-08,
         "rotY": 179.969955,
-        "rotZ": 1.14848206E-07,
+        "rotZ": -6.239982E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -35324,8 +35324,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35414,8 +35414,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35492,7 +35492,7 @@
         "posX": 19.3781147,
         "posY": 1.32000017,
         "posZ": 28.8468227,
-        "rotX": -9.10469566E-07,
+        "rotX": -8.42101E-07,
         "rotY": 179.969955,
         "rotZ": 90.0,
         "scaleX": 1.0,
@@ -35504,8 +35504,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35582,7 +35582,7 @@
         "posX": 19.37754,
         "posY": 1.32000017,
         "posZ": 29.84682,
-        "rotX": -4.16881676E-07,
+        "rotX": -4.752451E-07,
         "rotY": 179.969955,
         "rotZ": 270.0,
         "scaleX": 1.0,
@@ -35594,8 +35594,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35684,8 +35684,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35762,7 +35762,7 @@
         "posX": 19.3763924,
         "posY": 1.32000041,
         "posZ": 31.84682,
-        "rotX": -1.19917189E-07,
+        "rotX": -1.81844921E-08,
         "rotY": 179.969955,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -35774,8 +35774,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999759,
-        "b": 0.09399756
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35960,9 +35960,9 @@
         "posX": 70.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -6.36907544E-07,
+        "rotX": -2.82141457E-07,
         "rotY": 270.0,
-        "rotZ": -1.694376E-06,
+        "rotZ": -1.49325513E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36062,9 +36062,9 @@
         "posX": 70.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -4.46782963E-07,
+        "rotX": -5.632275E-07,
         "rotY": 270.0,
-        "rotZ": -1.622988E-06,
+        "rotZ": -1.65052393E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36164,9 +36164,9 @@
         "posX": 70.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -4.76168623E-07,
+        "rotX": -4.701277E-07,
         "rotY": 270.0,
-        "rotZ": -1.5915424E-06,
+        "rotZ": -1.63861307E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36266,9 +36266,9 @@
         "posX": 66.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -4.52903151E-07,
+        "rotX": -4.28412278E-07,
         "rotY": 270.0,
-        "rotZ": -1.65857512E-06,
+        "rotZ": -1.54025565E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36368,9 +36368,9 @@
         "posX": 66.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -4.087719E-07,
+        "rotX": -5.33912E-07,
         "rotY": 270.0,
-        "rotZ": -1.64124924E-06,
+        "rotZ": -1.52254279E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36470,9 +36470,9 @@
         "posX": 66.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -4.65651624E-07,
+        "rotX": -4.92922936E-07,
         "rotY": 270.0,
-        "rotZ": -1.533146E-06,
+        "rotZ": -1.57910063E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36658,10 +36658,10 @@
       "Name": "Custom_Model",
       "Transform": {
         "posX": 78.0003738,
-        "posY": 1.00014508,
-        "posZ": 1.00007808,
-        "rotX": 5.29111057E-05,
-        "rotY": 180.0127,
+        "posY": 1.00014722,
+        "posZ": 1.00007975,
+        "rotX": 2.86143022E-05,
+        "rotY": 180.01268,
         "rotZ": 179.999222,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -36797,9 +36797,9 @@
         "posX": -30.19999,
         "posY": 0.949998856,
         "posZ": 29.925,
-        "rotX": -1.91223671E-06,
+        "rotX": -2.017292E-06,
         "rotY": 180.0,
-        "rotZ": 6.154818E-07,
+        "rotZ": 4.43909869E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36833,12 +36833,12 @@
       "GUID": "5fd19f",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -40.1999664,
+        "posX": -40.19997,
         "posY": 0.949999,
         "posZ": 29.92501,
-        "rotX": -2.14202646E-06,
+        "rotX": -1.21392588E-06,
         "rotY": 180.0,
-        "rotZ": 6.11637063E-07,
+        "rotZ": 5.58074362E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36875,9 +36875,9 @@
         "posX": 29.8001251,
         "posY": 0.95,
         "posZ": -29.9250126,
-        "rotX": 1.62400079E-06,
-        "rotY": 5.09808251E-06,
-        "rotZ": -6.41398E-07,
+        "rotX": 1.8575887E-06,
+        "rotY": 5.16679347E-06,
+        "rotZ": -6.0008125E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36914,9 +36914,9 @@
         "posX": 39.800045,
         "posY": 0.9499999,
         "posZ": -29.9250031,
-        "rotX": 1.3858654E-06,
-        "rotY": 1.5079662E-06,
-        "rotZ": -5.76852869E-07,
+        "rotX": 1.3009959E-06,
+        "rotY": 1.443713E-06,
+        "rotZ": -3.18346679E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36951,11 +36951,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499984,
+        "posY": 0.9499983,
         "posZ": 18.0,
-        "rotX": -2.76721153E-07,
+        "rotX": -6.18391653E-07,
         "rotY": 269.999939,
-        "rotZ": -8.587861E-07,
+        "rotZ": -4.529957E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37057,9 +37057,9 @@
         "posX": 73.0,
         "posY": 0.9499984,
         "posZ": 15.9999876,
-        "rotX": -8.728824E-07,
+        "rotX": -1.44040985E-06,
         "rotY": 269.999451,
-        "rotZ": -1.361289E-06,
+        "rotZ": -2.265555E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37159,11 +37159,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499985,
+        "posY": 0.949998438,
         "posZ": 13.999999,
-        "rotX": -2.96453027E-06,
+        "rotX": -7.947547E-07,
         "rotY": 270.000275,
-        "rotZ": -3.23863674E-07,
+        "rotZ": 8.30476836E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37263,11 +37263,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949998558,
+        "posY": 0.9499986,
         "posZ": 11.999999,
-        "rotX": 2.07469589E-06,
-        "rotY": 269.999329,
-        "rotZ": -1.40165378E-06,
+        "rotX": -4.6627174E-06,
+        "rotY": 269.999268,
+        "rotZ": -1.05481035E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37369,9 +37369,9 @@
         "posX": 73.0,
         "posY": 0.9499985,
         "posZ": 9.999999,
-        "rotX": 1.620082E-06,
+        "rotX": -1.67298208E-06,
         "rotY": 269.999939,
-        "rotZ": -3.79919334E-06,
+        "rotZ": -2.219495E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37470,12 +37470,12 @@
       "GUID": "9f3fd3",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 73.05776,
-        "posY": 1.05008626,
-        "posZ": 8.072687,
-        "rotX": 0.000768362,
-        "rotY": 270.607239,
-        "rotZ": 6.1617975E-05,
+        "posX": 73.0577545,
+        "posY": 1.04851055,
+        "posZ": 8.072716,
+        "rotX": 0.0077484143,
+        "rotY": 270.60733,
+        "rotZ": 359.979126,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37574,12 +37574,12 @@
       "GUID": "e94248",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": 71.01454,
-        "posY": 1.05005884,
-        "posZ": 8.069722,
-        "rotX": 0.0007688063,
-        "rotY": 270.348328,
-        "rotZ": 5.54723265E-05,
+        "posX": 71.014534,
+        "posY": 1.04930925,
+        "posZ": 8.069739,
+        "rotX": 2.75225284E-06,
+        "rotY": 270.3484,
+        "rotZ": 359.986755,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37681,9 +37681,9 @@
         "posX": 71.0,
         "posY": 0.9499986,
         "posZ": 9.999999,
-        "rotX": 9.41789438E-07,
-        "rotY": 269.9995,
-        "rotZ": -2.57158035E-06,
+        "rotX": 5.077441E-07,
+        "rotY": 269.999634,
+        "rotZ": -1.10699443E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37783,11 +37783,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499985,
+        "posY": 0.949998438,
         "posZ": 11.999999,
-        "rotX": 9.683002E-07,
-        "rotY": 269.999542,
-        "rotZ": 3.11501822E-07,
+        "rotX": -1.65896165E-06,
+        "rotY": 269.9995,
+        "rotZ": -2.95158634E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37887,11 +37887,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499986,
+        "posY": 0.9499985,
         "posZ": 13.999999,
-        "rotX": 2.02463934E-06,
-        "rotY": 269.999634,
-        "rotZ": -2.44453963E-06,
+        "rotX": -2.67011956E-06,
+        "rotY": 269.999664,
+        "rotZ": -9.485495E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37993,9 +37993,9 @@
         "posX": 71.0,
         "posY": 0.9499984,
         "posZ": 15.9999838,
-        "rotX": -6.53639631E-07,
+        "rotX": -2.07485618E-06,
         "rotY": 269.9996,
-        "rotZ": -2.201662E-06,
+        "rotZ": -1.32451953E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38095,11 +38095,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499984,
+        "posY": 0.9499983,
         "posZ": 18.0,
-        "rotX": -6.373126E-07,
+        "rotX": 7.78017153E-08,
         "rotY": 270.0001,
-        "rotZ": 5.69448559E-07,
+        "rotZ": -1.42480928E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38199,11 +38199,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.9499983,
+        "posY": 0.9499984,
         "posZ": 18.0002022,
-        "rotX": -3.40775927E-07,
+        "rotX": -1.21295969E-07,
         "rotY": 270.0001,
-        "rotZ": 1.2995464E-06,
+        "rotZ": -2.4685462E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38303,11 +38303,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.949998438,
+        "posY": 0.9499984,
         "posZ": 16.0001717,
-        "rotX": -1.2804577E-06,
+        "rotX": 1.8280283E-06,
         "rotY": 269.9996,
-        "rotZ": -2.74066133E-06,
+        "rotZ": 2.12115629E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38409,9 +38409,9 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 14.0002031,
-        "rotX": 1.16544115E-07,
+        "rotX": -2.06860977E-06,
         "rotY": 269.999939,
-        "rotZ": -5.31214539E-07,
+        "rotZ": -2.16683884E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38513,9 +38513,9 @@
         "posX": 69.0,
         "posY": 0.9499985,
         "posZ": 12.0002394,
-        "rotX": -5.64654044E-07,
+        "rotX": -6.770593E-07,
         "rotY": 270.002319,
-        "rotZ": -1.040946E-06,
+        "rotZ": -3.730506E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38617,9 +38617,9 @@
         "posX": 69.0,
         "posY": 0.949998558,
         "posZ": 10.0002041,
-        "rotX": -3.4100583E-07,
+        "rotX": 1.00794409E-06,
         "rotY": 269.9997,
-        "rotZ": -1.17347167E-06,
+        "rotZ": -1.99283681E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38719,11 +38719,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.00878,
-        "posY": 1.0500319,
-        "posZ": 8.021318,
-        "rotX": 0.0007698839,
-        "rotY": 270.0197,
-        "rotZ": 5.3877E-05,
+        "posY": 1.04984069,
+        "posZ": 8.021324,
+        "rotX": 0.00372682628,
+        "rotY": 270.019775,
+        "rotZ": -0.005008886,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38822,9 +38822,9 @@
       "GUID": "c08a10",
       "Name": "3DText",
       "Transform": {
-        "posX": 75.50012,
+        "posX": 75.50013,
         "posY": 0.9611398,
-        "posZ": 13.0003042,
+        "posZ": 13.0003157,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38872,7 +38872,7 @@
       "Transform": {
         "posX": 75.4897461,
         "posY": 0.9611398,
-        "posZ": 10.7346382,
+        "posZ": 10.7346525,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38920,7 +38920,7 @@
       "Transform": {
         "posX": 75.490036,
         "posY": 0.9611398,
-        "posZ": 13.2810469,
+        "posZ": 13.2810545,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38969,9 +38969,9 @@
         "posX": 73.0,
         "posY": 0.9499991,
         "posZ": -8.0,
-        "rotX": -6.63965375E-06,
+        "rotX": 1.5220877E-06,
         "rotY": 270.0,
-        "rotZ": -2.779124E-06,
+        "rotZ": -2.2609629E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39018,11 +39018,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": 9.49718753E-07,
+        "rotX": -3.18680281E-06,
         "rotY": 270.0,
-        "rotZ": -2.21740174E-06,
+        "rotZ": -7.39426866E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39071,9 +39071,9 @@
         "posX": 73.0,
         "posY": 0.9499992,
         "posZ": -14.0,
-        "rotX": -1.62944355E-06,
+        "rotX": -5.804142E-07,
         "rotY": 270.0,
-        "rotZ": 9.495978E-07,
+        "rotZ": -2.22146537E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39120,11 +39120,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499993,
+        "posY": 0.949999332,
         "posZ": -16.0,
-        "rotX": -3.13696978E-06,
-        "rotY": 269.9999,
-        "rotZ": -1.38032874E-06,
+        "rotX": -3.7357288E-06,
+        "rotY": 269.999939,
+        "rotZ": -1.36608594E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39173,9 +39173,9 @@
         "posX": 73.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": 1.09896132E-06,
+        "rotX": 1.28447186E-06,
         "rotY": 269.999939,
-        "rotZ": -1.45647539E-06,
+        "rotZ": -3.65062374E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39222,11 +39222,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499992,
+        "posY": 0.9499991,
         "posZ": -12.0,
-        "rotX": -2.26320162E-06,
+        "rotX": -1.146011E-06,
         "rotY": 269.999939,
-        "rotZ": -8.999603E-07,
+        "rotZ": 1.5080393E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39273,11 +39273,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499991,
+        "posY": 0.949999,
         "posZ": -8.0,
-        "rotX": 8.56464339E-07,
-        "rotY": 269.999969,
-        "rotZ": -2.03747959E-06,
+        "rotX": -3.25478936E-06,
+        "rotY": 269.999939,
+        "rotZ": -3.178457E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39326,9 +39326,9 @@
         "posX": 71.0,
         "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": 6.43713349E-07,
+        "rotX": -1.85055356E-07,
         "rotY": 270.0,
-        "rotZ": 2.505339E-06,
+        "rotZ": -4.732726E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39375,11 +39375,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499993,
+        "posY": 0.949999154,
         "posZ": -12.0,
-        "rotX": -1.62321143E-07,
-        "rotY": 270.000122,
-        "rotZ": -9.009111E-07,
+        "rotX": -5.138857E-07,
+        "rotY": 270.0,
+        "rotZ": -1.23934069E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39426,11 +39426,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499993,
+        "posY": 0.9499992,
         "posZ": -14.0,
-        "rotX": -6.11419352E-07,
+        "rotX": 6.002107E-07,
         "rotY": 270.0,
-        "rotZ": -4.50884755E-07,
+        "rotZ": -3.38269183E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39479,9 +39479,9 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -16.0,
-        "rotX": -1.2499122E-06,
+        "rotX": -8.13192E-07,
         "rotY": 269.999817,
-        "rotZ": -1.63815469E-06,
+        "rotZ": -4.79544133E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39528,11 +39528,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949999332,
+        "posY": 0.9499994,
         "posZ": -18.0,
-        "rotX": 2.12445548E-06,
+        "rotX": 2.67651785E-06,
         "rotY": 269.999939,
-        "rotZ": -2.159009E-06,
+        "rotZ": -3.245972E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39640,9 +39640,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.1196313,
-        "g": 0.409390748,
-        "b": 0.106257848
+        "r": 0.119631268,
+        "g": 0.409390718,
+        "b": 0.106257819
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
