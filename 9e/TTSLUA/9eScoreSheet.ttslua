@@ -468,6 +468,46 @@ function onScriptingButtonDown(index, color)
 	end
 end
 
+keywords = {
+	map = {
+		A = "ᴀ",
+		B = "ʙ",
+		C = "ᴄ",
+		D = "ᴅ",
+		E = "ᴇ",
+		F = "ғ",
+		G = "ɢ",
+		H = "ʜ",
+		I = "ɪ",
+		J = "ᴊ",
+		K = "ᴋ",
+		L = "ʟ",
+		M = "ᴍ",
+		N = "ɴ",
+		O = "ᴏ",
+		P = "ᴘ",
+		Q = "ǫ",
+		R = "ʀ",
+		S = "s",
+		T = "ᴛ",
+		U = "ᴜ",
+		V = "ᴠ",
+		W = "ᴡ",
+		X = "x",
+		Y = "ʏ",
+		Z = "ᴢ"
+	},
+	encode = function(this, str)
+		if str then
+			return str:gsub("%u%u%u+",
+				function(s)
+					return s:gsub("[A-Z]", this.map)
+				end
+			)
+		else return "" end
+	end
+}
+
 function updateAll(reset)
 	local reset = false -- fix for letting FACTION SPECIFIC to be a separate pack
 	for i=1,4 do
@@ -494,7 +534,7 @@ function updateAll(reset)
 			end
 
 			button[5][l][4].label = secondary[n][m][4]
-			button[5][l][4].tooltip = secondary[n][m][5]
+			button[5][l][4].tooltip = keywords:encode( secondary[n][m][5] )
 			self.editButton( button[5][l][4] )
 		end
 	end
