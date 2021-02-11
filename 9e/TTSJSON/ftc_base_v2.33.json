@@ -1,7 +1,7 @@
 {
   "SaveName": "FTC 40k Map Base 9th - v2.33\n",
   "GameMode": "FTC 40k Map Base 9th - v2.33\n",
-  "Date": "2/10/2021 8:15:40 PM",
+  "Date": "2/11/2021 11:00:31 AM",
   "VersionNumber": "v13.0.5",
   "GameType": "",
   "GameComplexity": "",
@@ -454,7 +454,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function none()\r\nend\r\nYoffset=0.1\r\n\r\nclearAllDiceBtn={\r\n    label=\"Clear mat\\n(right click)\", click_function=\"clearDiceAll\", function_owner=self,\r\n    position={-4.4, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}\r\n}\r\nselectAllBtn={\r\n    label=\"Select all dice\", click_function=\"selectDice\", function_owner=self,\r\n    position={-3.3, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=420,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\nadd1d6Btn={\r\n    label=\"+ 1d6\", click_function=\"spawnDice1\", function_owner=self,\r\n    position={-2.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd2d6Btn={\r\n    label=\"+ 2d6\", click_function=\"spawnDice2\", function_owner=self,\r\n    position={-2, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd5d6Btn={\r\n    label=\"+ 5d6\", click_function=\"spawnDice5\", function_owner=self,\r\n    position={-1.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd10d6Btn={\r\n    label=\"+ 10d6\", click_function=\"spawnDice10\", function_owner=self,\r\n    position={-1, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd25d6Btn={\r\n    label=\"+ 25d6\", click_function=\"spawnDice25\", function_owner=self,\r\n    position={-0.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\ncolorBtnDimension=150\r\ncolorBtnOffset=0\r\ncolor1Btn={\r\n    label=\"\", click_function=\"modifyMenu1\", function_owner=self,\r\n    position={colorBtnOffset, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Red\", font_color={0,0,0}\r\n}\r\ncolor2Btn={\r\n    label=\"\", click_function=\"modifyMenu2\", function_owner=self,\r\n    position={colorBtnOffset+0.35, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Blue\", font_color={0,0,0}\r\n}\r\ncolor3Btn={\r\n    label=\"\", click_function=\"modifyMenu3\", function_owner=self,\r\n    position={colorBtnOffset+0.35*2, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Black\", font_color={0,0,0}\r\n}\r\ncolor4Btn={\r\n    label=\"\", click_function=\"modifyMenu4\", function_owner=self,\r\n    position={colorBtnOffset+0.35*3, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Green\", font_color={0,0,0}\r\n}\r\nclearDiceBtnIncrement=0.28\r\nclearDiceBtnLabel=\"Del\\n\"\r\nclearDiceBtntooltip=\"LMB Add row to selection\\nRMB Delete dice in row\"\r\nclearDiceBtntooltip=\"LMB Delete this row\\nRMB Delete this row and lowers/uppers\"\r\nclearDiceBtn={\r\n    label=clearDiceBtnLabel, tooltip=clearDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.8, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"Black\", font_color=\"Red\"\r\n}\r\n\r\nselectDiceBtnLabel=\"Sel\\n\"\r\nselectDiceBtntooltip=\"LMB Selects this row\\nRMB Selects this row and lowers/uppers\"\r\nselectDiceBtn={\r\n    label=selectDiceBtnLabel, tooltip=selectDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.45, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"White\", font_color={0,0,0}\r\n}\r\nlowerUpper=true\r\noneTimeUpper=true\r\nlowerSign=\" (-)\"\r\nupperSign=\" (+)\"\r\nlowerUpperBtn={\r\n    label=\"RMB\\n- / +\", tooltip=\"Changes to upper for the next click\", click_function=\"toggleLowerUpper\", function_owner=self,\r\n    position={-5.62, Yoffset ,1.1}, rotation={0,0,0}, height=1000, width=2800, scale={0.1,0.1,0.1},\r\n    font_size=500, color=\"White\", font_color={0,0,0}\r\n}\r\n\r\nwarningLbl=\"NO FAST REPETITIONS\"\r\nwarningLbl=\"\"\r\nwarningBtn={\r\n    label=warningLbl, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-1.75, Yoffset ,-0.67}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=50, color=\"White\", font_color=\"Red\"\r\n}\r\n\r\nselectedColor=\"White\"\r\n\r\nfunction getDice()\r\n    local dice={}\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                table.insert(dice, #dice+1, obj)\r\n            end\r\n        end\r\n    end\r\n    return dice\r\nend\r\n\r\nfunction selectDice(obj, player, alt)\r\n    Player[player].clearSelectedObjects()\r\n    for i, die in ipairs(getDice()) do\r\n        die.addToPlayerSelection(player)\r\n    end\r\nend\r\n\r\nfunction toggleLowerUpper()\r\n    setLowerUpper(not lowerUpper)\r\nend\r\n\r\nfunction setLowerUpper( value )\r\n    lowerUpper= value\r\n    modifyBtns()\r\nend\r\n\r\nfunction modifyBtns()\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        self.editButton({ index=(12+i*2), label= clearDiceBtnLabel..i..sign })\r\n        self.editButton({ index=(13+i*2), label= selectDiceBtnLabel..i..sign })\r\n    end\r\nend\r\n\r\nfunction SelectDeleteDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction SelectDeleteDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 2, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 3, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 4, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 5, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 6, alt, lowerUpper, color)\r\nend\r\n\r\nfunction SelectDeleteDiceX(action, n, selectOthers, lowUp, color)\r\n    Player[color].clearSelectedObjects()\r\n    selDel=true\r\n    if action ==\"Del\" then selDel=false end\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (selectOthers and lowUp and die.getValue()< n)  or (selectOthers and not lowUp and die.getValue()> n) then\r\n            if selDel then\r\n                die.addToPlayerSelection(color)\r\n            else\r\n                die.destroy()\r\n                counter[die.getValue()]=counter[die.getValue()]+1\r\n            end\r\n\r\n        end\r\n    end\r\n\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\n    if oneTimeUpper then setLowerUpper( true ) end\r\nend\r\n\r\nfunction clearDiceAll(obj, color, alt)\r\n    if not alt then printToColor(\"Use right click!\", color, \"Orange\") return end\r\n    clearDiceX(6, true, color)\r\nend\r\n\r\n\r\nfunction clearDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction clearDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 2, alt, lowerUpper, color)\r\nend\r\nfunction clearDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 3, alt, lowerUpper, color)\r\nend\r\nfunction clearDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 4, alt, lowerUpper, color)\r\nend\r\nfunction clearDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 5, alt, lowerUpper, color)\r\nend\r\nfunction clearDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 6, alt, lowerUpper, color)\r\nend\r\n\r\n\r\nfunction clearDiceX(n, deleteLower, color)\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (deleteLower and die.getValue()< n) then\r\n            die.destroy()\r\n            counter[die.getValue()]=counter[die.getValue()]+1\r\n        end\r\n    end\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\nend\r\n\r\n\r\nfunction spawnDice1(obj, player, alt)\r\n    spawnDice(1,player)\r\nend\r\nfunction spawnDice2(obj, player, alt)\r\n    spawnDice(2,player)\r\nend\r\nfunction spawnDice5(obj, player, alt)\r\n    spawnDice(5,player)\r\nend\r\nfunction spawnDice10(obj, player, alt)\r\n    spawnDice(10,player)\r\nend\r\nfunction spawnDice25(obj, player, alt)\r\n    spawnDice(25,player)\r\nend\r\n\r\nfunction spawnDice(n,player)\r\n    --    '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n    local currentTime = os.time()\r\n    local disableTime=0.8\r\n    if n>9 then disableTime=disableTime+0.3 end\r\n    if currentTime-lastClick<disableTime then\r\n        --print(\"Wai a bit!\")\r\n        printToColor(\"Wait a bit!\", player, \"Yellow\")\r\n        return\r\n    end\r\n    lastClick=currentTime\r\n    local offset=#getDice()\r\n    if offset+n>128 then printToColor(\"Dice limit reached!\", player, \"Orange\")  end\r\n    local grid=0\r\n    local row=0\r\n    local col=0\r\n    for i=1, offset do\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    end\r\n    local diceType=\"Die_6_Rounded\"\r\n    if selectedColor== \"White\" then\r\n        diceType=\"Die_6\"\r\n    end\r\n    if offset+n>128 then n=128-offset end\r\n    for i=1, n do\r\n    local die=spawnObject({\r\n        type              =diceType,\r\n        position          = self.positionToWorld({4-grid*1.5-col*0.25,0.5,-0.3+row*0.25}),\r\n        callback_fucntion = function(obj) print(\"col: \"..selectedColor) changeColor(obj, selectedColor) end,\r\n        })\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    die.setColorTint(selectedColor)\r\n    end\r\nend\r\n\r\nfunction changeColor(obj, color)\r\n    print(\"Color \"..color)\r\n    obj.setColorTint(color)\r\n\r\nend\r\n\r\n\r\nfunction onload()\r\n    lastClick=os.time()\r\n    defaultFontSize=500\r\n    fontSize=defaultFontSize\r\n    lineCount=0\r\n    --defaultDivisionLabel=\"|\\n|\\n|\\n|\\n|\\n|\\n|\"\r\n    defaultDivisionLabel=\"|\\n|\"\r\n    --defaultDivisionLabel=\"|\"\r\n    self.createButton({\r\n        label=\"---\", click_function=\"none\", function_owner=Global,\r\n        position={-6.4,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=fontSize,\r\n        font_color={1, 1, 1},\r\n        scale={0.25, 0.25, 0.25},\r\n\t\talignment=2\r\n    })\r\n    self.createButton({\r\n        label=\"\", click_function=\"none\", function_owner=Global,\r\n        position={0.75,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=500,\r\n        font_color={1, 1, 1},\r\n        --scale={0.25, 0.25, 0.25},\r\n        scale={0.25,2,1},\r\n\t\talignment=2\r\n    })\r\n\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\r\n    emptyText = ' '\r\n\tdata2 = JSON.decode(self.getDescription())\r\n\tWait.time(checkDice, data2.Update_Frequency*1,-1)\r\n    self.createButton(clearAllDiceBtn)\r\n    self.createButton(selectAllBtn)\r\n    self.createButton(add1d6Btn)\r\n    self.createButton(add2d6Btn)\r\n    self.createButton(add5d6Btn)\r\n    self.createButton(add10d6Btn)\r\n    self.createButton(add25d6Btn)\r\n    self.createButton(color1Btn)\r\n    self.createButton(color2Btn)\r\n    self.createButton(color3Btn)\r\n    self.createButton(color4Btn)\r\n    self.createButton(warningBtn)\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        clearDiceBtn.position[3]=clearDiceBtn.position[3]+clearDiceBtnIncrement\r\n        clearDiceBtn.click_function=\"clearDice\"..i\r\n        clearDiceBtn.label=clearDiceBtnLabel..i..sign\r\n        self.createButton(clearDiceBtn)\r\n        --\r\n        selectDiceBtn.position[3]=selectDiceBtn.position[3]+clearDiceBtnIncrement\r\n        selectDiceBtn.click_function=\"SelectDeleteDice\"..i\r\n        selectDiceBtn.label=selectDiceBtnLabel..i..sign\r\n        self.createButton(selectDiceBtn)\r\n\r\n    end\r\n    self.createButton(lowerUpperBtn)\r\n    if self.getPosition().z < 0 then selectedColor=\"Blue\" else selectedColor=\"Red\" end modifyMenu(selectedColor)\r\nend\r\n\r\nfunction modifyMenu1()\r\n    modifyMenu(\"Red\")\r\nend\r\nfunction modifyMenu2()\r\n    modifyMenu(\"Blue\")\r\nend\r\nfunction modifyMenu3()\r\n    modifyMenu(\"Black\")\r\nend\r\nfunction modifyMenu4()\r\n    modifyMenu(\"Green\")\r\nend\r\nfunction modifyMenu(color)\r\n    selectedColor=color\r\n    self.editButton({index=4, color=color})\r\n    self.editButton({index=5, color=color})\r\n    self.editButton({index=6, color=color})\r\n    self.editButton({index=7, color=color})\r\n    self.editButton({index=8, color=color})\r\nend\r\n\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({\r\n\t\tCumulative = 'no',Update_Frequency = '0.2'\r\n\t}))\r\nend\r\n\r\nfunction checkDice ()\r\n\t--Reset description on null\r\n\tdata = JSON.decode(self.getDescription())\r\n\tif data==nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored defaut configuration.', {0.8,0.5,0})\r\n\tend\r\n\r\n    -- If the zone is moving, wait\r\n    if not self.resting then\r\n        return\r\n    end\r\n\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    local valueToCounter = {}\r\n    local valuesToSort = {}\r\n\ttotaldice=0\r\n    -- Iterate all objects in the zone\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                local value = obj.getValue()\r\n                local counter = valueToCounter[value]\r\n                -- First occurrence of this value\r\n                if counter == nil then\r\n                    counter = 0\r\n                    valuesToSort[#valuesToSort + 1] = value\r\n                end\r\n                -- Increase the occurrence of this value\r\n                counter = counter + 1\r\n                totaldice=totaldice+1\r\n                valueToCounter[value] = counter\r\n            end\r\n        end\r\n    end\r\n\r\n    -- Process the tracked values, sorted and build the lines to display\r\n\tlocal textLines = {}\r\n    lineCount=0\r\n\tif data.Cumulative == 'yes' then\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor i=1,12 do\r\n\t\t\tif valueToCounter[i]==nil then\r\n\t\t\t\tvalueToCounter[i]=0\r\n\t\t\tend\r\n\t\tend\r\n\t\tvalueToCounter[11]=valueToCounter[12]+valueToCounter[11]\r\n\t\tvalueToCounter[10]=valueToCounter[11]+valueToCounter[10]\r\n\t\tvalueToCounter[9]=valueToCounter[10]+valueToCounter[9]\r\n\t\tvalueToCounter[8]=valueToCounter[9]+valueToCounter[8]\r\n\t\tvalueToCounter[7]=valueToCounter[8]+valueToCounter[7]\r\n\t\tvalueToCounter[6]=valueToCounter[7]+valueToCounter[6]\r\n\t\tvalueToCounter[5]=valueToCounter[6]+valueToCounter[5]\r\n\t\tvalueToCounter[4]=valueToCounter[5]+valueToCounter[4]\r\n\t\tvalueToCounter[3]=valueToCounter[4]+valueToCounter[3]\r\n\t\tvalueToCounter[2]=valueToCounter[3]+valueToCounter[2]\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal xxx = ''\r\n\t\t\tif value == 1 then\r\n\t\t\t\txxx = \"'s: \"\r\n\t\t\telse\r\n\t\t\t\txxx = \"+: \"\r\n\t\t\tend\r\n\t\t\tlocal line = value .. xxx .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\telse\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal line = '#' .. value .. ': ' .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\tend\r\n    if lineCount < 6 then\r\n        for i = lineCount+1, 6 do\r\n            textLines[#textLines + 1] = \" \"\r\n        end\r\n    end\r\n    -- Display the text\r\n    local text = table.concat(textLines, '\\n')\r\n    if text == '' then\r\n        -- Suppress the default text 'Type Here'\r\n        text = emptyText\r\n    end\r\n    if totaldice==0\r\n    then\r\n        totaltext = ' '\r\n\r\n    else\r\n        totaltext='\\nTot: '..totaldice\r\n\r\n    end\r\n    if lineCount>6 then\r\n        fontSize=defaultFontSize-((lineCount-6)*37)\r\n        divisionLabel=defaultDivisionLabel\r\n\r\n    else\r\n        fontSize=defaultFontSize\r\n        divisionLabel=\"\"\r\n    end\r\n    self.editButton({index=0, label=text..totaltext, font_size=fontSize})\r\n    self.editButton({index=1, label=divisionLabel})\r\nend",
+      "LuaScript": "function none()\r\nend\r\nYoffset=0.1\r\n\r\nclearAllDiceBtn={\r\n    label=\"Clear mat\\n(right click)\", click_function=\"clearDiceAll\", function_owner=self,\r\n    position={-4.4, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}\r\n}\r\nselectAllBtn={\r\n    label=\"Select all dice\", click_function=\"selectDice\", function_owner=self,\r\n    position={-3.3, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=420,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\nadd1d6Btn={\r\n    label=\"+ 1d6\", click_function=\"spawnDice1\", function_owner=self,\r\n    position={-2.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd2d6Btn={\r\n    label=\"+ 2d6\", click_function=\"spawnDice2\", function_owner=self,\r\n    position={-2, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd5d6Btn={\r\n    label=\"+ 5d6\", click_function=\"spawnDice5\", function_owner=self,\r\n    position={-1.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd10d6Btn={\r\n    label=\"+ 10d6\", click_function=\"spawnDice10\", function_owner=self,\r\n    position={-1, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd25d6Btn={\r\n    label=\"+ 25d6\", click_function=\"spawnDice25\", function_owner=self,\r\n    position={-0.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\ncolorBtnDimension=150\r\ncolorBtnOffset=0\r\ncolor1Btn={\r\n    label=\"\", click_function=\"modifyMenu1\", function_owner=self,\r\n    position={colorBtnOffset, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Red\", font_color={0,0,0}\r\n}\r\ncolor2Btn={\r\n    label=\"\", click_function=\"modifyMenu2\", function_owner=self,\r\n    position={colorBtnOffset+0.35, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Blue\", font_color={0,0,0}\r\n}\r\ncolor3Btn={\r\n    label=\"\", click_function=\"modifyMenu3\", function_owner=self,\r\n    position={colorBtnOffset+0.35*2, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Black\", font_color={0,0,0}\r\n}\r\ncolor4Btn={\r\n    label=\"\", click_function=\"modifyMenu4\", function_owner=self,\r\n    position={colorBtnOffset+0.35*3, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Green\", font_color={0,0,0}\r\n}\r\npipColorBtn=\r\n{\r\n  index=14, label=\"White\", click_function=\"swapPipColor\", function_owner=self,\r\n  position={colorBtnOffset + 0.35 * 4 + 0.1, Yoffset, -0.87}, rotation={0, 0, 0}, height=50, width=250,\r\n  font_size=60, color=\"White\", font_color=\"Black\"\r\n}\r\n\r\nclearDiceBtnIncrement=0.28\r\nclearDiceBtnLabel=\"Del\\n\"\r\nclearDiceBtntooltip=\"LMB Add row to selection\\nRMB Delete dice in row\"\r\nclearDiceBtntooltip=\"LMB Delete this row\\nRMB Delete this row and lowers/uppers\"\r\nclearDiceBtn={\r\n    label=clearDiceBtnLabel, tooltip=clearDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.8, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"Black\", font_color=\"Red\"\r\n}\r\n\r\nselectDiceBtnLabel=\"Sel\\n\"\r\nselectDiceBtntooltip=\"LMB Selects this row\\nRMB Selects this row and lowers/uppers\"\r\nselectDiceBtn={\r\n    label=selectDiceBtnLabel, tooltip=selectDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.45, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"White\", font_color={0,0,0}\r\n}\r\nlowerUpper=true\r\noneTimeUpper=true\r\nlowerSign=\" (-)\"\r\nupperSign=\" (+)\"\r\nlowerUpperBtn={\r\n    label=\"RMB\\n- / +\", tooltip=\"Changes to upper for the next click\", click_function=\"toggleLowerUpper\", function_owner=self,\r\n    position={-5.62, Yoffset ,1.1}, rotation={0,0,0}, height=1000, width=2800, scale={0.1,0.1,0.1},\r\n    font_size=500, color=\"White\", font_color={0,0,0}\r\n}\r\n\r\nwarningLbl=\"NO FAST REPETITIONS\"\r\nwarningLbl=\"\"\r\nwarningBtn={\r\n    label=warningLbl, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-1.75, Yoffset ,-0.67}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=50, color=\"White\", font_color=\"Red\"\r\n}\r\n\r\nselectedColor=\"White\"\r\n\r\nfunction getDice()\r\n    local dice={}\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                table.insert(dice, #dice+1, obj)\r\n            end\r\n        end\r\n    end\r\n    return dice\r\nend\r\n\r\nfunction selectDice(obj, player, alt)\r\n    Player[player].clearSelectedObjects()\r\n    for i, die in ipairs(getDice()) do\r\n        die.addToPlayerSelection(player)\r\n    end\r\nend\r\n\r\nfunction toggleLowerUpper()\r\n    setLowerUpper(not lowerUpper)\r\nend\r\n\r\nfunction setLowerUpper( value )\r\n    lowerUpper= value\r\n    modifyBtns()\r\nend\r\n\r\nfunction modifyBtns()\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        self.editButton({ index=(12+i*2), label= clearDiceBtnLabel..i..sign })\r\n        self.editButton({ index=(13+i*2), label= selectDiceBtnLabel..i..sign })\r\n    end\r\nend\r\n\r\nfunction SelectDeleteDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction SelectDeleteDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 2, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 3, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 4, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 5, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 6, alt, lowerUpper, color)\r\nend\r\n\r\nfunction SelectDeleteDiceX(action, n, selectOthers, lowUp, color)\r\n    Player[color].clearSelectedObjects()\r\n    selDel=true\r\n    if action ==\"Del\" then selDel=false end\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (selectOthers and lowUp and die.getValue()< n)  or (selectOthers and not lowUp and die.getValue()> n) then\r\n            if selDel then\r\n                die.addToPlayerSelection(color)\r\n            else\r\n                die.destroy()\r\n                counter[die.getValue()]=counter[die.getValue()]+1\r\n            end\r\n\r\n        end\r\n    end\r\n\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\n    if oneTimeUpper then setLowerUpper( true ) end\r\nend\r\n\r\nfunction clearDiceAll(obj, color, alt)\r\n    if not alt then printToColor(\"Use right click!\", color, \"Orange\") return end\r\n    clearDiceX(6, true, color)\r\nend\r\n\r\n\r\nfunction clearDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction clearDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 2, alt, lowerUpper, color)\r\nend\r\nfunction clearDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 3, alt, lowerUpper, color)\r\nend\r\nfunction clearDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 4, alt, lowerUpper, color)\r\nend\r\nfunction clearDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 5, alt, lowerUpper, color)\r\nend\r\nfunction clearDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 6, alt, lowerUpper, color)\r\nend\r\n\r\n\r\nfunction clearDiceX(n, deleteLower, color)\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (deleteLower and die.getValue()< n) then\r\n            die.destroy()\r\n            counter[die.getValue()]=counter[die.getValue()]+1\r\n        end\r\n    end\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\nend\r\n\r\n\r\nfunction spawnDice1(obj, player, alt)\r\n    spawnDice(1,player)\r\nend\r\nfunction spawnDice2(obj, player, alt)\r\n    spawnDice(2,player)\r\nend\r\nfunction spawnDice5(obj, player, alt)\r\n    spawnDice(5,player)\r\nend\r\nfunction spawnDice10(obj, player, alt)\r\n    spawnDice(10,player)\r\nend\r\nfunction spawnDice25(obj, player, alt)\r\n    spawnDice(25,player)\r\nend\r\n\r\nfunction spawnDice(n,player)\r\n    --    '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n    local currentTime = os.time()\r\n    local disableTime=0.8\r\n    if n>9 then disableTime=disableTime+0.3 end\r\n    if currentTime-lastClick<disableTime then\r\n        --print(\"Wai a bit!\")\r\n        printToColor(\"Wait a bit!\", player, \"Yellow\")\r\n        return\r\n    end\r\n    lastClick=currentTime\r\n    local offset=#getDice()\r\n    if offset+n>128 then printToColor(\"Dice limit reached!\", player, \"Orange\")  end\r\n    local grid=0\r\n    local row=0\r\n    local col=0\r\n    for i=1, offset do\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    end\r\n    local diceType=\"Die_6_Rounded\"\r\n    if pipColorBtn.color == \"Black\" then\r\n      diceType = \"Die_6\"\r\n    end\r\n    if selectedColor== \"White\" then\r\n        diceType=\"Die_6\"\r\n    end\r\n    if offset+n>128 then n=128-offset end\r\n    for i=1, n do\r\n    local die=spawnObject({\r\n        type              =diceType,\r\n        position          = self.positionToWorld({4-grid*1.5-col*0.25,0.5,-0.3+row*0.25}),\r\n        callback_fucntion = function(obj) print(\"col: \"..selectedColor) changeColor(obj, selectedColor) end,\r\n        })\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    die.setColorTint(selectedColor)\r\n    end\r\nend\r\n\r\nfunction changeColor(obj, color)\r\n    print(\"Color \"..color)\r\n    obj.setColorTint(color)\r\n\r\nend\r\n\r\n\r\nfunction onload()\r\n    lastClick=os.time()\r\n    defaultFontSize=500\r\n    fontSize=defaultFontSize\r\n    lineCount=0\r\n    --defaultDivisionLabel=\"|\\n|\\n|\\n|\\n|\\n|\\n|\"\r\n    defaultDivisionLabel=\"|\\n|\"\r\n    --defaultDivisionLabel=\"|\"\r\n    self.createButton({\r\n        label=\"---\", click_function=\"none\", function_owner=Global,\r\n        position={-6.4,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=fontSize,\r\n        font_color={1, 1, 1},\r\n        scale={0.25, 0.25, 0.25},\r\n\t\talignment=2\r\n    })\r\n    self.createButton({\r\n        label=\"\", click_function=\"none\", function_owner=Global,\r\n        position={0.75,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=500,\r\n        font_color={1, 1, 1},\r\n        --scale={0.25, 0.25, 0.25},\r\n        scale={0.25,2,1},\r\n\t\talignment=2\r\n    })\r\n\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\r\n    emptyText = ' '\r\n\tdata2 = JSON.decode(self.getDescription())\r\n\tWait.time(checkDice, data2.Update_Frequency*1,-1)\r\n    self.createButton(clearAllDiceBtn)\r\n    self.createButton(selectAllBtn)\r\n    self.createButton(add1d6Btn)\r\n    self.createButton(add2d6Btn)\r\n    self.createButton(add5d6Btn)\r\n    self.createButton(add10d6Btn)\r\n    self.createButton(add25d6Btn)\r\n    self.createButton(color1Btn)\r\n    self.createButton(color2Btn)\r\n    self.createButton(color3Btn)\r\n    self.createButton(color4Btn)\r\n    self.createButton(warningBtn)\r\n    self.createButton(pipColorBtn)\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        clearDiceBtn.position[3]=clearDiceBtn.position[3]+clearDiceBtnIncrement\r\n        clearDiceBtn.click_function=\"clearDice\"..i\r\n        clearDiceBtn.label=clearDiceBtnLabel..i..sign\r\n        self.createButton(clearDiceBtn)\r\n        --\r\n        selectDiceBtn.position[3]=selectDiceBtn.position[3]+clearDiceBtnIncrement\r\n        selectDiceBtn.click_function=\"SelectDeleteDice\"..i\r\n        selectDiceBtn.label=selectDiceBtnLabel..i..sign\r\n        self.createButton(selectDiceBtn)\r\n\r\n    end\r\n    self.createButton(lowerUpperBtn)\r\n    if self.getPosition().z < 0 then selectedColor=\"Blue\" else selectedColor=\"Red\" end modifyMenu(selectedColor)\r\nend\r\n\r\nfunction modifyMenu1()\r\n    modifyMenu(\"Red\")\r\nend\r\nfunction modifyMenu2()\r\n    modifyMenu(\"Blue\")\r\nend\r\nfunction modifyMenu3()\r\n    modifyMenu(\"Black\")\r\nend\r\nfunction modifyMenu4()\r\n    modifyMenu(\"Green\")\r\nend\r\nfunction modifyMenu(color)\r\n    selectedColor=color\r\n    self.editButton({index=4, color=color})\r\n    self.editButton({index=5, color=color})\r\n    self.editButton({index=6, color=color})\r\n    self.editButton({index=7, color=color})\r\n    self.editButton({index=8, color=color})\r\nend\r\n\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({\r\n\t\tCumulative = 'no',Update_Frequency = '0.2'\r\n\t}))\r\nend\r\n\r\nfunction checkDice ()\r\n\t--Reset description on null\r\n\tdata = JSON.decode(self.getDescription())\r\n\tif data==nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored defaut configuration.', {0.8,0.5,0})\r\n\tend\r\n\r\n    -- If the zone is moving, wait\r\n    if not self.resting then\r\n        return\r\n    end\r\n\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    local valueToCounter = {}\r\n    local valuesToSort = {}\r\n\ttotaldice=0\r\n    -- Iterate all objects in the zone\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                local value = obj.getValue()\r\n                local counter = valueToCounter[value]\r\n                -- First occurrence of this value\r\n                if counter == nil then\r\n                    counter = 0\r\n                    valuesToSort[#valuesToSort + 1] = value\r\n                end\r\n                -- Increase the occurrence of this value\r\n                counter = counter + 1\r\n                totaldice=totaldice+1\r\n                valueToCounter[value] = counter\r\n            end\r\n        end\r\n    end\r\n\r\n    -- Process the tracked values, sorted and build the lines to display\r\n\tlocal textLines = {}\r\n    lineCount=0\r\n\tif data.Cumulative == 'yes' then\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor i=1,12 do\r\n\t\t\tif valueToCounter[i]==nil then\r\n\t\t\t\tvalueToCounter[i]=0\r\n\t\t\tend\r\n\t\tend\r\n\t\tvalueToCounter[11]=valueToCounter[12]+valueToCounter[11]\r\n\t\tvalueToCounter[10]=valueToCounter[11]+valueToCounter[10]\r\n\t\tvalueToCounter[9]=valueToCounter[10]+valueToCounter[9]\r\n\t\tvalueToCounter[8]=valueToCounter[9]+valueToCounter[8]\r\n\t\tvalueToCounter[7]=valueToCounter[8]+valueToCounter[7]\r\n\t\tvalueToCounter[6]=valueToCounter[7]+valueToCounter[6]\r\n\t\tvalueToCounter[5]=valueToCounter[6]+valueToCounter[5]\r\n\t\tvalueToCounter[4]=valueToCounter[5]+valueToCounter[4]\r\n\t\tvalueToCounter[3]=valueToCounter[4]+valueToCounter[3]\r\n\t\tvalueToCounter[2]=valueToCounter[3]+valueToCounter[2]\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal xxx = ''\r\n\t\t\tif value == 1 then\r\n\t\t\t\txxx = \"'s: \"\r\n\t\t\telse\r\n\t\t\t\txxx = \"+: \"\r\n\t\t\tend\r\n\t\t\tlocal line = value .. xxx .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\telse\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal line = '#' .. value .. ': ' .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\tend\r\n    if lineCount < 6 then\r\n        for i = lineCount+1, 6 do\r\n            textLines[#textLines + 1] = \" \"\r\n        end\r\n    end\r\n    -- Display the text\r\n    local text = table.concat(textLines, '\\n')\r\n    if text == '' then\r\n        -- Suppress the default text 'Type Here'\r\n        text = emptyText\r\n    end\r\n    if totaldice==0\r\n    then\r\n        totaltext = ' '\r\n\r\n    else\r\n        totaltext='\\nTot: '..totaldice\r\n\r\n    end\r\n    if lineCount>6 then\r\n        fontSize=defaultFontSize-((lineCount-6)*37)\r\n        divisionLabel=defaultDivisionLabel\r\n\r\n    else\r\n        fontSize=defaultFontSize\r\n        divisionLabel=\"\"\r\n    end\r\n    self.editButton({index=0, label=text..totaltext, font_size=fontSize})\r\n    self.editButton({index=1, label=divisionLabel})\r\nend\r\n\r\nfunction swapPipColor()\r\n  if pipColorBtn.color == \"Black\" then\r\n    pipColorBtn.label = \"White\"\r\n    pipColorBtn.color = \"White\"\r\n    pipColorBtn.font_color = \"Black\"\r\n  else\r\n    pipColorBtn.label = \"Black\"\r\n    pipColorBtn.color = \"Black\"\r\n    pipColorBtn.font_color = \"White\"\r\n  end\r\n\r\n  self.editButton(pipColorBtn)\r\nend\r\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "AttachedSnapPoints": [
@@ -486,9 +486,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980658,
-        "g": 0.249980658,
-        "b": 0.249980658
+        "r": 0.2499806,
+        "g": 0.2499806,
+        "b": 0.2499806
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -752,7 +752,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.054887712,
+        "r": 0.0548876673,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -876,7 +876,7 @@
         "posZ": -29.0,
         "rotX": -2.446599E-06,
         "rotY": 180.273682,
-        "rotZ": 3.149326E-06,
+        "rotZ": 3.149327E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1142,7 +1142,7 @@
         "posZ": -29.0,
         "rotX": 8.39406141E-07,
         "rotY": 179.980057,
-        "rotZ": -1.49832954E-06,
+        "rotZ": -1.49833E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1285,7 +1285,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.12498071,
+        "g": 0.124980651,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -1418,8 +1418,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999814644,
-        "b": 0.09398144
+        "g": 0.0999814048,
+        "b": 0.09398138
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1552,7 +1552,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786533
+        "b": 0.109786473
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1725,9 +1725,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982567,
+        "r": 0.191982508,
         "g": 0.701,
-        "b": 0.167982548
+        "b": 0.167982489
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1767,9 +1767,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191982567,
+        "r": 0.191982508,
         "g": 0.701,
-        "b": 0.167982548
+        "b": 0.167982489
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1882,7 +1882,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": 16.5,
-        "rotX": 8.338696E-10,
+        "rotX": 8.3387E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1894,8 +1894,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998394,
-        "b": 0.09398391
+        "g": 0.09998388,
+        "b": 0.09398384
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1924,7 +1924,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": -16.495657,
-        "rotX": 8.338696E-10,
+        "rotX": 8.3387E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1935,7 +1935,7 @@
       "Description": "ee92cf",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117983259,
+        "r": 0.1179832,
         "g": 0.53,
         "b": 1.0
       },
@@ -2381,7 +2381,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999178,
-        "posZ": 16.5023251,
+        "posZ": 16.5023479,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2429,7 +2429,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999572,
-        "posZ": 27.0027962,
+        "posZ": 27.0028267,
         "rotX": 90.0,
         "rotY": 89.96369,
         "rotZ": 0.0,
@@ -2477,7 +2477,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23999178,
-        "posZ": 37.5052223,
+        "posZ": 37.5052643,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2525,7 +2525,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -26.99732,
+        "posZ": -26.9973278,
         "rotX": 90.0,
         "rotY": 90.4634552,
         "rotZ": 0.0,
@@ -2573,7 +2573,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -37.49883,
+        "posZ": -37.49884,
         "rotX": 90.0,
         "rotY": 89.9636841,
         "rotZ": 0.0,
@@ -2662,7 +2662,7 @@
           "Stretch": true
         }
       },
-      "LuaScript": "function none()\r\nend\r\nYoffset=0.1\r\n\r\nclearAllDiceBtn={\r\n    label=\"Clear mat\\n(right click)\", click_function=\"clearDiceAll\", function_owner=self,\r\n    position={-4.4, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}\r\n}\r\nselectAllBtn={\r\n    label=\"Select all dice\", click_function=\"selectDice\", function_owner=self,\r\n    position={-3.3, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=420,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\nadd1d6Btn={\r\n    label=\"+ 1d6\", click_function=\"spawnDice1\", function_owner=self,\r\n    position={-2.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd2d6Btn={\r\n    label=\"+ 2d6\", click_function=\"spawnDice2\", function_owner=self,\r\n    position={-2, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd5d6Btn={\r\n    label=\"+ 5d6\", click_function=\"spawnDice5\", function_owner=self,\r\n    position={-1.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd10d6Btn={\r\n    label=\"+ 10d6\", click_function=\"spawnDice10\", function_owner=self,\r\n    position={-1, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd25d6Btn={\r\n    label=\"+ 25d6\", click_function=\"spawnDice25\", function_owner=self,\r\n    position={-0.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\ncolorBtnDimension=150\r\ncolorBtnOffset=0\r\ncolor1Btn={\r\n    label=\"\", click_function=\"modifyMenu1\", function_owner=self,\r\n    position={colorBtnOffset, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Red\", font_color={0,0,0}\r\n}\r\ncolor2Btn={\r\n    label=\"\", click_function=\"modifyMenu2\", function_owner=self,\r\n    position={colorBtnOffset+0.35, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Blue\", font_color={0,0,0}\r\n}\r\ncolor3Btn={\r\n    label=\"\", click_function=\"modifyMenu3\", function_owner=self,\r\n    position={colorBtnOffset+0.35*2, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Black\", font_color={0,0,0}\r\n}\r\ncolor4Btn={\r\n    label=\"\", click_function=\"modifyMenu4\", function_owner=self,\r\n    position={colorBtnOffset+0.35*3, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Green\", font_color={0,0,0}\r\n}\r\nclearDiceBtnIncrement=0.28\r\nclearDiceBtnLabel=\"Del\\n\"\r\nclearDiceBtntooltip=\"LMB Add row to selection\\nRMB Delete dice in row\"\r\nclearDiceBtntooltip=\"LMB Delete this row\\nRMB Delete this row and lowers/uppers\"\r\nclearDiceBtn={\r\n    label=clearDiceBtnLabel, tooltip=clearDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.8, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"Black\", font_color=\"Red\"\r\n}\r\n\r\nselectDiceBtnLabel=\"Sel\\n\"\r\nselectDiceBtntooltip=\"LMB Selects this row\\nRMB Selects this row and lowers/uppers\"\r\nselectDiceBtn={\r\n    label=selectDiceBtnLabel, tooltip=selectDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.45, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"White\", font_color={0,0,0}\r\n}\r\nlowerUpper=true\r\noneTimeUpper=true\r\nlowerSign=\" (-)\"\r\nupperSign=\" (+)\"\r\nlowerUpperBtn={\r\n    label=\"RMB\\n- / +\", tooltip=\"Changes to upper for the next click\", click_function=\"toggleLowerUpper\", function_owner=self,\r\n    position={-5.62, Yoffset ,1.1}, rotation={0,0,0}, height=1000, width=2800, scale={0.1,0.1,0.1},\r\n    font_size=500, color=\"White\", font_color={0,0,0}\r\n}\r\n\r\nwarningLbl=\"NO FAST REPETITIONS\"\r\nwarningLbl=\"\"\r\nwarningBtn={\r\n    label=warningLbl, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-1.75, Yoffset ,-0.67}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=50, color=\"White\", font_color=\"Red\"\r\n}\r\n\r\nselectedColor=\"White\"\r\n\r\nfunction getDice()\r\n    local dice={}\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                table.insert(dice, #dice+1, obj)\r\n            end\r\n        end\r\n    end\r\n    return dice\r\nend\r\n\r\nfunction selectDice(obj, player, alt)\r\n    Player[player].clearSelectedObjects()\r\n    for i, die in ipairs(getDice()) do\r\n        die.addToPlayerSelection(player)\r\n    end\r\nend\r\n\r\nfunction toggleLowerUpper()\r\n    setLowerUpper(not lowerUpper)\r\nend\r\n\r\nfunction setLowerUpper( value )\r\n    lowerUpper= value\r\n    modifyBtns()\r\nend\r\n\r\nfunction modifyBtns()\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        self.editButton({ index=(12+i*2), label= clearDiceBtnLabel..i..sign })\r\n        self.editButton({ index=(13+i*2), label= selectDiceBtnLabel..i..sign })\r\n    end\r\nend\r\n\r\nfunction SelectDeleteDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction SelectDeleteDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 2, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 3, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 4, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 5, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 6, alt, lowerUpper, color)\r\nend\r\n\r\nfunction SelectDeleteDiceX(action, n, selectOthers, lowUp, color)\r\n    Player[color].clearSelectedObjects()\r\n    selDel=true\r\n    if action ==\"Del\" then selDel=false end\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (selectOthers and lowUp and die.getValue()< n)  or (selectOthers and not lowUp and die.getValue()> n) then\r\n            if selDel then\r\n                die.addToPlayerSelection(color)\r\n            else\r\n                die.destroy()\r\n                counter[die.getValue()]=counter[die.getValue()]+1\r\n            end\r\n\r\n        end\r\n    end\r\n\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\n    if oneTimeUpper then setLowerUpper( true ) end\r\nend\r\n\r\nfunction clearDiceAll(obj, color, alt)\r\n    if not alt then printToColor(\"Use right click!\", color, \"Orange\") return end\r\n    clearDiceX(6, true, color)\r\nend\r\n\r\n\r\nfunction clearDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction clearDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 2, alt, lowerUpper, color)\r\nend\r\nfunction clearDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 3, alt, lowerUpper, color)\r\nend\r\nfunction clearDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 4, alt, lowerUpper, color)\r\nend\r\nfunction clearDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 5, alt, lowerUpper, color)\r\nend\r\nfunction clearDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 6, alt, lowerUpper, color)\r\nend\r\n\r\n\r\nfunction clearDiceX(n, deleteLower, color)\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (deleteLower and die.getValue()< n) then\r\n            die.destroy()\r\n            counter[die.getValue()]=counter[die.getValue()]+1\r\n        end\r\n    end\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\nend\r\n\r\n\r\nfunction spawnDice1(obj, player, alt)\r\n    spawnDice(1,player)\r\nend\r\nfunction spawnDice2(obj, player, alt)\r\n    spawnDice(2,player)\r\nend\r\nfunction spawnDice5(obj, player, alt)\r\n    spawnDice(5,player)\r\nend\r\nfunction spawnDice10(obj, player, alt)\r\n    spawnDice(10,player)\r\nend\r\nfunction spawnDice25(obj, player, alt)\r\n    spawnDice(25,player)\r\nend\r\n\r\nfunction spawnDice(n,player)\r\n    --    '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n    local currentTime = os.time()\r\n    local disableTime=0.8\r\n    if n>9 then disableTime=disableTime+0.3 end\r\n    if currentTime-lastClick<disableTime then\r\n        --print(\"Wai a bit!\")\r\n        printToColor(\"Wait a bit!\", player, \"Yellow\")\r\n        return\r\n    end\r\n    lastClick=currentTime\r\n    local offset=#getDice()\r\n    if offset+n>128 then printToColor(\"Dice limit reached!\", player, \"Orange\")  end\r\n    local grid=0\r\n    local row=0\r\n    local col=0\r\n    for i=1, offset do\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    end\r\n    local diceType=\"Die_6_Rounded\"\r\n    if selectedColor== \"White\" then\r\n        diceType=\"Die_6\"\r\n    end\r\n    if offset+n>128 then n=128-offset end\r\n    for i=1, n do\r\n    local die=spawnObject({\r\n        type              =diceType,\r\n        position          = self.positionToWorld({4-grid*1.5-col*0.25,0.5,-0.3+row*0.25}),\r\n        callback_fucntion = function(obj) print(\"col: \"..selectedColor) changeColor(obj, selectedColor) end,\r\n        })\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    die.setColorTint(selectedColor)\r\n    end\r\nend\r\n\r\nfunction changeColor(obj, color)\r\n    print(\"Color \"..color)\r\n    obj.setColorTint(color)\r\n\r\nend\r\n\r\n\r\nfunction onload()\r\n    lastClick=os.time()\r\n    defaultFontSize=500\r\n    fontSize=defaultFontSize\r\n    lineCount=0\r\n    --defaultDivisionLabel=\"|\\n|\\n|\\n|\\n|\\n|\\n|\"\r\n    defaultDivisionLabel=\"|\\n|\"\r\n    --defaultDivisionLabel=\"|\"\r\n    self.createButton({\r\n        label=\"---\", click_function=\"none\", function_owner=Global,\r\n        position={-6.4,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=fontSize,\r\n        font_color={1, 1, 1},\r\n        scale={0.25, 0.25, 0.25},\r\n\t\talignment=2\r\n    })\r\n    self.createButton({\r\n        label=\"\", click_function=\"none\", function_owner=Global,\r\n        position={0.75,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=500,\r\n        font_color={1, 1, 1},\r\n        --scale={0.25, 0.25, 0.25},\r\n        scale={0.25,2,1},\r\n\t\talignment=2\r\n    })\r\n\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\r\n    emptyText = ' '\r\n\tdata2 = JSON.decode(self.getDescription())\r\n\tWait.time(checkDice, data2.Update_Frequency*1,-1)\r\n    self.createButton(clearAllDiceBtn)\r\n    self.createButton(selectAllBtn)\r\n    self.createButton(add1d6Btn)\r\n    self.createButton(add2d6Btn)\r\n    self.createButton(add5d6Btn)\r\n    self.createButton(add10d6Btn)\r\n    self.createButton(add25d6Btn)\r\n    self.createButton(color1Btn)\r\n    self.createButton(color2Btn)\r\n    self.createButton(color3Btn)\r\n    self.createButton(color4Btn)\r\n    self.createButton(warningBtn)\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        clearDiceBtn.position[3]=clearDiceBtn.position[3]+clearDiceBtnIncrement\r\n        clearDiceBtn.click_function=\"clearDice\"..i\r\n        clearDiceBtn.label=clearDiceBtnLabel..i..sign\r\n        self.createButton(clearDiceBtn)\r\n        --\r\n        selectDiceBtn.position[3]=selectDiceBtn.position[3]+clearDiceBtnIncrement\r\n        selectDiceBtn.click_function=\"SelectDeleteDice\"..i\r\n        selectDiceBtn.label=selectDiceBtnLabel..i..sign\r\n        self.createButton(selectDiceBtn)\r\n\r\n    end\r\n    self.createButton(lowerUpperBtn)\r\n    if self.getPosition().z < 0 then selectedColor=\"Blue\" else selectedColor=\"Red\" end modifyMenu(selectedColor)\r\nend\r\n\r\nfunction modifyMenu1()\r\n    modifyMenu(\"Red\")\r\nend\r\nfunction modifyMenu2()\r\n    modifyMenu(\"Blue\")\r\nend\r\nfunction modifyMenu3()\r\n    modifyMenu(\"Black\")\r\nend\r\nfunction modifyMenu4()\r\n    modifyMenu(\"Green\")\r\nend\r\nfunction modifyMenu(color)\r\n    selectedColor=color\r\n    self.editButton({index=4, color=color})\r\n    self.editButton({index=5, color=color})\r\n    self.editButton({index=6, color=color})\r\n    self.editButton({index=7, color=color})\r\n    self.editButton({index=8, color=color})\r\nend\r\n\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({\r\n\t\tCumulative = 'no',Update_Frequency = '0.2'\r\n\t}))\r\nend\r\n\r\nfunction checkDice ()\r\n\r\n\t--Reset description on null\r\n\tdata = JSON.decode(self.getDescription())\r\n\tif data==nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored defaut configuration.', {0.8,0.5,0})\r\n\tend\r\n\r\n    -- If the zone is moving, wait\r\n    if not self.resting then\r\n        return\r\n    end\r\n\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    local valueToCounter = {}\r\n    local valuesToSort = {}\r\n\ttotaldice=0\r\n    -- Iterate all objects in the zone\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                local value = obj.getValue()\r\n                local counter = valueToCounter[value]\r\n                -- First occurrence of this value\r\n                if counter == nil then\r\n                    counter = 0\r\n                    valuesToSort[#valuesToSort + 1] = value\r\n                end\r\n                -- Increase the occurrence of this value\r\n                counter = counter + 1\r\n                totaldice=totaldice+1\r\n                valueToCounter[value] = counter\r\n            end\r\n        end\r\n    end\r\n\r\n    -- Process the tracked values, sorted and build the lines to display\r\n\tlocal textLines = {}\r\n    lineCount=0\r\n\tif data.Cumulative == 'yes' then\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor i=1,12 do\r\n\t\t\tif valueToCounter[i]==nil then\r\n\t\t\t\tvalueToCounter[i]=0\r\n\t\t\tend\r\n\t\tend\r\n\t\tvalueToCounter[11]=valueToCounter[12]+valueToCounter[11]\r\n\t\tvalueToCounter[10]=valueToCounter[11]+valueToCounter[10]\r\n\t\tvalueToCounter[9]=valueToCounter[10]+valueToCounter[9]\r\n\t\tvalueToCounter[8]=valueToCounter[9]+valueToCounter[8]\r\n\t\tvalueToCounter[7]=valueToCounter[8]+valueToCounter[7]\r\n\t\tvalueToCounter[6]=valueToCounter[7]+valueToCounter[6]\r\n\t\tvalueToCounter[5]=valueToCounter[6]+valueToCounter[5]\r\n\t\tvalueToCounter[4]=valueToCounter[5]+valueToCounter[4]\r\n\t\tvalueToCounter[3]=valueToCounter[4]+valueToCounter[3]\r\n\t\tvalueToCounter[2]=valueToCounter[3]+valueToCounter[2]\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal xxx = ''\r\n\t\t\tif value == 1 then\r\n\t\t\t\txxx = \"'s: \"\r\n\t\t\telse\r\n\t\t\t\txxx = \"+: \"\r\n\t\t\tend\r\n\t\t\tlocal line = value .. xxx .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\telse\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal line = '#' .. value .. ': ' .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\tend\r\n    if lineCount < 6 then\r\n        for i = lineCount+1, 6 do\r\n            textLines[#textLines + 1] = \" \"\r\n        end\r\n    end\r\n    -- Display the text\r\n    local text = table.concat(textLines, '\\n')\r\n    if text == '' then\r\n        -- Suppress the default text 'Type Here'\r\n        text = emptyText\r\n    end\r\n    if totaldice==0\r\n    then\r\n        totaltext = ' '\r\n\r\n    else\r\n        totaltext='\\nTot: '..totaldice\r\n\r\n    end\r\n    if lineCount>6 then\r\n        fontSize=defaultFontSize-((lineCount-6)*37)\r\n        divisionLabel=defaultDivisionLabel\r\n\r\n    else\r\n        fontSize=defaultFontSize\r\n        divisionLabel=\"\"\r\n    end\r\n    self.editButton({index=0, label=text..totaltext, font_size=fontSize})\r\n    self.editButton({index=1, label=divisionLabel})\r\nend",
+      "LuaScript": "function none()\r\nend\r\nYoffset=0.1\r\n\r\nclearAllDiceBtn={\r\n    label=\"Clear mat\\n(right click)\", click_function=\"clearDiceAll\", function_owner=self,\r\n    position={-4.4, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=400,\r\n    font_size=60, color={0,0,0}, font_color={1,1,1}\r\n}\r\nselectAllBtn={\r\n    label=\"Select all dice\", click_function=\"selectDice\", function_owner=self,\r\n    position={-3.3, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=420,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\nadd1d6Btn={\r\n    label=\"+ 1d6\", click_function=\"spawnDice1\", function_owner=self,\r\n    position={-2.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd2d6Btn={\r\n    label=\"+ 2d6\", click_function=\"spawnDice2\", function_owner=self,\r\n    position={-2, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd5d6Btn={\r\n    label=\"+ 5d6\", click_function=\"spawnDice5\", function_owner=self,\r\n    position={-1.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd10d6Btn={\r\n    label=\"+ 10d6\", click_function=\"spawnDice10\", function_owner=self,\r\n    position={-1, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\nadd25d6Btn={\r\n    label=\"+ 25d6\", click_function=\"spawnDice25\", function_owner=self,\r\n    position={-0.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,\r\n    font_size=60, color={1,1,1}, font_color={0,0,0}\r\n}\r\n\r\ncolorBtnDimension=150\r\ncolorBtnOffset=0\r\ncolor1Btn={\r\n    label=\"\", click_function=\"modifyMenu1\", function_owner=self,\r\n    position={colorBtnOffset, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Red\", font_color={0,0,0}\r\n}\r\ncolor2Btn={\r\n    label=\"\", click_function=\"modifyMenu2\", function_owner=self,\r\n    position={colorBtnOffset+0.35, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Blue\", font_color={0,0,0}\r\n}\r\ncolor3Btn={\r\n    label=\"\", click_function=\"modifyMenu3\", function_owner=self,\r\n    position={colorBtnOffset+0.35*2, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Black\", font_color={0,0,0}\r\n}\r\ncolor4Btn={\r\n    label=\"\", click_function=\"modifyMenu4\", function_owner=self,\r\n    position={colorBtnOffset+0.35*3, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,\r\n    font_size=60, color=\"Green\", font_color={0,0,0}\r\n}\r\npipColorBtn=\r\n{\r\n  index=14, label=\"White\", click_function=\"swapPipColor\", function_owner=self,\r\n  position={colorBtnOffset + 0.35 * 4 + 0.1, Yoffset, -0.87}, rotation={0, 0, 0}, height=50, width=250,\r\n  font_size=60, color=\"White\", font_color=\"Black\"\r\n}\r\n\r\nclearDiceBtnIncrement=0.28\r\nclearDiceBtnLabel=\"Del\\n\"\r\nclearDiceBtntooltip=\"LMB Add row to selection\\nRMB Delete dice in row\"\r\nclearDiceBtntooltip=\"LMB Delete this row\\nRMB Delete this row and lowers/uppers\"\r\nclearDiceBtn={\r\n    label=clearDiceBtnLabel, tooltip=clearDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.8, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"Black\", font_color=\"Red\"\r\n}\r\n\r\nselectDiceBtnLabel=\"Sel\\n\"\r\nselectDiceBtntooltip=\"LMB Selects this row\\nRMB Selects this row and lowers/uppers\"\r\nselectDiceBtn={\r\n    label=selectDiceBtnLabel, tooltip=selectDiceBtntooltip, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-5.45, Yoffset ,-0.85}, rotation={0,0,0}, height=1000, width=1300, scale={0.1,0.1,0.1},\r\n    font_size=350, color=\"White\", font_color={0,0,0}\r\n}\r\nlowerUpper=true\r\noneTimeUpper=true\r\nlowerSign=\" (-)\"\r\nupperSign=\" (+)\"\r\nlowerUpperBtn={\r\n    label=\"RMB\\n- / +\", tooltip=\"Changes to upper for the next click\", click_function=\"toggleLowerUpper\", function_owner=self,\r\n    position={-5.62, Yoffset ,1.1}, rotation={0,0,0}, height=1000, width=2800, scale={0.1,0.1,0.1},\r\n    font_size=500, color=\"White\", font_color={0,0,0}\r\n}\r\n\r\nwarningLbl=\"NO FAST REPETITIONS\"\r\nwarningLbl=\"\"\r\nwarningBtn={\r\n    label=warningLbl, click_function=\"modifyMenu4\", function_owner=self,\r\n    position={-1.75, Yoffset ,-0.67}, rotation={0,0,0}, height=0, width=0,\r\n    font_size=50, color=\"White\", font_color=\"Red\"\r\n}\r\n\r\nselectedColor=\"White\"\r\n\r\nfunction getDice()\r\n    local dice={}\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                table.insert(dice, #dice+1, obj)\r\n            end\r\n        end\r\n    end\r\n    return dice\r\nend\r\n\r\nfunction selectDice(obj, player, alt)\r\n    Player[player].clearSelectedObjects()\r\n    for i, die in ipairs(getDice()) do\r\n        die.addToPlayerSelection(player)\r\n    end\r\nend\r\n\r\nfunction toggleLowerUpper()\r\n    setLowerUpper(not lowerUpper)\r\nend\r\n\r\nfunction setLowerUpper( value )\r\n    lowerUpper= value\r\n    modifyBtns()\r\nend\r\n\r\nfunction modifyBtns()\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        self.editButton({ index=(12+i*2), label= clearDiceBtnLabel..i..sign })\r\n        self.editButton({ index=(13+i*2), label= selectDiceBtnLabel..i..sign })\r\n    end\r\nend\r\n\r\nfunction SelectDeleteDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction SelectDeleteDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 2, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 3, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 4, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 5, alt, lowerUpper, color)\r\nend\r\nfunction SelectDeleteDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Sel\", 6, alt, lowerUpper, color)\r\nend\r\n\r\nfunction SelectDeleteDiceX(action, n, selectOthers, lowUp, color)\r\n    Player[color].clearSelectedObjects()\r\n    selDel=true\r\n    if action ==\"Del\" then selDel=false end\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (selectOthers and lowUp and die.getValue()< n)  or (selectOthers and not lowUp and die.getValue()> n) then\r\n            if selDel then\r\n                die.addToPlayerSelection(color)\r\n            else\r\n                die.destroy()\r\n                counter[die.getValue()]=counter[die.getValue()]+1\r\n            end\r\n\r\n        end\r\n    end\r\n\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\n    if oneTimeUpper then setLowerUpper( true ) end\r\nend\r\n\r\nfunction clearDiceAll(obj, color, alt)\r\n    if not alt then printToColor(\"Use right click!\", color, \"Orange\") return end\r\n    clearDiceX(6, true, color)\r\nend\r\n\r\n\r\nfunction clearDice1(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 1, alt, lowerUpper, color) -- action, n, selectOthers, upLow, color\r\nend\r\nfunction clearDice2(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 2, alt, lowerUpper, color)\r\nend\r\nfunction clearDice3(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 3, alt, lowerUpper, color)\r\nend\r\nfunction clearDice4(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 4, alt, lowerUpper, color)\r\nend\r\nfunction clearDice5(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 5, alt, lowerUpper, color)\r\nend\r\nfunction clearDice6(obj, color, alt)\r\n    SelectDeleteDiceX(\"Del\", 6, alt, lowerUpper, color)\r\nend\r\n\r\n\r\nfunction clearDiceX(n, deleteLower, color)\r\n    local counter={0,0,0,0,0,0}\r\n    local numberName={\"ones\", \"twos\", \"threes\", \"fours\", \"fives\", \"sixes\"}\r\n    local text=color..\" player deleted \"\r\n    local somethingToPrint=false\r\n    for i, die in ipairs(getDice()) do\r\n        if die.getValue() == n or (deleteLower and die.getValue()< n) then\r\n            die.destroy()\r\n            counter[die.getValue()]=counter[die.getValue()]+1\r\n        end\r\n    end\r\n    for i, val in ipairs(counter) do\r\n        if val > 0 then\r\n            text=text..\" ** \"..counter[i]..\" \"..numberName[i]\r\n            somethingToPrint=true\r\n        end\r\n    end\r\n    if somethingToPrint then printToAll(text , \"Yellow\") end\r\nend\r\n\r\n\r\nfunction spawnDice1(obj, player, alt)\r\n    spawnDice(1,player)\r\nend\r\nfunction spawnDice2(obj, player, alt)\r\n    spawnDice(2,player)\r\nend\r\nfunction spawnDice5(obj, player, alt)\r\n    spawnDice(5,player)\r\nend\r\nfunction spawnDice10(obj, player, alt)\r\n    spawnDice(10,player)\r\nend\r\nfunction spawnDice25(obj, player, alt)\r\n    spawnDice(25,player)\r\nend\r\n\r\nfunction spawnDice(n,player)\r\n    --    '[' .. os.date(\"%H\") .. ':' .. os.date(\"%M\") .. ':' .. os.date(\"%S\") .. ' UTC] '\r\n    local currentTime = os.time()\r\n    local disableTime=0.8\r\n    if n>9 then disableTime=disableTime+0.3 end\r\n    if currentTime-lastClick<disableTime then\r\n        --print(\"Wai a bit!\")\r\n        printToColor(\"Wait a bit!\", player, \"Yellow\")\r\n        return\r\n    end\r\n    lastClick=currentTime\r\n    local offset=#getDice()\r\n    if offset+n>128 then printToColor(\"Dice limit reached!\", player, \"Orange\")  end\r\n    local grid=0\r\n    local row=0\r\n    local col=0\r\n    for i=1, offset do\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    end\r\n    local diceType=\"Die_6_Rounded\"\r\n    if pipColorBtn.color == \"Black\" then\r\n      diceType = \"Die_6\"\r\n    end\r\n    if selectedColor== \"White\" then\r\n        diceType=\"Die_6\"\r\n    end\r\n    if offset+n>128 then n=128-offset end\r\n    for i=1, n do\r\n    local die=spawnObject({\r\n        type              =diceType,\r\n        position          = self.positionToWorld({4-grid*1.5-col*0.25,0.5,-0.3+row*0.25}),\r\n        callback_fucntion = function(obj) print(\"col: \"..selectedColor) changeColor(obj, selectedColor) end,\r\n        })\r\n        col=col+1\r\n        if col>4 then\r\n            col=0\r\n            row= row+1\r\n            if row > 4 then\r\n                row=0\r\n                grid=grid+1\r\n            end\r\n        end\r\n    die.setColorTint(selectedColor)\r\n    end\r\nend\r\n\r\nfunction changeColor(obj, color)\r\n    print(\"Color \"..color)\r\n    obj.setColorTint(color)\r\n\r\nend\r\n\r\n\r\nfunction onload()\r\n    lastClick=os.time()\r\n    defaultFontSize=500\r\n    fontSize=defaultFontSize\r\n    lineCount=0\r\n    --defaultDivisionLabel=\"|\\n|\\n|\\n|\\n|\\n|\\n|\"\r\n    defaultDivisionLabel=\"|\\n|\"\r\n    --defaultDivisionLabel=\"|\"\r\n    self.createButton({\r\n        label=\"---\", click_function=\"none\", function_owner=Global,\r\n        position={-6.4,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=fontSize,\r\n        font_color={1, 1, 1},\r\n        scale={0.25, 0.25, 0.25},\r\n\t\talignment=2\r\n    })\r\n    self.createButton({\r\n        label=\"\", click_function=\"none\", function_owner=Global,\r\n        position={0.75,0.11,0.01}, rotation={0,0,0}, height=0, width=0, font_size=500,\r\n        font_color={1, 1, 1},\r\n        --scale={0.25, 0.25, 0.25},\r\n        scale={0.25,2,1},\r\n\t\talignment=2\r\n    })\r\n\r\n\tif self.getDescription() == '' then\r\n\t\tsetDefaultState()\r\n\tend\r\n\r\n    emptyText = ' '\r\n\tdata2 = JSON.decode(self.getDescription())\r\n\tWait.time(checkDice, data2.Update_Frequency*1,-1)\r\n    self.createButton(clearAllDiceBtn)\r\n    self.createButton(selectAllBtn)\r\n    self.createButton(add1d6Btn)\r\n    self.createButton(add2d6Btn)\r\n    self.createButton(add5d6Btn)\r\n    self.createButton(add10d6Btn)\r\n    self.createButton(add25d6Btn)\r\n    self.createButton(color1Btn)\r\n    self.createButton(color2Btn)\r\n    self.createButton(color3Btn)\r\n    self.createButton(color4Btn)\r\n    self.createButton(warningBtn)\r\n    self.createButton(pipColorBtn)\r\n    local sign=\"\"\r\n    for i=1, 6 do\r\n        if lowerUpper then sign= lowerSign else sign=upperSign end\r\n        clearDiceBtn.position[3]=clearDiceBtn.position[3]+clearDiceBtnIncrement\r\n        clearDiceBtn.click_function=\"clearDice\"..i\r\n        clearDiceBtn.label=clearDiceBtnLabel..i..sign\r\n        self.createButton(clearDiceBtn)\r\n        --\r\n        selectDiceBtn.position[3]=selectDiceBtn.position[3]+clearDiceBtnIncrement\r\n        selectDiceBtn.click_function=\"SelectDeleteDice\"..i\r\n        selectDiceBtn.label=selectDiceBtnLabel..i..sign\r\n        self.createButton(selectDiceBtn)\r\n\r\n    end\r\n    self.createButton(lowerUpperBtn)\r\n    if self.getPosition().z < 0 then selectedColor=\"Blue\" else selectedColor=\"Red\" end modifyMenu(selectedColor)\r\nend\r\n\r\nfunction modifyMenu1()\r\n    modifyMenu(\"Red\")\r\nend\r\nfunction modifyMenu2()\r\n    modifyMenu(\"Blue\")\r\nend\r\nfunction modifyMenu3()\r\n    modifyMenu(\"Black\")\r\nend\r\nfunction modifyMenu4()\r\n    modifyMenu(\"Green\")\r\nend\r\nfunction modifyMenu(color)\r\n    selectedColor=color\r\n    self.editButton({index=4, color=color})\r\n    self.editButton({index=5, color=color})\r\n    self.editButton({index=6, color=color})\r\n    self.editButton({index=7, color=color})\r\n    self.editButton({index=8, color=color})\r\nend\r\n\r\nfunction setDefaultState()\r\n\tself.setDescription(JSON.encode_pretty({\r\n\t\tCumulative = 'no',Update_Frequency = '0.2'\r\n\t}))\r\nend\r\n\r\nfunction checkDice ()\r\n\t--Reset description on null\r\n\tdata = JSON.decode(self.getDescription())\r\n\tif data==nil then\r\n\t\tsetDefaultState()\r\n\t\tdata = JSON.decode(self.getDescription())\r\n\t\tprintToAll('Warning - invalid description. Restored defaut configuration.', {0.8,0.5,0})\r\n\tend\r\n\r\n    -- If the zone is moving, wait\r\n    if not self.resting then\r\n        return\r\n    end\r\n\r\n    local ownPos = self.getPosition()\r\n    local ownRotation = self.getRotation()['x']\r\n    local ownScale = self.getScale()['x']\r\n    local BoundsNormalized = self.getBounds()\r\n    local Rotation = self.getRotation()\r\n    local leftBound = BoundsNormalized.center.x-(BoundsNormalized.size.x/2)\r\n    local rightBound = BoundsNormalized.center.x+(BoundsNormalized.size.x/2)\r\n    local upperBound = BoundsNormalized.center.z+(BoundsNormalized.size.z/2)\r\n    local lowerBound = BoundsNormalized.center.z-(BoundsNormalized.size.z/2)\r\n    local yupperBound = BoundsNormalized.center.y+(BoundsNormalized.size.y/2)+3\r\n    local ylowerBound =  BoundsNormalized.center.y-(BoundsNormalized.size.y/2)\r\n\r\n    local valueToCounter = {}\r\n    local valuesToSort = {}\r\n\ttotaldice=0\r\n    -- Iterate all objects in the zone\r\n    for _, obj in pairs(getAllObjects()) do\r\n        -- Fetch resting dices\r\n        if obj != nil and obj.tag == 'Dice' and obj.resting then\r\n            -- Only use objects inside the zone\r\n            local objPos = obj.getPosition()\r\n            if objPos['x'] > leftBound and objPos['x'] < rightBound and objPos['z'] > lowerBound and objPos['z'] < upperBound and objPos['y'] < yupperBound and objPos['y'] > ylowerBound then\r\n                local value = obj.getValue()\r\n                local counter = valueToCounter[value]\r\n                -- First occurrence of this value\r\n                if counter == nil then\r\n                    counter = 0\r\n                    valuesToSort[#valuesToSort + 1] = value\r\n                end\r\n                -- Increase the occurrence of this value\r\n                counter = counter + 1\r\n                totaldice=totaldice+1\r\n                valueToCounter[value] = counter\r\n            end\r\n        end\r\n    end\r\n\r\n    -- Process the tracked values, sorted and build the lines to display\r\n\tlocal textLines = {}\r\n    lineCount=0\r\n\tif data.Cumulative == 'yes' then\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor i=1,12 do\r\n\t\t\tif valueToCounter[i]==nil then\r\n\t\t\t\tvalueToCounter[i]=0\r\n\t\t\tend\r\n\t\tend\r\n\t\tvalueToCounter[11]=valueToCounter[12]+valueToCounter[11]\r\n\t\tvalueToCounter[10]=valueToCounter[11]+valueToCounter[10]\r\n\t\tvalueToCounter[9]=valueToCounter[10]+valueToCounter[9]\r\n\t\tvalueToCounter[8]=valueToCounter[9]+valueToCounter[8]\r\n\t\tvalueToCounter[7]=valueToCounter[8]+valueToCounter[7]\r\n\t\tvalueToCounter[6]=valueToCounter[7]+valueToCounter[6]\r\n\t\tvalueToCounter[5]=valueToCounter[6]+valueToCounter[5]\r\n\t\tvalueToCounter[4]=valueToCounter[5]+valueToCounter[4]\r\n\t\tvalueToCounter[3]=valueToCounter[4]+valueToCounter[3]\r\n\t\tvalueToCounter[2]=valueToCounter[3]+valueToCounter[2]\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal xxx = ''\r\n\t\t\tif value == 1 then\r\n\t\t\t\txxx = \"'s: \"\r\n\t\t\telse\r\n\t\t\t\txxx = \"+: \"\r\n\t\t\tend\r\n\t\t\tlocal line = value .. xxx .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\telse\r\n\t\ttable.sort(valuesToSort)\r\n\t\tfor index, value in ipairs(valuesToSort) do\r\n\t\t\tlocal counter = valueToCounter[value]\r\n\t\t\tlocal line = '#' .. value .. ': ' .. counter\r\n\t\t\ttextLines[#textLines + 1] = line\r\n            lineCount=lineCount+1\r\n\t\tend\r\n\tend\r\n    if lineCount < 6 then\r\n        for i = lineCount+1, 6 do\r\n            textLines[#textLines + 1] = \" \"\r\n        end\r\n    end\r\n    -- Display the text\r\n    local text = table.concat(textLines, '\\n')\r\n    if text == '' then\r\n        -- Suppress the default text 'Type Here'\r\n        text = emptyText\r\n    end\r\n    if totaldice==0\r\n    then\r\n        totaltext = ' '\r\n\r\n    else\r\n        totaltext='\\nTot: '..totaldice\r\n\r\n    end\r\n    if lineCount>6 then\r\n        fontSize=defaultFontSize-((lineCount-6)*37)\r\n        divisionLabel=defaultDivisionLabel\r\n\r\n    else\r\n        fontSize=defaultFontSize\r\n        divisionLabel=\"\"\r\n    end\r\n    self.editButton({index=0, label=text..totaltext, font_size=fontSize})\r\n    self.editButton({index=1, label=divisionLabel})\r\nend\r\n\r\nfunction swapPipColor()\r\n  if pipColorBtn.color == \"Black\" then\r\n    pipColorBtn.label = \"White\"\r\n    pipColorBtn.color = \"White\"\r\n    pipColorBtn.font_color = \"Black\"\r\n  else\r\n    pipColorBtn.label = \"Black\"\r\n    pipColorBtn.color = \"Black\"\r\n    pipColorBtn.font_color = \"White\"\r\n  end\r\n\r\n  self.editButton(pipColorBtn)\r\nend\r\n",
       "LuaScriptState": "",
       "XmlUI": "",
       "AttachedSnapPoints": [
@@ -2721,7 +2721,7 @@
       "Transform": {
         "posX": 73.5002747,
         "posY": 0.961133659,
-        "posZ": 27.0024452,
+        "posZ": 27.0024681,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2781,9 +2781,9 @@
       "Description": "- Use Token Bags Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249973923,
-        "g": 0.249973923,
-        "b": 0.249973923
+        "r": 0.2499738,
+        "g": 0.2499738,
+        "b": 0.2499738
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -14099,8 +14099,8 @@
       "Description": "- Use Psykic Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.247802109,
-        "g": 0.06762414,
+        "r": 0.247801989,
+        "g": 0.06762404,
         "b": 0.6811846
       },
       "LayoutGroupSortIndex": 0,
@@ -18729,7 +18729,7 @@
         "posY": 0.9037044,
         "posZ": 30.9944077,
         "rotX": 359.9671,
-        "rotY": 0.365954548,
+        "rotY": 0.365954757,
         "rotZ": 359.8398,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -18740,7 +18740,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124980681,
+        "g": 0.124980621,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -18873,8 +18873,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999814346,
-        "b": 0.09398141
+        "g": 0.09998139,
+        "b": 0.09398135
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19007,7 +19007,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.1097865
+        "b": 0.109786443
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19558,7 +19558,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.05488769,
+        "r": 0.0548876449,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -19824,9 +19824,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980628,
-        "g": 0.249980628,
-        "b": 0.249980628
+        "r": 0.249980569,
+        "g": 0.249980569,
+        "b": 0.249980569
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20078,7 +20078,7 @@
       "Transform": {
         "posX": 62.5000458,
         "posY": 1.23999381,
-        "posZ": 0.00080680853,
+        "posZ": 0.000814437866,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -20138,9 +20138,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249989957,
-        "g": 0.249989957,
-        "b": 0.249989957
+        "r": 0.2499899,
+        "g": 0.2499899,
+        "b": 0.2499899
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20209,7 +20209,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.0000062,
-        "posZ": -83.87218,
+        "posZ": -83.87224,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20257,7 +20257,7 @@
       "Transform": {
         "posX": 90.00426,
         "posY": -0.999999464,
-        "posZ": 63.66415,
+        "posZ": 63.66418,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20305,7 +20305,7 @@
       "Transform": {
         "posX": 90.00319,
         "posY": -1.00000322,
-        "posZ": 12.6597548,
+        "posZ": 12.65977,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20351,9 +20351,9 @@
       "GUID": "3e4433",
       "Name": "3DText",
       "Transform": {
-        "posX": 90.00495,
+        "posX": 90.0049744,
         "posY": -1.0000062,
-        "posZ": 37.6629677,
+        "posZ": 37.6629944,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20449,7 +20449,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.00000846,
-        "posZ": -68.34462,
+        "posZ": -68.3446655,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20510,8 +20510,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.9559999,
-        "g": 0.391991079,
-        "b": 0.112991087
+        "g": 0.391991019,
+        "b": 0.112991028
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26327,8 +26327,8 @@
         "posX": 88.50019,
         "posY": -3.0,
         "posZ": -66.00324,
-        "rotX": 0.07997737,
-        "rotY": 89.99831,
+        "rotX": 0.07998086,
+        "rotY": 89.99828,
         "rotZ": 359.983124,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -26338,9 +26338,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249991089,
-        "g": 0.249991089,
-        "b": 0.249991089
+        "r": 0.24999103,
+        "g": 0.24999103,
+        "b": 0.24999103
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26964,7 +26964,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124991737,
+        "g": 0.124991678,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -27191,9 +27191,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.2499806,
-        "g": 0.2499806,
-        "b": 0.2499806
+        "r": 0.249980539,
+        "g": 0.249980539,
+        "b": 0.249980539
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -27569,7 +27569,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117992185,
+        "r": 0.117992125,
         "g": 0.53,
         "b": 1.0
       },
@@ -28275,8 +28275,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999914,
-        "b": 0.09399138
+        "g": 0.0999912843,
+        "b": 0.09399126
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -28366,7 +28366,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117991053,
+        "r": 0.117990933,
         "g": 0.53,
         "b": 1.0
       },
@@ -28456,9 +28456,9 @@
         "posX": 85.00001,
         "posY": 0.9306005,
         "posZ": -88.00001,
-        "rotX": 2.91582836E-07,
+        "rotX": 4.45084282E-07,
         "rotY": 90.008606,
-        "rotZ": 1.43761554E-06,
+        "rotZ": 1.45525394E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29402,9 +29402,9 @@
         "posX": 73.0,
         "posY": 0.9305996,
         "posZ": -50.0,
-        "rotX": 5.19179935E-07,
+        "rotX": 2.41278144E-07,
         "rotY": 90.00196,
-        "rotZ": 1.11083625E-06,
+        "rotZ": 1.49014215E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -30466,9 +30466,9 @@
         "posX": 85.0,
         "posY": 0.9305956,
         "posZ": 88.0,
-        "rotX": 1.41368687E-07,
+        "rotX": 2.62064276E-07,
         "rotY": 90.008606,
-        "rotZ": 1.87212311E-06,
+        "rotZ": 1.62705146E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -31529,9 +31529,9 @@
         "posX": 67.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": 1.69047985E-06,
+        "rotX": -1.31588979E-06,
         "rotY": 270.01886,
-        "rotZ": -1.92705542E-07,
+        "rotZ": -1.934941E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31578,11 +31578,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499992,
+        "posY": 0.9499993,
         "posZ": -14.000001,
-        "rotX": -3.612696E-07,
+        "rotX": -2.45657634E-06,
         "rotY": 270.118164,
-        "rotZ": -2.10591E-06,
+        "rotZ": -2.95636914E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31629,11 +31629,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999332,
+        "posY": 0.9499993,
         "posZ": -16.0000019,
-        "rotX": -3.80064671E-06,
-        "rotY": 269.916656,
-        "rotZ": -1.52309065E-06,
+        "rotX": -1.83945212E-06,
+        "rotY": 269.916626,
+        "rotZ": -2.31544232E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31680,11 +31680,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": -1.87318221E-07,
+        "rotX": 1.55900386E-06,
         "rotY": 270.0437,
-        "rotZ": -5.54270059E-07,
+        "rotZ": -2.82123483E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31733,9 +31733,9 @@
         "posX": 67.0,
         "posY": 0.9499992,
         "posZ": -12.0,
-        "rotX": 4.444492E-07,
+        "rotX": -3.85985771E-07,
         "rotY": 269.875183,
-        "rotZ": -1.29108469E-06,
+        "rotZ": -1.6161365E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31782,11 +31782,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499991,
+        "posY": 0.949999034,
         "posZ": -8.000001,
-        "rotX": 2.18529863E-07,
-        "rotY": 270.031342,
-        "rotZ": -2.82694214E-06,
+        "rotX": 1.47965875E-06,
+        "rotY": 270.0313,
+        "rotZ": -9.205044E-08,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31835,7 +31835,7 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 14.0,
-        "rotX": -3.376291E-07,
+        "rotX": -3.1135977E-07,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31884,11 +31884,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949998438,
+        "posY": 0.9499984,
         "posZ": 15.9999552,
-        "rotX": -1.21170308E-06,
+        "rotX": -2.783107E-06,
         "rotY": 269.9995,
-        "rotZ": -2.46473928E-06,
+        "rotZ": -1.05934191E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31937,7 +31937,7 @@
         "posX": 67.0,
         "posY": 0.949998558,
         "posZ": 10.0,
-        "rotX": -1.57293061E-06,
+        "rotX": -3.324447E-07,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31987,7 +31987,7 @@
       "Transform": {
         "posX": 66.00005,
         "posY": 0.9611341,
-        "posZ": 12.0007839,
+        "posZ": 12.0008,
         "rotX": 90.0,
         "rotY": 89.96401,
         "rotZ": 0.0,
@@ -33321,9 +33321,9 @@
         "posX": 67.0,
         "posY": 0.9499986,
         "posZ": 11.9999962,
-        "rotX": -1.04853893E-06,
+        "rotX": 1.00667148E-06,
         "rotY": 269.9993,
-        "rotZ": -8.536079E-07,
+        "rotZ": -4.36223E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -33708,9 +33708,9 @@
         "posX": 73.0,
         "posY": 0.930596769,
         "posZ": 50.0,
-        "rotX": 4.871289E-07,
+        "rotX": 7.093729E-07,
         "rotY": 90.00196,
-        "rotZ": 1.28338138E-06,
+        "rotZ": 1.50973437E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34772,9 +34772,9 @@
         "posX": -19.3798523,
         "posY": 1.32000017,
         "posZ": -26.84741,
-        "rotX": -1.15716851E-07,
-        "rotY": 0.002797628,
-        "rotZ": -7.099195E-07,
+        "rotX": -7.11051371E-07,
+        "rotY": 0.00279765879,
+        "rotZ": 3.46501622E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34783,7 +34783,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997535,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -34863,7 +34863,7 @@
         "posY": 1.32000041,
         "posZ": -27.84741,
         "rotX": 90.0,
-        "rotY": 0.00279433117,
+        "rotY": 0.002793894,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34873,7 +34873,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997535,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -34952,8 +34952,8 @@
         "posX": -19.3798847,
         "posY": 1.32,
         "posZ": -28.84741,
-        "rotX": -4.54088365E-07,
-        "rotY": 0.00277685421,
+        "rotX": 2.37841414E-06,
+        "rotY": 0.00277597341,
         "rotZ": 89.99999,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34963,7 +34963,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997535,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -35042,8 +35042,8 @@
         "posX": -19.3799,
         "posY": 1.32000041,
         "posZ": -29.84741,
-        "rotX": 9.275617E-09,
-        "rotY": 0.00280285673,
+        "rotX": 1.8314654E-06,
+        "rotY": 0.00280370214,
         "rotZ": 270.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35053,7 +35053,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997535,
+        "r": 0.117997475,
         "g": 0.53,
         "b": 1.0
       },
@@ -35133,7 +35133,7 @@
         "posY": 1.32000041,
         "posZ": -30.84741,
         "rotX": 270.0,
-        "rotY": 0.00280732056,
+        "rotY": 0.002806858,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35143,7 +35143,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996521,
+        "r": 0.117996462,
         "g": 0.53,
         "b": 1.0
       },
@@ -35222,8 +35222,8 @@
         "posX": -19.3799324,
         "posY": 1.32000017,
         "posZ": -31.84741,
-        "rotX": -3.92570279E-08,
-        "rotY": 0.002797161,
+        "rotX": -8.0365254E-07,
+        "rotY": 0.00279718754,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35233,7 +35233,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996521,
+        "r": 0.117996462,
         "g": 0.53,
         "b": 1.0
       },
@@ -35310,11 +35310,11 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3792629,
-        "posY": 1.32000017,
+        "posY": 1.32000029,
         "posZ": 26.8468227,
-        "rotX": -2.66949229E-07,
+        "rotX": 2.769053E-07,
         "rotY": 179.969955,
-        "rotZ": 1.41429936E-07,
+        "rotZ": 2.83240155E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -35324,8 +35324,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35400,7 +35400,7 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3786888,
-        "posY": 1.32,
+        "posY": 1.32000017,
         "posZ": 27.8468227,
         "rotX": 90.0,
         "rotY": 179.969955,
@@ -35414,8 +35414,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35490,9 +35490,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3781147,
-        "posY": 1.31999886,
+        "posY": 1.32000017,
         "posZ": 28.8468227,
-        "rotX": -5.55286363E-07,
+        "rotX": -1.31234344E-06,
         "rotY": 179.969955,
         "rotZ": 90.0,
         "scaleX": 1.0,
@@ -35504,8 +35504,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35580,9 +35580,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.37754,
-        "posY": 1.32000351,
+        "posY": 1.32000017,
         "posZ": 29.84682,
-        "rotX": -1.78425353E-07,
+        "rotX": -6.369952E-07,
         "rotY": 179.969955,
         "rotZ": 270.0,
         "scaleX": 1.0,
@@ -35594,8 +35594,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35684,8 +35684,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35760,9 +35760,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3763924,
-        "posY": 1.32000041,
+        "posY": 1.32000029,
         "posZ": 31.84682,
-        "rotX": -6.82060843E-08,
+        "rotX": -1.22379117E-06,
         "rotY": 179.969955,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -35774,8 +35774,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999976,
-        "b": 0.0939975753
+        "g": 0.09999756,
+        "b": 0.09399753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35960,9 +35960,9 @@
         "posX": 70.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -4.20628965E-07,
+        "rotX": -5.274425E-07,
         "rotY": 270.0,
-        "rotZ": -1.84238979E-06,
+        "rotZ": -1.590692E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36062,9 +36062,9 @@
         "posX": 70.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -5.367532E-07,
+        "rotX": -3.833955E-07,
         "rotY": 270.0,
-        "rotZ": -1.660212E-06,
+        "rotZ": -1.59223976E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36164,9 +36164,9 @@
         "posX": 70.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -6.93819857E-07,
+        "rotX": -6.567027E-07,
         "rotY": 270.0,
-        "rotZ": -1.49849348E-06,
+        "rotZ": -1.66609993E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36266,9 +36266,9 @@
         "posX": 66.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -5.152652E-07,
+        "rotX": -6.72628232E-07,
         "rotY": 270.0,
-        "rotZ": -1.61508922E-06,
+        "rotZ": -1.57916213E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36368,9 +36368,9 @@
         "posX": 66.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -5.331261E-07,
+        "rotX": -2.882208E-07,
         "rotY": 270.0,
-        "rotZ": -1.62888375E-06,
+        "rotZ": -1.68022279E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36470,9 +36470,9 @@
         "posX": 66.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -7.21420463E-07,
+        "rotX": -6.43789463E-07,
         "rotY": 270.0,
-        "rotZ": -1.32113939E-06,
+        "rotZ": -1.59428475E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36660,7 +36660,7 @@
         "posX": 78.00018,
         "posY": 1.00000083,
         "posZ": -1.00002837,
-        "rotX": -1.60042566E-06,
+        "rotX": -1.60005084E-06,
         "rotY": 180.012192,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -36797,9 +36797,9 @@
         "posX": -30.1999912,
         "posY": 0.949998856,
         "posZ": 29.925,
-        "rotX": -1.5420535E-06,
+        "rotX": -1.82773465E-06,
         "rotY": 180.0,
-        "rotZ": 5.596745E-07,
+        "rotZ": 6.55655E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36836,9 +36836,9 @@
         "posX": -40.1999741,
         "posY": 0.949999,
         "posZ": 29.9250088,
-        "rotX": -1.96365067E-06,
+        "rotX": -1.63128846E-06,
         "rotY": 180.0,
-        "rotZ": 4.39777381E-07,
+        "rotZ": 1.57938E-08,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36875,9 +36875,9 @@
         "posX": 29.8001137,
         "posY": 0.95,
         "posZ": -29.9250126,
-        "rotX": 1.831877E-06,
-        "rotY": 4.70428677E-06,
-        "rotZ": -2.87426644E-07,
+        "rotX": 1.53984513E-06,
+        "rotY": 4.769676E-06,
+        "rotZ": -3.78714418E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36914,9 +36914,9 @@
         "posX": 39.80004,
         "posY": 0.9499999,
         "posZ": -29.9250031,
-        "rotX": 2.080037E-06,
-        "rotY": 1.43452667E-06,
-        "rotZ": -7.504583E-07,
+        "rotX": 1.68056533E-06,
+        "rotY": 1.38817961E-06,
+        "rotZ": -9.247285E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36951,11 +36951,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499984,
+        "posY": 0.9499983,
         "posZ": 18.0,
-        "rotX": -7.07164929E-07,
-        "rotY": 269.999939,
-        "rotZ": 2.61252239E-06,
+        "rotX": -2.19731783E-06,
+        "rotY": 269.999878,
+        "rotZ": -2.19680669E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37057,9 +37057,9 @@
         "posX": 73.0,
         "posY": 0.9499984,
         "posZ": 15.9999876,
-        "rotX": -7.092116E-07,
+        "rotX": -2.46393029E-06,
         "rotY": 269.999451,
-        "rotZ": -8.5496464E-07,
+        "rotZ": -4.517578E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37159,11 +37159,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 13.999999,
-        "rotX": 3.43364923E-06,
+        "rotX": -6.847779E-07,
         "rotY": 270.000275,
-        "rotZ": -3.206114E-07,
+        "rotZ": -1.52723237E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37263,11 +37263,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499986,
+        "posY": 0.949998558,
         "posZ": 11.999999,
-        "rotX": 1.06365746E-06,
-        "rotY": 269.999268,
-        "rotZ": -5.5063806E-06,
+        "rotX": 1.98268162E-06,
+        "rotY": 269.9992,
+        "rotZ": -2.33111723E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37369,9 +37369,9 @@
         "posX": 73.0,
         "posY": 0.949998558,
         "posZ": 9.999999,
-        "rotX": -6.12081635E-07,
+        "rotX": -3.86836064E-07,
         "rotY": 269.999939,
-        "rotZ": -1.87152023E-06,
+        "rotZ": -1.909588E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37471,11 +37471,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0263,
-        "posY": 0.9499987,
+        "posY": 0.949998558,
         "posZ": 8.043624,
-        "rotX": -1.29269858E-06,
-        "rotY": 270.165649,
-        "rotZ": -1.84669375E-06,
+        "rotX": -2.7095648E-06,
+        "rotY": 270.1656,
+        "rotZ": -1.24399708E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37577,9 +37577,9 @@
         "posX": 70.99869,
         "posY": 0.9499986,
         "posZ": 8.041918,
-        "rotX": 1.103013E-06,
+        "rotX": 1.57811974E-06,
         "rotY": 270.0907,
-        "rotZ": -3.10133873E-06,
+        "rotZ": 1.83250518E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37679,11 +37679,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499986,
+        "posY": 0.9499985,
         "posZ": 9.999999,
-        "rotX": 6.837215E-07,
-        "rotY": 269.9995,
-        "rotZ": -2.1474707E-06,
+        "rotX": -2.20911147E-06,
+        "rotY": 269.999542,
+        "rotZ": -2.510476E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37783,11 +37783,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499985,
+        "posY": 0.949998438,
         "posZ": 11.999999,
-        "rotX": -2.72319244E-06,
+        "rotX": -2.22972744E-06,
         "rotY": 269.999542,
-        "rotZ": -1.67857831E-06,
+        "rotZ": -2.346632E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37887,11 +37887,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949998438,
+        "posY": 0.949998558,
         "posZ": 13.999999,
-        "rotX": 1.93780875E-06,
+        "rotX": -8.57762132E-07,
         "rotY": 269.9997,
-        "rotZ": -1.84325711E-06,
+        "rotZ": -6.53091047E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37993,9 +37993,9 @@
         "posX": 71.0,
         "posY": 0.949998438,
         "posZ": 15.9999838,
-        "rotX": 7.612143E-07,
+        "rotX": -5.20996366E-07,
         "rotY": 269.9996,
-        "rotZ": -2.228025E-06,
+        "rotZ": -1.39923725E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38097,9 +38097,9 @@
         "posX": 71.0,
         "posY": 0.9499984,
         "posZ": 18.0,
-        "rotX": -2.44444186E-06,
+        "rotX": -1.24448889E-06,
         "rotY": 270.0001,
-        "rotZ": -1.64640642E-06,
+        "rotZ": -1.43392856E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38201,9 +38201,9 @@
         "posX": 69.0,
         "posY": 0.9499984,
         "posZ": 18.0002022,
-        "rotX": -1.70415592E-06,
+        "rotX": -1.44095941E-06,
         "rotY": 270.0001,
-        "rotZ": -1.71032059E-06,
+        "rotZ": 2.63123161E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38305,9 +38305,9 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 16.0001717,
-        "rotX": 8.042823E-07,
+        "rotX": -8.217427E-07,
         "rotY": 269.9996,
-        "rotZ": -1.81736777E-06,
+        "rotZ": -1.53817325E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38407,11 +38407,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.9499985,
+        "posY": 0.949998438,
         "posZ": 14.0002031,
-        "rotX": -4.764114E-06,
+        "rotX": -3.41757277E-06,
         "rotY": 269.999939,
-        "rotZ": -9.997336E-07,
+        "rotZ": -1.82962344E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38513,9 +38513,9 @@
         "posX": 69.0,
         "posY": 0.9499985,
         "posZ": 12.0002394,
-        "rotX": -3.35185155E-06,
+        "rotX": 2.62735125E-06,
         "rotY": 270.002319,
-        "rotZ": -2.38797747E-06,
+        "rotZ": -2.69971747E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38617,9 +38617,9 @@
         "posX": 69.0,
         "posY": 0.949998558,
         "posZ": 10.0002041,
-        "rotX": 9.552819E-08,
+        "rotX": 1.65987342E-06,
         "rotY": 269.9997,
-        "rotZ": -4.345508E-06,
+        "rotZ": -1.24647488E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38719,11 +38719,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.00276,
-        "posY": 0.9499987,
+        "posY": 0.9499986,
         "posZ": 8.01523,
-        "rotX": 1.4377089E-07,
+        "rotX": -1.79377082E-06,
         "rotY": 269.972351,
-        "rotZ": -1.64962887E-06,
+        "rotZ": -2.35760945E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38822,9 +38822,9 @@
       "GUID": "c08a10",
       "Name": "3DText",
       "Transform": {
-        "posX": 75.50012,
+        "posX": 75.50013,
         "posY": 0.9611398,
-        "posZ": 13.0002928,
+        "posZ": 13.0003157,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38872,7 +38872,7 @@
       "Transform": {
         "posX": 75.4897461,
         "posY": 0.9611398,
-        "posZ": 10.73463,
+        "posZ": 10.7346525,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38920,7 +38920,7 @@
       "Transform": {
         "posX": 75.490036,
         "posY": 0.9611398,
-        "posZ": 13.2810392,
+        "posZ": 13.2810545,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38967,11 +38967,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999034,
+        "posY": 0.949999154,
         "posZ": -8.0,
-        "rotX": -1.05339973E-06,
-        "rotY": 270.0,
-        "rotZ": -6.15971658E-06,
+        "rotX": -2.797493E-06,
+        "rotY": 269.9999,
+        "rotZ": -4.66999245E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39020,9 +39020,9 @@
         "posX": 73.0,
         "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": 1.84517876E-06,
+        "rotX": -9.15279E-07,
         "rotY": 270.0,
-        "rotZ": -2.32402726E-06,
+        "rotZ": -2.13375756E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39071,9 +39071,9 @@
         "posX": 73.0,
         "posY": 0.9499992,
         "posZ": -14.0,
-        "rotX": -2.63927268E-06,
+        "rotX": 1.06188565E-06,
         "rotY": 270.0,
-        "rotZ": -6.328316E-07,
+        "rotZ": -4.171026E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39120,11 +39120,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499994,
+        "posY": 0.949999332,
         "posZ": -16.0,
-        "rotX": 1.49490086E-06,
+        "rotX": 7.321484E-07,
         "rotY": 269.999939,
-        "rotZ": 2.429702E-06,
+        "rotZ": -3.46010529E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39173,9 +39173,9 @@
         "posX": 73.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": -2.94569486E-06,
+        "rotX": -2.50137259E-06,
         "rotY": 269.999939,
-        "rotZ": -1.52895075E-06,
+        "rotZ": 1.22539291E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39222,11 +39222,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499992,
+        "posY": 0.949999154,
         "posZ": -12.0,
-        "rotX": -2.80377344E-06,
-        "rotY": 269.999939,
-        "rotZ": 1.63832419E-06,
+        "rotX": -2.04004527E-06,
+        "rotY": 269.999969,
+        "rotZ": 6.54212954E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39273,11 +39273,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949999154,
+        "posY": 0.9499991,
         "posZ": -8.0,
-        "rotX": -1.73963758E-06,
-        "rotY": 269.999969,
-        "rotZ": 1.22288532E-06,
+        "rotX": -3.74453543E-06,
+        "rotY": 270.0,
+        "rotZ": -2.98932582E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39326,9 +39326,9 @@
         "posX": 71.0,
         "posY": 0.949999154,
         "posZ": -10.0,
-        "rotX": -1.35591108E-06,
+        "rotX": 1.739347E-06,
         "rotY": 270.0,
-        "rotZ": 8.36561071E-07,
+        "rotZ": -1.17140212E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39375,11 +39375,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499991,
+        "posY": 0.949999154,
         "posZ": -12.0,
-        "rotX": 1.4556822E-06,
-        "rotY": 270.000061,
-        "rotZ": -3.18607E-06,
+        "rotX": -2.0824084E-06,
+        "rotY": 270.0,
+        "rotZ": -2.55625241E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39426,11 +39426,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499993,
+        "posY": 0.9499992,
         "posZ": -14.0,
-        "rotX": -1.95958864E-06,
+        "rotX": 1.44366447E-06,
         "rotY": 270.0,
-        "rotZ": -2.08630172E-06,
+        "rotZ": -2.61814512E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39479,9 +39479,9 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -16.0,
-        "rotX": -1.13112958E-06,
+        "rotX": -6.18089246E-07,
         "rotY": 269.999817,
-        "rotZ": -2.692098E-06,
+        "rotZ": -2.23020243E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39528,11 +39528,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949999332,
+        "posY": 0.9499994,
         "posZ": -18.0,
-        "rotX": -8.80491541E-07,
+        "rotX": -2.51571032E-06,
         "rotY": 269.999939,
-        "rotZ": -2.75650382E-06,
+        "rotZ": -7.611282E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39640,9 +39640,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.119631328,
-        "g": 0.409390777,
-        "b": 0.106257878
+        "r": 0.119631268,
+        "g": 0.409390718,
+        "b": 0.106257819
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
