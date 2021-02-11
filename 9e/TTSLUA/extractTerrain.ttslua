@@ -262,12 +262,12 @@ function deleteTable()
         "5af8f2","4ee1f2","bd69bd", "28865a", "9f95fd"
     }
     for i, tbl in ipairs(guidList) do
-        getObjectFromGUID(tbl).destroy()
-    end
-
+      local obj = getObjectFromGUID(tbl)
+      if obj ~= nil then
+        obj.destroy()
+      end
     --mat.destroy()
     --flexControl.destroy()
-
 end
 
 function deleteSelf()
