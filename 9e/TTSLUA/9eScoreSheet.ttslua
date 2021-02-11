@@ -217,51 +217,6 @@ packButton = {
 }
 
 p = 1
-prntCnt = 0
-
-function debugPrintSec(secData)
-	prntCnt = prntCnt + 1
-	local msg = "----- #"..prntCnt.." -----\n"
-	for p = 1, 2 do
-		if p == 1 then
-			msg = msg.."P1 (Red) Secondary={"
-		else
-			msg = msg.."P2 (Blue) Secondary={"
-	  end
-		for s = 1, 3 do
-			if secData[p][s][1] == nil then
-				msg = msg.."nil, "
-			else
-				msg = msg..secData[p][s][1]..", "
-			end
-
-			if secData[p][s][2] == nil then
-				msg = msg.."nil, "
-			else
-				msg = msg..secData[p][s][2]..", "
-			end
-
-			if secData[p][s][3] == nil then
-				msg = msg.."nil, "
-			else
-				msg = msg..secData[p][s][3]..", "
-			end
-
-			if secData[p][s][4] == nil then
-				msg = msg.."nil, "
-			else
-				msg = msg..secData[p][s][4]..", "
-			end
-
-			if secData[p][s][5] == nil then
-				msg = msg.."nil}"
-			else
-				msg = msg..secData[p][s][5].."}\n"
-			end
-		end
-		print(msg)
-	end
-end
 
 function onload(save_data) -- PHUBAR version
 	if save_data ~= "" then
@@ -476,7 +431,6 @@ function onload(save_data) -- PHUBAR version
 				b_xpos = 4.5
 			end
 		end
-
 
 		Wait.time(slowUpdate, 2)
 	--[[	Timer.create({
