@@ -6,7 +6,7 @@ version_data = "error"
 
 repo =     "https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/"
 mainRepo = "https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/"
-altRepo = "https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/"
+altRepo = "https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/" a
 usePhubarVersion = true
 -- Phubar edit
 victoryCounterGuid={}
