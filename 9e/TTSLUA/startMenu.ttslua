@@ -117,6 +117,7 @@ function makeAnnouncement()
     'Mat object is no longer interactable after changing mat',
     'Deploy zones can be raised in order to match various terrain heights.',
     'Now you can change the table surface image too.',
+    'Secondary Objectives now stay selected.'
     }
     printToAll("NEW FEATURES:", "Yellow")
     for i, new in ipairs(features) do

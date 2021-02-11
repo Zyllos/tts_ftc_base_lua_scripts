@@ -217,7 +217,6 @@ packButton = {
 }
 
 p = 1
-prntCnt = 0
 
 function onload(save_data) -- PHUBAR version
 	if save_data ~= "" then
@@ -432,7 +431,6 @@ function onload(save_data) -- PHUBAR version
 				b_xpos = 4.5
 			end
 		end
-
 
 		Wait.time(slowUpdate, 2)
 	--[[	Timer.create({

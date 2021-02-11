@@ -1,8 +1,8 @@
 {
   "SaveName": "FTC 40k Map Base 9th - v2.33\n",
   "GameMode": "FTC 40k Map Base 9th - v2.33\n",
-  "Date": "2/10/2021 11:47:25 AM",
-  "VersionNumber": "v13.0.4",
+  "Date": "2/10/2021 8:15:40 PM",
+  "VersionNumber": "v13.0.5",
   "GameType": "",
   "GameComplexity": "",
   "PlayingTime": [
@@ -486,9 +486,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980688,
-        "g": 0.249980688,
-        "b": 0.249980688
+        "r": 0.249980658,
+        "g": 0.249980658,
+        "b": 0.249980658
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -739,7 +739,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -31.0,
-        "posY": 0.9130011,
+        "posY": 0.9130012,
         "posZ": -29.0,
         "rotX": -1.57000659E-06,
         "rotY": 179.980057,
@@ -752,7 +752,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.0548877344,
+        "r": 0.054887712,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -876,7 +876,7 @@
         "posZ": -29.0,
         "rotX": -2.446599E-06,
         "rotY": 180.273682,
-        "rotZ": 3.14932549E-06,
+        "rotZ": 3.149326E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1142,7 +1142,7 @@
         "posZ": -29.0,
         "rotX": 8.39406141E-07,
         "rotY": 179.980057,
-        "rotZ": -1.49832931E-06,
+        "rotZ": -1.49832954E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1285,7 +1285,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.12498074,
+        "g": 0.12498071,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -1418,8 +1418,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998151,
-        "b": 0.09398147
+        "g": 0.0999814644,
+        "b": 0.09398144
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1552,7 +1552,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786563
+        "b": 0.109786533
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1725,9 +1725,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.1919826,
+        "r": 0.191982567,
         "g": 0.701,
-        "b": 0.167982578
+        "b": 0.167982548
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1767,9 +1767,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.1919826,
+        "r": 0.191982567,
         "g": 0.701,
-        "b": 0.167982578
+        "b": 0.167982548
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1882,7 +1882,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": 16.5,
-        "rotX": 8.33869362E-10,
+        "rotX": 8.338696E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1894,8 +1894,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09998397,
-        "b": 0.09398394
+        "g": 0.09998394,
+        "b": 0.09398391
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -1924,7 +1924,7 @@
         "posX": 59.5018,
         "posY": -1.32,
         "posZ": -16.495657,
-        "rotX": 8.33869362E-10,
+        "rotX": 8.338696E-10,
         "rotY": 90.0,
         "rotZ": 0.0,
         "scaleX": 3.6,
@@ -1935,7 +1935,7 @@
       "Description": "ee92cf",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117983289,
+        "r": 0.117983259,
         "g": 0.53,
         "b": 1.0
       },
@@ -2381,7 +2381,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999178,
-        "posZ": 16.5023174,
+        "posZ": 16.5023251,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2429,7 +2429,7 @@
       "Transform": {
         "posX": 62.5000839,
         "posY": 1.23999572,
-        "posZ": 27.0027771,
+        "posZ": 27.0027962,
         "rotX": 90.0,
         "rotY": 89.96369,
         "rotZ": 0.0,
@@ -2477,7 +2477,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23999178,
-        "posZ": 37.5052071,
+        "posZ": 37.5052223,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2525,7 +2525,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -26.9973164,
+        "posZ": -26.99732,
         "rotX": 90.0,
         "rotY": 90.4634552,
         "rotZ": 0.0,
@@ -2573,7 +2573,7 @@
       "Transform": {
         "posX": 62.50006,
         "posY": 1.23998809,
-        "posZ": -37.49882,
+        "posZ": -37.49883,
         "rotX": 90.0,
         "rotY": 89.9636841,
         "rotZ": 0.0,
@@ -2721,7 +2721,7 @@
       "Transform": {
         "posX": 73.5002747,
         "posY": 0.961133659,
-        "posZ": 27.0024357,
+        "posZ": 27.0024452,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -2781,9 +2781,9 @@
       "Description": "- Use Token Bags Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249973983,
-        "g": 0.249973983,
-        "b": 0.249973983
+        "r": 0.249973923,
+        "g": 0.249973923,
+        "b": 0.249973923
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -14099,8 +14099,8 @@
       "Description": "- Use Psykic Mats menu to spawn your own\n- Unlock to put new ones inside or draw what you want to delete or change.\n- Names MUST have this pattern:  XXSide-Faction\n00s  = Generic\n10s = Imperium\n20s = Chaos\n30s = Aeldari\n40s = Tyranids\n50s = Orks\n60s = Necrons\n70s = T'au",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.247802168,
-        "g": 0.06762418,
+        "r": 0.247802109,
+        "g": 0.06762414,
         "b": 0.6811846
       },
       "LayoutGroupSortIndex": 0,
@@ -18572,7 +18572,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -27.0,
-        "posY": 0.91,
+        "posY": 0.909999967,
         "posZ": -27.0,
         "rotX": -1.2927336E-07,
         "rotY": 179.980057,
@@ -18729,7 +18729,7 @@
         "posY": 0.9037044,
         "posZ": 30.9944077,
         "rotX": 359.9671,
-        "rotY": 0.365954429,
+        "rotY": 0.365954548,
         "rotZ": 359.8398,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -18740,7 +18740,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.12498071,
+        "g": 0.124980681,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -18873,8 +18873,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.0999814644,
-        "b": 0.09398144
+        "g": 0.0999814346,
+        "b": 0.09398141
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19007,7 +19007,7 @@
       "ColorDiffuse": {
         "r": 0.9529411,
         "g": 0.5882353,
-        "b": 0.109786533
+        "b": 0.1097865
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -19558,7 +19558,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.054887712,
+        "r": 0.05488769,
         "g": 0.7764706,
         "b": 0.0
       },
@@ -19824,9 +19824,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980658,
-        "g": 0.249980658,
-        "b": 0.249980658
+        "r": 0.249980628,
+        "g": 0.249980628,
+        "b": 0.249980628
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20078,7 +20078,7 @@
       "Transform": {
         "posX": 62.5000458,
         "posY": 1.23999381,
-        "posZ": 0.0008029938,
+        "posZ": 0.00080680853,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -20138,9 +20138,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249989986,
-        "g": 0.249989986,
-        "b": 0.249989986
+        "r": 0.249989957,
+        "g": 0.249989957,
+        "b": 0.249989957
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -20209,7 +20209,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.0000062,
-        "posZ": -83.87215,
+        "posZ": -83.87218,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20257,7 +20257,7 @@
       "Transform": {
         "posX": 90.00426,
         "posY": -0.999999464,
-        "posZ": 63.664135,
+        "posZ": 63.66415,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20305,7 +20305,7 @@
       "Transform": {
         "posX": 90.00319,
         "posY": -1.00000322,
-        "posZ": 12.6597471,
+        "posZ": 12.6597548,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20351,9 +20351,9 @@
       "GUID": "3e4433",
       "Name": "3DText",
       "Transform": {
-        "posX": 90.00494,
+        "posX": 90.00495,
         "posY": -1.0000062,
-        "posZ": 37.6629448,
+        "posZ": 37.6629677,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20449,7 +20449,7 @@
       "Transform": {
         "posX": 90.0006256,
         "posY": -1.00000846,
-        "posZ": -68.3446045,
+        "posZ": -68.34462,
         "rotX": 0.0,
         "rotY": 270.0,
         "rotZ": 0.0,
@@ -20510,8 +20510,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.9559999,
-        "g": 0.3919911,
-        "b": 0.112991132
+        "g": 0.391991079,
+        "b": 0.112991087
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26327,8 +26327,8 @@
         "posX": 88.50019,
         "posY": -3.0,
         "posZ": -66.00324,
-        "rotX": 0.07997596,
-        "rotY": 89.9983749,
+        "rotX": 0.07997737,
+        "rotY": 89.99831,
         "rotZ": 359.983124,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -26338,9 +26338,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249991119,
-        "g": 0.249991119,
-        "b": 0.249991119
+        "r": 0.249991089,
+        "g": 0.249991089,
+        "b": 0.249991089
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -26964,7 +26964,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124991782,
+        "g": 0.124991737,
         "b": 0.941
       },
       "LayoutGroupSortIndex": 0,
@@ -27191,9 +27191,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.249980628,
-        "g": 0.249980628,
-        "b": 0.249980628
+        "r": 0.2499806,
+        "g": 0.2499806,
+        "b": 0.2499806
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -27556,7 +27556,7 @@
       "Name": "Infinite_Bag",
       "Transform": {
         "posX": -35.0,
-        "posY": 0.99999994,
+        "posY": 1.0,
         "posZ": -31.0,
         "rotX": 359.983124,
         "rotY": -3.06866641E-05,
@@ -27569,7 +27569,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117992215,
+        "r": 0.117992185,
         "g": 0.53,
         "b": 1.0
       },
@@ -28275,8 +28275,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999146,
-        "b": 0.0939914361
+        "g": 0.0999914,
+        "b": 0.09399138
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
@@ -28366,7 +28366,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117991112,
+        "r": 0.117991053,
         "g": 0.53,
         "b": 1.0
       },
@@ -28456,9 +28456,9 @@
         "posX": 85.00001,
         "posY": 0.9306005,
         "posZ": -88.00001,
-        "rotX": 6.72058832E-07,
+        "rotX": 2.91582836E-07,
         "rotY": 90.008606,
-        "rotZ": 1.30696685E-06,
+        "rotZ": 1.43761554E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -29402,9 +29402,9 @@
         "posX": 73.0,
         "posY": 0.9305996,
         "posZ": -50.0,
-        "rotX": 6.099473E-07,
+        "rotX": 5.19179935E-07,
         "rotY": 90.00196,
-        "rotZ": 1.80146867E-06,
+        "rotZ": 1.11083625E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -30466,9 +30466,9 @@
         "posX": 85.0,
         "posY": 0.9305956,
         "posZ": 88.0,
-        "rotX": 8.049017E-07,
+        "rotX": 1.41368687E-07,
         "rotY": 90.008606,
-        "rotZ": 1.85273609E-06,
+        "rotZ": 1.87212311E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -31527,11 +31527,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499993,
+        "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": -6.48002E-06,
+        "rotX": 1.69047985E-06,
         "rotY": 270.01886,
-        "rotZ": -7.455324E-07,
+        "rotZ": -1.92705542E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31580,9 +31580,9 @@
         "posX": 67.0,
         "posY": 0.9499992,
         "posZ": -14.000001,
-        "rotX": -2.521457E-06,
-        "rotY": 270.118134,
-        "rotZ": -1.00096891E-07,
+        "rotX": -3.612696E-07,
+        "rotY": 270.118164,
+        "rotZ": -2.10591E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31629,11 +31629,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.949999452,
+        "posY": 0.949999332,
         "posZ": -16.0000019,
-        "rotX": -2.39435821E-07,
-        "rotY": 269.9167,
-        "rotZ": -5.21185257E-06,
+        "rotX": -3.80064671E-06,
+        "rotY": 269.916656,
+        "rotZ": -1.52309065E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31682,9 +31682,9 @@
         "posX": 67.0,
         "posY": 0.949999154,
         "posZ": -10.0,
-        "rotX": -2.87028115E-06,
+        "rotX": -1.87318221E-07,
         "rotY": 270.0437,
-        "rotZ": 9.661559E-08,
+        "rotZ": -5.54270059E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31733,9 +31733,9 @@
         "posX": 67.0,
         "posY": 0.9499992,
         "posZ": -12.0,
-        "rotX": 9.37553253E-08,
+        "rotX": 4.444492E-07,
         "rotY": 269.875183,
-        "rotZ": -5.63865171E-07,
+        "rotZ": -1.29108469E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31784,9 +31784,9 @@
         "posX": 67.0,
         "posY": 0.9499991,
         "posZ": -8.000001,
-        "rotX": 6.838098E-07,
+        "rotX": 2.18529863E-07,
         "rotY": 270.031342,
-        "rotZ": -2.49939148E-06,
+        "rotZ": -2.82694214E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31835,7 +31835,7 @@
         "posX": 67.0,
         "posY": 0.949998438,
         "posZ": 14.0,
-        "rotX": -4.969585E-07,
+        "rotX": -3.376291E-07,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31884,11 +31884,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 67.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 15.9999552,
-        "rotX": 4.964399E-07,
+        "rotX": -1.21170308E-06,
         "rotY": 269.9995,
-        "rotZ": -1.66365089E-06,
+        "rotZ": -2.46473928E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -31937,7 +31937,7 @@
         "posX": 67.0,
         "posY": 0.949998558,
         "posZ": 10.0,
-        "rotX": -1.38520318E-06,
+        "rotX": -1.57293061E-06,
         "rotY": 269.999817,
         "rotZ": 180.0,
         "scaleX": 0.5,
@@ -31987,7 +31987,7 @@
       "Transform": {
         "posX": 66.00005,
         "posY": 0.9611341,
-        "posZ": 12.0007772,
+        "posZ": 12.0007839,
         "rotX": 90.0,
         "rotY": 89.96401,
         "rotZ": 0.0,
@@ -33321,9 +33321,9 @@
         "posX": 67.0,
         "posY": 0.9499986,
         "posZ": 11.9999962,
-        "rotX": -1.24163284E-06,
-        "rotY": 269.999268,
-        "rotZ": -3.05993171E-06,
+        "rotX": -1.04853893E-06,
+        "rotY": 269.9993,
+        "rotZ": -8.536079E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -33708,9 +33708,9 @@
         "posX": 73.0,
         "posY": 0.930596769,
         "posZ": 50.0,
-        "rotX": 1.25710841E-07,
+        "rotX": 4.871289E-07,
         "rotY": 90.00196,
-        "rotZ": 1.607066E-06,
+        "rotZ": 1.28338138E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34772,9 +34772,9 @@
         "posX": -19.3798523,
         "posY": 1.32000017,
         "posZ": -26.84741,
-        "rotX": -1.72593147E-07,
-        "rotY": 0.00279763527,
-        "rotZ": 4.25477324E-08,
+        "rotX": -1.15716851E-07,
+        "rotY": 0.002797628,
+        "rotZ": -7.099195E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -34783,7 +34783,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997564,
+        "r": 0.117997535,
         "g": 0.53,
         "b": 1.0
       },
@@ -34863,7 +34863,7 @@
         "posY": 1.32000041,
         "posZ": -27.84741,
         "rotX": 90.0,
-        "rotY": 0.00279445364,
+        "rotY": 0.00279433117,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34873,7 +34873,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997564,
+        "r": 0.117997535,
         "g": 0.53,
         "b": 1.0
       },
@@ -34952,8 +34952,8 @@
         "posX": -19.3798847,
         "posY": 1.32,
         "posZ": -28.84741,
-        "rotX": 1.43928389E-07,
-        "rotY": 0.002777165,
+        "rotX": -4.54088365E-07,
+        "rotY": 0.00277685421,
         "rotZ": 89.99999,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -34963,7 +34963,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997564,
+        "r": 0.117997535,
         "g": 0.53,
         "b": 1.0
       },
@@ -35042,8 +35042,8 @@
         "posX": -19.3799,
         "posY": 1.32000041,
         "posZ": -29.84741,
-        "rotX": -7.6185124E-08,
-        "rotY": 0.00280282251,
+        "rotX": 9.275617E-09,
+        "rotY": 0.00280285673,
         "rotZ": 270.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35053,7 +35053,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117997564,
+        "r": 0.117997535,
         "g": 0.53,
         "b": 1.0
       },
@@ -35133,7 +35133,7 @@
         "posY": 1.32000041,
         "posZ": -30.84741,
         "rotX": 270.0,
-        "rotY": 0.00280740461,
+        "rotY": 0.00280732056,
         "rotZ": 0.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35143,7 +35143,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996551,
+        "r": 0.117996521,
         "g": 0.53,
         "b": 1.0
       },
@@ -35222,8 +35222,8 @@
         "posX": -19.3799324,
         "posY": 1.32000017,
         "posZ": -31.84741,
-        "rotX": -7.55725E-08,
-        "rotY": 0.00279714912,
+        "rotX": -3.92570279E-08,
+        "rotY": 0.002797161,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -35233,7 +35233,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117996551,
+        "r": 0.117996521,
         "g": 0.53,
         "b": 1.0
       },
@@ -35310,11 +35310,11 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3792629,
-        "posY": 1.32000029,
+        "posY": 1.32000017,
         "posZ": 26.8468227,
-        "rotX": 5.02947444E-07,
+        "rotX": -2.66949229E-07,
         "rotY": 179.969955,
-        "rotZ": -2.44775549E-07,
+        "rotZ": 1.41429936E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -35324,8 +35324,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35400,7 +35400,7 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3786888,
-        "posY": 1.32000017,
+        "posY": 1.32,
         "posZ": 27.8468227,
         "rotX": 90.0,
         "rotY": 179.969955,
@@ -35414,8 +35414,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35490,9 +35490,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3781147,
-        "posY": 1.32000017,
+        "posY": 1.31999886,
         "posZ": 28.8468227,
-        "rotX": -7.420494E-07,
+        "rotX": -5.55286363E-07,
         "rotY": 179.969955,
         "rotZ": 90.0,
         "scaleX": 1.0,
@@ -35504,8 +35504,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35580,9 +35580,9 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.37754,
-        "posY": 1.32000017,
+        "posY": 1.32000351,
         "posZ": 29.84682,
-        "rotX": -5.869694E-07,
+        "rotX": -1.78425353E-07,
         "rotY": 179.969955,
         "rotZ": 270.0,
         "scaleX": 1.0,
@@ -35594,8 +35594,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35670,7 +35670,7 @@
       "Name": "Die_6_Rounded",
       "Transform": {
         "posX": 19.3769665,
-        "posY": 1.32000029,
+        "posY": 1.32000017,
         "posZ": 30.84682,
         "rotX": 270.0,
         "rotY": 179.969955,
@@ -35684,8 +35684,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35762,7 +35762,7 @@
         "posX": 19.3763924,
         "posY": 1.32000041,
         "posZ": 31.84682,
-        "rotX": 3.40296737E-07,
+        "rotX": -6.82060843E-08,
         "rotY": 179.969955,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -35774,8 +35774,8 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.856,
-        "g": 0.09999763,
-        "b": 0.09399762
+        "g": 0.0999976,
+        "b": 0.0939975753
       },
       "LayoutGroupSortIndex": 0,
       "Locked": false,
@@ -35960,9 +35960,9 @@
         "posX": 70.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -5.65443031E-07,
+        "rotX": -4.20628965E-07,
         "rotY": 270.0,
-        "rotZ": -1.541581E-06,
+        "rotZ": -1.84238979E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36062,9 +36062,9 @@
         "posX": 70.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -3.93976137E-07,
+        "rotX": -5.367532E-07,
         "rotY": 270.0,
-        "rotZ": -1.62026652E-06,
+        "rotZ": -1.660212E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36164,9 +36164,9 @@
         "posX": 70.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -6.275788E-07,
+        "rotX": -6.93819857E-07,
         "rotY": 270.0,
-        "rotZ": -1.39319229E-06,
+        "rotZ": -1.49849348E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36266,9 +36266,9 @@
         "posX": 66.0,
         "posY": 0.89999795,
         "posZ": 31.0,
-        "rotX": -5.05228854E-07,
+        "rotX": -5.152652E-07,
         "rotY": 270.0,
-        "rotZ": -1.62891774E-06,
+        "rotZ": -1.61508922E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36368,9 +36368,9 @@
         "posX": 66.0,
         "posY": 0.899998069,
         "posZ": 27.0,
-        "rotX": -4.4409623E-07,
+        "rotX": -5.331261E-07,
         "rotY": 270.0,
-        "rotZ": -1.62921549E-06,
+        "rotZ": -1.62888375E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36470,9 +36470,9 @@
         "posX": 66.0,
         "posY": 0.8999982,
         "posZ": 23.0,
-        "rotX": -5.58161844E-07,
+        "rotX": -7.21420463E-07,
         "rotY": 270.0,
-        "rotZ": -1.68874021E-06,
+        "rotZ": -1.32113939E-06,
         "scaleX": 0.8,
         "scaleY": 1.0,
         "scaleZ": 0.8
@@ -36660,7 +36660,7 @@
         "posX": 78.00018,
         "posY": 1.00000083,
         "posZ": -1.00002837,
-        "rotX": -1.59395381E-06,
+        "rotX": -1.60042566E-06,
         "rotY": 180.012192,
         "rotZ": 180.0,
         "scaleX": 1.0,
@@ -36708,7 +36708,7 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "-- Made by GenWilhelm\r\n-- https://steamcommunity.com/id/GenWilhelm/\r\n-- Discord: GenWilhelm#6485\r\nversion_card = \"2021-02-10\"\r\nversion_data = \"error\"\r\n\r\nrepo =     \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\nmainRepo = \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\naltRepo = \"https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/\"\r\nusePhubarVersion = true\r\n-- Phubar edit\r\nvictoryCounterGuid={}\r\nvictoryCounterGuid[1]=\"8b0541\"\r\nvictoryCounterGuid[2]=\"a77a54\"\r\n\r\nenableBtn = { label=\"ENABLE\\nETERNAL WAR\\nSCORESHEET\\n\\n(click here)\\n\\nDon't enable if you\\nwant to keep track\\nof VPs manually\\non counters \", width = 6500,\theight = 9500, click_function = 'enableSheet', font_size = 1600,\r\n\t\tfunction_owner = self,\tposition = {1, -0.05, -1}, rotation = {0, 90, 180},\ttooltip = \"\", color=\"Black\", font_color=\"White\"\r\n}\r\n\r\nscoresheetActive=false\r\nspawner_GUID = {\"cff35b\",\"471de1\"}\r\nchangeSpawnerPack = true\r\n\r\nfunction initPackPhb(index_web)\r\n\tpacksIDs = JSON.decode(index_web.text)\r\n\tversion_data = packsIDs.ver -- not used\r\nend\r\n\r\nfunction enableSheet()\r\n\tscoresheetActive=true\r\n\t--writeMenu()\r\n\tself.script_state = onSave()\r\n\tonload(self.script_state)\r\n\tstartGameObj= getObjectFromGUID(Global.getVar(\"startMenu_GUID\"))\r\n\tredObjSpawner= getObjectFromGUID(\"cff35b\")\r\n\tWait.time(function() if not startGameObj.getVar(\"inGame\") then packFromExt({index= redObjSpawner.GetTable(\"selected\")[1]} ) end end, 1.5)\r\nend\r\n\r\n\r\nfunction addSecondaryForPlayer(params)\r\n\tlocal sheetParams= getParams()\r\n\tif Player[params.clicker].steam_name == sheetParams.P1 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i][4].label == \"\" then\r\n\t\t\t\tsec_xyFromExternal(1, i, false, params.secID)\r\n\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tif Player[params.clicker].steam_name == sheetParams.P2 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i+3][4].label == \"\" then\r\n\t\t\t\t\tsec_xyFromExternal(2, i, false, params.secID )\r\n\t\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tprintToColor(\"Resister yourself to scoresheet first!\", params.clicker, \"Red\")\r\nend\r\n\r\nfunction sec_xyFromExternal(x, y, alt, id)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tif id then\r\n--\t\t\tprint(\"Argument id \"..id)\r\n\t\t\tfor i, obj in pairs(selectedPack.data.objectives) do\r\n--\t\t\t\tprint(\"fido\")\r\n\t\t\t\tfor j, val in pairs(obj) do\r\n\t\t\t\t--\tprint(j)\r\n\t\t\t\t--\tprint(val)\r\n\t\t\t\tend\r\n\t\t\t\tif obj.id == id then\r\n--\t\t\t\t\tprint(\"FOUND \"..obj.name..\"  ID \"..obj.id)\r\n\t\t\t\t\tvalue = i\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tsecondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\tsecondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\tupdateAll(true)\r\n\tend\r\nend\r\n\r\n-- END Phubar edit\r\n\r\n-- round, player, scored\r\nprimary = {\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}}\r\n}\r\n\r\n-- player, secondary, (id, score, category, name, description)\r\ndefaultSec = {0, 0, 0, \"\", \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"}\r\n\r\nsecondary = {\r\n\t{defaultSec, defaultSec, defaultSec},\r\n\t{defaultSec, defaultSec, defaultSec}\r\n}\r\n\r\npacksIDs = {}\r\npacksData = {}\r\nselectedPack = {index = 0, data = {}}\r\n\r\nbutton = {}\r\n\r\nplayerOneTitle = {\r\n\tindex = 0,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 1\",\r\n\tclick_function = 'p1',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, -4.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\nplayerTwoTitle = {\r\n\tindex = 1,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 2\",\r\n\tclick_function = 'p2',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, 2.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\n\r\nplayerTotal = {\r\n\t{\r\n\t\tindex = 2,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, -4},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 1\"\r\n\t},\r\n\t{\r\n\t\tindex = 3,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, 2},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 2\"\r\n\t}\r\n}\r\n\r\npackButton = {\r\n\tindex = 4,\r\n\twidth = 4500,\r\n\theight = 500,\r\n\tlabel = \"\",\r\n\tclick_function = 'pack',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-6.25, -0.05, -1},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to cycle mission packs,\\nright-click to cycle backwards.\"\r\n}\r\n\r\np = 1\r\nprntCnt = 0\r\n\r\nfunction onload(save_data) -- PHUBAR version\r\n\tif save_data ~= \"\" then\r\n\t\tlocal data = JSON.decode(save_data)\r\n\t\tif data then\r\n\t\t\tscoresheetActive = data.scoresheetActive\r\n\t\t\tprimary = data.primary\r\n\t\t\tsecondary = data.secondary\r\n\t\t\tpacksData = data.packsData\r\n\t\t\tselectedPack = data.selectedPack\r\n\t\tend\r\n\tend\r\n----------\r\n\tif usePhubarVersion then\r\n\t\tself.clearButtons()\r\n\t\tif not scoresheetActive then\r\n\t\t\tself.createButton(enableBtn)\r\n\t\t\treturn\r\n\t\tend\r\n\t\tWait.time(function() self.setPosition({78,1,-1}) end, 1)\r\n\t\tself.setLock(true)\r\n\t\tlocal spawnerR= getObjectFromGUID(spawner_GUID[1])\r\n\t\tlocal spawnerB= getObjectFromGUID(spawner_GUID[2])\r\n\t\trepo = mainRepo -- altRepo or mainRepo\r\n\r\n\t\tif spawnerR then\r\n\t\t\tspawnerR.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\t\tif spawnerB then\r\n\t\t\tspawnerB.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\tend\r\n-----------\r\n\t WebRequest.get( repo .. \"index.json\", function(index_web)\r\n\t\tself.createButton( playerOneTitle )\r\n\t\tself.createButton( playerTwoTitle )\r\n\t\tself.createButton( playerTotal[1] )\r\n\t\tself.createButton( playerTotal[2] )\r\n\t\tif #packsData ~= 0 then\r\n\t\t\tif selectedPack then\r\n\t\t\t\tif selectedPack.index then\r\n\t\t\t\t\tif packsData[selectedPack.index].name then\r\n\t\t\t\t\t\tpackButton.label = packsData[selectedPack.index].name\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\tself.createButton( packButton )\r\n\r\n\t\tpacksIDs = JSON.decode(index_web.text)\r\n\t\tversion_data = packsIDs.ver\r\n\r\n\t\tif data and false then\r\n\r\n\t\t\tif #data.packsData == 0 then\r\n\t\t\t\tgetPacks()\r\n\t\t\tend\r\n\t\t\t\tprint(\"loaded data2\")\r\n\t\t\t\tprimary = data.primary\r\n\t\t\t\tsecondary = data.secondary\r\n\t\t\t\tpacksData = data.packsData\r\n\t\t\t\tselectedPack = data.selectedPack\r\n\t\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tif #packsData == 0 then\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tlocal b_xpos = 0\r\n\t\tlocal b_ypos = -3.75\r\n\t\tlocal b_index = 5\r\n\r\n\t\tfor i=1,4 do\r\n\t\t\tbutton[i] = {}\r\n\t\t\tb_xpos = -6.15\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tbutton[i][j] = {}\r\n\r\n\t\t\t\tfor k=1,4 do\r\n\t\t\t\t\tlocal newButton = {\r\n\t\t\t\t\t\tindex = 0,\r\n\t\t\t\t\t\twidth = 600,\r\n\t\t\t\t\t\theight = 600,\r\n\t\t\t\t\t\tlabel = \"0\",\r\n\t\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\t\tfont_size = 500,\r\n\t\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\t\ttooltip = \"Total 0-15\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t\tnewButton.index = b_index\r\n\t\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\t\t\t\t\tb_xpos = b_xpos + 1.25\r\n\r\n\t\t\t\t\tif k ~= 4 then\r\n\t\t\t\t\t\tnewButton.click_function = 'toggle_' .. i .. j .. k\r\n\t\t\t\t\t\tnewButton.label = \"\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tif k == 1 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 1+\"\r\n\t\t\t\t\telseif k == 2 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 2+\"\r\n\t\t\t\t\telseif k == 3 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold More\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tbutton[i][j][k] = newButton\r\n\t\t\t\t\tself.createButton( button[i][j][k] )\r\n\t\t\t\tend\r\n\r\n\t\t\t\tb_xpos = 0.4\r\n\t\t\tend\r\n\r\n\t\t\tb_ypos = b_ypos + 2.5\r\n\t\tend\r\n\r\n\r\n\t\tbutton[5] = {}\r\n\t\tb_xpos = -1.9\r\n\t\tb_ypos = b_ypos - 0.1\r\n\r\n\t\tfor i=1,6 do\r\n\t\t\tbutton[5][i] = {}\r\n\r\n\t\t\tlocal newButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 500,\r\n\t\t\t\theight = 500,\r\n\t\t\t\tlabel = \"0\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 400,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Secondary\"\r\n\t\t\t}\r\n\r\n\t\t\tnewButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\r\n\t\t\tbutton[5][i][1] = newButton\r\n\t\t\tself.createButton( button[5][i][1] )\r\n\r\n\t\t\tlocal ind = secIndex(i)\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tlocal smallButton = {\r\n\t\t\t\t\tindex = 0,\r\n\t\t\t\t\twidth = 250,\r\n\t\t\t\t\theight = 250,\r\n\t\t\t\t\tlabel = \"\",\r\n\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\tfont_size = 200,\r\n\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\ttooltip = \"\"\r\n\t\t\t\t}\r\n\r\n\t\t\t\tsmallButton.index = b_index\r\n\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\tif j == 1 then\r\n\t\t\t\t\tsmallButton.position = {b_ypos - 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"+\"\r\n\t\t\t\t\tsmallButton.click_function = 'plus_' .. ind[1] .. ind[2]\r\n\t\t\t\telse\r\n\t\t\t\t\tsmallButton.position = {b_ypos + 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"-\"\r\n\t\t\t\t\tsmallButton.click_function = 'sub_' .. ind[1] .. ind[2]\r\n\t\t\t\tend\r\n\r\n\t\t\t\tbutton[5][i][j+1] = smallButton\r\n\t\t\t\tself.createButton( button[5][i][j+1] )\r\n\t\t\tend\r\n\r\n\t\t\tlocal nameButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 2000,\r\n\t\t\t\theight = 350,\r\n\t\t\t\tlabel = \"\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 200,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t\t}\r\n\r\n\t\t\tnameButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnameButton.position = {b_ypos, -0.05, b_xpos - 3.1}\r\n\t\t\tnameButton.click_function = 'sec_' .. ind[1] .. ind[2]\r\n\r\n\t\t\tbutton[5][i][4] = nameButton\r\n\t\t\tself.createButton( button[5][i][4] )\r\n\r\n\t\t\tb_ypos = b_ypos + 1\r\n\r\n\t\t\tif i == 3 then\r\n\t\t\t\tb_ypos = b_ypos - 3\r\n\t\t\t\tb_xpos = 4.5\r\n\t\t\tend\r\n\t\tend\r\n\r\n\r\n\t\tWait.time(slowUpdate, 2)\r\n\t--[[\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_timer_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"slowUpdate\",\r\n\t\t\tdelay          = 2,\r\n\t\t\trepetitions    = 0\r\n\t\t})]]\r\n\tend)\r\n\tif selectedPack.index == 0  then\r\n\t\tWait.time(function() pack(self, \"Red\", false) end, 1)\r\n\tend\r\nend\r\n\r\n\r\nfunction onSave()\r\n\tlocal save_data = {\r\n\t\tscoresheetActive = scoresheetActive,\r\n\t\tprimary = primary,\r\n\t\tsecondary = secondary,\r\n\t\tpacksData = packsData,\r\n\t\tselectedPack = selectedPack\r\n\t}\r\n\treturn JSON.encode(save_data)\r\nend\r\n\r\nfunction onScriptingButtonDown(index, color)\r\n\tif index == 9 and color == \"White\" then\r\n\t\tupdateAll(true)\r\n\t\tpacksData = {}\r\n\t\tselectedPack = {}\r\n\t\tpackButton.label = \"\"\r\n\t\tself.editButton( packButton )\r\n\t\tprint(\"Cleared sheet.\")\r\n\tend\r\nend\r\n\r\nfunction updateAll(reset)\r\n\tlocal reset = false -- fix for letting FACTION SPECIFIC to be a separate pack\r\n\tfor i=1,4 do\r\n\t\tfor j=1,2 do\r\n\t\t\tfor k=1,3 do\r\n\t\t\t\tif reset then primary[i][j][k] = 0 end\r\n\t\t\t\tupdatePrimary(i, j ,k)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfor n=1,2 do\r\n\t\tfor m=1,3 do\r\n\t\t\tif reset then secondary[n][m] = defaultSec end\r\n\t\t\tupdateSecondary(n, m)\r\n\r\n\t\t\tlocal v = secondary[n][m][1]\r\n\t\t\tlocal l = 0\r\n\r\n\t\t\tif n == 1 then\r\n\t\t\t\tl = m\r\n\t\t\telse\r\n\t\t\t\tl = m + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][l][4].label = secondary[n][m][4]\r\n\t\t\tbutton[5][l][4].tooltip = secondary[n][m][5]\r\n\t\t\tself.editButton( button[5][l][4] )\r\n\t\tend\r\n\tend\r\n\r\n\tif not reset then\r\n\t\tpackButton.label = selectedPack.data.name\r\n\t\tself.editButton( packButton )\r\n\tend\r\nend\r\n\r\nfunction slowUpdate()\r\n\tlocal params = getParams()\r\n\r\n\tif playerOneTitle.label ~= params.P1 then\r\n\t\tplayerOneTitle.label = params.P1\r\n\t\tself.editButton(playerOneTitle)\r\n\t\tplayerTotal[1].tooltip = params.P1\r\n\tend\r\n\r\n\tif playerTwoTitle.label ~= params.P2 then\r\n\t\tplayerTwoTitle.label = params.P2\r\n\t\tself.editButton(playerTwoTitle)\r\n\t\tplayerTotal[2].tooltip = params.P2\r\n\tend\r\n\r\n\tif params.ver_card ~= version_card then\r\n\t\tparams.ver_card = version_card\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\tif params.ver_data ~= version_data then\r\n\t\tparams.ver_data = version_data\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\nend\r\n\r\n\r\nfunction nothing()\r\nend\r\n\r\nfunction getPacks()\r\n\tlocal id = packsIDs.packs[p]\r\n\r\n\tWebRequest.get( repo .. id .. \".json\", function(pack_web)\r\n\t\tlocal pack_data = JSON.decode(pack_web.text)\r\n\t\tlocal obj = {}\r\n\r\n\t\tobj[\"0\"] = {\r\n\t\t\tfaction = \"\",\r\n\t\t\tcategory = \"\",\r\n\t\t\tname = \"\",\r\n\t\t\tdescription = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t}\r\n\r\n\t\tlocal i = 1\r\n\r\n\t\tfor _, faction in ipairs(pack_data.factions) do\r\n\t\t\tfor _, category in ipairs(faction.categories) do\r\n\t\t\t\tfor _, objective in ipairs(category.objectives) do\r\n\t\t\t\t\tobjective.faction = faction.name\r\n\t\t\t\t\tobjective.category = category.name\r\n\r\n\t\t\t\t\tif objective.name == \"While We Stand, We Fight\" then objective.name = \"We Stand, We Fight\" end\r\n\t\t\t\t\t--yes this is stupid and hacky, don't @ me.\r\n\r\n\t\t\t\t\tobj[tostring(i)] = objective\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\t\t--table.insert(obj, objective)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\ttable.insert(packsData, {\r\n\t\t\tver = pack_data.ver,\r\n\t\t\tname = pack_data.name,\r\n\t\t\tobjectives = obj\r\n\t\t})\r\n\r\n\t\tif p < #packsIDs.packs then\r\n\t\t\tp = p + 1\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tpack()\r\n\t\tend\r\n\tend)\r\nend\r\n\r\nwarned = false\r\n\r\nfunction packFromExt(params)\r\n\tif not scoresheetActive then return end\r\n\tlocal i = params.index\r\n\tselectedPack.index = i\r\n\tselectedPack.data = packsData[i]\r\n\tpackButton.label = packsData[i].name\r\n\tself.editButton( packButton )\r\n\tupdateAll(true)\r\nend\r\n\r\nfunction pack(_, _, alt)\r\n\tif true or (warned or -- adde true for letting FACTIONS to be a separate pack\r\n\t\t(\r\n\t\t\tplayerSum(1) == 10 and\r\n\t\t\tplayerSum(2) == 10 and\r\n\t\t\tsecondary[1][1][1] == 0 and\r\n\t\t\tsecondary[1][2][1] == 0 and\r\n\t\t\tsecondary[1][3][1] == 0 and\r\n\t\t\tsecondary[2][1][1] == 0 and\r\n\t\t\tsecondary[2][2][1] == 0 and\r\n\t\t\tsecondary[2][3][1] == 0\r\n\t\t)\r\n\t)\r\n\tthen\r\n\t\tlocal i = selectedPack.index\r\n\r\n\t\tif alt then\r\n\t\t\ti = i - 1\r\n\t\t\tif i < 1 then i = #packsData end\r\n\t\telse\r\n\t\t\ti = i + 1\r\n\t\t\tif i > #packsData then i = 1 end\r\n\t\tend\r\n\r\n\t\tselectedPack.index = i\r\n\t\tselectedPack.data = packsData[i]\r\n\r\n\t\tpackButton.label = packsData[i].name\r\n\t\tself.editButton( packButton )\r\n\r\n\t\tupdateAll(true)\r\n\telse\r\n\t\tprintToAll(\"WARNING: Changing mission pack will reset objectives. Click again to confirm.\", {r=1,g=0,b=0})\r\n\t\twarned = true\r\n\t\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_warning_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"unwarn\",\r\n\t\t\tdelay          = 10\r\n\t\t})\r\n\tend\r\nend\r\n\r\nfunction unwarn()\r\n\twarned = false\r\nend\r\n\r\nfunction plusOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] + diff\r\n\tif sec > 15 then sec = 15 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction subOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] - diff\r\n\tif sec < 0 then sec = 0 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction updateSecondary(x, y)\r\n\tlocal w = 0\r\n\tif x == 1 then\r\n\t\tw = y\r\n\telse\r\n\t\tw = y + 3\r\n\tend\r\n\r\n\tbutton[5][w][1].label = tostring( secondary[x][y][2] )\r\n\tself.editButton(button[5][w][1])\r\n\r\n\tplayerTotal[x].label = tostring( playerSum(x) )\r\n\tself.editButton(playerTotal[x])\r\nend\r\n\r\nfunction toggle(value)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn 1\r\nend\r\n\r\nfunction toggle_other(value, other)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn other\r\nend\r\n\r\nfunction toggle_xyz(x, y, z)\r\n\tprimary[x][y][z] = toggle( primary[x][y][z] )\r\n\tupdatePrimary(x, y, z)\r\n\r\n\tif z == 1 and primary[x][y][z] == 0 then\r\n\t\tprimary[x][y][2] = 0\r\n\t\tprimary[x][y][3] = 0\r\n\t\tupdatePrimary(x, y, 2)\r\n\t\tupdatePrimary(x, y, 3)\r\n\tend\r\n\tif (z == 2 or z == 3) and primary[x][y][z] == 1 then\r\n\t\tprimary[x][y][1] = 1\r\n\t\tupdatePrimary(x, y, 1)\r\n\tend\r\nend\r\n\r\nfunction toggle_other_xyz(x, y, z)\r\n\tw = 3 - y\r\n\tprimary[x][w][z] = toggle_other( primary[x][y][z], primary[x][w][z] )\r\n\tupdatePrimary(x, w ,z)\r\nend\r\n\r\nfunction toggleToStr(value)\r\n\tif value == 1 then\r\n\t\treturn \"X\"\r\n\tend\r\n\treturn \"\"\r\nend\r\n\r\nfunction updatePrimary(x, y ,z)\r\n\tbutton[x][y][z].label = toggleToStr( primary[x][y][z] )\r\n\tself.editButton(button[x][y][z])\r\n\r\n\tbutton[x][y][4].label = tostring( battleRoundSum( primary[x][y] ) )\r\n\tself.editButton(button[x][y][4])\r\n\r\n\tplayerTotal[y].label = tostring( playerSum(y) )\r\n\tself.editButton(playerTotal[y])\r\nend\r\n\r\nfunction battleRoundSum(values)\r\n\tlocal sum = 0\r\n\r\n\tfor i = 1,3 do\r\n\t\tsum = sum + values[i]\r\n\tend\r\n\r\n\treturn sum * 5\r\nend\r\n\r\nfunction playerSum(pId)\r\n\tlocal pri_sum = 0\r\n\tfor j = 1,4 do\r\n\t\tpri_sum = pri_sum + battleRoundSum( primary[j][pId] )\r\n\tend\r\n\tif pri_sum > 45 then pri_sum = 45 end\r\n\r\n\tlocal sec_sum = 0\r\n\tfor k = 1,3 do\r\n\t\tsec_sum = sec_sum + secondary[pId][k][2]\r\n\tend\r\n\tif sec_sum > 45 then sec_sum = 45 end\r\n\tif usePhubarVersion then\r\n\t\tlocal playerCounter = getObjectFromGUID(victoryCounterGuid[pId]) -- Phubar add\r\n\t\tif playerCounter then\r\n\t\t\tplayerCounter.Counter.setValue( pri_sum + sec_sum + 10)\r\n\t\tend\r\n\tend\r\n\treturn pri_sum + sec_sum + 10\r\n\t-- painted army gives +10\r\nend\r\n\r\nfunction getParams()\r\n\tlocal params = JSON.decode( self.getDescription() )\r\n\r\n\tif params == nil then\r\n\t\tparams = {\r\n\t\t\tP1 = \"Player 1\",\r\n\t\t\tP2 = \"Player 2\",\r\n\t\t\tver_card = \"\",\r\n\t\t\tver_data = \"\"\r\n\t\t}\r\n\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\treturn params\r\nend\r\n\r\nfunction secIndex(x)\r\n\treturn {math.ceil(x/3), math.fmod(x-2,3)+2}\r\nend\r\n\r\nfunction p1(obj, clicker, alt)\r\n\tpName(1, obj, clicker, alt)\r\nend\r\nfunction p2(obj, clicker, alt)\r\n\tpName(2, obj, clicker, alt)\r\nend\r\n\r\nfunction pName(p, obj, clicker, alt)\r\n\tlocal params = getParams()\r\n\r\n\tif alt then\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = \"Player 1\"\r\n\t\t\tparams.P1 = \"Player 1\"\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = \"Player 2\"\r\n\t\t\tparams.P2 = \"Player 2\"\r\n\t\tend\r\n\telse\r\n\t\tlocal playerName = Player[clicker].steam_name\r\n\r\n\t\tif string.len( playerName ) > 15 then\r\n\t\t\tplayerName = string.sub( playerName, 1, 14 )\r\n\t\tend\r\n\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = playerName\r\n\t\t\tparams.P1 = playerName\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = playerName\r\n\t\t\tparams.P2 = playerName\r\n\t\tend\r\n\tend\r\n\r\n\tself.editButton(playerOneTitle)\r\n\tself.editButton(playerTwoTitle)\r\n\tself.setDescription(JSON.encode_pretty(params))\r\nend\r\n\r\nfunction sec_xy(x, y, alt)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tsecondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\tsecondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\tupdateAll(true)\r\n\tend\r\nend\r\n\r\nfunction addSecondaryForPlayer2(player, secID)\r\n\tlocal objs = selectedPack.data.objectives\r\n\tlocal secData = {}\r\n\r\n\tfor _, obj in ipairs(objs) do\r\n\t\tif obj.id == secID then\r\n\t\t\tsecData = obj\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\tfor i, sec in ipairs(seconadry[player]) do\r\n\t\tif sec[1] == 0 then\r\n\t\t\tsec[1] = obj.value\r\n\t\t\tsec[3] = obj.category\r\n\r\n\t\t\tlocal j = 0\r\n\t\t\tif player == 1 then\r\n\t\t\t\tj = i\r\n\t\t\telse\r\n\t\t\t\tj = i + 3\r\n\t\t\tend\r\n\r\n\t\t\tsecondary[player][i][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\t\tsecondary[player][i][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\t\tupdateAll(true)\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\nend\r\n\r\n-- Abandon hope all ye who enter here\r\n\r\nfunction toggle_111()\r\n\ttoggle_xyz(1, 1, 1)\r\nend\r\nfunction toggle_112()\r\n\ttoggle_xyz(1, 1, 2)\r\nend\r\nfunction toggle_113()\r\n\ttoggle_xyz(1, 1, 3)\r\nend\r\n\r\nfunction toggle_121()\r\n\ttoggle_xyz(1, 2, 1)\r\nend\r\nfunction toggle_122()\r\n\ttoggle_xyz(1, 2, 2)\r\nend\r\nfunction toggle_123()\r\n\ttoggle_xyz(1, 2, 3)\r\nend\r\n\r\nfunction toggle_211()\r\n\ttoggle_xyz(2, 1, 1)\r\nend\r\nfunction toggle_212()\r\n\ttoggle_xyz(2, 1, 2)\r\nend\r\nfunction toggle_213()\r\n\ttoggle_xyz(2, 1, 3)\r\nend\r\n\r\nfunction toggle_221()\r\n\ttoggle_xyz(2, 2, 1)\r\nend\r\nfunction toggle_222()\r\n\ttoggle_xyz(2, 2, 2)\r\nend\r\nfunction toggle_223()\r\n\ttoggle_xyz(2, 2, 3)\r\nend\r\n\r\nfunction toggle_311()\r\n\ttoggle_xyz(3, 1, 1)\r\nend\r\nfunction toggle_312()\r\n\ttoggle_xyz(3, 1, 2)\r\nend\r\nfunction toggle_313()\r\n\ttoggle_xyz(3, 1, 3)\r\nend\r\n\r\nfunction toggle_321()\r\n\ttoggle_xyz(3, 2, 1)\r\nend\r\nfunction toggle_322()\r\n\ttoggle_xyz(3, 2, 2)\r\nend\r\nfunction toggle_323()\r\n\ttoggle_xyz(3, 2, 3)\r\nend\r\n\r\nfunction toggle_411()\r\n\ttoggle_xyz(4, 1, 1)\r\nend\r\nfunction toggle_412()\r\n\ttoggle_xyz(4, 1, 2)\r\nend\r\nfunction toggle_413()\r\n\ttoggle_xyz(4, 1, 3)\r\nend\r\n\r\nfunction toggle_421()\r\n\ttoggle_xyz(4, 2, 1)\r\nend\r\nfunction toggle_422()\r\n\ttoggle_xyz(4, 2, 2)\r\nend\r\nfunction toggle_423()\r\n\ttoggle_xyz(4, 2, 3)\r\nend\r\n\r\n\r\nfunction plus_11(_, _, alt)\r\n\tplusOne(1, 1, alt)\r\nend\r\nfunction plus_12(_, _, alt)\r\n\tplusOne(1, 2, alt)\r\nend\r\nfunction plus_13(_, _, alt)\r\n\tplusOne(1, 3, alt)\r\nend\r\nfunction plus_21(_, _, alt)\r\n\tplusOne(2, 1, alt)\r\nend\r\nfunction plus_22(_, _, alt)\r\n\tplusOne(2, 2, alt)\r\nend\r\nfunction plus_23(_, _, alt)\r\n\tplusOne(2, 3, alt)\r\nend\r\n\r\nfunction sub_11(_, _, alt)\r\n\tsubOne(1, 1, alt)\r\nend\r\nfunction sub_12(_, _, alt)\r\n\tsubOne(1, 2, alt)\r\nend\r\nfunction sub_13(_, _, alt)\r\n\tsubOne(1, 3, alt)\r\nend\r\nfunction sub_21(_, _, alt)\r\n\tsubOne(2, 1, alt)\r\nend\r\nfunction sub_22(_, _, alt)\r\n\tsubOne(2, 2, alt)\r\nend\r\nfunction sub_23(_, _, alt)\r\n\tsubOne(2, 3, alt)\r\nend\r\n\r\nfunction sec_11(_, _, alt)\r\n\tsec_xy(1, 1, alt)\r\nend\r\nfunction sec_12(_, _, alt)\r\n\tsec_xy(1, 2, alt)\r\nend\r\nfunction sec_13(_, _, alt)\r\n\tsec_xy(1, 3, alt)\r\nend\r\nfunction sec_21(_, _, alt)\r\n\tsec_xy(2, 1, alt)\r\nend\r\nfunction sec_22(_, _, alt)\r\n\tsec_xy(2, 2, alt)\r\nend\r\nfunction sec_23(_, _, alt)\r\n\tsec_xy(2, 3, alt)\r\nend\r\n",
+      "LuaScript": "-- Made by GenWilhelm\r\n-- https://steamcommunity.com/id/GenWilhelm/\r\n-- Discord: GenWilhelm#6485\r\nversion_card = \"2021-02-10\"\r\nversion_data = \"error\"\r\n\r\nrepo =     \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\nmainRepo = \"https://raw.githubusercontent.com/GenWilhelm/tts_score_card/master/9e/\"\r\naltRepo = \"https://raw.githubusercontent.com/PhubarBCS/ttsTest/master/\"\r\nusePhubarVersion = true\r\n-- Phubar edit\r\nvictoryCounterGuid={}\r\nvictoryCounterGuid[1]=\"8b0541\"\r\nvictoryCounterGuid[2]=\"a77a54\"\r\n\r\nenableBtn = { label=\"ENABLE\\nETERNAL WAR\\nSCORESHEET\\n\\n(click here)\\n\\nDon't enable if you\\nwant to keep track\\nof VPs manually\\non counters \", width = 6500,\theight = 9500, click_function = 'enableSheet', font_size = 1600,\r\n\t\tfunction_owner = self,\tposition = {1, -0.05, -1}, rotation = {0, 90, 180},\ttooltip = \"\", color=\"Black\", font_color=\"White\"\r\n}\r\n\r\nscoresheetActive=false\r\nspawner_GUID = {\"cff35b\",\"471de1\"}\r\nchangeSpawnerPack = true\r\n\r\nfunction initPackPhb(index_web)\r\n\tpacksIDs = JSON.decode(index_web.text)\r\n\tversion_data = packsIDs.ver -- not used\r\nend\r\n\r\nfunction enableSheet()\r\n\tscoresheetActive=true\r\n\t--writeMenu()\r\n\tself.script_state = onSave()\r\n\tonload(self.script_state)\r\n\tstartGameObj= getObjectFromGUID(Global.getVar(\"startMenu_GUID\"))\r\n\tredObjSpawner= getObjectFromGUID(\"cff35b\")\r\n\tWait.time(function() if not startGameObj.getVar(\"inGame\") then packFromExt({index= redObjSpawner.GetTable(\"selected\")[1]} ) end end, 1.5)\r\nend\r\n\r\n\r\nfunction addSecondaryForPlayer(params)\r\n\tlocal sheetParams= getParams()\r\n\tif Player[params.clicker].steam_name == sheetParams.P1 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i][4].label == \"\" then\r\n\t\t\t\tsec_xyFromExternal(1, i, false, params.secID)\r\n\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tif Player[params.clicker].steam_name == sheetParams.P2 then\r\n\t\tfor i=1, 3 do\r\n\t\t\tif button[5][i+3][4].label == \"\" then\r\n\t\t\t\t\tsec_xyFromExternal(2, i, false, params.secID )\r\n\t\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\t\tprintToColor(\"No more space!\", params.clicker, \"Red\")\r\n\t\treturn\r\n\tend\r\n\tprintToColor(\"Resister yourself to scoresheet first!\", params.clicker, \"Red\")\r\nend\r\n\r\nfunction sec_xyFromExternal(x, y, alt, id)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tif id then\r\n--\t\t\tprint(\"Argument id \"..id)\r\n\t\t\tfor i, obj in pairs(selectedPack.data.objectives) do\r\n--\t\t\t\tprint(\"fido\")\r\n\t\t\t\tfor j, val in pairs(obj) do\r\n\t\t\t\t--\tprint(j)\r\n\t\t\t\t--\tprint(val)\r\n\t\t\t\tend\r\n\t\t\t\tif obj.id == id then\r\n--\t\t\t\t\tprint(\"FOUND \"..obj.name..\"  ID \"..obj.id)\r\n\t\t\t\t\tvalue = i\r\n\t\t\t\t\tbreak\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tsecondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\tsecondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\tupdateAll(true)\r\n\tend\r\nend\r\n\r\n-- END Phubar edit\r\n\r\n-- round, player, scored\r\nprimary = {\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}},\r\n\t{{0,0,0}, {0,0,0}}\r\n}\r\n\r\n-- player, secondary, (id, score, category, name, description)\r\ndefaultSec = {0, 0, 0, \"\", \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"}\r\n\r\nsecondary = {\r\n\t{defaultSec, defaultSec, defaultSec},\r\n\t{defaultSec, defaultSec, defaultSec}\r\n}\r\n\r\npacksIDs = {}\r\npacksData = {}\r\nselectedPack = {index = 0, data = {}}\r\n\r\nbutton = {}\r\n\r\nplayerOneTitle = {\r\n\tindex = 0,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 1\",\r\n\tclick_function = 'p1',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, -4.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\nplayerTwoTitle = {\r\n\tindex = 1,\r\n\twidth = 3000,\r\n\theight = 500,\r\n\tlabel = \"Player 2\",\r\n\tclick_function = 'p2',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-8, -0.05, 2.25},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to put your name here\"\r\n}\r\n\r\nplayerTotal = {\r\n\t{\r\n\t\tindex = 2,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, -4},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 1\"\r\n\t},\r\n\t{\r\n\t\tindex = 3,\r\n\t\twidth = 800,\r\n\t\theight = 500,\r\n\t\tlabel = \"10\",\r\n\t\tclick_function = 'nothing',\r\n\t\tfont_size = 500,\r\n\t\tfunction_owner = self,\r\n\t\tposition = {10, -0.05, 2},\r\n\t\trotation = {0, 90, 180},\r\n\t\ttooltip = \"Player 2\"\r\n\t}\r\n}\r\n\r\npackButton = {\r\n\tindex = 4,\r\n\twidth = 4500,\r\n\theight = 500,\r\n\tlabel = \"\",\r\n\tclick_function = 'pack',\r\n\tfont_size = 400,\r\n\tfunction_owner = self,\r\n\tposition = {-6.25, -0.05, -1},\r\n\trotation = {0, 90, 180},\r\n\ttooltip = \"Click to cycle mission packs,\\nright-click to cycle backwards.\"\r\n}\r\n\r\np = 1\r\n\r\nfunction onload(save_data) -- PHUBAR version\r\n\tif save_data ~= \"\" then\r\n\t\tlocal data = JSON.decode(save_data)\r\n\t\tif data then\r\n\t\t\tscoresheetActive = data.scoresheetActive\r\n\t\t\tprimary = data.primary\r\n\t\t\tsecondary = data.secondary\r\n\t\t\tpacksData = data.packsData\r\n\t\t\tselectedPack = data.selectedPack\r\n\t\tend\r\n\tend\r\n----------\r\n\tif usePhubarVersion then\r\n\t\tself.clearButtons()\r\n\t\tif not scoresheetActive then\r\n\t\t\tself.createButton(enableBtn)\r\n\t\t\treturn\r\n\t\tend\r\n\t\tWait.time(function() self.setPosition({78,1,-1}) end, 1)\r\n\t\tself.setLock(true)\r\n\t\tlocal spawnerR= getObjectFromGUID(spawner_GUID[1])\r\n\t\tlocal spawnerB= getObjectFromGUID(spawner_GUID[2])\r\n\t\trepo = mainRepo -- altRepo or mainRepo\r\n\r\n\t\tif spawnerR then\r\n\t\t\tspawnerR.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\t\tif spawnerB then\r\n\t\t\tspawnerB.call(\"setRepoUrl\", {url=repo})\r\n\t\tend\r\n\tend\r\n-----------\r\n\t WebRequest.get( repo .. \"index.json\", function(index_web)\r\n\t\tself.createButton( playerOneTitle )\r\n\t\tself.createButton( playerTwoTitle )\r\n\t\tself.createButton( playerTotal[1] )\r\n\t\tself.createButton( playerTotal[2] )\r\n\t\tif #packsData ~= 0 then\r\n\t\t\tif selectedPack then\r\n\t\t\t\tif selectedPack.index then\r\n\t\t\t\t\tif packsData[selectedPack.index].name then\r\n\t\t\t\t\t\tpackButton.label = packsData[selectedPack.index].name\r\n\t\t\t\t\tend\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\t\tself.createButton( packButton )\r\n\r\n\t\tpacksIDs = JSON.decode(index_web.text)\r\n\t\tversion_data = packsIDs.ver\r\n\r\n\t\tif data and false then\r\n\r\n\t\t\tif #data.packsData == 0 then\r\n\t\t\t\tgetPacks()\r\n\t\t\tend\r\n\t\t\t\tprint(\"loaded data2\")\r\n\t\t\t\tprimary = data.primary\r\n\t\t\t\tsecondary = data.secondary\r\n\t\t\t\tpacksData = data.packsData\r\n\t\t\t\tselectedPack = data.selectedPack\r\n\t\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tif #packsData == 0 then\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tWait.frames(function() updateAll(false) end, 3)\r\n\t\tend\r\n\t\tlocal b_xpos = 0\r\n\t\tlocal b_ypos = -3.75\r\n\t\tlocal b_index = 5\r\n\r\n\t\tfor i=1,4 do\r\n\t\t\tbutton[i] = {}\r\n\t\t\tb_xpos = -6.15\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tbutton[i][j] = {}\r\n\r\n\t\t\t\tfor k=1,4 do\r\n\t\t\t\t\tlocal newButton = {\r\n\t\t\t\t\t\tindex = 0,\r\n\t\t\t\t\t\twidth = 600,\r\n\t\t\t\t\t\theight = 600,\r\n\t\t\t\t\t\tlabel = \"0\",\r\n\t\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\t\tfont_size = 500,\r\n\t\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\t\ttooltip = \"Total 0-15\"\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t\tnewButton.index = b_index\r\n\t\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\t\t\t\t\tb_xpos = b_xpos + 1.25\r\n\r\n\t\t\t\t\tif k ~= 4 then\r\n\t\t\t\t\t\tnewButton.click_function = 'toggle_' .. i .. j .. k\r\n\t\t\t\t\t\tnewButton.label = \"\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tif k == 1 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 1+\"\r\n\t\t\t\t\telseif k == 2 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold 2+\"\r\n\t\t\t\t\telseif k == 3 then\r\n\t\t\t\t\t\tnewButton.tooltip = \"Hold More\"\r\n\t\t\t\t\tend\r\n\r\n\t\t\t\t\tbutton[i][j][k] = newButton\r\n\t\t\t\t\tself.createButton( button[i][j][k] )\r\n\t\t\t\tend\r\n\r\n\t\t\t\tb_xpos = 0.4\r\n\t\t\tend\r\n\r\n\t\t\tb_ypos = b_ypos + 2.5\r\n\t\tend\r\n\r\n\r\n\t\tbutton[5] = {}\r\n\t\tb_xpos = -1.9\r\n\t\tb_ypos = b_ypos - 0.1\r\n\r\n\t\tfor i=1,6 do\r\n\t\t\tbutton[5][i] = {}\r\n\r\n\t\t\tlocal newButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 500,\r\n\t\t\t\theight = 500,\r\n\t\t\t\tlabel = \"0\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 400,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Secondary\"\r\n\t\t\t}\r\n\r\n\t\t\tnewButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnewButton.position = {b_ypos, -0.05, b_xpos}\r\n\r\n\t\t\tbutton[5][i][1] = newButton\r\n\t\t\tself.createButton( button[5][i][1] )\r\n\r\n\t\t\tlocal ind = secIndex(i)\r\n\r\n\t\t\tfor j=1,2 do\r\n\t\t\t\tlocal smallButton = {\r\n\t\t\t\t\tindex = 0,\r\n\t\t\t\t\twidth = 250,\r\n\t\t\t\t\theight = 250,\r\n\t\t\t\t\tlabel = \"\",\r\n\t\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\t\tfont_size = 200,\r\n\t\t\t\t\tfunction_owner = self,\r\n\t\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\t\ttooltip = \"\"\r\n\t\t\t\t}\r\n\r\n\t\t\t\tsmallButton.index = b_index\r\n\t\t\t\tb_index = b_index + 1\r\n\r\n\t\t\t\tif j == 1 then\r\n\t\t\t\t\tsmallButton.position = {b_ypos - 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"+\"\r\n\t\t\t\t\tsmallButton.click_function = 'plus_' .. ind[1] .. ind[2]\r\n\t\t\t\telse\r\n\t\t\t\t\tsmallButton.position = {b_ypos + 0.25, -0.05, b_xpos - 0.75}\r\n\t\t\t\t\tsmallButton.label = \"-\"\r\n\t\t\t\t\tsmallButton.click_function = 'sub_' .. ind[1] .. ind[2]\r\n\t\t\t\tend\r\n\r\n\t\t\t\tbutton[5][i][j+1] = smallButton\r\n\t\t\t\tself.createButton( button[5][i][j+1] )\r\n\t\t\tend\r\n\r\n\t\t\tlocal nameButton = {\r\n\t\t\t\tindex = 0,\r\n\t\t\t\twidth = 2000,\r\n\t\t\t\theight = 350,\r\n\t\t\t\tlabel = \"\",\r\n\t\t\t\tclick_function = 'nothing',\r\n\t\t\t\tfont_size = 200,\r\n\t\t\t\tfunction_owner = self,\r\n\t\t\t\tposition = {0, -0.05, 0},\r\n\t\t\t\trotation = {0, 90, 180},\r\n\t\t\t\ttooltip = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t\t}\r\n\r\n\t\t\tnameButton.index = b_index\r\n\t\t\tb_index = b_index + 1\r\n\r\n\t\t\tnameButton.position = {b_ypos, -0.05, b_xpos - 3.1}\r\n\t\t\tnameButton.click_function = 'sec_' .. ind[1] .. ind[2]\r\n\r\n\t\t\tbutton[5][i][4] = nameButton\r\n\t\t\tself.createButton( button[5][i][4] )\r\n\r\n\t\t\tb_ypos = b_ypos + 1\r\n\r\n\t\t\tif i == 3 then\r\n\t\t\t\tb_ypos = b_ypos - 3\r\n\t\t\t\tb_xpos = 4.5\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\tWait.time(slowUpdate, 2)\r\n\t--[[\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_timer_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"slowUpdate\",\r\n\t\t\tdelay          = 2,\r\n\t\t\trepetitions    = 0\r\n\t\t})]]\r\n\tend)\r\n\tif selectedPack.index == 0  then\r\n\t\tWait.time(function() pack(self, \"Red\", false) end, 1)\r\n\tend\r\nend\r\n\r\n\r\nfunction onSave()\r\n\tlocal save_data = {\r\n\t\tscoresheetActive = scoresheetActive,\r\n\t\tprimary = primary,\r\n\t\tsecondary = secondary,\r\n\t\tpacksData = packsData,\r\n\t\tselectedPack = selectedPack\r\n\t}\r\n\treturn JSON.encode(save_data)\r\nend\r\n\r\nfunction onScriptingButtonDown(index, color)\r\n\tif index == 9 and color == \"White\" then\r\n\t\tupdateAll(true)\r\n\t\tpacksData = {}\r\n\t\tselectedPack = {}\r\n\t\tpackButton.label = \"\"\r\n\t\tself.editButton( packButton )\r\n\t\tprint(\"Cleared sheet.\")\r\n\tend\r\nend\r\n\r\nfunction updateAll(reset)\r\n\tlocal reset = false -- fix for letting FACTION SPECIFIC to be a separate pack\r\n\tfor i=1,4 do\r\n\t\tfor j=1,2 do\r\n\t\t\tfor k=1,3 do\r\n\t\t\t\tif reset then primary[i][j][k] = 0 end\r\n\t\t\t\tupdatePrimary(i, j ,k)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\n\r\n\tfor n=1,2 do\r\n\t\tfor m=1,3 do\r\n\t\t\tif reset then secondary[n][m] = defaultSec end\r\n\t\t\tupdateSecondary(n, m)\r\n\r\n\t\t\tlocal v = secondary[n][m][1]\r\n\t\t\tlocal l = 0\r\n\r\n\t\t\tif n == 1 then\r\n\t\t\t\tl = m\r\n\t\t\telse\r\n\t\t\t\tl = m + 3\r\n\t\t\tend\r\n\r\n\t\t\tbutton[5][l][4].label = secondary[n][m][4]\r\n\t\t\tbutton[5][l][4].tooltip = secondary[n][m][5]\r\n\t\t\tself.editButton( button[5][l][4] )\r\n\t\tend\r\n\tend\r\n\r\n\tif not reset then\r\n\t\tpackButton.label = selectedPack.data.name\r\n\t\tself.editButton( packButton )\r\n\tend\r\nend\r\n\r\nfunction slowUpdate()\r\n\tlocal params = getParams()\r\n\r\n\tif playerOneTitle.label ~= params.P1 then\r\n\t\tplayerOneTitle.label = params.P1\r\n\t\tself.editButton(playerOneTitle)\r\n\t\tplayerTotal[1].tooltip = params.P1\r\n\tend\r\n\r\n\tif playerTwoTitle.label ~= params.P2 then\r\n\t\tplayerTwoTitle.label = params.P2\r\n\t\tself.editButton(playerTwoTitle)\r\n\t\tplayerTotal[2].tooltip = params.P2\r\n\tend\r\n\r\n\tif params.ver_card ~= version_card then\r\n\t\tparams.ver_card = version_card\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\tif params.ver_data ~= version_data then\r\n\t\tparams.ver_data = version_data\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\nend\r\n\r\n\r\nfunction nothing()\r\nend\r\n\r\nfunction getPacks()\r\n\tlocal id = packsIDs.packs[p]\r\n\r\n\tWebRequest.get( repo .. id .. \".json\", function(pack_web)\r\n\t\tlocal pack_data = JSON.decode(pack_web.text)\r\n\t\tlocal obj = {}\r\n\r\n\t\tobj[\"0\"] = {\r\n\t\t\tfaction = \"\",\r\n\t\t\tcategory = \"\",\r\n\t\t\tname = \"\",\r\n\t\t\tdescription = \"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"\r\n\t\t}\r\n\r\n\t\tlocal i = 1\r\n\r\n\t\tfor _, faction in ipairs(pack_data.factions) do\r\n\t\t\tfor _, category in ipairs(faction.categories) do\r\n\t\t\t\tfor _, objective in ipairs(category.objectives) do\r\n\t\t\t\t\tobjective.faction = faction.name\r\n\t\t\t\t\tobjective.category = category.name\r\n\r\n\t\t\t\t\tif objective.name == \"While We Stand, We Fight\" then objective.name = \"We Stand, We Fight\" end\r\n\t\t\t\t\t--yes this is stupid and hacky, don't @ me.\r\n\r\n\t\t\t\t\tobj[tostring(i)] = objective\r\n\t\t\t\t\ti = i + 1\r\n\t\t\t\t\t--table.insert(obj, objective)\r\n\t\t\t\tend\r\n\t\t\tend\r\n\t\tend\r\n\r\n\t\ttable.insert(packsData, {\r\n\t\t\tver = pack_data.ver,\r\n\t\t\tname = pack_data.name,\r\n\t\t\tobjectives = obj\r\n\t\t})\r\n\r\n\t\tif p < #packsIDs.packs then\r\n\t\t\tp = p + 1\r\n\t\t\tgetPacks()\r\n\t\telse\r\n\t\t\tpack()\r\n\t\tend\r\n\tend)\r\nend\r\n\r\nwarned = false\r\n\r\nfunction packFromExt(params)\r\n\tif not scoresheetActive then return end\r\n\tlocal i = params.index\r\n\tselectedPack.index = i\r\n\tselectedPack.data = packsData[i]\r\n\tpackButton.label = packsData[i].name\r\n\tself.editButton( packButton )\r\n\tupdateAll(true)\r\nend\r\n\r\nfunction pack(_, _, alt)\r\n\tif true or (warned or -- adde true for letting FACTIONS to be a separate pack\r\n\t\t(\r\n\t\t\tplayerSum(1) == 10 and\r\n\t\t\tplayerSum(2) == 10 and\r\n\t\t\tsecondary[1][1][1] == 0 and\r\n\t\t\tsecondary[1][2][1] == 0 and\r\n\t\t\tsecondary[1][3][1] == 0 and\r\n\t\t\tsecondary[2][1][1] == 0 and\r\n\t\t\tsecondary[2][2][1] == 0 and\r\n\t\t\tsecondary[2][3][1] == 0\r\n\t\t)\r\n\t)\r\n\tthen\r\n\t\tlocal i = selectedPack.index\r\n\r\n\t\tif alt then\r\n\t\t\ti = i - 1\r\n\t\t\tif i < 1 then i = #packsData end\r\n\t\telse\r\n\t\t\ti = i + 1\r\n\t\t\tif i > #packsData then i = 1 end\r\n\t\tend\r\n\r\n\t\tselectedPack.index = i\r\n\t\tselectedPack.data = packsData[i]\r\n\r\n\t\tpackButton.label = packsData[i].name\r\n\t\tself.editButton( packButton )\r\n\r\n\t\tupdateAll(true)\r\n\telse\r\n\t\tprintToAll(\"WARNING: Changing mission pack will reset objectives. Click again to confirm.\", {r=1,g=0,b=0})\r\n\t\twarned = true\r\n\t\tTimer.create({\r\n\t\t\tidentifier     = \"scorecard_warning_\" .. math.random(1000000),\r\n\t\t\tfunction_name  = \"unwarn\",\r\n\t\t\tdelay          = 10\r\n\t\t})\r\n\tend\r\nend\r\n\r\nfunction unwarn()\r\n\twarned = false\r\nend\r\n\r\nfunction plusOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] + diff\r\n\tif sec > 15 then sec = 15 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction subOne(x, y, alt)\r\n\tlocal diff = 1\r\n\tif alt then diff = 5 end\r\n\r\n\tlocal sec = secondary[x][y][2] - diff\r\n\tif sec < 0 then sec = 0 end\r\n\r\n\tsecondary[x][y][2] = sec\r\n\tupdateSecondary(x, y)\r\nend\r\n\r\nfunction updateSecondary(x, y)\r\n\tlocal w = 0\r\n\tif x == 1 then\r\n\t\tw = y\r\n\telse\r\n\t\tw = y + 3\r\n\tend\r\n\r\n\tbutton[5][w][1].label = tostring( secondary[x][y][2] )\r\n\tself.editButton(button[5][w][1])\r\n\r\n\tplayerTotal[x].label = tostring( playerSum(x) )\r\n\tself.editButton(playerTotal[x])\r\nend\r\n\r\nfunction toggle(value)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn 1\r\nend\r\n\r\nfunction toggle_other(value, other)\r\n\tif value == 1 then\r\n\t\treturn 0\r\n\tend\r\n\treturn other\r\nend\r\n\r\nfunction toggle_xyz(x, y, z)\r\n\tprimary[x][y][z] = toggle( primary[x][y][z] )\r\n\tupdatePrimary(x, y, z)\r\n\r\n\tif z == 1 and primary[x][y][z] == 0 then\r\n\t\tprimary[x][y][2] = 0\r\n\t\tprimary[x][y][3] = 0\r\n\t\tupdatePrimary(x, y, 2)\r\n\t\tupdatePrimary(x, y, 3)\r\n\tend\r\n\tif (z == 2 or z == 3) and primary[x][y][z] == 1 then\r\n\t\tprimary[x][y][1] = 1\r\n\t\tupdatePrimary(x, y, 1)\r\n\tend\r\nend\r\n\r\nfunction toggle_other_xyz(x, y, z)\r\n\tw = 3 - y\r\n\tprimary[x][w][z] = toggle_other( primary[x][y][z], primary[x][w][z] )\r\n\tupdatePrimary(x, w ,z)\r\nend\r\n\r\nfunction toggleToStr(value)\r\n\tif value == 1 then\r\n\t\treturn \"X\"\r\n\tend\r\n\treturn \"\"\r\nend\r\n\r\nfunction updatePrimary(x, y ,z)\r\n\tbutton[x][y][z].label = toggleToStr( primary[x][y][z] )\r\n\tself.editButton(button[x][y][z])\r\n\r\n\tbutton[x][y][4].label = tostring( battleRoundSum( primary[x][y] ) )\r\n\tself.editButton(button[x][y][4])\r\n\r\n\tplayerTotal[y].label = tostring( playerSum(y) )\r\n\tself.editButton(playerTotal[y])\r\nend\r\n\r\nfunction battleRoundSum(values)\r\n\tlocal sum = 0\r\n\r\n\tfor i = 1,3 do\r\n\t\tsum = sum + values[i]\r\n\tend\r\n\r\n\treturn sum * 5\r\nend\r\n\r\nfunction playerSum(pId)\r\n\tlocal pri_sum = 0\r\n\tfor j = 1,4 do\r\n\t\tpri_sum = pri_sum + battleRoundSum( primary[j][pId] )\r\n\tend\r\n\tif pri_sum > 45 then pri_sum = 45 end\r\n\r\n\tlocal sec_sum = 0\r\n\tfor k = 1,3 do\r\n\t\tsec_sum = sec_sum + secondary[pId][k][2]\r\n\tend\r\n\tif sec_sum > 45 then sec_sum = 45 end\r\n\tif usePhubarVersion then\r\n\t\tlocal playerCounter = getObjectFromGUID(victoryCounterGuid[pId]) -- Phubar add\r\n\t\tif playerCounter then\r\n\t\t\tplayerCounter.Counter.setValue( pri_sum + sec_sum + 10)\r\n\t\tend\r\n\tend\r\n\treturn pri_sum + sec_sum + 10\r\n\t-- painted army gives +10\r\nend\r\n\r\nfunction getParams()\r\n\tlocal params = JSON.decode( self.getDescription() )\r\n\r\n\tif params == nil then\r\n\t\tparams = {\r\n\t\t\tP1 = \"Player 1\",\r\n\t\t\tP2 = \"Player 2\",\r\n\t\t\tver_card = \"\",\r\n\t\t\tver_data = \"\"\r\n\t\t}\r\n\r\n\t\tself.setDescription(JSON.encode_pretty(params))\r\n\tend\r\n\r\n\treturn params\r\nend\r\n\r\nfunction secIndex(x)\r\n\treturn {math.ceil(x/3), math.fmod(x-2,3)+2}\r\nend\r\n\r\nfunction p1(obj, clicker, alt)\r\n\tpName(1, obj, clicker, alt)\r\nend\r\nfunction p2(obj, clicker, alt)\r\n\tpName(2, obj, clicker, alt)\r\nend\r\n\r\nfunction pName(p, obj, clicker, alt)\r\n\tlocal params = getParams()\r\n\r\n\tif alt then\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = \"Player 1\"\r\n\t\t\tparams.P1 = \"Player 1\"\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = \"Player 2\"\r\n\t\t\tparams.P2 = \"Player 2\"\r\n\t\tend\r\n\telse\r\n\t\tlocal playerName = Player[clicker].steam_name\r\n\r\n\t\tif string.len( playerName ) > 15 then\r\n\t\t\tplayerName = string.sub( playerName, 1, 14 )\r\n\t\tend\r\n\r\n\t\tif p == 1 then\r\n\t\t\tplayerOneTitle.label = playerName\r\n\t\t\tparams.P1 = playerName\r\n\t\telse\r\n\t\t\tplayerTwoTitle.label = playerName\r\n\t\t\tparams.P2 = playerName\r\n\t\tend\r\n\tend\r\n\r\n\tself.editButton(playerOneTitle)\r\n\tself.editButton(playerTwoTitle)\r\n\tself.setDescription(JSON.encode_pretty(params))\r\nend\r\n\r\nfunction sec_xy(x, y, alt)\r\n\tif selectedPack.index ~= 0 then\r\n\t\tlocal value = secondary[x][y][1]\r\n\t\t--local num_sec = #selectedPack.data.objectives\r\n\t\tlocal num_sec = -1\r\n\t\tfor _ in pairs(selectedPack.data.objectives) do num_sec = num_sec + 1 end\r\n\r\n\t\tlocal diff = 1\r\n\t\tif alt then diff = -1 end\r\n\r\n\t\tlocal category = \"\"\r\n\r\n\t\trepeat\r\n\t\t\tvalue = value + diff\r\n\r\n\t\t\tif value > num_sec then\r\n\t\t\t\tvalue = 0\r\n\t\t\telseif value < 0 then\r\n\t\t\t\tvalue = num_sec\r\n\t\t\tend\r\n\r\n\t\t\tcategory = selectedPack.data.objectives[ tostring(value) ].category\r\n\t\tuntil\r\n\t\t(\r\n\t\t\tvalue == 0\r\n\t\t\tor\r\n\t\t\t(\r\n\t\t\t\t(y == 1 or category ~= secondary[x][1][3]) and\r\n\t\t\t\t(y == 2 or category ~= secondary[x][2][3]) and\r\n\t\t\t\t(y == 3 or category ~= secondary[x][3][3])\r\n\t\t\t)\r\n\t\t)\r\n\r\n\t\tsecondary[x][y][1] = value\r\n\t\tsecondary[x][y][3] = category\r\n\r\n\t\tlocal w = 0\r\n\t\tif x == 1 then\r\n\t\t\tw = y\r\n\t\telse\r\n\t\t\tw = y + 3\r\n\t\tend\r\n\r\n\t\tsecondary[x][y][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\tsecondary[x][y][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\tupdateAll(true)\r\n\tend\r\nend\r\n\r\nfunction addSecondaryForPlayer2(player, secID)\r\n\tlocal objs = selectedPack.data.objectives\r\n\tlocal secData = {}\r\n\r\n\tfor _, obj in ipairs(objs) do\r\n\t\tif obj.id == secID then\r\n\t\t\tsecData = obj\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\n\r\n\tfor i, sec in ipairs(seconadry[player]) do\r\n\t\tif sec[1] == 0 then\r\n\t\t\tsec[1] = obj.value\r\n\t\t\tsec[3] = obj.category\r\n\r\n\t\t\tlocal j = 0\r\n\t\t\tif player == 1 then\r\n\t\t\t\tj = i\r\n\t\t\telse\r\n\t\t\t\tj = i + 3\r\n\t\t\tend\r\n\r\n\t\t\tsecondary[player][i][4] = selectedPack.data.objectives[tostring(value)].name\r\n\t\t\tsecondary[player][i][5] = selectedPack.data.objectives[tostring(value)].description\r\n\t\t\tupdateAll(true)\r\n\t\t\tbreak\r\n\t\tend\r\n\tend\r\nend\r\n\r\n-- Abandon hope all ye who enter here\r\n\r\nfunction toggle_111()\r\n\ttoggle_xyz(1, 1, 1)\r\nend\r\nfunction toggle_112()\r\n\ttoggle_xyz(1, 1, 2)\r\nend\r\nfunction toggle_113()\r\n\ttoggle_xyz(1, 1, 3)\r\nend\r\n\r\nfunction toggle_121()\r\n\ttoggle_xyz(1, 2, 1)\r\nend\r\nfunction toggle_122()\r\n\ttoggle_xyz(1, 2, 2)\r\nend\r\nfunction toggle_123()\r\n\ttoggle_xyz(1, 2, 3)\r\nend\r\n\r\nfunction toggle_211()\r\n\ttoggle_xyz(2, 1, 1)\r\nend\r\nfunction toggle_212()\r\n\ttoggle_xyz(2, 1, 2)\r\nend\r\nfunction toggle_213()\r\n\ttoggle_xyz(2, 1, 3)\r\nend\r\n\r\nfunction toggle_221()\r\n\ttoggle_xyz(2, 2, 1)\r\nend\r\nfunction toggle_222()\r\n\ttoggle_xyz(2, 2, 2)\r\nend\r\nfunction toggle_223()\r\n\ttoggle_xyz(2, 2, 3)\r\nend\r\n\r\nfunction toggle_311()\r\n\ttoggle_xyz(3, 1, 1)\r\nend\r\nfunction toggle_312()\r\n\ttoggle_xyz(3, 1, 2)\r\nend\r\nfunction toggle_313()\r\n\ttoggle_xyz(3, 1, 3)\r\nend\r\n\r\nfunction toggle_321()\r\n\ttoggle_xyz(3, 2, 1)\r\nend\r\nfunction toggle_322()\r\n\ttoggle_xyz(3, 2, 2)\r\nend\r\nfunction toggle_323()\r\n\ttoggle_xyz(3, 2, 3)\r\nend\r\n\r\nfunction toggle_411()\r\n\ttoggle_xyz(4, 1, 1)\r\nend\r\nfunction toggle_412()\r\n\ttoggle_xyz(4, 1, 2)\r\nend\r\nfunction toggle_413()\r\n\ttoggle_xyz(4, 1, 3)\r\nend\r\n\r\nfunction toggle_421()\r\n\ttoggle_xyz(4, 2, 1)\r\nend\r\nfunction toggle_422()\r\n\ttoggle_xyz(4, 2, 2)\r\nend\r\nfunction toggle_423()\r\n\ttoggle_xyz(4, 2, 3)\r\nend\r\n\r\n\r\nfunction plus_11(_, _, alt)\r\n\tplusOne(1, 1, alt)\r\nend\r\nfunction plus_12(_, _, alt)\r\n\tplusOne(1, 2, alt)\r\nend\r\nfunction plus_13(_, _, alt)\r\n\tplusOne(1, 3, alt)\r\nend\r\nfunction plus_21(_, _, alt)\r\n\tplusOne(2, 1, alt)\r\nend\r\nfunction plus_22(_, _, alt)\r\n\tplusOne(2, 2, alt)\r\nend\r\nfunction plus_23(_, _, alt)\r\n\tplusOne(2, 3, alt)\r\nend\r\n\r\nfunction sub_11(_, _, alt)\r\n\tsubOne(1, 1, alt)\r\nend\r\nfunction sub_12(_, _, alt)\r\n\tsubOne(1, 2, alt)\r\nend\r\nfunction sub_13(_, _, alt)\r\n\tsubOne(1, 3, alt)\r\nend\r\nfunction sub_21(_, _, alt)\r\n\tsubOne(2, 1, alt)\r\nend\r\nfunction sub_22(_, _, alt)\r\n\tsubOne(2, 2, alt)\r\nend\r\nfunction sub_23(_, _, alt)\r\n\tsubOne(2, 3, alt)\r\nend\r\n\r\nfunction sec_11(_, _, alt)\r\n\tsec_xy(1, 1, alt)\r\nend\r\nfunction sec_12(_, _, alt)\r\n\tsec_xy(1, 2, alt)\r\nend\r\nfunction sec_13(_, _, alt)\r\n\tsec_xy(1, 3, alt)\r\nend\r\nfunction sec_21(_, _, alt)\r\n\tsec_xy(2, 1, alt)\r\nend\r\nfunction sec_22(_, _, alt)\r\n\tsec_xy(2, 2, alt)\r\nend\r\nfunction sec_23(_, _, alt)\r\n\tsec_xy(2, 3, alt)\r\nend",
       "LuaScriptState": "{\"packsData\":[],\"primary\":[[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]],[[0,0,0],[0,0,0]]],\"scoresheetActive\":false,\"secondary\":[[[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"],[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"],[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"]],[[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"],[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"],[0,0,0,\"\",\"Click to cycle secondary objectives,\\nright-click to cycle backwards.\"]]],\"selectedPack\":{\"data\":[],\"index\":0}}",
       "XmlUI": ""
     },
@@ -36797,9 +36797,9 @@
         "posX": -30.1999912,
         "posY": 0.949998856,
         "posZ": 29.925,
-        "rotX": -1.58003581E-06,
+        "rotX": -1.5420535E-06,
         "rotY": 180.0,
-        "rotZ": 5.308494E-07,
+        "rotZ": 5.596745E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36836,9 +36836,9 @@
         "posX": -40.1999741,
         "posY": 0.949999,
         "posZ": 29.9250088,
-        "rotX": -2.14382317E-06,
+        "rotX": -1.96365067E-06,
         "rotY": 180.0,
-        "rotZ": 3.84864734E-07,
+        "rotZ": 4.39777381E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36875,9 +36875,9 @@
         "posX": 29.8001137,
         "posY": 0.95,
         "posZ": -29.9250126,
-        "rotX": 1.51530116E-06,
-        "rotY": 4.69507359E-06,
-        "rotZ": -4.28066016E-07,
+        "rotX": 1.831877E-06,
+        "rotY": 4.70428677E-06,
+        "rotZ": -2.87426644E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36914,9 +36914,9 @@
         "posX": 39.80004,
         "posY": 0.9499999,
         "posZ": -29.9250031,
-        "rotX": 1.25222221E-06,
-        "rotY": 1.4563351E-06,
-        "rotZ": 1.3014764E-07,
+        "rotX": 2.080037E-06,
+        "rotY": 1.43452667E-06,
+        "rotZ": -7.504583E-07,
         "scaleX": 0.4,
         "scaleY": 0.1,
         "scaleZ": 0.4
@@ -36951,11 +36951,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499983,
+        "posY": 0.9499984,
         "posZ": 18.0,
-        "rotX": -3.506298E-06,
+        "rotX": -7.07164929E-07,
         "rotY": 269.999939,
-        "rotZ": -3.35373625E-06,
+        "rotZ": 2.61252239E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37055,11 +37055,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499983,
+        "posY": 0.9499984,
         "posZ": 15.9999876,
-        "rotX": -1.22171173E-06,
-        "rotY": 269.9995,
-        "rotZ": 9.153485E-07,
+        "rotX": -7.092116E-07,
+        "rotY": 269.999451,
+        "rotZ": -8.5496464E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37159,11 +37159,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949998438,
+        "posY": 0.9499984,
         "posZ": 13.999999,
-        "rotX": 8.731154E-07,
-        "rotY": 270.000244,
-        "rotZ": -1.5538E-06,
+        "rotX": 3.43364923E-06,
+        "rotY": 270.000275,
+        "rotZ": -3.206114E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37263,11 +37263,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.9499985,
+        "posY": 0.9499986,
         "posZ": 11.999999,
-        "rotX": 1.25309623E-06,
-        "rotY": 269.999359,
-        "rotZ": -3.40403744E-06,
+        "rotX": 1.06365746E-06,
+        "rotY": 269.999268,
+        "rotZ": -5.5063806E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37369,9 +37369,9 @@
         "posX": 73.0,
         "posY": 0.949998558,
         "posZ": 9.999999,
-        "rotX": -1.30854E-06,
+        "rotX": -6.12081635E-07,
         "rotY": 269.999939,
-        "rotZ": -3.28322358E-06,
+        "rotZ": -1.87152023E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37471,11 +37471,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0263,
-        "posY": 0.949998736,
+        "posY": 0.9499987,
         "posZ": 8.043624,
-        "rotX": -3.12942643E-06,
-        "rotY": 270.1656,
-        "rotZ": -1.94097E-06,
+        "rotX": -1.29269858E-06,
+        "rotY": 270.165649,
+        "rotZ": -1.84669375E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37575,11 +37575,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 70.99869,
-        "posY": 0.9499987,
+        "posY": 0.9499986,
         "posZ": 8.041918,
-        "rotX": -1.72691932E-06,
-        "rotY": 270.0908,
-        "rotZ": -3.72910677E-07,
+        "rotX": 1.103013E-06,
+        "rotY": 270.0907,
+        "rotZ": -3.10133873E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37681,9 +37681,9 @@
         "posX": 71.0,
         "posY": 0.9499986,
         "posZ": 9.999999,
-        "rotX": -2.14157922E-06,
+        "rotX": 6.837215E-07,
         "rotY": 269.9995,
-        "rotZ": 2.35356288E-06,
+        "rotZ": -2.1474707E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37785,9 +37785,9 @@
         "posX": 71.0,
         "posY": 0.9499985,
         "posZ": 11.999999,
-        "rotX": -1.24107044E-06,
+        "rotX": -2.72319244E-06,
         "rotY": 269.999542,
-        "rotZ": -2.75310731E-06,
+        "rotZ": -1.67857831E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37887,11 +37887,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.949998558,
+        "posY": 0.949998438,
         "posZ": 13.999999,
-        "rotX": 3.73384387E-06,
+        "rotX": 1.93780875E-06,
         "rotY": 269.9997,
-        "rotZ": 1.69533712E-06,
+        "rotZ": -1.84325711E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -37991,11 +37991,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499984,
+        "posY": 0.949998438,
         "posZ": 15.9999838,
-        "rotX": -9.62229E-07,
+        "rotX": 7.612143E-07,
         "rotY": 269.9996,
-        "rotZ": -4.15891554E-06,
+        "rotZ": -2.228025E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38097,9 +38097,9 @@
         "posX": 71.0,
         "posY": 0.9499984,
         "posZ": 18.0,
-        "rotX": -5.63538435E-07,
+        "rotX": -2.44444186E-06,
         "rotY": 270.0001,
-        "rotZ": -8.88129762E-07,
+        "rotZ": -1.64640642E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38201,9 +38201,9 @@
         "posX": 69.0,
         "posY": 0.9499984,
         "posZ": 18.0002022,
-        "rotX": -7.90230956E-07,
+        "rotX": -1.70415592E-06,
         "rotY": 270.0001,
-        "rotZ": 7.825143E-07,
+        "rotZ": -1.71032059E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38305,9 +38305,9 @@
         "posX": 69.0,
         "posY": 0.949998438,
         "posZ": 16.0001717,
-        "rotX": -2.00880868E-06,
+        "rotX": 8.042823E-07,
         "rotY": 269.9996,
-        "rotZ": 1.48788217E-06,
+        "rotZ": -1.81736777E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38407,11 +38407,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.0,
-        "posY": 0.949998438,
+        "posY": 0.9499985,
         "posZ": 14.0002031,
-        "rotX": -8.182889E-07,
+        "rotX": -4.764114E-06,
         "rotY": 269.999939,
-        "rotZ": -6.800394E-07,
+        "rotZ": -9.997336E-07,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38513,9 +38513,9 @@
         "posX": 69.0,
         "posY": 0.9499985,
         "posZ": 12.0002394,
-        "rotX": -2.206891E-06,
+        "rotX": -3.35185155E-06,
         "rotY": 270.002319,
-        "rotZ": -2.52779728E-06,
+        "rotZ": -2.38797747E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38617,9 +38617,9 @@
         "posX": 69.0,
         "posY": 0.949998558,
         "posZ": 10.0002041,
-        "rotX": -1.45861748E-06,
+        "rotX": 9.552819E-08,
         "rotY": 269.9997,
-        "rotZ": -4.828533E-07,
+        "rotZ": -4.345508E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38719,11 +38719,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 69.00276,
-        "posY": 0.9499986,
+        "posY": 0.9499987,
         "posZ": 8.01523,
-        "rotX": -2.316006E-06,
+        "rotX": 1.4377089E-07,
         "rotY": 269.972351,
-        "rotZ": -2.36941878E-06,
+        "rotZ": -1.64962887E-06,
         "scaleX": 0.5,
         "scaleY": 1.0,
         "scaleZ": 0.5
@@ -38822,9 +38822,9 @@
       "GUID": "c08a10",
       "Name": "3DText",
       "Transform": {
-        "posX": 75.5001144,
+        "posX": 75.50012,
         "posY": 0.9611398,
-        "posZ": 13.0002813,
+        "posZ": 13.0002928,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38872,7 +38872,7 @@
       "Transform": {
         "posX": 75.4897461,
         "posY": 0.9611398,
-        "posZ": 10.7346239,
+        "posZ": 10.73463,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38920,7 +38920,7 @@
       "Transform": {
         "posX": 75.490036,
         "posY": 0.9611398,
-        "posZ": 13.2810316,
+        "posZ": 13.2810392,
         "rotX": 90.0,
         "rotY": 90.0,
         "rotZ": 0.0,
@@ -38969,9 +38969,9 @@
         "posX": 73.0,
         "posY": 0.949999034,
         "posZ": -8.0,
-        "rotX": -1.23254756E-06,
+        "rotX": -1.05339973E-06,
         "rotY": 270.0,
-        "rotZ": -1.50648384E-06,
+        "rotZ": -6.15971658E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39020,9 +39020,9 @@
         "posX": 73.0,
         "posY": 0.9499991,
         "posZ": -10.0,
-        "rotX": -2.375601E-06,
+        "rotX": 1.84517876E-06,
         "rotY": 270.0,
-        "rotZ": -6.05226433E-06,
+        "rotZ": -2.32402726E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39069,11 +39069,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499992,
         "posZ": -14.0,
-        "rotX": -1.50998324E-06,
+        "rotX": -2.63927268E-06,
         "rotY": 270.0,
-        "rotZ": 5.34364631E-07,
+        "rotZ": -6.328316E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39120,11 +39120,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999332,
+        "posY": 0.9499994,
         "posZ": -16.0,
-        "rotX": -3.6197136E-07,
+        "rotX": 1.49490086E-06,
         "rotY": 269.999939,
-        "rotZ": -3.25561632E-06,
+        "rotZ": 2.429702E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39173,9 +39173,9 @@
         "posX": 73.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": 1.0792437E-06,
+        "rotX": -2.94569486E-06,
         "rotY": 269.999939,
-        "rotZ": -1.69053328E-06,
+        "rotZ": -1.52895075E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39222,11 +39222,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 73.0,
-        "posY": 0.949999154,
+        "posY": 0.9499992,
         "posZ": -12.0,
-        "rotX": -1.09978021E-06,
-        "rotY": 269.999969,
-        "rotZ": -1.95210123E-06,
+        "rotX": -2.80377344E-06,
+        "rotY": 269.999939,
+        "rotZ": 1.63832419E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39273,11 +39273,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499991,
+        "posY": 0.949999154,
         "posZ": -8.0,
-        "rotX": 1.41304469E-07,
-        "rotY": 270.0,
-        "rotZ": 2.9351238E-06,
+        "rotX": -1.73963758E-06,
+        "rotY": 269.999969,
+        "rotZ": 1.22288532E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39324,11 +39324,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499991,
+        "posY": 0.949999154,
         "posZ": -10.0,
-        "rotX": -1.80427287E-06,
+        "rotX": -1.35591108E-06,
         "rotY": 270.0,
-        "rotZ": -8.44666431E-07,
+        "rotZ": 8.36561071E-07,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39375,11 +39375,11 @@
       "Name": "Custom_Token",
       "Transform": {
         "posX": 71.0,
-        "posY": 0.9499992,
+        "posY": 0.9499991,
         "posZ": -12.0,
-        "rotX": 2.191088E-06,
-        "rotY": 269.999969,
-        "rotZ": -1.875718E-06,
+        "rotX": 1.4556822E-06,
+        "rotY": 270.000061,
+        "rotZ": -3.18607E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39428,9 +39428,9 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -14.0,
-        "rotX": -5.226595E-07,
+        "rotX": -1.95958864E-06,
         "rotY": 270.0,
-        "rotZ": -9.522673E-07,
+        "rotZ": -2.08630172E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39479,9 +39479,9 @@
         "posX": 71.0,
         "posY": 0.9499993,
         "posZ": -16.0,
-        "rotX": -1.70164731E-06,
+        "rotX": -1.13112958E-06,
         "rotY": 269.999817,
-        "rotZ": -3.93904565E-06,
+        "rotZ": -2.692098E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39530,9 +39530,9 @@
         "posX": 71.0,
         "posY": 0.949999332,
         "posZ": -18.0,
-        "rotX": 2.54441966E-06,
+        "rotX": -8.80491541E-07,
         "rotY": 269.999939,
-        "rotZ": -2.86525915E-06,
+        "rotZ": -2.75650382E-06,
         "scaleX": 0.408891052,
         "scaleY": 1.0,
         "scaleZ": 0.408891052
@@ -39640,9 +39640,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.119631357,
-        "g": 0.4093908,
-        "b": 0.106257908
+        "r": 0.119631328,
+        "g": 0.409390777,
+        "b": 0.106257878
       },
       "LayoutGroupSortIndex": 0,
       "Locked": true,
