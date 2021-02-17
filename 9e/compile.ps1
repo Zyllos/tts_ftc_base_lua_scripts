@@ -1,20 +1,12 @@
 function WriteLuaScriptToJsonContent([int]$jsonLineNumber, [int]$luaScriptFileIdx)
 {
-    #$lineNum = $jsonLuaScriptLine[$idx + 1].LineNumber - 1
-    #$luaScriptTag = $jsonLuaScriptLine.Matches[$idx + 1].Groups[0].Value
-    #$stringObj = Out-String -inputobject $fileContent
-    #$stringObj = ($stringObj | ConvertTo-Json)
-    #$luaScriptTag = "${stringObj}"
-    #$curJsonContentOnLine = $jsonContent[$lineNum]
-    #$curJsonContentOnLine = $curJsonContentOnLine -replace ".{2}$"
-    #$jsonContent[$lineNum] = "${curJsonContentOnLine}${luaScriptTag}"
     $fileName = ('{0}{1}' -f $pathLua, $luaScriptFiles[$luaScriptFileIdx])
     $luaContent = (Get-Content $fileName)
     $stringObj = Out-String -inputobject $luaContent
     $stringObj = ($stringObj | ConvertTo-Json)
     $luaScriptTag = "${stringObj}"
     $curJsonContentOnLine = $jsonContent[$jsonLineNumber]
-    Write-Host "writing to JSON LineNumber ${jsonLineNumber} " -NoNewLine
+    Write-Host "Writing to JSON LineNumber ${jsonLineNumber}. " -NoNewLine
     $curJsonContentOnLine = $curJsonContentOnLine -replace ".{3}$"
     $jsonContent[$jsonLineNumber] = "${curJsonContentOnLine}${luaScriptTag}"
     $jsonContent[$jsonLineNumber] += ','
@@ -54,6 +46,7 @@ for($luaIdx = 1; $luaIdx -lt $luaScriptFiles.Count; $luaIdx++)
     if(!(Test-Path $fileName))
     {
         echo "${fileName} could not be found! Ending compilation..."
+        pause
         exit
     }
     
@@ -65,12 +58,14 @@ for($luaIdx = 1; $luaIdx -lt $luaScriptFiles.Count; $luaIdx++)
     if($luaGUID[$luaIdx - 1] -eq 0)
     {
         Write-Host "No GUID found! Ending compilation..."
+        pause
         exit
     }
 
     if($luaGUID.Matches[$luaIdx - 1].Groups[1].Value -eq "")
     {
         Write-Host "No GUID found! Ending compilation..."
+        pause
         exit
     }
     
@@ -81,6 +76,8 @@ for($luaIdx = 1; $luaIdx -lt $luaScriptFiles.Count; $luaIdx++)
 
 # grab the contents of the json file
 $fileName = ('{0}{1}' -f $pathJson, $jsonExt)
+$luaGUIDCount = $luaGUID.Count
+Write-Host "${luaGUIDCount} GUIDs have been found!"
 Write-Host "Searching GUIDs in ${fileName}..."
 $jsonContent = Get-Content ('{0}' -f $fileName)
 $lineNum = 0
@@ -110,10 +107,10 @@ for($idx = 0; $idx -lt $luaGUID.Count; $idx++)
         if($findGUID -eq $jsonGUID)
         {
             $lineNum = $jsonLuaScriptLine[$jsonGUIDIdx + 1].LineNumber - 1
-            Write-Host 'GUID found!' -NoNewLine
+            Write-Host 'GUID found! ' -NoNewLine
             WriteLuaScriptToJsonContent $lineNum ($idx + 1)
             $GUIDfound = 'True'
-            Write-Host 'Successful update.'
+            Write-Host 'Successful update!'
             $jsonGUIDIdx = $jsonGUIDLine.Count
         }
     }
@@ -122,6 +119,7 @@ for($idx = 0; $idx -lt $luaGUID.Count; $idx++)
     if($GUIDfound -eq 'False')
     {
         Write-Host 'GUID not found! Ending compilation...'
+        pause
         exit
     }
     $GUIDfound = 'False'
@@ -129,3 +127,4 @@ for($idx = 0; $idx -lt $luaGUID.Count; $idx++)
 # write out the content to a new file
 $fileName = ('{0}{1}{2}' -f $pathJson, $jsonCompileUpdate, $jsonExt)
 $jsonContent | Set-Content('{0}' -f $fileName)
+pause
