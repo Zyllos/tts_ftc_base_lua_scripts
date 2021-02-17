@@ -109,7 +109,7 @@ function showRedirect()
     for i, entry in ipairs(newMods) do
         txt2=txt2..entry.name.."\n"..entry.url.."\n\n"
     end
-    txt1="BACON CAT BUG does not work on this mod so please dont contact him.\nHe left.\n\nContact GenWilhelm, Phubar or Mothman Zack\nin any of the discord servers\nif you have any suggestion or bug report.\n\nThis message will stay for a while (but not too much)."
+    txt1="BACON CAT BUG does not work on this mod so please dont contact him.\nHe left.\n\nContact GenWilhelm, Mothman Zack, or Zyllos\nin any of the discord servers\nif you have any suggestion or bug report.\n\nThis message will stay for a while (but not too much)."
     txt2=""
     txt3=""
     --Wait.time(function() Notes.setNotes(txt2) end, 1)
