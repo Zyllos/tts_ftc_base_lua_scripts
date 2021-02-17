@@ -1,3 +1,4 @@
+-- FTC-GUID: 4ee1f2
 -- MAT obj_surface
 version=2.02
 function onLoad()

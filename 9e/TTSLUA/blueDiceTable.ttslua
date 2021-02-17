@@ -1,3 +1,4 @@
+-- FTC-GUID: a84ed2
 function none()
 end
 Yoffset=0.1
@@ -38,6 +39,7 @@ add25d6Btn={
     position={-0.5, Yoffset ,-0.87}, rotation={0,0,0}, height=50, width=250,
     font_size=60, color={1,1,1}, font_color={0,0,0}
 }
+
 colorBtnDimension=150
 colorBtnOffset=0
 color1Btn={
@@ -60,6 +62,13 @@ color4Btn={
     position={colorBtnOffset+0.35*3, Yoffset ,-0.87}, rotation={0,0,0}, height=colorBtnDimension, width=colorBtnDimension,
     font_size=60, color="Green", font_color={0,0,0}
 }
+pipColorBtn=
+{
+  index=14, label="White", click_function="swapPipColor", function_owner=self,
+  position={colorBtnOffset + 0.35 * 4 + 0.1, Yoffset, -0.87}, rotation={0, 0, 0}, height=50, width=250,
+  font_size=60, color="White", font_color="Black"
+}
+
 clearDiceBtnIncrement=0.28
 clearDiceBtnLabel="Del\n"
 clearDiceBtntooltip="LMB Add row to selection\nRMB Delete dice in row"
@@ -289,6 +298,9 @@ function spawnDice(n,player)
         end
     end
     local diceType="Die_6_Rounded"
+    if pipColorBtn.color == "Black" then
+      diceType = "Die_6"
+    end
     if selectedColor== "White" then
         diceType="Die_6"
     end
@@ -362,6 +374,7 @@ function onload()
     self.createButton(color3Btn)
     self.createButton(color4Btn)
     self.createButton(warningBtn)
+    self.createButton(pipColorBtn)
     local sign=""
     for i=1, 6 do
         if lowerUpper then sign= lowerSign else sign=upperSign end
@@ -408,7 +421,6 @@ function setDefaultState()
 end
 
 function checkDice ()
-
 	--Reset description on null
 	data = JSON.decode(self.getDescription())
 	if data==nil then
@@ -529,4 +541,18 @@ function checkDice ()
     end
     self.editButton({index=0, label=text..totaltext, font_size=fontSize})
     self.editButton({index=1, label=divisionLabel})
+end
+
+function swapPipColor()
+  if pipColorBtn.color == "Black" then
+    pipColorBtn.label = "White"
+    pipColorBtn.color = "White"
+    pipColorBtn.font_color = "Black"
+  else
+    pipColorBtn.label = "Black"
+    pipColorBtn.color = "Black"
+    pipColorBtn.font_color = "White"
+  end
+
+  self.editButton(pipColorBtn)
 end
