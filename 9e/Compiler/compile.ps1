@@ -13,7 +13,7 @@ function WriteLuaScriptToJsonContent([int]$jsonLineNumber, [int]$luaScriptFileId
 }
 
 $pathLua = '.\TTSLUA\'
-$pathJson = '.\TTSJSON\ftc_base_v2.33'
+$pathJson = '.\TTSJSON\ftc_base'
 $jsonExt = '.json'
 $jsonCompileUpdate = '_compiled'
 $regexLuaGUID = '-- FTC-GUID: (.*)'
