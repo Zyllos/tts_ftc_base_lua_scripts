@@ -26615,7 +26615,7 @@
       "GUID": "18f7eb",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 4.0,
+        "posX": 7.0,
         "posY": 0.77,
         "posZ": 37.5,
         "rotX": 9.348447E-07,
@@ -26666,7 +26666,7 @@
       "GUID": "f1d9a1",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -4.0,
+        "posX": -1.0,
         "posY": 0.77,
         "posZ": 37.5,
         "rotX": 9.348447E-07,
@@ -26717,7 +26717,7 @@
       "GUID": "097ea5",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 4.0,
+        "posX": 1.0,
         "posY": 0.7699998,
         "posZ": -37.5,
         "rotX": 9.348447E-07,
@@ -26768,7 +26768,7 @@
       "GUID": "c79ba8",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": -4.0,
+        "posX": -7.0,
         "posY": 0.7699998,
         "posZ": -37.5,
         "rotX": 9.348447E-07,
