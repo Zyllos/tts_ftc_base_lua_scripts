@@ -112,13 +112,13 @@ function onSave()
 end
 
 function makeAnnouncement()
-    local features={ 'Removed 8th ed tactical objectives management',
-    'Fixed issue with Secondary objective spawner - (For real)',
-    'ENCIRCLE objective fixed - (For real)',
-    'Mat object is no longer interactable after changing mat',
-    'Deploy zones can be raised in order to match various terrain heights.',
-    'Now you can change the table surface image too.',
-    'Secondary Objectives now stay selected.'
+    local features={
+    'Secondary Objectives now stay selected.',
+    'Memory Leak resolved from Kustom Dice Roller.',
+    'Keywords are now displayed in different font for readability.',
+    'Terrain extractor is now fixed.',
+    'Score Sheet is locked upon startup.',
+    'Can swap between white/black pip dice.'
     }
     printToAll("NEW FEATURES:", "Yellow")
     for i, new in ipairs(features) do
