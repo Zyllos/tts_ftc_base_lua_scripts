@@ -28,6 +28,17 @@ if(!(Test-Path $fileName))
 	Write-Host "$fileName could not be found! Ending compilation..."
 }
 
+# ask user to give a version number
+# blank input gives no version
+$version = Read-Host "Version number"
+if($version -ne "")
+{
+	if($version.substring(0,1) -ne "v")
+	{
+		$version = "v" + $version
+	}
+}
+
 $luaContent = ''
 $luaGUID = @()
 # pull each of the GUIDs and store them, ignore the first lua file as it's the global file with no GUID
@@ -119,8 +130,28 @@ for($idx = 0; $idx -lt $luaGUID.Count; $idx++)
 	}
 }
 
+# write version number
+if($version -ne "")
+{
+	Write-Host "Writing to SaveName... " -NoNewLine
+	$jsonLine = $jsonContent[1] -replace ".{4}$"
+	$jsonContent[1] = $jsonLine + ' - ' + $version + '\n",'
+	Write-Host "Writing to GameMode... " -NoNewLine
+	$jsonLine = $jsonContent[2] -replace ".{4}$"
+	$jsonContent[2] = $jsonLine + ' - ' + $version + '\n",'
+	Write-Host "Done."
+}
+
 # write out the content to a new file
-$fileName = ('{0}{1}{2}' -f $pathJson, $jsonCompileUpdate, $jsonExt)
+if($version -ne "")
+{
+	$fileName = $pathJson + "_" + $version + $jsonCompileUpdate + $jsonExt
+}
+else
+{
+	$fileName = $pathJson + $jsonCompileUpdate + $jsonExt
+}
+
 $jsonContent | Set-Content $fileName
 Write-Host "File $fileName complete."
 Pause
