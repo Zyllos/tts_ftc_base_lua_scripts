@@ -153,8 +153,8 @@ function modifyBtns()
     local sign=""
     for i=1, 6 do
         if lowerUpper then sign= lowerSign else sign=upperSign end
-        self.editButton({ index=(12+i*2), label= clearDiceBtnLabel..i..sign })
-        self.editButton({ index=(13+i*2), label= selectDiceBtnLabel..i..sign })
+        self.editButton({ index=(13+i*2), label= clearDiceBtnLabel..i..sign })
+        self.editButton({ index=(14+i*2), label= selectDiceBtnLabel..i..sign })
     end
 end
 
