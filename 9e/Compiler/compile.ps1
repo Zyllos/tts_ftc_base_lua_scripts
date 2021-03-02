@@ -13,7 +13,8 @@ $pathLua = '..\TTSLUA\'
 $luaScriptFiles = @('global.ttslua')
 $luaScriptFiles += Get-ChildItem $pathLua -include *.ttslua -exclude global.ttslua -name
  
-$pathJson = '..\TTSJSON\ftc_base'
+$pathJson = '..\TTSJSON\'
+$jsonName = 'ftc_base'
 $jsonExt = '.json'
 $jsonCompileUpdate = '_compiled'
 
@@ -22,7 +23,7 @@ $regexJsonGUID = '"GUID": "(.*)"'
 $regexJsonLuaScript = '"LuaScript": '
 
 # test to see if the json file exists
-$fileName = ('{0}{1}' -f $pathJson, $jsonExt)
+$fileName = $pathJson + $jsonName + $jsonExt
 if(!(Test-Path $fileName))
 {
 	Write-Host "$fileName could not be found! Ending compilation..."
@@ -77,7 +78,7 @@ for($luaIdx = 1; $luaIdx -lt $luaScriptFiles.Count; $luaIdx++)
 }
 
 # grab the contents of the json file
-$fileName = ('{0}{1}' -f $pathJson, $jsonExt)
+$fileName = $pathJson + $jsonName + $jsonExt
 Write-Host "Searching for GUIDs in $fileName... " -NoNewLine
 $jsonContent = Get-Content $fileName
 $lineNum = 0
@@ -145,11 +146,11 @@ if($version -ne "")
 # write out the content to a new file
 if($version -ne "")
 {
-	$fileName = $pathJson + "_" + $version + $jsonCompileUpdate + $jsonExt
+	$fileName = ".\" + $jsonName + "_" + $version + $jsonCompileUpdate + $jsonExt
 }
 else
 {
-	$fileName = $pathJson + $jsonCompileUpdate + $jsonExt
+	$fileName = ".\" + $jsonName + $jsonCompileUpdate + $jsonExt
 }
 
 $jsonContent | Set-Content $fileName
