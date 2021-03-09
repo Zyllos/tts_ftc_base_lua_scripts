@@ -1899,14 +1899,14 @@ end
 function showHideIngameDeployment()
     if deploymentIngamePlaced == false then -- place
         deployIngameBtn.label = deployIngameLblOpen
-        if deploySelected <= numberDeployZones then
+        if deploySelected < #DeployZonesData[deployTypeSelected].zones then
             --deployBag[deploySelected].call("buttonClick_place")
             drawDeployZone(DeployZonesData[deployTypeSelected].zones[deploySelected])
         end
         deploymentIngamePlaced = true
     else -- recall
         deployIngameBtn.label = deployIngameLblClosed
-        if deploySelected <= numberDeployZones then
+        if deploySelected < #DeployZonesData[deployTypeSelected].zones then
             --deployBag[deploySelected].call("buttonClick_recall")
             destroyDeployZones()
         end
