@@ -12,6 +12,10 @@ Thanks to BaconCatBug for the BCB Customized Dice Roller v3 that this mod uses!
 
 Update History:
 
+v2.34 --
+  Fixes:
+  - Showing Deployment Zones Fixed
+
 v2.33 --
   Fixes:
   - Secondary Objectives Now Stick When Changing Objective Packs
